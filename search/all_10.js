@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['serializable',['Serializable',['../classlibbgp_1_1Serializable.html',1,'libbgp::Serializable'],['../classlibbgp_1_1Serializable.html#a8ee95b311f5d90713d1010c51e211b7d',1,'libbgp::Serializable::Serializable()']]],
+  ['serializable',['Serializable',['../classlibbgp_1_1Serializable.html',1,'libbgp::Serializable'],['../classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550',1,'libbgp::Serializable::Serializable()']]],
   ['serializable_2ecc',['serializable.cc',['../serializable_8cc.html',1,'']]],
   ['serializable_2eh',['serializable.h',['../serializable_8h.html',1,'']]],
   ['setasn',['setAsn',['../classlibbgp_1_1BgpOpenMessage.html#a5d71487ca0d8d3fcd680704d50f33ea6',1,'libbgp::BgpOpenMessage']]],
@@ -12,5 +12,9 @@ var searchData=
   ['setprefix',['setPrefix',['../classlibbgp_1_1Route.html#a0a58f03241cbf074b66deee4add06813',1,'libbgp::Route']]],
   ['setwithdrawn',['setWithdrawn',['../classlibbgp_1_1BgpUpdateMessage.html#a354fdcbe07ac8ff2914a6d3a44d2b5ee',1,'libbgp::BgpUpdateMessage']]],
   ['src_5frouter_5fid',['src_router_id',['../classlibbgp_1_1BgpRibEntry.html#a371b0f13709f9ef05b0184b8d0dfb9d4',1,'libbgp::BgpRibEntry']]],
+  ['stderr',['stderr',['../classlibbgp_1_1BgpLogHandler.html#a598e121368d2bcf4e04c7d5911f110dc',1,'libbgp::BgpLogHandler']]],
+  ['stderrimpl',['stderrImpl',['../classlibbgp_1_1BgpLogHandler.html#a92d7aada9d441daeb2926e7fb828ff80',1,'libbgp::BgpLogHandler']]],
+  ['stdout',['stdout',['../classlibbgp_1_1BgpLogHandler.html#abc20e4d44d65fb8768a722d31781f060',1,'libbgp::BgpLogHandler']]],
+  ['stdoutimpl',['stdoutImpl',['../classlibbgp_1_1BgpLogHandler.html#aa3d2f9e106b47b7def91f1853f9b2c2f',1,'libbgp::BgpLogHandler']]],
   ['subcode',['subcode',['../classlibbgp_1_1BgpNotificationMessage.html#a35f4967f5a12cb987c97d377106ec202',1,'libbgp::BgpNotificationMessage']]]
 ];

@@ -1,7 +1,7 @@
 <map id="src/bgp&#45;keepalive&#45;message.cc" name="src/bgp&#45;keepalive&#45;message.cc">
-<area shape="rect" id="node2" href="$bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="41,80,227,107"/>
-<area shape="rect" id="node8" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="251,80,363,107"/>
-<area shape="rect" id="node9" href="$bgp-error_8h_source.html" title="bgp&#45;error.h" alt="" coords="337,229,430,256"/>
-<area shape="rect" id="node3" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="75,155,198,181"/>
-<area shape="rect" id="node6" href="$serializable_8h.html" title="The serializable base. " alt="" coords="87,229,192,256"/>
+<area shape="rect" id="node2" href="$bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="214,80,401,107"/>
+<area shape="rect" id="node10" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="486,80,598,107"/>
+<area shape="rect" id="node3" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="235,155,358,181"/>
+<area shape="rect" id="node8" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="5,304,140,331"/>
+<area shape="rect" id="node6" href="$serializable_8h.html" title="The serializable base. " alt="" coords="153,229,259,256"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="src/bgp&#45;update&#45;message.cc" name="src/bgp&#45;update&#45;message.cc">
-<area shape="rect" id="node2" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="207,80,379,107"/>
-<area shape="rect" id="node13" href="$bgp-error_8h_source.html" title="bgp&#45;error.h" alt="" coords="787,229,880,256"/>
-<area shape="rect" id="node15" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="684,80,796,107"/>
-<area shape="rect" id="node16" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="673,229,762,256"/>
-<area shape="rect" id="node6" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="489,155,557,181"/>
-<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="133,155,256,181"/>
-<area shape="rect" id="node11" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="331,155,461,181"/>
-<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="342,229,447,256"/>
+<area shape="rect" id="node2" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="351,80,523,107"/>
+<area shape="rect" id="node15" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="753,80,865,107"/>
+<area shape="rect" id="node16" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="727,229,816,256"/>
+<area shape="rect" id="node6" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="279,155,347,181"/>
+<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="131,155,254,181"/>
+<area shape="rect" id="node13" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="371,155,502,181"/>
+<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="156,229,261,256"/>
+<area shape="rect" id="node11" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="5,304,140,331"/>
 </map>

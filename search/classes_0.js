@@ -10,6 +10,7 @@ var searchData=
   ['bgpfilterrules',['BgpFilterRules',['../classlibbgp_1_1BgpFilterRules.html',1,'libbgp']]],
   ['bgpfsm',['BgpFsm',['../classlibbgp_1_1BgpFsm.html',1,'libbgp']]],
   ['bgpkeepalivemessage',['BgpKeepaliveMessage',['../classlibbgp_1_1BgpKeepaliveMessage.html',1,'libbgp']]],
+  ['bgploghandler',['BgpLogHandler',['../classlibbgp_1_1BgpLogHandler.html',1,'libbgp']]],
   ['bgpmessage',['BgpMessage',['../classlibbgp_1_1BgpMessage.html',1,'libbgp']]],
   ['bgpnotificationmessage',['BgpNotificationMessage',['../classlibbgp_1_1BgpNotificationMessage.html',1,'libbgp']]],
   ['bgpopenmessage',['BgpOpenMessage',['../classlibbgp_1_1BgpOpenMessage.html',1,'libbgp']]],

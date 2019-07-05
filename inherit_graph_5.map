@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" href="$classlibbgp_1_1BgpOutHandler.html" title="libbgp::BgpOutHandler" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1FdOutHandler.html" title="The FdOutHandler class. " alt="" coords="220,5,376,32"/>
 </map>

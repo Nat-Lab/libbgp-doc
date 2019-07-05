@@ -85,16 +85,17 @@ Collaboration diagram for libbgp::BgpBadMessage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1BgpBadMessage__coll__graph.png" border="0" usemap="#libbgp_1_1BgpBadMessage_coll__map" alt="Collaboration graph"/></div>
 <map name="libbgp_1_1BgpBadMessage_coll__map" id="libbgp_1_1BgpBadMessage_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="17,80,168,107"/>
-<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="22,5,163,32"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="17,171,168,197"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="22,95,163,121"/>
+<area shape="rect" id="node4" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="9,5,176,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa2dfe0590daf7c02e15d9cbdb2f91ad4"><td class="memItemLeft" align="right" valign="top"><a id="aa2dfe0590daf7c02e15d9cbdb2f91ad4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BgpBadMessage</b> (uint8_t type)</td></tr>
-<tr class="separator:aa2dfe0590daf7c02e15d9cbdb2f91ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be0cc83cdfce70abbef07caec10c5b5"><td class="memItemLeft" align="right" valign="top"><a id="a1be0cc83cdfce70abbef07caec10c5b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BgpBadMessage</b> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, uint8_t type)</td></tr>
+<tr class="separator:a1be0cc83cdfce70abbef07caec10c5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe023ae8823046b73a321cd2386fe7ca"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpBadMessage.html#afe023ae8823046b73a321cd2386fe7ca">doPrint</a> (size_t indent, uint8_t **to, size_t *buf_sz) const</td></tr>
 <tr class="memdesc:afe023ae8823046b73a321cd2386fe7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#afe023ae8823046b73a321cd2386fe7ca">More...</a><br /></td></tr>
 <tr class="separator:afe023ae8823046b73a321cd2386fe7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,11 +105,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd261c02d83dc77ab08b67513928b278"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpBadMessage.html#abd261c02d83dc77ab08b67513928b278">write</a> (uint8_t *to, size_t buf_sz) const</td></tr>
 <tr class="memdesc:abd261c02d83dc77ab08b67513928b278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the object and write to buffer.  <a href="#abd261c02d83dc77ab08b67513928b278">More...</a><br /></td></tr>
 <tr class="separator:abd261c02d83dc77ab08b67513928b278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classlibbgp_1_1BgpMessage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1BgpMessage')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1BgpMessage.html">libbgp::BgpMessage</a></td></tr>
+<tr class="memitem:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="a998df25f7fb244641aa81ca65666cf04"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BgpMessage</b> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="separator:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
-<tr class="memitem:a8ee95b311f5d90713d1010c51e211b7d inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a8ee95b311f5d90713d1010c51e211b7d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a8ee95b311f5d90713d1010c51e211b7d">Serializable</a> ()</td></tr>
-<tr class="memdesc:a8ee95b311f5d90713d1010c51e211b7d inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
-<tr class="separator:a8ee95b311f5d90713d1010c51e211b7d inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">More...</a><br /></td></tr>
+<tr class="separator:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749db1ceb56b9ebe213e00b0e58ec9ad inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a749db1ceb56b9ebe213e00b0e58ec9ad"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a749db1ceb56b9ebe213e00b0e58ec9ad">~Serializable</a> ()</td></tr>
 <tr class="memdesc:a749db1ceb56b9ebe213e00b0e58ec9ad inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
@@ -165,6 +169,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_len</b></td></t
 <tr class="memitem:abad0eee1cc8a31ca8d9f607432d2a7d2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="abad0eee1cc8a31ca8d9f607432d2a7d2"></a>
 uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td></tr>
 <tr class="separator:abad0eee1cc8a31ca8d9f607432d2a7d2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24451786d21a5c021166049b6806763b inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a24451786d21a5c021166049b6806763b"></a>
+<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>logger</b></td></tr>
+<tr class="separator:a24451786d21a5c021166049b6806763b inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -230,9 +237,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">libbgp::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00024">24</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00140">libbgp::Serializable::_print()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00023">23</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
 
 </div>
 </div>
@@ -289,9 +294,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a5562d3b3cda5cfda2f3749862f810e24">libbgp::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00013">13</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00059">libbgp::Serializable::setError()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00012">12</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
 
 </div>
 </div>
@@ -348,7 +351,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a9aa89277c8b12ee3821285c479ebf545">libbgp::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00019">19</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-bad-message_8cc_source.html#l00018">18</a> of file <a class="el" href="bgp-bad-message_8cc_source.html">bgp-bad-message.cc</a>.</p>
 
 </div>
 </div>

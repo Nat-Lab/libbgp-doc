@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbgp_1_1Route.html" title="Route/Prefix related utilities. " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node1" href="$classlibbgp_1_1Clock.html" title="libbgp::Clock" alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1RealtimeClock.html" title="libbgp::RealtimeClock" alt="" coords="156,5,313,32"/>
 </map>

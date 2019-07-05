@@ -7,6 +7,8 @@ var searchData=
   ['bgp_2derrcode_2eh',['bgp-errcode.h',['../bgp-errcode_8h.html',1,'']]],
   ['bgp_2dkeepalive_2dmessage_2ecc',['bgp-keepalive-message.cc',['../bgp-keepalive-message_8cc.html',1,'']]],
   ['bgp_2dkeepalive_2dmessage_2eh',['bgp-keepalive-message.h',['../bgp-keepalive-message_8h.html',1,'']]],
+  ['bgp_2dlog_2dhandler_2ecc',['bgp-log-handler.cc',['../bgp-log-handler_8cc.html',1,'']]],
+  ['bgp_2dlog_2dhandler_2eh',['bgp-log-handler.h',['../bgp-log-handler_8h.html',1,'']]],
   ['bgp_2dmessage_2eh',['bgp-message.h',['../bgp-message_8h.html',1,'']]],
   ['bgp_2dnotification_2dmessage_2ecc',['bgp-notification-message.cc',['../bgp-notification-message_8cc.html',1,'']]],
   ['bgp_2dnotification_2dmessage_2eh',['bgp-notification-message.h',['../bgp-notification-message_8h.html',1,'']]],
