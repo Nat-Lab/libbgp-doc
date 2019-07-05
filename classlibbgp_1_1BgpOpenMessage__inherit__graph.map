@@ -1,0 +1,4 @@
+<map id="libbgp::BgpOpenMessage" name="libbgp::BgpOpenMessage">
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="22,80,173,107"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="27,5,168,32"/>
+</map>

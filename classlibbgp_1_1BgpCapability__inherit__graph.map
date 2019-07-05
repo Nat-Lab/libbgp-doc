@@ -1,0 +1,5 @@
+<map id="libbgp::BgpCapability" name="libbgp::BgpCapability">
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="5,155,228,181"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="253,155,458,181"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="165,5,306,32"/>
+</map>
