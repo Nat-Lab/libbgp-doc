@@ -1,0 +1,7 @@
+<map id="src/bgp&#45;sink.cc" name="src/bgp&#45;sink.cc">
+<area shape="rect" id="node2" href="$bgp-sink_8h.html" title="The BGP sink. " alt="" coords="237,80,325,107"/>
+<area shape="rect" id="node6" href="$bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="228,155,335,181"/>
+<area shape="rect" id="node9" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="43,379,178,405"/>
+<area shape="rect" id="node7" href="$serializable_8h.html" title="The serializable base. " alt="" coords="187,304,293,331"/>
+<area shape="rect" id="node10" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="269,229,392,256"/>
+</map>

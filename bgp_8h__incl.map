@@ -1,7 +1,7 @@
 <map id="src/bgp.h" name="src/bgp.h">
 <area shape="rect" id="node2" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="345,155,468,181"/>
-<area shape="rect" id="node9" href="$bgp-packet_8h_source.html" title="bgp&#45;packet.h" alt="" coords="392,80,499,107"/>
-<area shape="rect" id="node10" href="$bgp-bad-message_8h_source.html" title="bgp&#45;bad&#45;message.h" alt="" coords="217,80,367,107"/>
+<area shape="rect" id="node9" href="$bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="392,80,499,107"/>
+<area shape="rect" id="node10" href="$bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="217,80,367,107"/>
 <area shape="rect" id="node11" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="574,80,733,107"/>
 <area shape="rect" id="node15" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="757,80,929,107"/>
 <area shape="rect" id="node17" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="943,155,1073,181"/>

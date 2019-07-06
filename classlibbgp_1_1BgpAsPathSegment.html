@@ -80,14 +80,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af8a74c24a32d475ee1d6b509f9906905"><td class="memItemLeft" align="right" valign="top"><a id="af8a74c24a32d475ee1d6b509f9906905"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BgpAsPathSegment</b> (bool <a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a3ba3e1a310ddebdab66658fd2a312e18">is_4b</a>, uint8_t <a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a47a7d8a13b454352b0296165982be784">type</a>)</td></tr>
+<tr class="memitem:af8a74c24a32d475ee1d6b509f9906905"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#af8a74c24a32d475ee1d6b509f9906905">BgpAsPathSegment</a> (bool <a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a3ba3e1a310ddebdab66658fd2a312e18">is_4b</a>, uint8_t <a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a47a7d8a13b454352b0296165982be784">type</a>)</td></tr>
+<tr class="memdesc:af8a74c24a32d475ee1d6b509f9906905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp As Path Segment:: Bgp As Path Segment object.  <a href="#af8a74c24a32d475ee1d6b509f9906905">More...</a><br /></td></tr>
 <tr class="separator:af8a74c24a32d475ee1d6b509f9906905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b6e1f27bf90f5b4f7a25ac016c501c"><td class="memItemLeft" align="right" valign="top"><a id="a65b6e1f27bf90f5b4f7a25ac016c501c"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getCount</b> () const</td></tr>
+<tr class="memitem:a65b6e1f27bf90f5b4f7a25ac016c501c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a65b6e1f27bf90f5b4f7a25ac016c501c">getCount</a> () const</td></tr>
+<tr class="memdesc:a65b6e1f27bf90f5b4f7a25ac016c501c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of ASNs in the segment.  <a href="#a65b6e1f27bf90f5b4f7a25ac016c501c">More...</a><br /></td></tr>
 <tr class="separator:a65b6e1f27bf90f5b4f7a25ac016c501c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e735fa5b8c7d5219ea033bb81520bd8"><td class="memItemLeft" align="right" valign="top"><a id="a8e735fa5b8c7d5219ea033bb81520bd8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>prepend</b> (uint32_t asn)</td></tr>
+<tr class="memitem:a8e735fa5b8c7d5219ea033bb81520bd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a8e735fa5b8c7d5219ea033bb81520bd8">prepend</a> (uint32_t asn)</td></tr>
+<tr class="memdesc:a8e735fa5b8c7d5219ea033bb81520bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepend ASN to AS segment.  <a href="#a8e735fa5b8c7d5219ea033bb81520bd8">More...</a><br /></td></tr>
 <tr class="separator:a8e735fa5b8c7d5219ea033bb81520bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -109,7 +109,105 @@ std::vector&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"
 <div class="textblock"><p>An AS_PATH or AS4_PATH segment. </p>
 
 <p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8h_source.html#l00165">165</a> of file <a class="el" href="bgp-path-attrib_8h_source.html">bgp-path-attrib.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af8a74c24a32d475ee1d6b509f9906905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8a74c24a32d475ee1d6b509f9906905">&#9670;&nbsp;</a></span>BgpAsPathSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">libbgp::BgpAsPathSegment::BgpAsPathSegment </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_4b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new Bgp As Path Segment:: Bgp As Path Segment object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">is_4b</td><td>Enable four octets ASN support. </td></tr>
+    <tr><td class="paramname">type</td><td>Type of AS path segment. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00343">343</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00211">libbgp::BgpPathAttribAsPath::is_4b</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a65b6e1f27bf90f5b4f7a25ac016c501c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b6e1f27bf90f5b4f7a25ac016c501c">&#9670;&nbsp;</a></span>getCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t libbgp::BgpAsPathSegment::getCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get number of ASNs in the segment. </p>
+<dl class="section return"><dt>Returns</dt><dd>size_t Number of ASNs. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00353">353</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8e735fa5b8c7d5219ea033bb81520bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e735fa5b8c7d5219ea033bb81520bd8">&#9670;&nbsp;</a></span>prepend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::BgpAsPathSegment::prepend </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>asn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepend ASN to AS segment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">asn</td><td>ASN to prepend. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true ASN prepended. </dd>
+<dd>
+false Failed to prepend ASN. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00364">364</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00211">libbgp::BgpPathAttribAsPath::is_4b</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="bgp-path-attrib_8h_source.html">bgp-path-attrib.h</a></li>
 <li>src/<a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a></li>
 </ul>

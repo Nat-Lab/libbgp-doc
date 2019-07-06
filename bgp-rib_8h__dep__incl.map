@@ -1,6 +1,6 @@
 <map id="src/bgp&#45;rib.h" name="src/bgp&#45;rib.h">
 <area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
-<area shape="rect" id="node3" href="$bgp-fsm_8h_source.html" title="src/bgp&#45;fsm.h" alt="" coords="61,155,172,181"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="61,155,172,181"/>
 <area shape="rect" id="node5" href="$bgp-rib_8cc.html" title="The BGP Routing Information Base. " alt="" coords="205,80,313,107"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8cc_source.html" title="src/bgp&#45;fsm.cc" alt="" coords="59,229,175,256"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="59,229,175,256"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="libbgp::BgpMessage" name="libbgp::BgpMessage">
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpBadMessage.html" title="libbgp::BgpBadMessage" alt="" coords="417,5,592,32"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpBadMessage.html" title="The BgpBadMessage class. " alt="" coords="417,5,592,32"/>
 <area shape="rect" id="node4" href="$classlibbgp_1_1BgpKeepaliveMessage.html" title="The BgpKeepaliveMessage class. " alt="" coords="399,56,610,83"/>
 <area shape="rect" id="node5" href="$classlibbgp_1_1BgpNotificationMessage.html" title="The BgpNotificationMessage object. " alt="" coords="393,107,616,133"/>
 <area shape="rect" id="node6" href="$classlibbgp_1_1BgpOpenMessage.html" title="The BgpOpenMessage class. " alt="" coords="413,157,597,184"/>

@@ -1,0 +1,7 @@
+<map id="src/bgp&#45;bad&#45;message.cc" name="src/bgp&#45;bad&#45;message.cc">
+<area shape="rect" id="node2" href="$bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="133,80,284,107"/>
+<area shape="rect" id="node10" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="433,80,545,107"/>
+<area shape="rect" id="node3" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="147,155,270,181"/>
+<area shape="rect" id="node6" href="$serializable_8h.html" title="The serializable base. " alt="" coords="201,229,307,256"/>
+<area shape="rect" id="node8" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="100,304,235,331"/>
+</map>

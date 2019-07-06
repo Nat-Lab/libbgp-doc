@@ -71,29 +71,202 @@ $(function() {
 <div class="title">libbgp::BgpSink Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classlibbgp_1_1BgpSink.html" title="The BgpSink class. ">BgpSink</a> class.  
+ <a href="classlibbgp_1_1BgpSink.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afbf7ed104404924c7648f23049810175"><td class="memItemLeft" align="right" valign="top"><a id="afbf7ed104404924c7648f23049810175"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BgpSink</b> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, bool use_4b_asn, size_t buffer_size)</td></tr>
+<tr class="memitem:afbf7ed104404924c7648f23049810175"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#afbf7ed104404924c7648f23049810175">BgpSink</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, bool use_4b_asn, size_t buffer_size)</td></tr>
+<tr class="memdesc:afbf7ed104404924c7648f23049810175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Sink:: Bgp Sink object.  <a href="#afbf7ed104404924c7648f23049810175">More...</a><br /></td></tr>
 <tr class="separator:afbf7ed104404924c7648f23049810175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b79f9ca992b6bd6dc0aa4136b81d76b"><td class="memItemLeft" align="right" valign="top"><a id="a6b79f9ca992b6bd6dc0aa4136b81d76b"></a>
-ssize_t&#160;</td><td class="memItemRight" valign="bottom"><b>fill</b> (const uint8_t *buffer, size_t len)</td></tr>
+<tr class="memitem:a6b79f9ca992b6bd6dc0aa4136b81d76b"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#a6b79f9ca992b6bd6dc0aa4136b81d76b">fill</a> (const uint8_t *buffer, size_t len)</td></tr>
+<tr class="memdesc:a6b79f9ca992b6bd6dc0aa4136b81d76b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the sink with data.  <a href="#a6b79f9ca992b6bd6dc0aa4136b81d76b">More...</a><br /></td></tr>
 <tr class="separator:a6b79f9ca992b6bd6dc0aa4136b81d76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afffca03797cbe76878ed4546f9139bd3"><td class="memItemLeft" align="right" valign="top"><a id="afffca03797cbe76878ed4546f9139bd3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>pour</b> (<a class="el" href="classlibbgp_1_1BgpPacket.html">BgpPacket</a> **pkt)</td></tr>
-<tr class="separator:afffca03797cbe76878ed4546f9139bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da1538490f8196c7cc04b223abac964"><td class="memItemLeft" align="right" valign="top"><a id="a3da1538490f8196c7cc04b223abac964"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getBytesInSink</b> () const</td></tr>
+<tr class="memitem:ac500b764b03dcb1723355c59ea53e813"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#ac500b764b03dcb1723355c59ea53e813">pour</a> (<a class="el" href="classlibbgp_1_1BgpPacket.html">BgpPacket</a> **pkt)</td></tr>
+<tr class="memdesc:ac500b764b03dcb1723355c59ea53e813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pour BGP packet out from sink.  <a href="#ac500b764b03dcb1723355c59ea53e813">More...</a><br /></td></tr>
+<tr class="separator:ac500b764b03dcb1723355c59ea53e813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da1538490f8196c7cc04b223abac964"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#a3da1538490f8196c7cc04b223abac964">getBytesInSink</a> () const</td></tr>
+<tr class="memdesc:a3da1538490f8196c7cc04b223abac964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get amount to data in sink.  <a href="#a3da1538490f8196c7cc04b223abac964">More...</a><br /></td></tr>
 <tr class="separator:a3da1538490f8196c7cc04b223abac964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b7dff164b0aa70149dbc733f395d55"><td class="memItemLeft" align="right" valign="top"><a id="ac4b7dff164b0aa70149dbc733f395d55"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drain</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#ac4b7dff164b0aa70149dbc733f395d55">drain</a> ()</td></tr>
+<tr class="memdesc:ac4b7dff164b0aa70149dbc733f395d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drain the sink. (Remove all data from sink buffer) <br /></td></tr>
 <tr class="separator:ac4b7dff164b0aa70149dbc733f395d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ee833c126f150cf234780d2fa06817"><td class="memItemLeft" align="right" valign="top"><a id="a59ee833c126f150cf234780d2fa06817"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#a59ee833c126f150cf234780d2fa06817">~BgpSink</a> ()</td></tr>
+<tr class="memdesc:a59ee833c126f150cf234780d2fa06817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Bgp Sink:: Bgp Sink object. <br /></td></tr>
+<tr class="separator:a59ee833c126f150cf234780d2fa06817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="bgp-sink_8h_source.html#l00012">12</a> of file <a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpSink.html" title="The BgpSink class. ">BgpSink</a> class. </p>
+<p>BGP sink is a packet buffering utility for BGP. It consumes binary buffer to fill the sink (buffer) and allows users to get full BGP packet from the sink (buffer). This is useful since BGP uses TCP, and TCP streams the data. (so we might not get a full BGP packet in buffer every time) </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-sink_8h_source.html#l00029">29</a> of file <a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="afbf7ed104404924c7648f23049810175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf7ed104404924c7648f23049810175">&#9670;&nbsp;</a></span>BgpSink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">libbgp::BgpSink::BgpSink </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_4b_asn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>buffer_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new Bgp Sink:: Bgp Sink object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logger</td><td>Pointer to logger object for error logging. </td></tr>
+    <tr><td class="paramname">use_4b_asn</td><td>Enable four octets ASN support. </td></tr>
+    <tr><td class="paramname">buffer_size</td><td>Size of the sink buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-sink_8cc_source.html#l00026">26</a> of file <a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6b79f9ca992b6bd6dc0aa4136b81d76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b79f9ca992b6bd6dc0aa4136b81d76b">&#9670;&nbsp;</a></span>fill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t libbgp::BgpSink::fill </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill the sink with data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>The pointer to data buffer. </td></tr>
+    <tr><td class="paramname">len</td><td>The length of data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes consumed. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Failed to fill sink. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Bytes consumed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-sink_8cc_source.html#l00052">52</a> of file <a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00040">libbgp::BgpLogHandler::stderr()</a>.</p>
+
+</div>
+</div>
+<a id="a3da1538490f8196c7cc04b223abac964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da1538490f8196c7cc04b223abac964">&#9670;&nbsp;</a></span>getBytesInSink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t libbgp::BgpSink::getBytesInSink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get amount to data in sink. </p>
+<dl class="section return"><dt>Returns</dt><dd>size_t Data size in bytes. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-sink_8cc_source.html#l00144">144</a> of file <a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="bgp-sink_8cc_source.html#l00088">pour()</a>.</p>
+
+</div>
+</div>
+<a id="ac500b764b03dcb1723355c59ea53e813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac500b764b03dcb1723355c59ea53e813">&#9670;&nbsp;</a></span>pour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t libbgp::BgpSink::pour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpPacket.html">BgpPacket</a> **&#160;</td>
+          <td class="paramname"><em>pkt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pour BGP packet out from sink. </p>
+<p>Get a packet from sink and remove that packet from sink.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pkt</td><td>Pointer to <a class="el" href="classlibbgp_1_1BgpPacket.html" title="The BgpPacket class. ">BgpPacket</a> pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes poured. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-2</td><td>Failed to pour packet. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">-1</td><td>Packet poured, but parse error occurred. error may be written to stderr with log handler, notification message data that needs to be sent to peer may be avaliable. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Bytes poured. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-sink_8cc_source.html#l00088">88</a> of file <a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-sink_8cc_source.html#l00144">getBytesInSink()</a>, <a class="el" href="bgp-packet_8cc_source.html#l00063">libbgp::BgpPacket::parse()</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00040">libbgp::BgpLogHandler::stderr()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a></li>
 <li>src/<a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a></li>
 </ul>

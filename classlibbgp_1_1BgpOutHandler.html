@@ -71,6 +71,11 @@ $(function() {
 <div class="title">libbgp::BgpOutHandler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The BGP FSM output handler.  
+ <a href="classlibbgp_1_1BgpOutHandler.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="bgp-out-handler_8h_source.html">bgp-out-handler.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for libbgp::BgpOutHandler:</div>
 <div class="dyncontent">
@@ -82,14 +87,67 @@ Inheritance diagram for libbgp::BgpOutHandler:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89f6bc44f508693a0c1923e558a07ad8"><td class="memItemLeft" align="right" valign="top"><a id="a89f6bc44f508693a0c1923e558a07ad8"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>handleOut</b> (const uint8_t *buffer, size_t length)=0</td></tr>
+<tr class="memitem:a89f6bc44f508693a0c1923e558a07ad8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOutHandler.html#a89f6bc44f508693a0c1923e558a07ad8">handleOut</a> (const uint8_t *buffer, size_t length)=0</td></tr>
+<tr class="memdesc:a89f6bc44f508693a0c1923e558a07ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The output implementation.  <a href="#a89f6bc44f508693a0c1923e558a07ad8">More...</a><br /></td></tr>
 <tr class="separator:a89f6bc44f508693a0c1923e558a07ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="bgp-out-handler_8h_source.html#l00007">7</a> of file <a class="el" href="bgp-out-handler_8h_source.html">bgp-out-handler.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>The BGP FSM output handler. </p>
+<p><a class="el" href="classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. ">BgpOutHandler</a> is used by BGP FSM to write BGP message to peer. </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-out-handler_8h_source.html#l00023">23</a> of file <a class="el" href="bgp-out-handler_8h_source.html">bgp-out-handler.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a89f6bc44f508693a0c1923e558a07ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f6bc44f508693a0c1923e558a07ad8">&#9670;&nbsp;</a></span>handleOut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool libbgp::BgpOutHandler::handleOut </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The output implementation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>Pointer to the outgoing message buffer. </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the message. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true The output was handled. </dd>
+<dd>
+false The out was not handled. </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbgp_1_1FdOutHandler.html#a688e3be3b47004efb4116e5ca9380776">libbgp::FdOutHandler</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/<a class="el" href="bgp-out-handler_8h_source.html">bgp-out-handler.h</a></li>
 </ul>
 </div><!-- contents -->

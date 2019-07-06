@@ -101,8 +101,8 @@ Collaboration diagram for libbgp::BgpCapability:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="memItemLeft" align="right" valign="top"><a id="ad7e1a42daea3e263b4c8ec5b9bcf890a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BgpCapability</b> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memitem:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapability.html#ad7e1a42daea3e263b4c8ec5b9bcf890a">BgpCapability</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Capability:: Bgp Capability object.  <a href="#ad7e1a42daea3e263b4c8ec5b9bcf890a">More...</a><br /></td></tr>
 <tr class="separator:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
 <tr class="memitem:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
@@ -195,7 +195,38 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. ">BgpCapability</a> base class. </p>
 
 <p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00039">39</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad7e1a42daea3e263b4c8ec5b9bcf890a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7e1a42daea3e263b4c8ec5b9bcf890a">&#9670;&nbsp;</a></span>BgpCapability()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">libbgp::BgpCapability::BgpCapability </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
+          <td class="paramname"><em>logger</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new Bgp Capability:: Bgp Capability object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logger</td><td>Pointer to logger object for error logging. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00026">26</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-capability_8h_source.html#l00059">length</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac36cb4f0638b5a118b5d111f4b26fc6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac36cb4f0638b5a118b5d111f4b26fc6b">&#9670;&nbsp;</a></span>parseHeader()</h2>
 
@@ -247,11 +278,11 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00035">35</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00040">40</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00075">libbgp::BgpCapability4BytesAsn::parse()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00134">libbgp::BgpCapabilityUnknow::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00080">libbgp::BgpCapability4BytesAsn::parse()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00140">libbgp::BgpCapabilityUnknow::parse()</a>.</p>
 
 </div>
 </div>
@@ -281,7 +312,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00059">59</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00134">libbgp::BgpCapabilityUnknow::parse()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00146">libbgp::BgpCapabilityUnknow::write()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00119">libbgp::BgpCapabilityUnknow::~BgpCapabilityUnknow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00026">BgpCapability()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00140">libbgp::BgpCapabilityUnknow::parse()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00152">libbgp::BgpCapabilityUnknow::write()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00125">libbgp::BgpCapabilityUnknow::~BgpCapabilityUnknow()</a>.</p>
 
 </div>
 </div>
