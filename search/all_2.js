@@ -23,6 +23,7 @@ var searchData=
   ['bgp_2dout_2dhandler_2eh',['bgp-out-handler.h',['../bgp-out-handler_8h.html',1,'']]],
   ['bgp_2dpacket_2ecc',['bgp-packet.cc',['../bgp-packet_8cc.html',1,'']]],
   ['bgp_2dpacket_2eh',['bgp-packet.h',['../bgp-packet_8h.html',1,'']]],
+  ['bgp_2dpath_2dattrib_2ecc',['bgp-path-attrib.cc',['../bgp-path-attrib_8cc.html',1,'']]],
   ['bgp_2dpath_2dattrib_2eh',['bgp-path-attrib.h',['../bgp-path-attrib_8h.html',1,'']]],
   ['bgp_2drib_2ecc',['bgp-rib.cc',['../bgp-rib_8cc.html',1,'']]],
   ['bgp_2drib_2eh',['bgp-rib.h',['../bgp-rib_8h.html',1,'']]],

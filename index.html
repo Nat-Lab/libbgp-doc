@@ -65,9 +65,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><code>libbgp</code> is a BGP (Border Gateway Protocol) library written in C++. It comes with BGP message serializer/deserializer and a BGP Finite State Machine which has all the infrastructures needed (BGP RIB, Packet Sink, Route filtering) to build a BGP speaker.</p>
-<p><code>bgp-fsm</code> is a finite state machine that handles a single BGP session. Multiple <code>bgp-fsm</code>s can be created to handle multiple sessions with different peers. BGP FSM will uses <code>route-event-bus</code> to communicate with other FSMs. <code>bgp-fsm</code> holds no information about the underlying transport protocol (for BGP, the standard is to use TCP), and it is only an FSM that take streams of binary data and output, a stream of binary data.</p>
+<p><code>BgpPacket</code> (<a href="https://lab.nat.moe/libbgp-doc/classlibbgp_1_1BgpPacket.html">document</a>) is a BGP message deserialization/serialization tool.</p>
+<p><code>BgpFsm</code> (<a href="https://lab.nat.moe/libbgp-doc/classlibbgp_1_1BgpFsm.html">document</a>) is a finite state machine that handles a single BGP session. Multiple <code>BgpFsm</code>s can be created to handle multiple sessions with different peers. BGP FSM will uses <code>RouteEventBus</code> to communicate with other FSMs. <code>BgpFsm</code> holds no information about the underlying transport protocol (for BGP, the standard is to use TCP), and it is only an FSM that take streams of binary data and output, a stream of binary data.</p>
 <p>For simple usage and quick start, refer to examples. For detailed API usages, refer to document.</p>
-<p><code>bgp-fsm</code> is currently under development.</p>
 <h3>Install</h3>
 <p><code>libbgp</code> uses autotools for build automation. In general, you need the following build dependencies:</p>
 <ul>
@@ -78,7 +78,11 @@ $(function() {
 <p>If you use a Debian based operating system, you should be able to install these with the following apt command:</p>
 <div class="fragment"><div class="line"># apt install autoconf automake m4 libtool doxygen</div></div><!-- fragment --><p>Once you have the dependencies installed, use the following commands to build libbgp:</p>
 <div class="fragment"><div class="line">$ ./autogen.sh &amp;&amp; ./configure &amp;&amp; make</div><div class="line"># make install</div></div><!-- fragment --><h3>Document</h3>
+<p>libbgp document is available online at <a href="https://lab.nat.moe/libbgp-doc">https://lab.nat.moe/libbgp-doc</a>. You may also build the document by running <code>doxygen</code> command under the project root directory. (where the <code>Doxyfile</code> is located) You will find the document under <code>docs/</code> folder.</p>
 <h3>Examples</h3>
+<p>Examples are available under the <code>examples/</code> directory. You may build example programs with the following command after installing libbgp:</p>
+<div class="fragment"><div class="line">$ c++ name_of_example.cc -lbgp -o name_of_example</div></div><!-- fragment --><h3>License</h3>
+<p>MIT </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
