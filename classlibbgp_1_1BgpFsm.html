@@ -164,7 +164,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get local ASN. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t local ASN. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00065">65</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00067">67</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -186,7 +186,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get local BGP ID. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t local BGP ID in network btyes order. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00069">69</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00071">71</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -215,7 +215,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00081">81</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00083">83</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -236,8 +236,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get peer ASN. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t peer ASN. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Peer ASN unknow at this time. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Peer ASN. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00073">73</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00075">75</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -258,8 +265,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get peer BGP ID. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t peer BGP ID in network btyes order. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Peer BGP ID unknow at this time. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Peer BGP ID. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00077">77</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00079">79</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -281,7 +295,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the Routing Information Base. </p>
 <dl class="section return"><dt>Returns</dt><dd>const <a class="el" href="classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. ">BgpRib</a>&amp; const reference to RIB. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00085">85</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00087">87</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -303,7 +317,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get current FSM state. </p>
 <dl class="section return"><dt>Returns</dt><dd>BgpState Current state. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00089">89</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00091">91</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -325,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Perform a hard reset. </p>
 <p>Set FSM state to IDLE and clear the packet buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00265">265</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00267">267</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -354,7 +368,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00258">258</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00260">260</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -403,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00135">135</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00137">137</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -431,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00093">93</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00095">95</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -458,7 +472,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00116">116</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00118">118</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
@@ -488,7 +502,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00236">236</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00238">238</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
 
 </div>
 </div>
