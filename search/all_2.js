@@ -77,9 +77,9 @@ var searchData=
   ['bgppathattriborigin',['BgpPathAttribOrigin',['../classlibbgp_1_1BgpPathAttribOrigin.html',1,'libbgp::BgpPathAttribOrigin'],['../classlibbgp_1_1BgpPathAttribOrigin.html#a5478f764067558a975c04bb1290d44ce',1,'libbgp::BgpPathAttribOrigin::BgpPathAttribOrigin()']]],
   ['bgppathattriborigins',['BgpPathAttribOrigins',['../bgp-path-attrib_8h.html#aa2583d98c353d2190bf636f3eda36dab',1,'libbgp']]],
   ['bgppathattribtype',['BgpPathAttribType',['../bgp-path-attrib_8h.html#a6012071f58111fa211a6e7190cee644f',1,'libbgp']]],
-  ['bgprib',['BgpRib',['../classlibbgp_1_1BgpRib.html',1,'libbgp']]],
+  ['bgprib',['BgpRib',['../classlibbgp_1_1BgpRib.html',1,'libbgp::BgpRib'],['../classlibbgp_1_1BgpRib.html#aef08a15f2cd85f5b7cee5b424ad9eaf1',1,'libbgp::BgpRib::BgpRib()'],['../classlibbgp_1_1BgpRib.html#a7999871f2dd7eb8ea2c7fceb0e619238',1,'libbgp::BgpRib::BgpRib(BgpLogHandler *logger)']]],
   ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp::BgpRibEntry'],['../classlibbgp_1_1BgpRibEntry.html#a64f7a285ed2055af8d69cbf21ab99a73',1,'libbgp::BgpRibEntry::BgpRibEntry()']]],
-  ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp::BgpSink'],['../classlibbgp_1_1BgpSink.html#afbf7ed104404924c7648f23049810175',1,'libbgp::BgpSink::BgpSink()']]],
+  ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp::BgpSink'],['../classlibbgp_1_1BgpSink.html#a377746517e6a7457d0a8ff392a056b3e',1,'libbgp::BgpSink::BgpSink()']]],
   ['bgpstate',['BgpState',['../bgp-fsm_8h.html#af811264836a8ec871fca16c35ef11598',1,'libbgp']]],
   ['bgpupdateerrorsubcode',['BgpUpdateErrorSubcode',['../bgp-errcode_8h.html#a50f7a37cb24789c95a09e31cc37c5bdd',1,'libbgp']]],
   ['bgpupdatemessage',['BgpUpdateMessage',['../classlibbgp_1_1BgpUpdateMessage.html',1,'libbgp::BgpUpdateMessage'],['../classlibbgp_1_1BgpUpdateMessage.html#aae2bfd80258e8872dc6b2a6b30e9e051',1,'libbgp::BgpUpdateMessage::BgpUpdateMessage()']]]

@@ -7,6 +7,7 @@ var searchData=
   ['setattribs',['setAttribs',['../classlibbgp_1_1BgpUpdateMessage.html#ad94abc6df4aa5b8e65ef76436d802611',1,'libbgp::BgpUpdateMessage']]],
   ['seterror',['setError',['../classlibbgp_1_1Serializable.html#a7fe3ec9c2494bb2bf6799d287ebe9dd2',1,'libbgp::Serializable']]],
   ['setlength',['setLength',['../classlibbgp_1_1Route.html#a4bf42048e6b6bc2ecc5d9ed965acddac',1,'libbgp::Route']]],
+  ['setlogger',['setLogger',['../classlibbgp_1_1BgpSink.html#a7fc87478ddddfa318d0ac61ae5711bc3',1,'libbgp::BgpSink']]],
   ['setnexthop',['setNextHop',['../classlibbgp_1_1BgpUpdateMessage.html#a771049abe5382cec6c16d05dc8219f8f',1,'libbgp::BgpUpdateMessage']]],
   ['setnlri',['setNlri',['../classlibbgp_1_1BgpUpdateMessage.html#a94e7cf3186a733109fec5c95a2e105a0',1,'libbgp::BgpUpdateMessage']]],
   ['setprefix',['setPrefix',['../classlibbgp_1_1Route.html#a0a58f03241cbf074b66deee4add06813',1,'libbgp::Route']]],
