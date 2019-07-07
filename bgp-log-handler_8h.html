@@ -65,7 +65,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">bgp-log-handler.h File Reference</div>  </div>
 </div><!--header-->
@@ -74,10 +76,14 @@ $(function() {
 <p>BGP log handler.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;mutex&gt;</code><br />
+<code>#include &quot;<a class="el" href="serializable_8h_source.html">serializable.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bgp-log-handler.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="bgp-log-handler_8h__incl.png" border="0" usemap="#src_2bgp-log-handler_8h" alt=""/></div>
+<map name="src_2bgp-log-handler_8h" id="src_2bgp-log-handler_8h">
+<area shape="rect" id="node3" href="serializable_8h.html" title="The serializable base. " alt="" coords="92,80,197,107"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -103,11 +109,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node7" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="534,557,645,584"/>
 <area shape="rect" id="node9" href="bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="1049,408,1183,435"/>
 <area shape="rect" id="node8" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="531,632,647,659"/>
-<area shape="rect" id="node11" href="route-event_8h_source.html" title="src/route&#45;event.h" alt="" coords="211,326,343,353"/>
+<area shape="rect" id="node11" href="route-event_8h.html" title="The route events. " alt="" coords="211,326,343,353"/>
 <area shape="rect" id="node16" href="bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="367,326,569,353"/>
-<area shape="rect" id="node12" href="route-event-bus_8h_source.html" title="src/route&#45;event&#45;bus.h" alt="" coords="308,408,468,435"/>
-<area shape="rect" id="node14" href="route-event-receiver_8h_source.html" title="src/route&#45;event&#45;receiver.h" alt="" coords="496,483,683,509"/>
-<area shape="rect" id="node15" href="route-event-bus_8cc_source.html" title="src/route&#45;event&#45;bus.cc" alt="" coords="305,483,471,509"/>
+<area shape="rect" id="node12" href="route-event-bus_8h.html" title="The route event bus. " alt="" coords="308,408,468,435"/>
+<area shape="rect" id="node14" href="route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="496,483,683,509"/>
+<area shape="rect" id="node15" href="route-event-bus_8cc.html" title="The route event bus. " alt="" coords="305,483,471,509"/>
 <area shape="rect" id="node19" href="bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="1576,408,1693,435"/>
 <area shape="rect" id="node21" href="bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="1075,326,1263,353"/>
 <area shape="rect" id="node23" href="bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="1288,326,1504,353"/>
@@ -126,6 +132,26 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">libbgp::BgpLogHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. ">BgpLogHandler</a> class.  <a href="classlibbgp_1_1BgpLogHandler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a0bbf6c70079fd803d6d7100d3a967b9a"><td class="memItemLeft" align="right" valign="top"><a id="a0bbf6c70079fd803d6d7100d3a967b9a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LIBBGP_LOG</b>(logger,  level)&#160;&#160;&#160;if (logger-&gt;getLogLevel() &gt;= level)</td></tr>
+<tr class="separator:a0bbf6c70079fd803d6d7100d3a967b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a41e0a5c85194e452e44f75b1015b6f1e"><td class="memItemLeft" align="right" valign="top"><a id="a41e0a5c85194e452e44f75b1015b6f1e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">libbgp::LogLevel</a> { <br />
+&#160;&#160;<b>FATAL</b>, 
+<b>ERROR</b>, 
+<b>WARN</b>, 
+<b>INFO</b>, 
+<br />
+&#160;&#160;<b>DEBUG</b>
+<br />
+ }<tr class="memdesc:a41e0a5c85194e452e44f75b1015b6f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log levels for logger (BgpLogHandler) <br /></td></tr>
+</td></tr>
+<tr class="separator:a41e0a5c85194e452e44f75b1015b6f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>BGP log handler. </p>

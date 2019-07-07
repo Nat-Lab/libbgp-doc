@@ -1,5 +1,5 @@
 <map id="libbgp::RouteEvent" name="libbgp::RouteEvent">
-<area shape="rect" id="node2" href="$classlibbgp_1_1RouteAddEvent.html" title="libbgp::RouteAddEvent" alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1RouteCollisionEvent.html" title="libbgp::RouteCollisionEvent" alt="" coords="195,80,387,107"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1RouteWithdrawEvent.html" title="libbgp::RouteWithdrawEvent" alt="" coords="411,80,608,107"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1RouteAddEvent.html" title="An RouteAddEvent. " alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1RouteCollisionEvent.html" title="Probe for collision detection. " alt="" coords="195,80,387,107"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1RouteWithdrawEvent.html" title="An RouteWithdrawEvent. " alt="" coords="411,80,608,107"/>
 </map>

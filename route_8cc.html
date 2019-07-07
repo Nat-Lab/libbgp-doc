@@ -75,7 +75,6 @@ $(function() {
 <p>Route/Prefix related utilities.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="route_8h_source.html">route.h</a>&quot;</code><br />
-<code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;arpa/inet.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for route.cc:</div>
@@ -132,6 +131,12 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t The netmask in network byte order. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_route_length</td><td>Netmask invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00032">32</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
@@ -154,7 +159,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= { </div><div class="line">    0x00000000, 0x00000080, 0x000000c0, 0x000000e0, 0x000000f0, 0x000000f8, </div><div class="line">    0x000000fc, 0x000000fe, 0x000000ff, 0x000080ff, 0x0000c0ff, 0x0000e0ff, </div><div class="line">    0x0000f0ff, 0x0000f8ff, 0x0000fcff, 0x0000feff, 0x0000ffff, 0x0080ffff, </div><div class="line">    0x00c0ffff, 0x00e0ffff, 0x00f0ffff, 0x00f8ffff, 0x00fcffff, 0x00feffff, </div><div class="line">    0x00ffffff, 0x80ffffff, 0xc0ffffff, 0xe0ffffff, 0xf0ffffff, 0xf8ffffff, </div><div class="line">    0xfcffffff, 0xfeffffff, 0xffffffff</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00017">17</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00016">16</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>

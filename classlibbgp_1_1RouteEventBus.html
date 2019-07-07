@@ -71,23 +71,137 @@ $(function() {
 <div class="title">libbgp::RouteEventBus Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> class.  
+ <a href="classlibbgp_1_1RouteEventBus.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca68243e992480debcef8011cf0a0886"><td class="memItemLeft" align="right" valign="top"><a id="aca68243e992480debcef8011cf0a0886"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>publish</b> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv, const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)</td></tr>
+<tr class="memitem:aca68243e992480debcef8011cf0a0886"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#aca68243e992480debcef8011cf0a0886">publish</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv, const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)</td></tr>
+<tr class="memdesc:aca68243e992480debcef8011cf0a0886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Publish a route event.  <a href="#aca68243e992480debcef8011cf0a0886">More...</a><br /></td></tr>
 <tr class="separator:aca68243e992480debcef8011cf0a0886"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8479fcd6ead5e448841eb46610ab00d2"><td class="memItemLeft" align="right" valign="top"><a id="a8479fcd6ead5e448841eb46610ab00d2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>subscribe</b> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memitem:a8479fcd6ead5e448841eb46610ab00d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a8479fcd6ead5e448841eb46610ab00d2">subscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memdesc:a8479fcd6ead5e448841eb46610ab00d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribe to this event bus.  <a href="#a8479fcd6ead5e448841eb46610ab00d2">More...</a><br /></td></tr>
 <tr class="separator:a8479fcd6ead5e448841eb46610ab00d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="memItemLeft" align="right" valign="top"><a id="a55ddb50c9ae7fc4883a5cb9654ceb1c5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>unsubscribe</b> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memitem:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a55ddb50c9ae7fc4883a5cb9654ceb1c5">unsubscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memdesc:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe to this event bus.  <a href="#a55ddb50c9ae7fc4883a5cb9654ceb1c5">More...</a><br /></td></tr>
 <tr class="separator:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="route-event-bus_8h_source.html#l00010">10</a> of file <a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<div class="textblock"><p>The <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> class. </p>
+<p>The route event bus is used to share information and communicate with other BGP FSMs. For example, route add/withdrawn events are sent to other FSMs with route event bus. Collision resolution also depends on the route event bus. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a14">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="route-event-bus_8h_source.html#l00027">27</a> of file <a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aca68243e992480debcef8011cf0a0886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca68243e992480debcef8011cf0a0886">&#9670;&nbsp;</a></span>publish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int libbgp::RouteEventBus::publish </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
+          <td class="paramname"><em>recv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>ev</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Publish a route event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recv</td><td>Pointer to the <a class="el" href="classlibbgp_1_1RouteEventReceiver.html" title="The RouteEventReceiver interface. ">RouteEventReceiver</a> object that published the event. It is for ensuring publisher of the event does not receive the event it published itself. Can be NULL. </td></tr>
+    <tr><td class="paramname">ev</td><td>The event to publish; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int Number of subscribers report event received. </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a37">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00028">28</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8479fcd6ead5e448841eb46610ab00d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8479fcd6ead5e448841eb46610ab00d2">&#9670;&nbsp;</a></span>subscribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::RouteEventBus::subscribe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
+          <td class="paramname"><em>recv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subscribe to this event bus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recv</td><td>The receiver. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true Subscribed. </dd>
+<dd>
+false Failed to subscribe. </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a15">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00047">47</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
+
+</div>
+</div>
+<a id="a55ddb50c9ae7fc4883a5cb9654ceb1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ddb50c9ae7fc4883a5cb9654ceb1c5">&#9670;&nbsp;</a></span>unsubscribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::RouteEventBus::unsubscribe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
+          <td class="paramname"><em>recv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unsubscribe to this event bus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recv</td><td>The receiver. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true Unsubscribed. </dd>
+<dd>
+false Failed to Unsubscribe. </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a40">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00060">60</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a></li>
 <li>src/<a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a></li>
 </ul>

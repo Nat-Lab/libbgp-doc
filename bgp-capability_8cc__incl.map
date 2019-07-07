@@ -1,7 +1,7 @@
 <map id="src/bgp&#45;capability.cc" name="src/bgp&#45;capability.cc">
-<area shape="rect" id="node2" href="$bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="104,80,225,107"/>
-<area shape="rect" id="node9" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="414,80,526,107"/>
-<area shape="rect" id="node10" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="249,80,339,107"/>
-<area shape="rect" id="node3" href="$serializable_8h.html" title="The serializable base. " alt="" coords="129,155,235,181"/>
-<area shape="rect" id="node7" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="100,229,235,256"/>
+<area shape="rect" id="node2" href="$bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="179,80,300,107"/>
+<area shape="rect" id="node9" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="489,80,601,107"/>
+<area shape="rect" id="node10" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="324,80,413,107"/>
+<area shape="rect" id="node3" href="$serializable_8h.html" title="The serializable base. " alt="" coords="204,155,309,181"/>
+<area shape="rect" id="node7" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="200,229,335,256"/>
 </map>

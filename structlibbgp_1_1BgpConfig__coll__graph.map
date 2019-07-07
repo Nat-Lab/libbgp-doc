@@ -1,8 +1,8 @@
 <map id="libbgp::BgpConfig" name="libbgp::BgpConfig">
 <area shape="rect" id="node2" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="5,5,172,32"/>
 <area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRules.html" title="The BgpFilterRules class. " alt="" coords="11,63,167,89"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1RouteEventBus.html" title="libbgp::RouteEventBus" alt="" coords="7,113,171,140"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. " alt="" coords="7,113,171,140"/>
 <area shape="rect" id="node5" href="$classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. " alt="" coords="33,164,145,191"/>
-<area shape="rect" id="node6" href="$classlibbgp_1_1Clock.html" title="libbgp::Clock" alt="" coords="37,215,140,241"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="37,215,140,241"/>
 <area shape="rect" id="node7" href="$classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. " alt="" coords="5,265,172,292"/>
 </map>

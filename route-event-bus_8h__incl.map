@@ -1,0 +1,10 @@
+<map id="src/route&#45;event&#45;bus.h" name="src/route&#45;event&#45;bus.h">
+<area shape="rect" id="node2" href="$route-event_8h.html" title="The route events. " alt="" coords="39,80,148,107"/>
+<area shape="rect" id="node15" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="173,80,337,107"/>
+<area shape="rect" id="node4" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="111,229,242,256"/>
+<area shape="rect" id="node11" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="218,155,390,181"/>
+<area shape="rect" id="node5" href="$serializable_8h.html" title="The serializable base. " alt="" coords="381,304,486,331"/>
+<area shape="rect" id="node9" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="442,379,577,405"/>
+<area shape="rect" id="node13" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="664,304,732,331"/>
+<area shape="rect" id="node14" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="418,229,540,256"/>
+</map>

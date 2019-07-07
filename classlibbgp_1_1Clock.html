@@ -71,25 +71,64 @@ $(function() {
 <div class="title">libbgp::Clock Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classlibbgp_1_1Clock.html" title="The Clock interface. ">Clock</a> interface.  
+ <a href="classlibbgp_1_1Clock.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="clock_8h_source.html">clock.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for libbgp::Clock:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1Clock__inherit__graph.png" border="0" usemap="#libbgp_1_1Clock_inherit__map" alt="Inheritance graph"/></div>
 <map name="libbgp_1_1Clock_inherit__map" id="libbgp_1_1Clock_inherit__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1RealtimeClock.html" title="libbgp::RealtimeClock" alt="" coords="5,80,163,107"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1RealtimeClock.html" title="The RealtimeClock class. " alt="" coords="5,80,163,107"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a23b365e051acce7db6be69f045ca91ff"><td class="memItemLeft" align="right" valign="top"><a id="a23b365e051acce7db6be69f045ca91ff"></a>
-virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>getTime</b> () const =0</td></tr>
+<tr class="memitem:a23b365e051acce7db6be69f045ca91ff"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Clock.html#a23b365e051acce7db6be69f045ca91ff">getTime</a> () const =0</td></tr>
+<tr class="memdesc:a23b365e051acce7db6be69f045ca91ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current time.  <a href="#a23b365e051acce7db6be69f045ca91ff">More...</a><br /></td></tr>
 <tr class="separator:a23b365e051acce7db6be69f045ca91ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="clock_8h_source.html#l00009">9</a> of file <a class="el" href="clock_8h_source.html">clock.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>The <a class="el" href="classlibbgp_1_1Clock.html" title="The Clock interface. ">Clock</a> interface. </p>
+<p>The clock interface is used by <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> to get current time to check for time-based events like peer hold timer expired, and determine the timing of KEEPALIVE message. <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> comes with a default <a class="el" href="classlibbgp_1_1Clock.html" title="The Clock interface. ">Clock</a> implementation, <a class="el" href="classlibbgp_1_1RealtimeClock.html" title="The RealtimeClock class. ">RealtimeClock</a>. <a class="el" href="classlibbgp_1_1RealtimeClock.html" title="The RealtimeClock class. ">RealtimeClock</a> is a clock that uses system time as time.</p>
+<p>This might be useful if <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> is used inside a simulator like ns3. A Ns3Clock class should be implemented to report simulated time to <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="clock_8h_source.html#l00031">31</a> of file <a class="el" href="clock_8h_source.html">clock.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a23b365e051acce7db6be69f045ca91ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b365e051acce7db6be69f045ca91ff">&#9670;&nbsp;</a></span>getTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint64_t libbgp::Clock::getTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current time. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint64_t current time in second. </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbgp_1_1RealtimeClock.html#a387549035229e959b10678222f61af9e">libbgp::RealtimeClock</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/<a class="el" href="clock_8h_source.html">clock.h</a></li>
 </ul>
 </div><!-- contents -->

@@ -80,12 +80,18 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abc20e4d44d65fb8768a722d31781f060"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#abc20e4d44d65fb8768a722d31781f060">stdout</a> (const char *format_str,...)</td></tr>
-<tr class="memdesc:abc20e4d44d65fb8768a722d31781f060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print message to stdout.  <a href="#abc20e4d44d65fb8768a722d31781f060">More...</a><br /></td></tr>
-<tr class="separator:abc20e4d44d65fb8768a722d31781f060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a598e121368d2bcf4e04c7d5911f110dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a598e121368d2bcf4e04c7d5911f110dc">stderr</a> (const char *format_str,...)</td></tr>
-<tr class="memdesc:a598e121368d2bcf4e04c7d5911f110dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print message to stderr.  <a href="#a598e121368d2bcf4e04c7d5911f110dc">More...</a><br /></td></tr>
-<tr class="separator:a598e121368d2bcf4e04c7d5911f110dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa1c9be3cfe2b3ad321edeee5024274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a7fa1c9be3cfe2b3ad321edeee5024274">log</a> (<a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a> level, const char *format_str,...)</td></tr>
+<tr class="memdesc:a7fa1c9be3cfe2b3ad321edeee5024274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a message. Consider using LIBBGP_LOG if logging the message needs a lot of computing power. (e.g., print <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> or converting IP to string.)  <a href="#a7fa1c9be3cfe2b3ad321edeee5024274">More...</a><br /></td></tr>
+<tr class="separator:a7fa1c9be3cfe2b3ad321edeee5024274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4515da16ad4ef5583468b28806f17177"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a4515da16ad4ef5583468b28806f17177">log</a> (<a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a> level, const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;serializable)</td></tr>
+<tr class="memdesc:a4515da16ad4ef5583468b28806f17177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a message. Consider using LIBBGP_LOG if logging the message needs a lot of computing power. (e.g., print <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> or converting IP to string.)  <a href="#a4515da16ad4ef5583468b28806f17177">More...</a><br /></td></tr>
+<tr class="separator:a4515da16ad4ef5583468b28806f17177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310e70ec41a9b5739aa2ba468d193f51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a310e70ec41a9b5739aa2ba468d193f51">setLogLevel</a> (<a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a> level)</td></tr>
+<tr class="memdesc:a310e70ec41a9b5739aa2ba468d193f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the log level.  <a href="#a310e70ec41a9b5739aa2ba468d193f51">More...</a><br /></td></tr>
+<tr class="separator:a310e70ec41a9b5739aa2ba468d193f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402b3c6ed5bcf92f74761e33f0516c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a402b3c6ed5bcf92f74761e33f0516c77">getLogLevel</a> () const</td></tr>
+<tr class="memdesc:a402b3c6ed5bcf92f74761e33f0516c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the log level.  <a href="#a402b3c6ed5bcf92f74761e33f0516c77">More...</a><br /></td></tr>
+<tr class="separator:a402b3c6ed5bcf92f74761e33f0516c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8617972a902d60a4e29c8bb5ca5b1c1a"><td class="memItemLeft" align="right" valign="top"><a id="a8617972a902d60a4e29c8bb5ca5b1c1a"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a8617972a902d60a4e29c8bb5ca5b1c1a">~BgpLogHandler</a> ()</td></tr>
 <tr class="memdesc:a8617972a902d60a4e29c8bb5ca5b1c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Bgp Log Handler object. <br /></td></tr>
@@ -93,28 +99,54 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa3d2f9e106b47b7def91f1853f9b2c2f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#aa3d2f9e106b47b7def91f1853f9b2c2f">stdoutImpl</a> (const char *str)</td></tr>
-<tr class="memdesc:aa3d2f9e106b47b7def91f1853f9b2c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">stdout implementation, by default it writes to the real stdout. You may choose to override the implementation.  <a href="#aa3d2f9e106b47b7def91f1853f9b2c2f">More...</a><br /></td></tr>
-<tr class="separator:aa3d2f9e106b47b7def91f1853f9b2c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d7aada9d441daeb2926e7fb828ff80"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a92d7aada9d441daeb2926e7fb828ff80">stderrImpl</a> (const char *str)</td></tr>
-<tr class="memdesc:a92d7aada9d441daeb2926e7fb828ff80"><td class="mdescLeft">&#160;</td><td class="mdescRight">stderr implementation, by default it writes to the real stderr. You may choose to override the implementation.  <a href="#a92d7aada9d441daeb2926e7fb828ff80">More...</a><br /></td></tr>
-<tr class="separator:a92d7aada9d441daeb2926e7fb828ff80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe75642c56e2d49e83eb3388bd71d1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpLogHandler.html#a0fe75642c56e2d49e83eb3388bd71d1f">logImpl</a> (const char *str)</td></tr>
+<tr class="memdesc:a0fe75642c56e2d49e83eb3388bd71d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log implementation. By default, it writes to stderr. You may implement your own <a class="el" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. ">BgpLogHandler</a> to write message to a different place.  <a href="#a0fe75642c56e2d49e83eb3388bd71d1f">More...</a><br /></td></tr>
+<tr class="separator:a0fe75642c56e2d49e83eb3388bd71d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. ">BgpLogHandler</a> class. </p>
 <p>The log handler class is used by various other classes to print message. </p>
-
-<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8h_source.html#l00023">23</a> of file <a class="el" href="bgp-log-handler_8h_source.html">bgp-log-handler.h</a>.</p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="deserialize-and-serialize_8cc-example.html#_a0">deserialize-and-serialize.cc</a>, <a class="el" href="peer-and-print_8cc-example.html#_a4">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#_a12">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8h_source.html#l00047">47</a> of file <a class="el" href="bgp-log-handler_8h_source.html">bgp-log-handler.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a598e121368d2bcf4e04c7d5911f110dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a598e121368d2bcf4e04c7d5911f110dc">&#9670;&nbsp;</a></span>stderr()</h2>
+<a id="a402b3c6ed5bcf92f74761e33f0516c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402b3c6ed5bcf92f74761e33f0516c77">&#9670;&nbsp;</a></span>getLogLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp::BgpLogHandler::stderr </td>
+          <td class="memname"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a> libbgp::BgpLogHandler::getLogLevel </td>
           <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the log level. </p>
+<dl class="section return"><dt>Returns</dt><dd>LogLevel log level. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00043">43</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
+
+</div>
+</div>
+<a id="a7fa1c9be3cfe2b3ad321edeee5024274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa1c9be3cfe2b3ad321edeee5024274">&#9670;&nbsp;</a></span>log() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libbgp::BgpLogHandler::log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>format_str</em>, </td>
         </tr>
@@ -132,80 +164,41 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Print message to stderr. </p>
+<p>Log a message. Consider using LIBBGP_LOG if logging the message needs a lot of computing power. (e.g., print <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> or converting IP to string.) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">level</td><td>Log level. </td></tr>
     <tr><td class="paramname">format_str</td><td>printf format string. </td></tr>
-    <tr><td class="paramname">...</td><td>variables. </td></tr>
+    <tr><td class="paramname">...</td><td>printf variables. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00040">40</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00056">56</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00055">stderrImpl()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00086">logImpl()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-sink_8cc_source.html#l00051">libbgp::BgpSink::fill()</a>, <a class="el" href="bgp-bad-message_8cc_source.html#l00028">libbgp::BgpBadMessage::parse()</a>, <a class="el" href="bgp-sink_8cc_source.html#l00087">libbgp::BgpSink::pour()</a>, <a class="el" href="bgp-log-handler_8cc_source.html#l00055">stderrImpl()</a>, <a class="el" href="bgp-bad-message_8cc_source.html#l00034">libbgp::BgpBadMessage::write()</a>, <a class="el" href="bgp-packet_8cc_source.html#l00091">libbgp::BgpPacket::write()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00188">libbgp::BgpOpenMessage::write()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00098">libbgp::BgpCapability4BytesAsn::write()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00152">libbgp::BgpCapabilityUnknow::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00152">libbgp::BgpPathAttrib::write()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00694">libbgp::BgpUpdateMessage::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00321">libbgp::BgpPathAttribOrigin::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00528">libbgp::BgpPathAttribAsPath::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00642">libbgp::BgpPathAttribNexthop::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00715">libbgp::BgpPathAttribMed::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00787">libbgp::BgpPathAttribLocalPref::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00849">libbgp::BgpPathAttribAtomicAggregate::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00929">libbgp::BgpPathAttribAggregator::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01109">libbgp::BgpPathAttribAs4Path::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01225">libbgp::BgpPathAttribAs4Aggregator::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01302">libbgp::BgpPathAttribCommunity::write()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00235">libbgp::BgpPathAttrib::writeHeader()</a>.</p>
-
-</div>
-</div>
-<a id="a92d7aada9d441daeb2926e7fb828ff80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d7aada9d441daeb2926e7fb828ff80">&#9670;&nbsp;</a></span>stderrImpl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libbgp::BgpLogHandler::stderrImpl </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>stderr implementation, by default it writes to the real stderr. You may choose to override the implementation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00055">55</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00040">stderr()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-log-handler_8cc_source.html#l00040">stderr()</a>, and <a class="el" href="bgp-log-handler_8h_source.html#l00032">~BgpLogHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00050">libbgp::BgpPathAttrib::BgpPathAttrib()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00068">libbgp::BgpPathAttrib::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00262">libbgp::BgpPathAttribOrigin::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00393">libbgp::BgpPathAttribAsPath::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00624">libbgp::BgpPathAttribNexthop::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00705">libbgp::BgpPathAttribMed::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00783">libbgp::BgpPathAttribLocalPref::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00861">libbgp::BgpPathAttribAtomicAggregate::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00934">libbgp::BgpPathAttribAggregator::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01046">libbgp::BgpPathAttribAs4Path::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01222">libbgp::BgpPathAttribAs4Aggregator::clone()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01331">libbgp::BgpPathAttribCommunity::clone()</a>, <a class="el" href="bgp-sink_8cc_source.html#l00050">libbgp::BgpSink::fill()</a>, <a class="el" href="bgp-bad-message_8cc_source.html#l00027">libbgp::BgpBadMessage::parse()</a>, <a class="el" href="bgp-packet_8cc_source.html#l00075">libbgp::BgpPacket::parse()</a>, <a class="el" href="bgp-sink_8cc_source.html#l00086">libbgp::BgpSink::pour()</a>, <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>, <a class="el" href="bgp-bad-message_8cc_source.html#l00033">libbgp::BgpBadMessage::write()</a>, <a class="el" href="bgp-packet_8cc_source.html#l00128">libbgp::BgpPacket::write()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00206">libbgp::BgpOpenMessage::write()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00101">libbgp::BgpCapability4BytesAsn::write()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00695">libbgp::BgpUpdateMessage::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00157">libbgp::BgpPathAttrib::write()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00155">libbgp::BgpCapabilityUnknow::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00332">libbgp::BgpPathAttribOrigin::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00548">libbgp::BgpPathAttribAsPath::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00668">libbgp::BgpPathAttribNexthop::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00747">libbgp::BgpPathAttribMed::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00825">libbgp::BgpPathAttribLocalPref::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00893">libbgp::BgpPathAttribAtomicAggregate::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00979">libbgp::BgpPathAttribAggregator::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01168">libbgp::BgpPathAttribAs4Path::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01290">libbgp::BgpPathAttribAs4Aggregator::write()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01373">libbgp::BgpPathAttribCommunity::write()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00240">libbgp::BgpPathAttrib::writeHeader()</a>.</p>
 
 </div>
 </div>
-<a id="abc20e4d44d65fb8768a722d31781f060"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc20e4d44d65fb8768a722d31781f060">&#9670;&nbsp;</a></span>stdout()</h2>
+<a id="a4515da16ad4ef5583468b28806f17177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4515da16ad4ef5583468b28806f17177">&#9670;&nbsp;</a></span>log() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp::BgpLogHandler::stdout </td>
+          <td class="memname">void libbgp::BgpLogHandler::log </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
+          <td class="paramtype"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;&#160;</td>
+          <td class="paramname"><em>serializable</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -215,25 +208,23 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Print message to stdout. </p>
+<p>Log a message. Consider using LIBBGP_LOG if logging the message needs a lot of computing power. (e.g., print <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> or converting IP to string.) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">format_str</td><td>printf format string. </td></tr>
-    <tr><td class="paramname">...</td><td>variables. </td></tr>
+    <tr><td class="paramname">level</td><td>Log level. </td></tr>
+    <tr><td class="paramname">serializable</td><td><a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object to log. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00023">23</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00078">78</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00051">stdoutImpl()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-log-handler_8cc_source.html#l00051">stdoutImpl()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00086">logImpl()</a>, and <a class="el" href="serializable_8cc_source.html#l00110">libbgp::Serializable::print()</a>.</p>
 
 </div>
 </div>
-<a id="aa3d2f9e106b47b7def91f1853f9b2c2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3d2f9e106b47b7def91f1853f9b2c2f">&#9670;&nbsp;</a></span>stdoutImpl()</h2>
+<a id="a0fe75642c56e2d49e83eb3388bd71d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe75642c56e2d49e83eb3388bd71d1f">&#9670;&nbsp;</a></span>logImpl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +233,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp::BgpLogHandler::stdoutImpl </td>
+          <td class="memname">void libbgp::BgpLogHandler::logImpl </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -256,19 +247,46 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>stdout implementation, by default it writes to the real stdout. You may choose to override the implementation. </p>
+<p>Log implementation. By default, it writes to stderr. You may implement your own <a class="el" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. ">BgpLogHandler</a> to write message to a different place. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td></td></tr>
+    <tr><td class="paramname">str</td><td>Log message. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00051">51</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00086">86</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00023">stdout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-log-handler_8cc_source.html#l00056">log()</a>, and <a class="el" href="bgp-log-handler_8h_source.html#l00060">~BgpLogHandler()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-log-handler_8cc_source.html#l00023">stdout()</a>, and <a class="el" href="bgp-log-handler_8h_source.html#l00032">~BgpLogHandler()</a>.</p>
+</div>
+</div>
+<a id="a310e70ec41a9b5739aa2ba468d193f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310e70ec41a9b5739aa2ba468d193f51">&#9670;&nbsp;</a></span>setLogLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libbgp::BgpLogHandler::setLogLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bgp-log-handler_8h.html#a41e0a5c85194e452e44f75b1015b6f1e">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the log level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>Log level. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a5">peer-and-print.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="bgp-log-handler_8cc_source.html#l00034">34</a> of file <a class="el" href="bgp-log-handler_8cc_source.html">bgp-log-handler.cc</a>.</p>
 
 </div>
 </div>

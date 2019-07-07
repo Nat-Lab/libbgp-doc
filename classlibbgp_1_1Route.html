@@ -149,7 +149,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Route/Prefix related utilities. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a8">route-event-bus.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="route_8h_source.html#l00023">23</a> of file <a class="el" href="route_8h_source.html">route.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1217ccf5b6ecb36ebfc85b16962c4296"></a>
@@ -186,8 +187,14 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_route_length</td><td>Netmask invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00043">43</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00044">44</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -225,8 +232,14 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_route_length</td><td>Netmask invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00055">55</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00057">57</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -249,9 +262,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get netmask. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t The netmask in CIDR notation. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00233">233</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00196">libbgp::BgpRib::discard()</a>, <a class="el" href="bgp-rib_8cc_source.html#l00116">libbgp::BgpRib::insert()</a>, and <a class="el" href="bgp-rib_8cc_source.html#l00172">libbgp::BgpRib::withdraw()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00235">235</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -272,8 +283,14 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get netmask. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t The netmask in network byte order. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_route_length</td><td>Netmask invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00242">242</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00245">245</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -295,9 +312,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get prefix. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t The prefix in network byte order. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00224">224</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00196">libbgp::BgpRib::discard()</a>, <a class="el" href="bgp-rib_8cc_source.html#l00116">libbgp::BgpRib::insert()</a>, and <a class="el" href="bgp-rib_8cc_source.html#l00172">libbgp::BgpRib::withdraw()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00226">226</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -354,7 +369,7 @@ Static Public Member Functions</h2></td></tr>
 <dd>
 false The address in not in the prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00070">70</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00072">72</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -418,7 +433,7 @@ false The address in not in the prefix. </dd></dl>
 <dd>
 false prefix_b is not in prefix_a. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00085">85</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00087">87</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -449,9 +464,9 @@ false prefix_b is not in prefix_a. </dd></dl>
 <dd>
 false The address in not in the prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00098">98</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00100">100</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-filter_8cc_source.html#l00059">libbgp::BgpFilterRule::apply()</a>, <a class="el" href="route_8cc_source.html#l00109">includes()</a>, and <a class="el" href="bgp-rib_8cc_source.html#l00244">libbgp::BgpRib::lookup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-filter_8cc_source.html#l00059">libbgp::BgpFilterRule::apply()</a>, <a class="el" href="route_8cc_source.html#l00111">includes()</a>, and <a class="el" href="bgp-rib_8cc_source.html#l00244">libbgp::BgpRib::lookup()</a>.</p>
 
 </div>
 </div>
@@ -482,9 +497,9 @@ false The address in not in the prefix. </dd></dl>
 <dd>
 false The address in not in the prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00109">109</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00111">111</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00098">includes()</a>.</p>
+<p class="reference">References <a class="el" href="route_8cc_source.html#l00100">includes()</a>.</p>
 
 </div>
 </div>
@@ -515,9 +530,9 @@ false The address in not in the prefix. </dd></dl>
 <dd>
 false The other prefix is not in this prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00136">136</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00138">138</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00098">includes()</a>.</p>
+<p class="reference">References <a class="el" href="route_8cc_source.html#l00100">includes()</a>.</p>
 
 </div>
 </div>
@@ -559,7 +574,7 @@ false The other prefix is not in this prefix. </dd></dl>
 <dd>
 false The other prefix is not in this prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00123">123</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00125">125</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -601,9 +616,9 @@ false The other prefix is not in this prefix. </dd></dl>
 <dd>
 false The other prefix is not in this prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00148">148</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00150">150</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00098">includes()</a>.</p>
+<p class="reference">References <a class="el" href="route_8cc_source.html#l00100">includes()</a>.</p>
 
 </div>
 </div>
@@ -634,7 +649,7 @@ false The other prefix is not in this prefix. </dd></dl>
 <dd>
 false The routes are different. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00161">161</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00163">163</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -665,7 +680,7 @@ false The routes are different. </dd></dl>
 <dd>
 false Failed to set netmask. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00213">213</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00215">215</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -696,7 +711,7 @@ false Failed to set netmask. </dd></dl>
 <dd>
 false Failed to set prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00201">201</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00203">203</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>

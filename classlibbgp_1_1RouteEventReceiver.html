@@ -72,6 +72,11 @@ $(function() {
 <div class="title">libbgp::RouteEventReceiver Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classlibbgp_1_1RouteEventReceiver.html" title="The RouteEventReceiver interface. ">RouteEventReceiver</a> interface.  
+ <a href="classlibbgp_1_1RouteEventReceiver.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="route-event-receiver_8h_source.html">route-event-receiver.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for libbgp::RouteEventReceiver:</div>
 <div class="dyncontent">
@@ -83,8 +88,8 @@ Inheritance diagram for libbgp::RouteEventReceiver:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:acb49d33f47dcc9a15d89b50aad6cf652"><td class="memItemLeft" align="right" valign="top"><a id="acb49d33f47dcc9a15d89b50aad6cf652"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>handleRouteEvent</b> (const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)=0</td></tr>
+<tr class="memitem:acb49d33f47dcc9a15d89b50aad6cf652"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html#acb49d33f47dcc9a15d89b50aad6cf652">handleRouteEvent</a> (const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)=0</td></tr>
+<tr class="memdesc:acb49d33f47dcc9a15d89b50aad6cf652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the route event.  <a href="#acb49d33f47dcc9a15d89b50aad6cf652">More...</a><br /></td></tr>
 <tr class="separator:acb49d33f47dcc9a15d89b50aad6cf652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -94,9 +99,52 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>RouteEventBus</b></t
 <tr class="separator:ae206a16beed145c9883eafb827bf570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="route-event-receiver_8h_source.html#l00009">9</a> of file <a class="el" href="route-event-receiver_8h_source.html">route-event-receiver.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>The <a class="el" href="classlibbgp_1_1RouteEventReceiver.html" title="The RouteEventReceiver interface. ">RouteEventReceiver</a> interface. </p>
+<p><a class="el" href="classlibbgp_1_1RouteEventReceiver.html" title="The RouteEventReceiver interface. ">RouteEventReceiver</a> is an interface for <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> participant. <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> is usually used by BGP FSMs to communicate with each other. (since every FSM handle a single BGP session, and there might be multiple BGP sessions running at a time) <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> allow BGP FSMs to pass route add/withdrawn updates to other FSMs. (collision detection is also done through <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a>)</p>
+<p>You may implement your own <a class="el" href="classlibbgp_1_1RouteEventReceiver.html" title="The RouteEventReceiver interface. ">RouteEventReceiver</a> and subscribe it to a event bus to get notifed when route changes. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a0">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="route-event-receiver_8h_source.html#l00032">32</a> of file <a class="el" href="route-event-receiver_8h_source.html">route-event-receiver.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acb49d33f47dcc9a15d89b50aad6cf652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb49d33f47dcc9a15d89b50aad6cf652">&#9670;&nbsp;</a></span>handleRouteEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool libbgp::RouteEventReceiver::handleRouteEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle the route event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ev</td><td>The event. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true Event handled. </dd>
+<dd>
+false Event not handled. </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a1">route-event-bus.cc</a>.</dd>
+</dl>
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/<a class="el" href="route-event-receiver_8h_source.html">route-event-receiver.h</a></li>
 </ul>
 </div><!-- contents -->

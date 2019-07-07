@@ -71,12 +71,17 @@ $(function() {
 <div class="title">libbgp::RouteCollisionEvent Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Probe for collision detection.  
+ <a href="classlibbgp_1_1RouteCollisionEvent.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="route-event_8h_source.html">route-event.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for libbgp::RouteCollisionEvent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1RouteCollisionEvent__inherit__graph.png" border="0" usemap="#libbgp_1_1RouteCollisionEvent_inherit__map" alt="Inheritance graph"/></div>
 <map name="libbgp_1_1RouteCollisionEvent_inherit__map" id="libbgp_1_1RouteCollisionEvent_inherit__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1RouteEvent.html" title="libbgp::RouteEvent" alt="" coords="31,5,171,32"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1RouteEvent.html" title="The RouteEvent base. " alt="" coords="31,5,171,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -84,7 +89,7 @@ Collaboration diagram for libbgp::RouteCollisionEvent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1RouteCollisionEvent__coll__graph.png" border="0" usemap="#libbgp_1_1RouteCollisionEvent_coll__map" alt="Collaboration graph"/></div>
 <map name="libbgp_1_1RouteCollisionEvent_coll__map" id="libbgp_1_1RouteCollisionEvent_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1RouteEvent.html" title="libbgp::RouteEvent" alt="" coords="31,5,171,32"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1RouteEvent.html" title="The RouteEvent base. " alt="" coords="31,5,171,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -95,12 +100,15 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>peer_bgp_id</b></
 <tr class="separator:af6bf5a04cae2062c356ffde0cbf28700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classlibbgp_1_1RouteEvent"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classlibbgp_1_1RouteEvent')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classlibbgp_1_1RouteEvent.html">libbgp::RouteEvent</a></td></tr>
 <tr class="memitem:a7ebada61b6b2b9b8e6128099abbc671d inherit pub_attribs_classlibbgp_1_1RouteEvent"><td class="memItemLeft" align="right" valign="top"><a id="a7ebada61b6b2b9b8e6128099abbc671d"></a>
-RouteEventType&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<a class="el" href="route-event_8h.html#ae8c750a6779e877ff88ee962ff8dab57">RouteEventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEvent.html#a7ebada61b6b2b9b8e6128099abbc671d">type</a></td></tr>
+<tr class="memdesc:a7ebada61b6b2b9b8e6128099abbc671d inherit pub_attribs_classlibbgp_1_1RouteEvent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of this event. <br /></td></tr>
 <tr class="separator:a7ebada61b6b2b9b8e6128099abbc671d inherit pub_attribs_classlibbgp_1_1RouteEvent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00034">34</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
+<div class="textblock"><p>Probe for collision detection. </p>
+<p>When a <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> receive <a class="el" href="classlibbgp_1_1RouteCollisionEvent.html" title="Probe for collision detection. ">RouteCollisionEvent</a>, it will check if the peer BGP ID is same as it's peer. If it is, collision resloution will be done. If someone reported event handled, the sender of the event will go to IDLE. </p>
+
+<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00087">87</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/<a class="el" href="route-event_8h_source.html">route-event.h</a></li>
 </ul>

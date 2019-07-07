@@ -64,6 +64,8 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">bgp-fsm.cc File Reference</div>  </div>
 </div><!--header-->
@@ -72,7 +74,7 @@ $(function() {
 <p>The BGP Finite State Machine.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="bgp-fsm_8h_source.html">bgp-fsm.h</a>&quot;</code><br />
-<code>#include &quot;realtime-clock.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="realtime-clock_8h_source.html">realtime-clock.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="value-op_8h_source.html">value-op.h</a>&quot;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
@@ -82,36 +84,42 @@ Include dependency graph for bgp-fsm.cc:</div>
 <div class="dyncontent">
 <div class="center"><img src="bgp-fsm_8cc__incl.png" border="0" usemap="#src_2bgp-fsm_8cc" alt=""/></div>
 <map name="src_2bgp-fsm_8cc" id="src_2bgp-fsm_8cc">
-<area shape="rect" id="node2" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="1470,80,1557,107"/>
-<area shape="rect" id="node33" href="realtime-clock_8h_source.html" title="realtime&#45;clock.h" alt="" coords="2198,155,2322,181"/>
-<area shape="rect" id="node34" href="value-op_8h.html" title="Buffer operation helpers. " alt="" coords="2303,80,2393,107"/>
-<area shape="rect" id="node3" href="clock_8h_source.html" title="clock.h" alt="" coords="2205,229,2272,256"/>
-<area shape="rect" id="node5" href="bgp-rib_8h.html" title="The BGP Routing Information Base. " alt="" coords="1958,379,2037,405"/>
-<area shape="rect" id="node16" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="1904,155,2005,181"/>
-<area shape="rect" id="node23" href="route-event-receiver_8h_source.html" title="route&#45;event&#45;receiver.h" alt="" coords="1569,304,1733,331"/>
-<area shape="rect" id="node24" href="bgp-sink_8h.html" title="The BGP sink. " alt="" coords="260,304,348,331"/>
-<area shape="rect" id="node26" href="bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="1041,304,1100,331"/>
-<area shape="rect" id="node8" href="route_8h.html" title="Route/Prefix related utilities. " alt="" coords="2001,453,2069,480"/>
-<area shape="rect" id="node9" href="bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="1592,453,1723,480"/>
-<area shape="rect" id="node10" href="serializable_8h.html" title="The serializable base. " alt="" coords="939,528,1045,555"/>
-<area shape="rect" id="node13" href="bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="715,603,850,629"/>
-<area shape="rect" id="node17" href="bgp-filter_8h.html" title="The Route filtering engine. " alt="" coords="2061,379,2152,405"/>
-<area shape="rect" id="node18" href="bgp-out-handler_8h.html" title="The BGP FSM output handler. " alt="" coords="1272,528,1408,555"/>
-<area shape="rect" id="node19" href="route-event-bus_8h_source.html" title="route&#45;event&#45;bus.h" alt="" coords="1743,229,1881,256"/>
-<area shape="rect" id="node20" href="route-event_8h_source.html" title="route&#45;event.h" alt="" coords="1757,304,1867,331"/>
-<area shape="rect" id="node21" href="bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="1609,379,1781,405"/>
-<area shape="rect" id="node22" href="bgp-message_8h.html" title="The BGP Message base. " alt="" coords="776,453,899,480"/>
-<area shape="rect" id="node25" href="bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="296,379,403,405"/>
-<area shape="rect" id="node27" href="bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="1097,379,1247,405"/>
-<area shape="rect" id="node28" href="bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="1323,379,1482,405"/>
-<area shape="rect" id="node30" href="bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="648,379,835,405"/>
-<area shape="rect" id="node31" href="bgp-notification-message_8h.html" title="The BGP notification message. " alt="" coords="427,379,624,405"/>
-<area shape="rect" id="node32" href="bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="960,379,1072,405"/>
-<area shape="rect" id="node29" href="bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="1025,453,1146,480"/>
+<area shape="rect" id="node2" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="758,80,845,107"/>
+<area shape="rect" id="node32" href="realtime-clock_8h.html" title="A Clock implementation to use system time as time. " alt="" coords="175,155,299,181"/>
+<area shape="rect" id="node33" href="value-op_8h.html" title="Buffer operation helpers. " alt="" coords="1685,80,1774,107"/>
+<area shape="rect" id="node3" href="clock_8h.html" title="The libbgp clock interface. " alt="" coords="144,229,211,256"/>
+<area shape="rect" id="node5" href="bgp-rib_8h.html" title="The BGP Routing Information Base. " alt="" coords="486,379,565,405"/>
+<area shape="rect" id="node15" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="528,155,629,181"/>
+<area shape="rect" id="node22" href="route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="337,304,501,331"/>
+<area shape="rect" id="node23" href="bgp-sink_8h.html" title="The BGP sink. " alt="" coords="2068,304,2156,331"/>
+<area shape="rect" id="node25" href="bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="1397,304,1456,331"/>
+<area shape="rect" id="node9" href="route_8h.html" title="Route/Prefix related utilities. " alt="" coords="347,453,415,480"/>
+<area shape="rect" id="node10" href="bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="693,453,824,480"/>
+<area shape="rect" id="node11" href="serializable_8h.html" title="The serializable base. " alt="" coords="1662,528,1767,555"/>
+<area shape="rect" id="node14" href="bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="1758,603,1893,629"/>
+<area shape="rect" id="node16" href="bgp-filter_8h.html" title="The Route filtering engine. " alt="" coords="259,379,349,405"/>
+<area shape="rect" id="node17" href="bgp-out-handler_8h.html" title="The BGP FSM output handler. " alt="" coords="1043,528,1179,555"/>
+<area shape="rect" id="node18" href="route-event-bus_8h.html" title="The route event bus. " alt="" coords="457,229,594,256"/>
+<area shape="rect" id="node19" href="route-event_8h.html" title="The route events. " alt="" coords="723,304,832,331"/>
+<area shape="rect" id="node20" href="bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="691,379,863,405"/>
+<area shape="rect" id="node21" href="bgp-message_8h.html" title="The BGP Message base. " alt="" coords="1557,453,1680,480"/>
+<area shape="rect" id="node24" href="bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="1908,379,2015,405"/>
+<area shape="rect" id="node26" href="bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="1274,379,1425,405"/>
+<area shape="rect" id="node27" href="bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="1091,379,1250,405"/>
+<area shape="rect" id="node29" href="bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="2039,379,2225,405"/>
+<area shape="rect" id="node30" href="bgp-notification-message_8h.html" title="The BGP notification message. " alt="" coords="1636,379,1833,405"/>
+<area shape="rect" id="node31" href="bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="1449,379,1561,405"/>
+<area shape="rect" id="node28" href="bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="1305,453,1426,480"/>
 </map>
 </div>
 </div>
 <p><a href="bgp-fsm_8cc_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aef486dd6d1145074a24425b8915bedde"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><b>libbgp::bgp_fsm_state_str</b> []</td></tr>
+<tr class="separator:aef486dd6d1145074a24425b8915bedde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP Finite State Machine. </p>
 <dl class="section author"><dt>Author</dt><dd>Nato Morichika <a href="#" onclick="location.href='mai'+'lto:'+'nat'+'@n'+'at.'+'mo'+'e'; return false;">nat@n<span style="display: none;">.nosp@m.</span>at.m<span style="display: none;">.nosp@m.</span>oe</a> </dd></dl>
@@ -120,7 +128,24 @@ Include dependency graph for bgp-fsm.cc:</div>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2019 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="file_aef486dd6d1145074a24425b8915bedde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_aef486dd6d1145074a24425b8915bedde">&#9670;&nbsp;</a></span>bgp_fsm_state_str</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* libbgp::bgp_fsm_state_str[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    <span class="stringliteral">&quot;Idle&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Open Sent&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Open Confirm&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Established&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Broken&quot;</span></div><div class="line">}</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="bgp-fsm_8cc_source.html#l00020">20</a> of file <a class="el" href="bgp-fsm_8cc_source.html">bgp-fsm.cc</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

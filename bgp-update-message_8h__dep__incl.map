@@ -1,11 +1,11 @@
 <map id="src/bgp&#45;update&#45;message.h" name="src/bgp&#45;update&#45;message.h">
-<area shape="rect" id="node2" href="$route-event_8h_source.html" title="src/route&#45;event.h" alt="" coords="277,80,409,107"/>
+<area shape="rect" id="node2" href="$route-event_8h.html" title="The route events. " alt="" coords="277,80,409,107"/>
 <area shape="rect" id="node9" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="529,80,611,107"/>
 <area shape="rect" id="node11" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="635,80,836,107"/>
-<area shape="rect" id="node3" href="$route-event-bus_8h_source.html" title="src/route&#45;event&#45;bus.h" alt="" coords="167,155,327,181"/>
+<area shape="rect" id="node3" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="167,155,327,181"/>
 <area shape="rect" id="node4" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,229,129,256"/>
-<area shape="rect" id="node7" href="$route-event-receiver_8h_source.html" title="src/route&#45;event&#45;receiver.h" alt="" coords="154,229,341,256"/>
-<area shape="rect" id="node8" href="$route-event-bus_8cc_source.html" title="src/route&#45;event&#45;bus.cc" alt="" coords="365,229,532,256"/>
+<area shape="rect" id="node7" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="154,229,341,256"/>
+<area shape="rect" id="node8" href="$route-event-bus_8cc.html" title="The route event bus. " alt="" coords="365,229,532,256"/>
 <area shape="rect" id="node5" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="192,304,303,331"/>
 <area shape="rect" id="node6" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="189,379,305,405"/>
 <area shape="rect" id="node10" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="608,155,743,181"/>

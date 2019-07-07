@@ -109,10 +109,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0677204e158b15ef9a8dd3bf79f10132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#a0677204e158b15ef9a8dd3bf79f10132">More...</a><br /></td></tr>
 <tr class="separator:a0677204e158b15ef9a8dd3bf79f10132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8effbb0dedf8079718544785c101d58"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ab8effbb0dedf8079718544785c101d58">parse</a> (const uint8_t *from, size_t msg_sz)</td></tr>
-<tr class="memdesc:ab8effbb0dedf8079718544785c101d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the object from buffer.  <a href="#ab8effbb0dedf8079718544785c101d58">More...</a><br /></td></tr>
+<tr class="memdesc:ab8effbb0dedf8079718544785c101d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a BGP open message capability.  <a href="#ab8effbb0dedf8079718544785c101d58">More...</a><br /></td></tr>
 <tr class="separator:ab8effbb0dedf8079718544785c101d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22ea33ae03ca0c1765657887e7f2b4f"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ae22ea33ae03ca0c1765657887e7f2b4f">write</a> (uint8_t *to, size_t buf_sz) const</td></tr>
-<tr class="memdesc:ae22ea33ae03ca0c1765657887e7f2b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the object and write to buffer.  <a href="#ae22ea33ae03ca0c1765657887e7f2b4f">More...</a><br /></td></tr>
+<tr class="memdesc:ae22ea33ae03ca0c1765657887e7f2b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BGP open message capability.  <a href="#ae22ea33ae03ca0c1765657887e7f2b4f">More...</a><br /></td></tr>
 <tr class="separator:ae22ea33ae03ca0c1765657887e7f2b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlibbgp_1_1BgpCapability"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1BgpCapability')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1BgpCapability.html">libbgp::BgpCapability</a></td></tr>
 <tr class="memitem:ad7e1a42daea3e263b4c8ec5b9bcf890a inherit pub_methods_classlibbgp_1_1BgpCapability"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapability.html#ad7e1a42daea3e263b4c8ec5b9bcf890a">BgpCapability</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
@@ -193,7 +193,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. ">BgpCapabilityUnknow</a> class. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00085">85</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00109">109</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae3fec931f46f2aabbb11d78480f3d38a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3fec931f46f2aabbb11d78480f3d38a">&#9670;&nbsp;</a></span>BgpCapabilityUnknow()</h2>
@@ -219,7 +219,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00117">117</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00120">120</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
 
 </div>
 </div>
@@ -284,9 +284,9 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">libbgp::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00129">129</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00132">132</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00142">libbgp::Serializable::_print()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>.</p>
 
 </div>
 </div>
@@ -324,28 +324,35 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 </table>
 </div><div class="memdoc">
 
-<p>Deserialize the object from buffer. </p>
+<p>Deserialize a BGP open message capability. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">from</td><td>The pointer to buffer. </td></tr>
-    <tr><td class="paramname">msg_sz</td><td>The max read length of deserializer. </td></tr>
+    <tr><td class="paramname">from</td><td>Pointer to message body buffer. </td></tr>
+    <tr><td class="paramname">msg_sz</td><td>Size of message. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes read. </dd></dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">-1</td><td>Deserialization failed. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">-1</td><td>Deserialization error. Error may be logged. </td></tr>
     <tr><td class="paramname">&gt;=0</td><td>Bytes read. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_parse</td><td>Internal deserialization error. </td></tr>
+    <tr><td class="paramname">bad_type</td><td>The type of message/field member in buffer does not match the attribute type of container. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a5562d3b3cda5cfda2f3749862f810e24">libbgp::Serializable</a>.</p>
+<p>Implements <a class="el" href="classlibbgp_1_1BgpCapability.html#a7c22c675ea987a2b09c345c332a60e87">libbgp::BgpCapability</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00140">140</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00143">143</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-capability_8h_source.html#l00059">libbgp::BgpCapability::length</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00040">libbgp::BgpCapability::parseHeader()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-capability_8h_source.html#l00083">libbgp::BgpCapability::length</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00039">libbgp::BgpCapability::parseHeader()</a>.</p>
 
 </div>
 </div>
@@ -383,28 +390,28 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 </table>
 </div><div class="memdoc">
 
-<p>Serialize the object and write to buffer. </p>
+<p>Serialize a BGP open message capability. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">to</td><td>The pointer to buffer. </td></tr>
-    <tr><td class="paramname">buf_sz</td><td>The max write size of serializer. </td></tr>
+    <tr><td class="paramname">to</td><td>Pointer to destination buffer. </td></tr>
+    <tr><td class="paramname">buf_sz</td><td>Max write size. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ssize_t Btyes written. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes written. </dd></dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">-1</td><td>Serialization failed. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">-1</td><td>Serialization error. Error may be logged. </td></tr>
     <tr><td class="paramname">&gt;=0</td><td>Bytes written. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a9aa89277c8b12ee3821285c479ebf545">libbgp::Serializable</a>.</p>
+<p>Implements <a class="el" href="classlibbgp_1_1BgpCapability.html#ac85451bcd73c5577eea1681f89dc0b7f">libbgp::BgpCapability</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00152">152</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8cc_source.html#l00155">155</a> of file <a class="el" href="bgp-capability_8cc_source.html">bgp-capability.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-capability_8h_source.html#l00059">libbgp::BgpCapability::length</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00040">libbgp::BgpLogHandler::stderr()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-capability_8h_source.html#l00083">libbgp::BgpCapability::length</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
 </div>
 </div>

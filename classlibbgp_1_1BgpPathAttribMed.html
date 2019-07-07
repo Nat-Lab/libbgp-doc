@@ -106,10 +106,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a659d10d4c0eb33b712625b877f879992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone the attribute.  <a href="#a659d10d4c0eb33b712625b877f879992">More...</a><br /></td></tr>
 <tr class="separator:a659d10d4c0eb33b712625b877f879992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ec1e73054b63697da47482c0933f2ca"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#a1ec1e73054b63697da47482c0933f2ca">parse</a> (const uint8_t *buffer, size_t length)</td></tr>
-<tr class="memdesc:a1ec1e73054b63697da47482c0933f2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the object from buffer.  <a href="#a1ec1e73054b63697da47482c0933f2ca">More...</a><br /></td></tr>
+<tr class="memdesc:a1ec1e73054b63697da47482c0933f2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a BGP update message path attribute.  <a href="#a1ec1e73054b63697da47482c0933f2ca">More...</a><br /></td></tr>
 <tr class="separator:a1ec1e73054b63697da47482c0933f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0f36399e42d752f0d88402ac7943f7"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#aee0f36399e42d752f0d88402ac7943f7">write</a> (uint8_t *buffer, size_t buffer_sz) const</td></tr>
-<tr class="memdesc:aee0f36399e42d752f0d88402ac7943f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the object and write to buffer.  <a href="#aee0f36399e42d752f0d88402ac7943f7">More...</a><br /></td></tr>
+<tr class="memdesc:aee0f36399e42d752f0d88402ac7943f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BGP update message path attribute.  <a href="#aee0f36399e42d752f0d88402ac7943f7">More...</a><br /></td></tr>
 <tr class="separator:aee0f36399e42d752f0d88402ac7943f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e48bac5eee3e1d2e3822a32ea7a02d"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#a16e48bac5eee3e1d2e3822a32ea7a02d">doPrint</a> (size_t indent, uint8_t **to, size_t *buf_sz) const</td></tr>
 <tr class="memdesc:a16e48bac5eee3e1d2e3822a32ea7a02d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#a16e48bac5eee3e1d2e3822a32ea7a02d">More...</a><br /></td></tr>
@@ -235,7 +235,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Multi Exit Discriminator attribute. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8h_source.html#l00248">248</a> of file <a class="el" href="bgp-path-attrib_8h_source.html">bgp-path-attrib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8h_source.html#l00269">269</a> of file <a class="el" href="bgp-path-attrib_8h_source.html">bgp-path-attrib.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a741981e9e12632dfaeae1c2328ed9e8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a741981e9e12632dfaeae1c2328ed9e8a">&#9670;&nbsp;</a></span>BgpPathAttribMed()</h2>
@@ -261,11 +261,9 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00661">661</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00687">687</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00077">libbgp::BgpPathAttrib::type_code</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00679">clone()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00076">libbgp::BgpPathAttrib::type_code</a>.</p>
 
 </div>
 </div>
@@ -295,12 +293,18 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Clone the attribute. </p>
 <dl class="section return"><dt>Returns</dt><dd>BgpPathAttrib* Pointer to the cloned attribute. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">has_error</td><td>There's error in the attribute and the attribute can not be clone. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a0a5623cfcc8cb8830ffbb43ad1cf436b">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00679">679</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00705">705</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00661">BgpPathAttribMed()</a>, and <a class="el" href="serializable_8cc_source.html#l00046">libbgp::Serializable::hasError()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00045">libbgp::Serializable::hasError()</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
 </div>
 </div>
@@ -364,9 +368,9 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a5e7991f4aaae52ee36c90e566441b4b5">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00666">666</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00692">692</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00142">libbgp::Serializable::_print()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00256">med</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00084">libbgp::BgpPathAttrib::printFlags()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00277">med</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00089">libbgp::BgpPathAttrib::printFlags()</a>.</p>
 
 </div>
 </div>
@@ -404,28 +408,35 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 </table>
 </div><div class="memdoc">
 
-<p>Deserialize the object from buffer. </p>
+<p>Deserialize a BGP update message path attribute. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">from</td><td>The pointer to buffer. </td></tr>
-    <tr><td class="paramname">msg_sz</td><td>The max read length of deserializer. </td></tr>
+    <tr><td class="paramname">from</td><td>Pointer to message body buffer. </td></tr>
+    <tr><td class="paramname">msg_sz</td><td>Size of message. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes read. </dd></dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">-1</td><td>Deserialization failed. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">-1</td><td>Deserialization error. Error may be logged. </td></tr>
     <tr><td class="paramname">&gt;=0</td><td>Bytes read. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">bad_parse</td><td>Internal deserialization error. </td></tr>
+    <tr><td class="paramname">bad_type</td><td>The type of message/field member in buffer does not match the attribute type of container. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a67e9b49590a4b6c792fc25e1701bed5c">libbgp::BgpPathAttrib</a>.</p>
+<p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a89ba651f148d1ac46b00a658011b3267">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00684">684</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00713">713</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00184">libbgp::BgpPathAttrib::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00077">libbgp::BgpPathAttrib::type_code</a>.</p>
+<p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00189">libbgp::BgpPathAttrib::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00076">libbgp::BgpPathAttrib::type_code</a>.</p>
 
 </div>
 </div>
@@ -463,28 +474,28 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 </table>
 </div><div class="memdoc">
 
-<p>Serialize the object and write to buffer. </p>
+<p>Serialize a BGP update message path attribute. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">to</td><td>The pointer to buffer. </td></tr>
-    <tr><td class="paramname">buf_sz</td><td>The max write size of serializer. </td></tr>
+    <tr><td class="paramname">to</td><td>Pointer to destination buffer. </td></tr>
+    <tr><td class="paramname">buf_sz</td><td>Max write size. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ssize_t Btyes written. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Bytes written. </dd></dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">-1</td><td>Serialization failed. error may be written to stderr with log handler. </td></tr>
+    <tr><td class="paramname">-1</td><td>Serialization error. Error may be logged. </td></tr>
     <tr><td class="paramname">&gt;=0</td><td>Bytes written. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a37bb1d43164a67919fc31351070a7757">libbgp::BgpPathAttrib</a>.</p>
+<p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#ae5ab33a4395adc10109e97d3dcf962c2">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00715">715</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00747">747</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00256">med</a>, <a class="el" href="bgp-log-handler_8cc_source.html#l00040">libbgp::BgpLogHandler::stderr()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00235">libbgp::BgpPathAttrib::writeHeader()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
 </div>
 </div>

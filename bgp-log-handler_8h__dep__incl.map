@@ -18,11 +18,11 @@
 <area shape="rect" id="node7" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="534,557,645,584"/>
 <area shape="rect" id="node9" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="1049,408,1183,435"/>
 <area shape="rect" id="node8" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="531,632,647,659"/>
-<area shape="rect" id="node11" href="$route-event_8h_source.html" title="src/route&#45;event.h" alt="" coords="211,326,343,353"/>
+<area shape="rect" id="node11" href="$route-event_8h.html" title="The route events. " alt="" coords="211,326,343,353"/>
 <area shape="rect" id="node16" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="367,326,569,353"/>
-<area shape="rect" id="node12" href="$route-event-bus_8h_source.html" title="src/route&#45;event&#45;bus.h" alt="" coords="308,408,468,435"/>
-<area shape="rect" id="node14" href="$route-event-receiver_8h_source.html" title="src/route&#45;event&#45;receiver.h" alt="" coords="496,483,683,509"/>
-<area shape="rect" id="node15" href="$route-event-bus_8cc_source.html" title="src/route&#45;event&#45;bus.cc" alt="" coords="305,483,471,509"/>
+<area shape="rect" id="node12" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="308,408,468,435"/>
+<area shape="rect" id="node14" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="496,483,683,509"/>
+<area shape="rect" id="node15" href="$route-event-bus_8cc.html" title="The route event bus. " alt="" coords="305,483,471,509"/>
 <area shape="rect" id="node19" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="1576,408,1693,435"/>
 <area shape="rect" id="node21" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="1075,326,1263,353"/>
 <area shape="rect" id="node23" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="1288,326,1504,353"/>

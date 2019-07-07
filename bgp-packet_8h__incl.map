@@ -1,5 +1,5 @@
 <map id="src/bgp&#45;packet.h" name="src/bgp&#45;packet.h">
-<area shape="rect" id="node2" href="$serializable_8h.html" title="The serializable base. " alt="" coords="89,155,195,181"/>
-<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="175,80,298,107"/>
+<area shape="rect" id="node2" href="$serializable_8h.html" title="The serializable base. " alt="" coords="183,155,288,181"/>
+<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="77,80,199,107"/>
 <area shape="rect" id="node6" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="297,229,432,256"/>
 </map>

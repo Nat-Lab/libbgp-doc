@@ -1,6 +1,6 @@
 <map id="src/bgp&#45;rib.h" name="src/bgp&#45;rib.h">
-<area shape="rect" id="node5" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="96,80,164,107"/>
-<area shape="rect" id="node6" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="210,80,341,107"/>
-<area shape="rect" id="node7" href="$serializable_8h.html" title="The serializable base. " alt="" coords="155,155,260,181"/>
-<area shape="rect" id="node10" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="200,229,335,256"/>
+<area shape="rect" id="node6" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="21,155,89,181"/>
+<area shape="rect" id="node7" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="231,80,361,107"/>
+<area shape="rect" id="node8" href="$serializable_8h.html" title="The serializable base. " alt="" coords="254,155,359,181"/>
+<area shape="rect" id="node11" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="111,229,246,256"/>
 </map>

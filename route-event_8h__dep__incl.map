@@ -1,0 +1,8 @@
+<map id="src/route&#45;event.h" name="src/route&#45;event.h">
+<area shape="rect" id="node2" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="167,80,327,107"/>
+<area shape="rect" id="node3" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,155,129,181"/>
+<area shape="rect" id="node6" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="154,155,341,181"/>
+<area shape="rect" id="node7" href="$route-event-bus_8cc.html" title="The route event bus. " alt="" coords="365,155,532,181"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="101,229,212,256"/>
+<area shape="rect" id="node5" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="99,304,215,331"/>
+</map>

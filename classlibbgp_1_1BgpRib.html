@@ -79,10 +79,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef08a15f2cd85f5b7cee5b424ad9eaf1"><td class="memItemLeft" align="right" valign="top"><a id="aef08a15f2cd85f5b7cee5b424ad9eaf1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#aef08a15f2cd85f5b7cee5b424ad9eaf1">BgpRib</a> ()</td></tr>
-<tr class="memdesc:aef08a15f2cd85f5b7cee5b424ad9eaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. ">BgpRib</a> object without logging. <br /></td></tr>
-<tr class="separator:aef08a15f2cd85f5b7cee5b424ad9eaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7999871f2dd7eb8ea2c7fceb0e619238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a7999871f2dd7eb8ea2c7fceb0e619238">BgpRib</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
 <tr class="memdesc:a7999871f2dd7eb8ea2c7fceb0e619238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. ">BgpRib</a> object with logging.  <a href="#a7999871f2dd7eb8ea2c7fceb0e619238">More...</a><br /></td></tr>
 <tr class="separator:a7999871f2dd7eb8ea2c7fceb0e619238"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,9 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70783157aeccf693ea1bf7300b6a0280"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a70783157aeccf693ea1bf7300b6a0280">withdraw</a> (uint32_t src_router_id, const <a class="el" href="classlibbgp_1_1Route.html">Route</a> &amp;route)</td></tr>
 <tr class="memdesc:a70783157aeccf693ea1bf7300b6a0280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdraw a route from RIB.  <a href="#a70783157aeccf693ea1bf7300b6a0280">More...</a><br /></td></tr>
 <tr class="separator:a70783157aeccf693ea1bf7300b6a0280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4361b7125a904c5003ffd84735b8187"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#ac4361b7125a904c5003ffd84735b8187">discard</a> (uint32_t src_router_id)</td></tr>
-<tr class="memdesc:ac4361b7125a904c5003ffd84735b8187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop all routes from RIB that originated from a BGP speaker.  <a href="#ac4361b7125a904c5003ffd84735b8187">More...</a><br /></td></tr>
-<tr class="separator:ac4361b7125a904c5003ffd84735b8187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0becda05fc430c8c63c6c54256e1535c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classlibbgp_1_1Route.html">Route</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a0becda05fc430c8c63c6c54256e1535c">discard</a> (uint32_t src_router_id)</td></tr>
+<tr class="memdesc:a0becda05fc430c8c63c6c54256e1535c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop all routes from RIB that originated from a BGP speaker.  <a href="#a0becda05fc430c8c63c6c54256e1535c">More...</a><br /></td></tr>
+<tr class="separator:a0becda05fc430c8c63c6c54256e1535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a07e487293cb819813636b324bf3b4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlibbgp_1_1BgpRibEntry.html">BgpRibEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a54a07e487293cb819813636b324bf3b4">lookup</a> (uint32_t dest) const</td></tr>
 <tr class="memdesc:a54a07e487293cb819813636b324bf3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup a destination in RIB.  <a href="#a54a07e487293cb819813636b324bf3b4">More...</a><br /></td></tr>
 <tr class="separator:a54a07e487293cb819813636b324bf3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,8 +109,9 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpRib.html" title="The BgpRib (BGP Routing Information Base) class. ">BgpRib</a> (BGP Routing Information Base) class. </p>
-
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00055">55</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a16">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00056">56</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7999871f2dd7eb8ea2c7fceb0e619238"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7999871f2dd7eb8ea2c7fceb0e619238">&#9670;&nbsp;</a></span>BgpRib()</h2>
@@ -140,19 +137,19 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00060">60</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00052">52</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac4361b7125a904c5003ffd84735b8187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4361b7125a904c5003ffd84735b8187">&#9670;&nbsp;</a></span>discard()</h2>
+<a id="a0becda05fc430c8c63c6c54256e1535c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0becda05fc430c8c63c6c54256e1535c">&#9670;&nbsp;</a></span>discard()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t libbgp::BgpRib::discard </td>
+          <td class="memname">std::vector&lt; <a class="el" href="classlibbgp_1_1Route.html">Route</a> &gt; libbgp::BgpRib::discard </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>src_router_id</em></td><td>)</td>
@@ -164,22 +161,13 @@ Public Member Functions</h2></td></tr>
 <p>Drop all routes from RIB that originated from a BGP speaker. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">src_router_id</td><td>Originating BGP speaker's ID in network bytes order. </td></tr>
+    <tr><td class="paramname">src_router_id</td><td>src_router_id Originating BGP speaker's ID in network bytes order. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ssize_t Number of routes dropped. </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">-1</td><td>Failed to drop routes. </td></tr>
-    <tr><td class="paramname">&gt;=0</td><td>Number of routes dropped. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;Route&gt; Dropped routes. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00196">196</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00233">libbgp::Route::getLength()</a>, <a class="el" href="bgp-rib_8cc_source.html#l00034">libbgp::BgpRibEntry::getMetric()</a>, <a class="el" href="route_8cc_source.html#l00224">libbgp::Route::getPrefix()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00033">libbgp::BgpRibEntry::route</a>.</p>
 
 </div>
 </div>
@@ -256,10 +244,11 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a31">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00074">74</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00082">82</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00045">libbgp::BgpRibEntry::attribs</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00236">libbgp::BgpPathAttribNexthop::next_hop</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00046">libbgp::BgpRibEntry::attribs</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00257">libbgp::BgpPathAttribNexthop::next_hop</a>.</p>
 
 </div>
 </div>
@@ -308,9 +297,9 @@ Public Member Functions</h2></td></tr>
 <dd>
 false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a> already exist and the existing one has lower metric. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00116">116</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00109">109</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00233">libbgp::Route::getLength()</a>, <a class="el" href="bgp-rib_8cc_source.html#l00034">libbgp::BgpRibEntry::getMetric()</a>, and <a class="el" href="route_8cc_source.html#l00224">libbgp::Route::getPrefix()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib_8cc_source.html#l00034">libbgp::BgpRibEntry::getMetric()</a>.</p>
 
 </div>
 </div>
@@ -364,7 +353,7 @@ false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00156">156</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00155">155</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
 </div>
 </div>
@@ -402,7 +391,7 @@ false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00244">244</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00098">libbgp::Route::includes()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00033">libbgp::BgpRibEntry::route</a>.</p>
+<p class="reference">References <a class="el" href="route_8cc_source.html#l00100">libbgp::Route::includes()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00034">libbgp::BgpRibEntry::route</a>.</p>
 
 </div>
 </div>
@@ -452,7 +441,7 @@ false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00268">268</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00098">libbgp::Route::includes()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00033">libbgp::BgpRibEntry::route</a>.</p>
+<p class="reference">References <a class="el" href="route_8cc_source.html#l00100">libbgp::Route::includes()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00034">libbgp::BgpRibEntry::route</a>.</p>
 
 </div>
 </div>
@@ -493,10 +482,9 @@ false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related
 <dl class="section return"><dt>Returns</dt><dd>true <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a> dropped. </dd>
 <dd>
 false <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a> not dropped. Likely becuase such route does not exist. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00172">172</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="route_8cc_source.html#l00233">libbgp::Route::getLength()</a>, and <a class="el" href="route_8cc_source.html#l00224">libbgp::Route::getPrefix()</a>.</p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a38">route-event-bus.cc</a>.</dd>
+</dl>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00171">171</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
 </div>
 </div>
