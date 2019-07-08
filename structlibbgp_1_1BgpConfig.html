@@ -153,7 +153,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP FSM configuration object. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#_a3">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#_a13">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#_a3">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#_a13">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#_a12">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00027">27</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
@@ -171,7 +171,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>The clock to use for time-based events. </p>
 <p>Time-based events like hold timer expired needs to refer to the clock. Sometime we may not want to use the system clock. For example, if <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> is used inside a simulator like ns3, we will need to use the simulated clock instead of the real-time clock. Set this to NULL if you want to use a real-time clock. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a15">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a25">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a15">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a25">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a21">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00174">174</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -191,7 +191,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Forced default nexthop. </p>
 <p>If this is set to true, the <code>nexthop</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a29">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a29">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a27">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00157">157</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -211,7 +211,8 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Ingress route filters. </p>
 <p>Ingress route filters are applied on the routes received from the peer. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-filter_8cc-example.html#a23">route-filter.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00033">33</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
@@ -230,7 +231,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>The log handler. </p>
 <p>The log handler is invoked whenever BGP FSM needs to log information. If you set this to null, FSM will output to the stderr with log level INFO. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a16">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a26">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a16">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a26">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a22">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00055">55</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -250,7 +251,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>The default nexthop to use. </p>
 <p>Default nexthop is used when sending routes to the peer. The nexthop value will remain unchanged if it is inside peering LAN. Default nexthop is used only when the nexthop attribute of an egress route is not in peering LAN. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a18">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a28">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a18">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a28">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a26">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00149">149</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -270,7 +271,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Disable collision detection. </p>
 <p>Set this parameter to true will disable collision detection. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a12">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a22">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a12">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a22">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a18">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00088">88</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -290,7 +291,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Disable ingress nexthop validation. </p>
 <p>If true, BGP FSM will accept route with any nexthop, regardless of the peering LAN. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a10">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a30">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a10">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a30">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a28">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00139">139</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -310,7 +311,8 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Egress route filters. </p>
 <p>Egress route filters are applied when sending routes to the peer. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-filter_8cc-example.html#a24">route-filter.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00040">40</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
@@ -329,7 +331,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>The output handler. </p>
 <p>The output handler is invoked whenever BGP FSM needs to write data. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a11">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a21">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a11">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a21">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a17">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00047">47</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -387,7 +389,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Pointer to the route event bus. </p>
 <p>The route event bus is used to share information and communicate with other BGP FSMs. For example, route add/withdrawn events are sent to other FSMs with route event bus. Collision resolution also depends on the route event bus. You will need to create a route event bus object and pass it in as the configuration parameter for every FSMs. You may set route event bus to NULL if you are only using one FSM. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a14">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a24">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a14">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a24">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a20">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00081">81</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -406,8 +408,8 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </div><div class="memdoc">
 
 <p>Pointer to the Routing Information Base object. </p>
-<p>BGP FSM will use this RIB object to store routing information. If you would like to share RIB across different BGP FSMs, or pre-fill the RIB with some routes, you can create the RIB object yourself and pass it as configuration parameter here. If you set this to NULL, a new RIB will be created by BGP FSM. You can get it by calling <code><a class="el" href="classlibbgp_1_1BgpFsm.html#abf93fb72c8f4143b379d8e3a25d33d18" title="Get the Routing Information Base. ">BgpFsm::getRib</a></code>. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a13">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a23">route-event-bus.cc</a>.</dd>
+<p>BGP FSM will use this RIB object to store routing information. If you would like to share RIB across different BGP FSMs, or pre-fill the RIB with some routes, you can create the RIB object yourself and pass it as configuration parameter here. If you set this to NULL, a new RIB will be created by BGP FSM. You can get it by calling <code><a class="el" href="classlibbgp_1_1BgpFsm.html#a7a168aef9826f039eac5349d8aae35f1" title="Get the Routing Information Base. ">BgpFsm::getRib</a></code>. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a13">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a23">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a19">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00066">66</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
@@ -427,7 +429,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 
 <p>Enable four octets ASN support (RFC 6793) </p>
 <p>Set this parameter to true will eable four octets ASN support. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a8">peer-and-print.cc</a>, and <a class="el" href="route-event-bus_8cc-example.html#a19">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a8">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a19">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a15">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00095">95</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
