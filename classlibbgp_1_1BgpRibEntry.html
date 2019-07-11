@@ -105,6 +105,10 @@ Public Attributes</h2></td></tr>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a371b0f13709f9ef05b0184b8d0dfb9d4">src_router_id</a></td></tr>
 <tr class="memdesc:a371b0f13709f9ef05b0184b8d0dfb9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The originating BGP speaker's ID of this entry. (network bytes order) <br /></td></tr>
 <tr class="separator:a371b0f13709f9ef05b0184b8d0dfb9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53181be39e7e627df825be8ac5958bbf"><td class="memItemLeft" align="right" valign="top"><a id="a53181be39e7e627df825be8ac5958bbf"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a53181be39e7e627df825be8ac5958bbf">update_id</a></td></tr>
+<tr class="memdesc:a53181be39e7e627df825be8ac5958bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update ID. <a class="el" href="classlibbgp_1_1BgpRibEntry.html" title="The BgpRibEntry class. ">BgpRibEntry</a> with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. <br /></td></tr>
+<tr class="separator:a53181be39e7e627df825be8ac5958bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a16bb9f1f335019907ad924b3296087"><td class="memItemLeft" align="right" valign="top"><a id="a4a16bb9f1f335019907ad924b3296087"></a>
 std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a4a16bb9f1f335019907ad924b3296087">attribs</a></td></tr>
 <tr class="memdesc:a4a16bb9f1f335019907ad924b3296087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attributes for this entry. <br /></td></tr>
@@ -186,9 +190,9 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAt
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00034">34</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00046">attribs</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00054">attribs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00109">libbgp::BgpRib::insert()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00124">libbgp::BgpRib::insert()</a>.</p>
 
 </div>
 </div>

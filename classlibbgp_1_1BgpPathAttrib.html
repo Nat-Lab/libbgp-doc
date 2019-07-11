@@ -125,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5ab33a4395adc10109e97d3dcf962c2"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#ae5ab33a4395adc10109e97d3dcf962c2">write</a> (uint8_t *to, size_t buf_sz) const</td></tr>
 <tr class="memdesc:ae5ab33a4395adc10109e97d3dcf962c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BGP update message path attribute.  <a href="#ae5ab33a4395adc10109e97d3dcf962c2">More...</a><br /></td></tr>
 <tr class="separator:ae5ab33a4395adc10109e97d3dcf962c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f726edd332787d4fb8dca86f3888cda"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a9f726edd332787d4fb8dca86f3888cda">length</a> () const</td></tr>
+<tr class="memdesc:a9f726edd332787d4fb8dca86f3888cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size in bytes required to serialize the object.  <a href="#a9f726edd332787d4fb8dca86f3888cda">More...</a><br /></td></tr>
+<tr class="separator:a9f726edd332787d4fb8dca86f3888cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a5623cfcc8cb8830ffbb43ad1cf436b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a0a5623cfcc8cb8830ffbb43ad1cf436b">clone</a> () const</td></tr>
 <tr class="memdesc:a0a5623cfcc8cb8830ffbb43ad1cf436b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone the attribute.  <a href="#a0a5623cfcc8cb8830ffbb43ad1cf436b">More...</a><br /></td></tr>
 <tr class="separator:a0a5623cfcc8cb8830ffbb43ad1cf436b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,7 +196,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4d59e1a1caa49bffcfc967ac5e8f970d"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a4d59e1a1caa49bffcfc967ac5e8f970d">parseHeader</a> (const uint8_t *buffer, size_t length)</td></tr>
+<tr class="memitem:a4d59e1a1caa49bffcfc967ac5e8f970d"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a4d59e1a1caa49bffcfc967ac5e8f970d">parseHeader</a> (const uint8_t *buffer, size_t <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a9f726edd332787d4fb8dca86f3888cda">length</a>)</td></tr>
 <tr class="memdesc:a4d59e1a1caa49bffcfc967ac5e8f970d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to parse attribute header. (Flag, type, length)  <a href="#a4d59e1a1caa49bffcfc967ac5e8f970d">More...</a><br /></td></tr>
 <tr class="separator:a4d59e1a1caa49bffcfc967ac5e8f970d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b6ecfdbc146ff551ff08fb1b548e80c"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a7b6ecfdbc146ff551ff08fb1b548e80c">printFlags</a> (size_t indent, uint8_t **to, size_t *buf_sz) const</td></tr>
@@ -319,7 +322,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00050">50</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00142">value_len</a>.</p>
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00144">value_len</a>.</p>
 
 </div>
 </div>
@@ -489,6 +492,49 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f726edd332787d4fb8dca86f3888cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f726edd332787d4fb8dca86f3888cda">&#9670;&nbsp;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t libbgp::BgpPathAttrib::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get size in bytes required to serialize the object. </p>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Size in btyes. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Failed to get size. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Size in btyes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">libbgp::Serializable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#a25797738bb4108c4ca2276c407a49eb9">libbgp::BgpPathAttribCommunity</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html#a36c0e557d76ea8a4f408f97dd465c421">libbgp::BgpPathAttribAs4Aggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Path.html#abef3357d5f1a48be645ef4a7b9f67a95">libbgp::BgpPathAttribAs4Path</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAggregator.html#a92dd16f2787dd1a1091415397fade610">libbgp::BgpPathAttribAggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAtomicAggregate.html#a0cd1c66b7497d9aa6824ebac61f1a96d">libbgp::BgpPathAttribAtomicAggregate</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribLocalPref.html#a4880da83106a16d878b01f2f8496f16d">libbgp::BgpPathAttribLocalPref</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#aa8875665753ee40d5dc960b4fe366571">libbgp::BgpPathAttribMed</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribNexthop.html#a704a9b8d5d3542c4cd7c4133bc218fd1">libbgp::BgpPathAttribNexthop</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAsPath.html#ad6c71f4cc9e072f4f40caf242d351542">libbgp::BgpPathAttribAsPath</a>, and <a class="el" href="classlibbgp_1_1BgpPathAttribOrigin.html#a0707b1b0ca04ef35b585192b792e798f">libbgp::BgpPathAttribOrigin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00157">157</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00070">extended</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00144">value_len</a>.</p>
+
+</div>
+</div>
 <a id="a89ba651f148d1ac46b00a658011b3267"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89ba651f148d1ac46b00a658011b3267">&#9670;&nbsp;</a></span>parse()</h2>
 
@@ -553,7 +599,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00122">122</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00052">optional</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00189">parseHeader()</a>, <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00058">transitive</a>.</p>
+<p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00052">optional</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00193">parseHeader()</a>, <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00058">transitive</a>.</p>
 
 </div>
 </div>
@@ -608,11 +654,11 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00189">189</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00193">193</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00122">parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00292">libbgp::BgpPathAttribOrigin::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00433">libbgp::BgpPathAttribAsPath::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00632">libbgp::BgpPathAttribNexthop::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00713">libbgp::BgpPathAttribMed::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00791">libbgp::BgpPathAttribLocalPref::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00869">libbgp::BgpPathAttribAtomicAggregate::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00942">libbgp::BgpPathAttribAggregator::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01054">libbgp::BgpPathAttribAs4Path::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01255">libbgp::BgpPathAttribAs4Aggregator::parse()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l01339">libbgp::BgpPathAttribCommunity::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00122">parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00296">libbgp::BgpPathAttribOrigin::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00441">libbgp::BgpPathAttribAsPath::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00650">libbgp::BgpPathAttribNexthop::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00735">libbgp::BgpPathAttribMed::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00817">libbgp::BgpPathAttribLocalPref::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00898">libbgp::BgpPathAttribAtomicAggregate::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00975">libbgp::BgpPathAttribAggregator::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01091">libbgp::BgpPathAttribAs4Path::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01302">libbgp::BgpPathAttribAs4Aggregator::parse()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l01392">libbgp::BgpPathAttribCommunity::parse()</a>.</p>
 
 </div>
 </div>
@@ -671,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00070">extended</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00052">optional</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00064">partial</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00058">transitive</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00109">doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00270">libbgp::BgpPathAttribOrigin::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00401">libbgp::BgpPathAttribAsPath::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00611">libbgp::BgpPathAttribNexthop::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00692">libbgp::BgpPathAttribMed::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00770">libbgp::BgpPathAttribLocalPref::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00849">libbgp::BgpPathAttribAtomicAggregate::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00920">libbgp::BgpPathAttribAggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01015">libbgp::BgpPathAttribAs4Path::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01241">libbgp::BgpPathAttribAs4Aggregator::doPrint()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l01318">libbgp::BgpPathAttribCommunity::doPrint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00109">doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00274">libbgp::BgpPathAttribOrigin::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00409">libbgp::BgpPathAttribAsPath::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00629">libbgp::BgpPathAttribNexthop::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00714">libbgp::BgpPathAttribMed::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00796">libbgp::BgpPathAttribLocalPref::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00878">libbgp::BgpPathAttribAtomicAggregate::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00953">libbgp::BgpPathAttribAggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01052">libbgp::BgpPathAttribAs4Path::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01288">libbgp::BgpPathAttribAs4Aggregator::doPrint()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l01369">libbgp::BgpPathAttribCommunity::doPrint()</a>.</p>
 
 </div>
 </div>
@@ -730,9 +776,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#a31ec1ee1025d5236b68ad643d3f7937f">libbgp::BgpPathAttribCommunity</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html#afba48c37ab9d84a8d982ced16e29ca57">libbgp::BgpPathAttribAs4Aggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Path.html#a6c86f00983a7947f1788bd0fc2e3f067">libbgp::BgpPathAttribAs4Path</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAggregator.html#aa17f4f971b8694535f87495fccfbfa34">libbgp::BgpPathAttribAggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAtomicAggregate.html#af4581722e9fb9dbbaab0d24a591cea09">libbgp::BgpPathAttribAtomicAggregate</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribLocalPref.html#ad8f0e025fd75f6e65573ee1e20f8cc17">libbgp::BgpPathAttribLocalPref</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#aee0f36399e42d752f0d88402ac7943f7">libbgp::BgpPathAttribMed</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribNexthop.html#a62eab96d7163ff6c9ea8ed84a7f4dc89">libbgp::BgpPathAttribNexthop</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAsPath.html#a293171dbe7d5fdf298d9573553e850fb">libbgp::BgpPathAttribAsPath</a>, and <a class="el" href="classlibbgp_1_1BgpPathAttribOrigin.html#aca953e0f30eadeb69c5529401c8fc750">libbgp::BgpPathAttribOrigin</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00157">157</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00161">161</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00142">value_len</a>.</p>
+<p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00144">value_len</a>.</p>
 
 </div>
 </div>
@@ -788,7 +834,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00240">240</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l00244">244</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-path-attrib_8h_source.html#l00070">extended</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
