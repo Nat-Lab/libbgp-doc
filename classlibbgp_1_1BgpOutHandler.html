@@ -90,6 +90,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89f6bc44f508693a0c1923e558a07ad8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOutHandler.html#a89f6bc44f508693a0c1923e558a07ad8">handleOut</a> (const uint8_t *buffer, size_t length)=0</td></tr>
 <tr class="memdesc:a89f6bc44f508693a0c1923e558a07ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The output implementation.  <a href="#a89f6bc44f508693a0c1923e558a07ad8">More...</a><br /></td></tr>
 <tr class="separator:a89f6bc44f508693a0c1923e558a07ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908520e95c69605d5385fa670e5d772d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOutHandler.html#a908520e95c69605d5385fa670e5d772d">notifyStateChange</a> (__attribute__((unused)) int old_state, __attribute__((unused)) int new_state)</td></tr>
+<tr class="memdesc:a908520e95c69605d5385fa670e5d772d"><td class="mdescLeft">&#160;</td><td class="mdescRight">State change notification. Will be call if FSM state changed.  <a href="#a908520e95c69605d5385fa670e5d772d">More...</a><br /></td></tr>
+<tr class="separator:a908520e95c69605d5385fa670e5d772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP FSM output handler. </p>
@@ -147,6 +150,53 @@ false The out was not handled. </dd></dl>
 <p>Implemented in <a class="el" href="classlibbgp_1_1FdOutHandler.html#a688e3be3b47004efb4116e5ca9380776">libbgp::FdOutHandler</a>.</p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-filter_8cc-example.html#a2">route-filter.cc</a>.</dd>
 </dl>
+</div>
+</div>
+<a id="a908520e95c69605d5385fa670e5d772d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a908520e95c69605d5385fa670e5d772d">&#9670;&nbsp;</a></span>notifyStateChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void libbgp::BgpOutHandler::notifyStateChange </td>
+          <td>(</td>
+          <td class="paramtype">__attribute__((unused)) int&#160;</td>
+          <td class="paramname"><em>old_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">__attribute__((unused)) int&#160;</td>
+          <td class="paramname"><em>new_state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>State change notification. Will be call if FSM state changed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">old_state</td><td>Old state. </td></tr>
+    <tr><td class="paramname">new_state</td><td>New state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-out-handler_8h_source.html#l00042">42</a> of file <a class="el" href="bgp-out-handler_8h_source.html">bgp-out-handler.h</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

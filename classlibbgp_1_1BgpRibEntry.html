@@ -94,6 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf29a93022773fb5b920ecb4a335c58c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#adf29a93022773fb5b920ecb4a335c58c">getMetric</a> () const</td></tr>
 <tr class="memdesc:adf29a93022773fb5b920ecb4a335c58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get metric of this entry.  <a href="#adf29a93022773fb5b920ecb4a335c58c">More...</a><br /></td></tr>
 <tr class="separator:adf29a93022773fb5b920ecb4a335c58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f8b87b84edbddea08afa4452e4d7f6f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a2f8b87b84edbddea08afa4452e4d7f6f">getNexthop</a> () const</td></tr>
+<tr class="memdesc:a2f8b87b84edbddea08afa4452e4d7f6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get nexthop for this entry.  <a href="#a2f8b87b84edbddea08afa4452e4d7f6f">More...</a><br /></td></tr>
+<tr class="separator:a2f8b87b84edbddea08afa4452e4d7f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -192,7 +195,37 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAt
 
 <p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00054">attribs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00124">libbgp::BgpRib::insert()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-rib_8cc_source.html#l00141">libbgp::BgpRib::insert()</a>.</p>
+
+</div>
+</div>
+<a id="a2f8b87b84edbddea08afa4452e4d7f6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f8b87b84edbddea08afa4452e4d7f6f">&#9670;&nbsp;</a></span>getNexthop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t libbgp::BgpRibEntry::getNexthop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get nexthop for this entry. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t nexthop in network byte order. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">no_nexthop</td><td>nexthop attribute does not exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8cc_source.html#l00053">53</a> of file <a class="el" href="bgp-rib_8cc_source.html">bgp-rib.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00054">attribs</a>.</p>
 
 </div>
 </div>

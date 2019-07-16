@@ -81,7 +81,7 @@ var searchData=
   ['bgppathattribtype',['BgpPathAttribType',['../bgp-path-attrib_8h.html#a6012071f58111fa211a6e7190cee644f',1,'libbgp']]],
   ['bgprib',['BgpRib',['../classlibbgp_1_1BgpRib.html',1,'libbgp::BgpRib'],['../classlibbgp_1_1BgpRib.html#a7999871f2dd7eb8ea2c7fceb0e619238',1,'libbgp::BgpRib::BgpRib()']]],
   ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp::BgpRibEntry'],['../classlibbgp_1_1BgpRibEntry.html#a64f7a285ed2055af8d69cbf21ab99a73',1,'libbgp::BgpRibEntry::BgpRibEntry()']]],
-  ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp::BgpSink'],['../classlibbgp_1_1BgpSink.html#a377746517e6a7457d0a8ff392a056b3e',1,'libbgp::BgpSink::BgpSink()']]],
+  ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp::BgpSink'],['../classlibbgp_1_1BgpSink.html#af6f59eb30ff7ca7c3432e98867b7d8cb',1,'libbgp::BgpSink::BgpSink()']]],
   ['bgpstate',['BgpState',['../bgp-fsm_8h.html#af811264836a8ec871fca16c35ef11598',1,'libbgp']]],
   ['bgpupdateerrorsubcode',['BgpUpdateErrorSubcode',['../bgp-errcode_8h.html#a50f7a37cb24789c95a09e31cc37c5bdd',1,'libbgp']]],
   ['bgpupdatemessage',['BgpUpdateMessage',['../classlibbgp_1_1BgpUpdateMessage.html',1,'libbgp::BgpUpdateMessage'],['../classlibbgp_1_1BgpUpdateMessage.html#aae2bfd80258e8872dc6b2a6b30e9e051',1,'libbgp::BgpUpdateMessage::BgpUpdateMessage()']]]

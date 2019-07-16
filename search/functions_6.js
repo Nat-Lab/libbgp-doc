@@ -13,6 +13,7 @@ var searchData=
   ['getmask',['getMask',['../classlibbgp_1_1Route.html#a69dcb2c2cf93cbfdd0eede6ac33311b0',1,'libbgp::Route']]],
   ['getmessage',['getMessage',['../classlibbgp_1_1BgpPacket.html#aa4c910baf78776a6f4092f1b2fa38029',1,'libbgp::BgpPacket']]],
   ['getmetric',['getMetric',['../classlibbgp_1_1BgpRibEntry.html#adf29a93022773fb5b920ecb4a335c58c',1,'libbgp::BgpRibEntry']]],
+  ['getnexthop',['getNexthop',['../classlibbgp_1_1BgpRibEntry.html#a2f8b87b84edbddea08afa4452e4d7f6f',1,'libbgp::BgpRibEntry']]],
   ['getpeerasn',['getPeerAsn',['../classlibbgp_1_1BgpFsm.html#a9c87ef87fdd8eed2e69d7afccafe4bf1',1,'libbgp::BgpFsm']]],
   ['getpeerbgpid',['getPeerBgpId',['../classlibbgp_1_1BgpFsm.html#ac668e6a49328c84ea43ea569ff733bd0',1,'libbgp::BgpFsm']]],
   ['getprefix',['getPrefix',['../classlibbgp_1_1Route.html#a55d050e216521dc5459273efe672b9ff',1,'libbgp::Route']]],
