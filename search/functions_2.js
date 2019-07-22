@@ -23,6 +23,8 @@ var searchData=
   ['bgppathattribnexthop',['BgpPathAttribNexthop',['../classlibbgp_1_1BgpPathAttribNexthop.html#a38885a5b3e3fe3eedf38d865bb32ce22',1,'libbgp::BgpPathAttribNexthop']]],
   ['bgppathattriborigin',['BgpPathAttribOrigin',['../classlibbgp_1_1BgpPathAttribOrigin.html#a5478f764067558a975c04bb1290d44ce',1,'libbgp::BgpPathAttribOrigin']]],
   ['bgprib',['BgpRib',['../classlibbgp_1_1BgpRib.html#a7999871f2dd7eb8ea2c7fceb0e619238',1,'libbgp::BgpRib']]],
+  ['bgprib6',['BgpRib6',['../classlibbgp_1_1BgpRib6.html#a6fcab2dadb7a4723d5934b5df282b69f',1,'libbgp::BgpRib6']]],
+  ['bgprib6entry',['BgpRib6Entry',['../classlibbgp_1_1BgpRib6Entry.html#a526e8747bfca3b897a633da50407d938',1,'libbgp::BgpRib6Entry']]],
   ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html#a64f7a285ed2055af8d69cbf21ab99a73',1,'libbgp::BgpRibEntry']]],
   ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html#af6f59eb30ff7ca7c3432e98867b7d8cb',1,'libbgp::BgpSink']]],
   ['bgpupdatemessage',['BgpUpdateMessage',['../classlibbgp_1_1BgpUpdateMessage.html#aae2bfd80258e8872dc6b2a6b30e9e051',1,'libbgp::BgpUpdateMessage']]]

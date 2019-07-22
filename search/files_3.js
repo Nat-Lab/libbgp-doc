@@ -7,5 +7,7 @@ var searchData=
   ['route_2devent_2dreceiver_2eh',['route-event-receiver.h',['../route-event-receiver_8h.html',1,'']]],
   ['route_2devent_2eh',['route-event.h',['../route-event_8h.html',1,'']]],
   ['route_2ecc',['route.cc',['../route_8cc.html',1,'']]],
-  ['route_2eh',['route.h',['../route_8h.html',1,'']]]
+  ['route_2eh',['route.h',['../route_8h.html',1,'']]],
+  ['route6_2ecc',['route6.cc',['../route6_8cc.html',1,'']]],
+  ['route6_2eh',['route6.h',['../route6_8h.html',1,'']]]
 ];

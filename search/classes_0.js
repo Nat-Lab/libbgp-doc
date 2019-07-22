@@ -28,6 +28,8 @@ var searchData=
   ['bgppathattribnexthop',['BgpPathAttribNexthop',['../classlibbgp_1_1BgpPathAttribNexthop.html',1,'libbgp']]],
   ['bgppathattriborigin',['BgpPathAttribOrigin',['../classlibbgp_1_1BgpPathAttribOrigin.html',1,'libbgp']]],
   ['bgprib',['BgpRib',['../classlibbgp_1_1BgpRib.html',1,'libbgp']]],
+  ['bgprib6',['BgpRib6',['../classlibbgp_1_1BgpRib6.html',1,'libbgp']]],
+  ['bgprib6entry',['BgpRib6Entry',['../classlibbgp_1_1BgpRib6Entry.html',1,'libbgp']]],
   ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp']]],
   ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp']]],
   ['bgpupdatemessage',['BgpUpdateMessage',['../classlibbgp_1_1BgpUpdateMessage.html',1,'libbgp']]]

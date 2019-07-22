@@ -29,6 +29,8 @@ var searchData=
   ['bgp_2dpath_2dattrib_2eh',['bgp-path-attrib.h',['../bgp-path-attrib_8h.html',1,'']]],
   ['bgp_2drib_2ecc',['bgp-rib.cc',['../bgp-rib_8cc.html',1,'']]],
   ['bgp_2drib_2eh',['bgp-rib.h',['../bgp-rib_8h.html',1,'']]],
+  ['bgp_2drib6_2ecc',['bgp-rib6.cc',['../bgp-rib6_8cc.html',1,'']]],
+  ['bgp_2drib6_2eh',['bgp-rib6.h',['../bgp-rib6_8h.html',1,'']]],
   ['bgp_2dsink_2ecc',['bgp-sink.cc',['../bgp-sink_8cc.html',1,'']]],
   ['bgp_2dsink_2eh',['bgp-sink.h',['../bgp-sink_8h.html',1,'']]],
   ['bgp_2dupdate_2dmessage_2ecc',['bgp-update-message.cc',['../bgp-update-message_8cc.html',1,'']]],

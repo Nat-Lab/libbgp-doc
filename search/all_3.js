@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cidr_5fto_5fmask',['cidr_to_mask',['../route_8cc.html#a3adae39480242b265fc4241dbe879114',1,'libbgp']]],
+  ['cidr_5fto_5fmask6',['cidr_to_mask6',['../route6_8cc.html#aa6f7fccd3ed65e72c6a1dcd6ee099d15',1,'libbgp']]],
   ['clear_5fbgp_5ferrors',['clear_bgp_errors',['../bgp-error_8cc.html#a8a69b63fe54c19bd95bcfd867ea6eb0a',1,'libbgp']]],
   ['clock',['Clock',['../classlibbgp_1_1Clock.html',1,'libbgp::Clock'],['../structlibbgp_1_1BgpConfig.html#a85433acb7a5ca8620fa4cf79f5d50798',1,'libbgp::BgpConfig::clock()']]],
   ['clock_2eh',['clock.h',['../clock_8h.html',1,'']]],

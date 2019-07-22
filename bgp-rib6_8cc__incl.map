@@ -1,0 +1,7 @@
+<map id="src/bgp&#45;rib6.cc" name="src/bgp&#45;rib6.cc">
+<area shape="rect" id="node4" href="$bgp-rib6_8h.html" title="The BGP Routing Information Base for IPv6. " alt="" coords="216,80,303,107"/>
+<area shape="rect" id="node9" href="$route6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="120,229,196,256"/>
+<area shape="rect" id="node10" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="334,155,465,181"/>
+<area shape="rect" id="node11" href="$serializable_8h.html" title="The serializable base. " alt="" coords="360,229,465,256"/>
+<area shape="rect" id="node14" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="216,304,351,331"/>
+</map>

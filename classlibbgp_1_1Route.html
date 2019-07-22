@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.2.2</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -119,8 +119,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;=</b> (co
 <tr class="memitem:ab1cd6ba4dd42d4629f70a017d1d666f2"><td class="memItemLeft" align="right" valign="top"><a id="ab1cd6ba4dd42d4629f70a017d1d666f2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classlibbgp_1_1Route.html">Route</a> &amp;other) const</td></tr>
 <tr class="separator:ab1cd6ba4dd42d4629f70a017d1d666f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ef0644350cbc8a8a66ac31155bbddb5"><td class="memItemLeft" align="right" valign="top"><a id="a1ef0644350cbc8a8a66ac31155bbddb5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (uint32_t prefix, uint8_t length)</td></tr>
+<tr class="memitem:a1ef0644350cbc8a8a66ac31155bbddb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route.html#a1ef0644350cbc8a8a66ac31155bbddb5">set</a> (uint32_t prefix, uint8_t length)</td></tr>
+<tr class="memdesc:a1ef0644350cbc8a8a66ac31155bbddb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a>.  <a href="#a1ef0644350cbc8a8a66ac31155bbddb5">More...</a><br /></td></tr>
 <tr class="separator:a1ef0644350cbc8a8a66ac31155bbddb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a58f03241cbf074b66deee4add06813"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route.html#a0a58f03241cbf074b66deee4add06813">setPrefix</a> (uint32_t prefix)</td></tr>
 <tr class="memdesc:a0a58f03241cbf074b66deee4add06813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set prefix.  <a href="#a0a58f03241cbf074b66deee4add06813">More...</a><br /></td></tr>
@@ -262,7 +262,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get netmask. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t The netmask in CIDR notation. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00235">235</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00243">243</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -290,7 +290,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00245">245</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00253">253</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get prefix. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t The prefix in network byte order. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00226">226</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00234">234</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -359,7 +359,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Test if an address is inside a prefix. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prefix</td><td>The prefix in network bytes order.. </td></tr>
+    <tr><td class="paramname">prefix</td><td>The prefix in network bytes order. </td></tr>
     <tr><td class="paramname">length</td><td>The netmask of prefix in CIDR notation. </td></tr>
     <tr><td class="paramname">address</td><td>The address in network bytes order. </td></tr>
   </table>
@@ -422,7 +422,7 @@ false The address in not in the prefix. </dd></dl>
 <p>Test if a prefix is inside another prefix. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prefix_a</td><td>The prefix in network bytes order.. </td></tr>
+    <tr><td class="paramname">prefix_a</td><td>The prefix in network bytes order. </td></tr>
     <tr><td class="paramname">length_a</td><td>The netmask of prefix in CIDR notation. </td></tr>
     <tr><td class="paramname">prefix_b</td><td>The prefix to test against. </td></tr>
     <tr><td class="paramname">length_b</td><td>The netmask of prefix to test against in CIDR notation. </td></tr>
@@ -653,6 +653,48 @@ false The routes are different. </dd></dl>
 
 </div>
 </div>
+<a id="a1ef0644350cbc8a8a66ac31155bbddb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef0644350cbc8a8a66ac31155bbddb5">&#9670;&nbsp;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::Route::set </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>The prefix in netowkr byte order. </td></tr>
+    <tr><td class="paramname">length</td><td>The netmask in CIDR notation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true <a class="el" href="classlibbgp_1_1Route.html" title="Route/Prefix related utilities. ">Route</a> set. </dd>
+<dd>
+false Failed to set route. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00197">197</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+
+</div>
+</div>
 <a id="a4bf42048e6b6bc2ecc5d9ed965acddac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bf42048e6b6bc2ecc5d9ed965acddac">&#9670;&nbsp;</a></span>setLength()</h2>
 
@@ -680,7 +722,7 @@ false The routes are different. </dd></dl>
 <dd>
 false Failed to set netmask. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00215">215</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00223">223</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>
@@ -711,7 +753,7 @@ false Failed to set netmask. </dd></dl>
 <dd>
 false Failed to set prefix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00203">203</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route_8cc_source.html#l00211">211</a> of file <a class="el" href="route_8cc_source.html">route.cc</a>.</p>
 
 </div>
 </div>

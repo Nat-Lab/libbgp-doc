@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notifystatechange',['notifyStateChange',['../classlibbgp_1_1BgpOutHandler.html#a908520e95c69605d5385fa670e5d772d',1,'libbgp::BgpOutHandler']]]
+  ['mask_5fipv6',['mask_ipv6',['../route6_8cc.html#a8e1ac0b88e2109c74eaa940efb8c67ad',1,'libbgp']]]
 ];

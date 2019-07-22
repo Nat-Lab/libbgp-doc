@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbgp_1_1RouteEvent.html" title="The RouteEvent base. " alt="" coords="5,56,145,83"/>
-<area shape="rect" id="node2" href="$classlibbgp_1_1RouteAddEvent.html" title="An RouteAddEvent. " alt="" coords="209,5,375,32"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1RouteCollisionEvent.html" title="Probe for collision detection. " alt="" coords="196,56,388,83"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1RouteWithdrawEvent.html" title="An RouteWithdrawEvent. " alt="" coords="193,107,391,133"/>
+<area shape="rect" id="node1" href="$classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1RealtimeClock.html" title="The RealtimeClock class. " alt="" coords="156,5,313,32"/>
 </map>
