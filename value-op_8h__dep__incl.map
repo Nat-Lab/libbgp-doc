@@ -6,4 +6,6 @@
 <area shape="rect" id="node6" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="701,87,836,114"/>
 <area shape="rect" id="node7" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="861,87,1021,114"/>
 <area shape="rect" id="node8" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="1045,87,1247,114"/>
+<area shape="rect" id="node9" href="$prefix4_8cc.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="1271,87,1378,114"/>
+<area shape="rect" id="node10" href="$prefix6_8cc.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="1402,87,1509,114"/>
 </map>

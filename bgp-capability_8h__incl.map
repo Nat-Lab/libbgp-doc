@@ -1,4 +1,5 @@
 <map id="src/bgp&#45;capability.h" name="src/bgp&#45;capability.h">
-<area shape="rect" id="node2" href="$serializable_8h.html" title="The serializable base. " alt="" coords="133,80,239,107"/>
-<area shape="rect" id="node6" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="297,155,432,181"/>
+<area shape="rect" id="node2" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="$serializable_8h.html" title="The serializable base. " alt="" coords="163,80,268,107"/>
+<area shape="rect" id="node7" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="327,155,461,181"/>
 </map>

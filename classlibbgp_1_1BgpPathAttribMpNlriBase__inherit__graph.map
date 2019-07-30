@@ -1,0 +1,8 @@
+<map id="libbgp::BgpPathAttribMpNlriBase" name="libbgp::BgpPathAttribMpNlriBase">
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpPathAttribMpReachNlriIpv6.html" title="MP&#45;BGP ReachNlri IPv6 NLRI class. " alt="" coords="683,5,896,47"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpPathAttribMpReachNlriUnknow.html" title="MP&#45;BGP ReachNlri container for unknow AFI/SAFI. " alt="" coords="683,71,896,112"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1BgpPathAttribMpUnreachNlriIpv6.html" title="MP&#45;BGP UnreachNlri IPv6 class. " alt="" coords="675,136,904,177"/>
+<area shape="rect" id="node7" href="$classlibbgp_1_1BgpPathAttribMpUnreachNlriUnknow.html" title="MP&#45;BGP UnreachNlri container for unknow AFI/SAFI. " alt="" coords="675,201,904,243"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="195,111,351,138"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="5,111,147,138"/>
+</map>

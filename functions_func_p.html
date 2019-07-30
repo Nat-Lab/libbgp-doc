@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -67,6 +67,7 @@ $(function() {
 : <a class="el" href="classlibbgp_1_1BgpBadMessage.html#a6d222f8b11dfec941d4f7ef15a5b7f13">libbgp::BgpBadMessage</a>
 , <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a52f73c9019e78ab483be6c34180d875a">libbgp::BgpCapability4BytesAsn</a>
 , <a class="el" href="classlibbgp_1_1BgpCapability.html#a7c22c675ea987a2b09c345c332a60e87">libbgp::BgpCapability</a>
+, <a class="el" href="classlibbgp_1_1BgpCapabilityMpBgp.html#aabcf1be4b8c98fd43b298dd6c7e702e9">libbgp::BgpCapabilityMpBgp</a>
 , <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ab8effbb0dedf8079718544785c101d58">libbgp::BgpCapabilityUnknow</a>
 , <a class="el" href="classlibbgp_1_1BgpKeepaliveMessage.html#a4d0fac613f48781558cce2c25649005e">libbgp::BgpKeepaliveMessage</a>
 , <a class="el" href="classlibbgp_1_1BgpMessage.html#a9ec440d37d05b7bc67189e3d93ed5036">libbgp::BgpMessage</a>
@@ -82,9 +83,15 @@ $(function() {
 , <a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#af1871430d2dc62b4e9ed0be22bfec1aa">libbgp::BgpPathAttribCommunity</a>
 , <a class="el" href="classlibbgp_1_1BgpPathAttribLocalPref.html#a8045b658375e66a8fbe59eeeb3358d75">libbgp::BgpPathAttribLocalPref</a>
 , <a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#a1ec1e73054b63697da47482c0933f2ca">libbgp::BgpPathAttribMed</a>
+, <a class="el" href="classlibbgp_1_1BgpPathAttribMpReachNlriIpv6.html#acd5b1b153eaf019a0f8b793318b56c6e">libbgp::BgpPathAttribMpReachNlriIpv6</a>
+, <a class="el" href="classlibbgp_1_1BgpPathAttribMpReachNlriUnknow.html#aeb90e558df2b2c9e7345d4b979ce9b5b">libbgp::BgpPathAttribMpReachNlriUnknow</a>
+, <a class="el" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriIpv6.html#a0894ac8422ca2518aa6ef10750b371b5">libbgp::BgpPathAttribMpUnreachNlriIpv6</a>
+, <a class="el" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriUnknow.html#af8520144910c5769ddec5387a7328e87">libbgp::BgpPathAttribMpUnreachNlriUnknow</a>
 , <a class="el" href="classlibbgp_1_1BgpPathAttribNexthop.html#af059fb85adfb51881b48872f6e0c8299">libbgp::BgpPathAttribNexthop</a>
 , <a class="el" href="classlibbgp_1_1BgpPathAttribOrigin.html#ac0575e226c3883f935775adb89437b1f">libbgp::BgpPathAttribOrigin</a>
 , <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a2b8c96ad05bef4c5f4223b0d32a1c6c8">libbgp::BgpUpdateMessage</a>
+, <a class="el" href="classlibbgp_1_1Prefix4.html#a7af1a33736bd89b5f01cb24ec032799d">libbgp::Prefix4</a>
+, <a class="el" href="classlibbgp_1_1Prefix6.html#a3e81f31ba7fa22daaad5218f2f0ba6ee">libbgp::Prefix6</a>
 , <a class="el" href="classlibbgp_1_1Serializable.html#a5562d3b3cda5cfda2f3749862f810e24">libbgp::Serializable</a>
 </li>
 <li>parseHeader()
@@ -94,6 +101,12 @@ $(function() {
 <li>pour()
 : <a class="el" href="classlibbgp_1_1BgpSink.html#ac500b764b03dcb1723355c59ea53e813">libbgp::BgpSink</a>
 </li>
+<li>Prefix4()
+: <a class="el" href="classlibbgp_1_1Prefix4.html#af7244ae9d1612869703dcb7673cc5c7d">libbgp::Prefix4</a>
+</li>
+<li>Prefix6()
+: <a class="el" href="classlibbgp_1_1Prefix6.html#a8aa2824b460b8c74eb37d4f4083b8778">libbgp::Prefix6</a>
+</li>
 <li>prepend()
 : <a class="el" href="classlibbgp_1_1BgpAsPathSegment.html#a8e735fa5b8c7d5219ea033bb81520bd8">libbgp::BgpAsPathSegment</a>
 , <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Path.html#a906c0b8ec9190cd841b44ae01f4872ba">libbgp::BgpPathAttribAs4Path</a>
@@ -101,7 +114,7 @@ $(function() {
 , <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#aa4181914f2852f4c3c79c9dd271ac11c">libbgp::BgpUpdateMessage</a>
 </li>
 <li>print()
-: <a class="el" href="classlibbgp_1_1Serializable.html#a804fb732b7089ac0a98a6e926f1551d6">libbgp::Serializable</a>
+: <a class="el" href="classlibbgp_1_1Serializable.html#a490c037d263896afc7776e339741eb33">libbgp::Serializable</a>
 </li>
 <li>printFlags()
 : <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a7b6ecfdbc146ff551ff08fb1b548e80c">libbgp::BgpPathAttrib</a>

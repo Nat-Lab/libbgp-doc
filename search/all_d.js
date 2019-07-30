@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['operator_3d_3d',['operator==',['../classlibbgp_1_1Route.html#af40cad70c2744a334d474bad4d23fc65',1,'libbgp::Route::operator==()'],['../classlibbgp_1_1Route6.html#a08f9963274e2fea368e52d54eb6ce3e1',1,'libbgp::Route6::operator==()']]],
+  ['operator_3d_3d',['operator==',['../classlibbgp_1_1Prefix4.html#aa8ea2f1901d327452f6d404538f33ee9',1,'libbgp::Prefix4::operator==()'],['../classlibbgp_1_1Prefix6.html#a4dffcec39594ada48010609bbf6121e1',1,'libbgp::Prefix6::operator==()']]],
   ['optional',['optional',['../classlibbgp_1_1BgpPathAttrib.html#ab963f11e11379118b0ee6436f0dd0d9c',1,'libbgp::BgpPathAttrib']]],
-  ['out_5ffilters',['out_filters',['../structlibbgp_1_1BgpConfig.html#a893a38816397b093af04ed3ca39f9ff4',1,'libbgp::BgpConfig']]],
+  ['out_5ffilters4',['out_filters4',['../structlibbgp_1_1BgpConfig.html#a5c2bef291723e5ec0833e9be4ce60669',1,'libbgp::BgpConfig']]],
+  ['out_5ffilters6',['out_filters6',['../structlibbgp_1_1BgpConfig.html#a0c98ad023cb0bbdd67db71e0ec026622',1,'libbgp::BgpConfig']]],
   ['out_5fhandler',['out_handler',['../structlibbgp_1_1BgpConfig.html#a055a838bffab8e0cbdea22abf536c0ca',1,'libbgp::BgpConfig']]]
 ];

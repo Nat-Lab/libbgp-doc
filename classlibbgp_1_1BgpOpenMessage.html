@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d46703d6aa20bb6a7c031458e74f364"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOpenMessage.html#a0d46703d6aa20bb6a7c031458e74f364">hasCapability</a> (uint8_t code) const</td></tr>
 <tr class="memdesc:a0d46703d6aa20bb6a7c031458e74f364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if open message has a capability.  <a href="#a0d46703d6aa20bb6a7c031458e74f364">More...</a><br /></td></tr>
 <tr class="separator:a0d46703d6aa20bb6a7c031458e74f364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdbb3b1bf931b13767600398f9682869"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOpenMessage.html#abdbb3b1bf931b13767600398f9682869">addCapability</a> (std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpCapability.html">BgpCapability</a> &gt; capability)</td></tr>
+<tr class="memdesc:abdbb3b1bf931b13767600398f9682869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capability.  <a href="#abdbb3b1bf931b13767600398f9682869">More...</a><br /></td></tr>
+<tr class="separator:abdbb3b1bf931b13767600398f9682869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2432c1b9e0047f4aae9e91f107e26dbd"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOpenMessage.html#a2432c1b9e0047f4aae9e91f107e26dbd">doPrint</a> (size_t indent, uint8_t **to, size_t *buf_sz) const</td></tr>
 <tr class="memdesc:a2432c1b9e0047f4aae9e91f107e26dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#a2432c1b9e0047f4aae9e91f107e26dbd">More...</a><br /></td></tr>
 <tr class="separator:a2432c1b9e0047f4aae9e91f107e26dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,9 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7769ef9a1f4a656ec63ef08e59c780d7"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOpenMessage.html#a7769ef9a1f4a656ec63ef08e59c780d7">write</a> (uint8_t *to, size_t buf_sz) const</td></tr>
 <tr class="memdesc:a7769ef9a1f4a656ec63ef08e59c780d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BGP message <em>body</em>.  <a href="#a7769ef9a1f4a656ec63ef08e59c780d7">More...</a><br /></td></tr>
 <tr class="separator:a7769ef9a1f4a656ec63ef08e59c780d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e87907601b331c95f9666910e578ee3"><td class="memItemLeft" align="right" valign="top"><a id="a1e87907601b331c95f9666910e578ee3"></a>
-const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpCapability.html">BgpCapability</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCapabilities</b> () const</td></tr>
-<tr class="separator:a1e87907601b331c95f9666910e578ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2327d262fd04686fd53b006f072b0b37"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpCapability.html">BgpCapability</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpOpenMessage.html#a2327d262fd04686fd53b006f072b0b37">getCapabilities</a> () const</td></tr>
+<tr class="memdesc:a2327d262fd04686fd53b006f072b0b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get capabilities list.  <a href="#a2327d262fd04686fd53b006f072b0b37">More...</a><br /></td></tr>
+<tr class="separator:a2327d262fd04686fd53b006f072b0b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlibbgp_1_1BgpMessage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1BgpMessage')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1BgpMessage.html">libbgp::BgpMessage</a></td></tr>
 <tr class="memitem:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpMessage.html#a998df25f7fb244641aa81ca65666cf04">BgpMessage</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
 <tr class="memdesc:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Message object.  <a href="classlibbgp_1_1BgpMessage.html#a998df25f7fb244641aa81ca65666cf04">More...</a><br /></td></tr>
@@ -165,6 +168,9 @@ const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>getError</
 <tr class="memitem:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a71c8aa38318bea75bc7ece28248c8913"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> () const</td></tr>
 <tr class="separator:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">More...</a><br /></td></tr>
+<tr class="separator:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -318,7 +324,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00043">43</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-open-message_8cc_source.html#l00318">setAsn()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-open-message_8cc_source.html#l00319">setAsn()</a>.</p>
 
 </div>
 </div>
@@ -379,11 +385,42 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00061">61</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-open-message_8cc_source.html#l00318">setAsn()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-open-message_8cc_source.html#l00319">setAsn()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abdbb3b1bf931b13767600398f9682869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdbb3b1bf931b13767600398f9682869">&#9670;&nbsp;</a></span>addCapability()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::BgpOpenMessage::addCapability </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpCapability.html">BgpCapability</a> &gt;&#160;</td>
+          <td class="paramname"><em>capability</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a capability. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">capability</td><td>The capability. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true Capability added. </dd>
+<dd>
+false Failed to add capability. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00371">371</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+
+</div>
+</div>
 <a id="a2432c1b9e0047f4aae9e91f107e26dbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2432c1b9e0047f4aae9e91f107e26dbd">&#9670;&nbsp;</a></span>doPrint()</h2>
 
@@ -444,7 +481,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">libbgp::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00257">257</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00258">258</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>.</p>
 
@@ -469,7 +506,29 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 <p>Get ASN of the open message. Will check Capabilities for four octets ASN if four octets ASN support is enabled.</p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t ASN </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00295">295</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00296">296</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+
+</div>
+</div>
+<a id="a2327d262fd04686fd53b006f072b0b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2327d262fd04686fd53b006f072b0b37">&#9670;&nbsp;</a></span>getCapabilities()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpCapability.html">BgpCapability</a> &gt; &gt; &amp; libbgp::BgpOpenMessage::getCapabilities </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get capabilities list. </p>
+<dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;std::shared_ptr&lt;BgpCapability&gt;&gt;&amp; Capabilities. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00360">360</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
 </div>
 </div>
@@ -500,7 +559,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 <dd>
 false open message does not have capability. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00346">346</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00347">347</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
 </div>
 </div>
@@ -598,7 +657,7 @@ false open message does not have capability. </dd></dl>
 false Failed to set ASN </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="deserialize-and-serialize_8cc-example.html#a9">deserialize-and-serialize.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00318">318</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00319">319</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bgp-open-message_8cc_source.html#l00043">BgpOpenMessage()</a>.</p>
 
@@ -658,7 +717,7 @@ false Failed to set ASN </dd></dl>
 
 <p>Implements <a class="el" href="classlibbgp_1_1BgpMessage.html#ac07738881c4667ec8ff466aae7efdb01">libbgp::BgpMessage</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00204">204</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-open-message_8cc_source.html#l00205">205</a> of file <a class="el" href="bgp-open-message_8cc_source.html">bgp-open-message.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 

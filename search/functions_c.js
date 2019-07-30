@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3d_3d',['operator==',['../classlibbgp_1_1Route.html#af40cad70c2744a334d474bad4d23fc65',1,'libbgp::Route::operator==()'],['../classlibbgp_1_1Route6.html#a08f9963274e2fea368e52d54eb6ce3e1',1,'libbgp::Route6::operator==()']]]
+  ['operator_3d_3d',['operator==',['../classlibbgp_1_1Prefix4.html#aa8ea2f1901d327452f6d404538f33ee9',1,'libbgp::Prefix4::operator==()'],['../classlibbgp_1_1Prefix6.html#a4dffcec39594ada48010609bbf6121e1',1,'libbgp::Prefix6::operator==()']]]
 ];

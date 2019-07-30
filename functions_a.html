@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -66,11 +66,18 @@ $(function() {
 <li>addAttrib()
 : <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a36a81a80086bc37a17b5753305f5c19a">libbgp::BgpUpdateMessage</a>
 </li>
-<li>addNlri()
-: <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a0a114edba4964ea26bd2286b44c99070">libbgp::BgpUpdateMessage</a>
+<li>addCapability()
+: <a class="el" href="classlibbgp_1_1BgpOpenMessage.html#abdbb3b1bf931b13767600398f9682869">libbgp::BgpOpenMessage</a>
 </li>
-<li>addWithdrawn()
-: <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a0209423df4f2f04484561addeddf49e7">libbgp::BgpUpdateMessage</a>
+<li>addNlri4()
+: <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#aa988c6d5e8d960726d42b5c729afcfd5">libbgp::BgpUpdateMessage</a>
+</li>
+<li>addWithdrawn4()
+: <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a55a02491221b959078514371a89ba6ac">libbgp::BgpUpdateMessage</a>
+</li>
+<li>afi
+: <a class="el" href="classlibbgp_1_1BgpCapabilityMpBgp.html#a5073dedf31ecd25f0d50449f83fe8791">libbgp::BgpCapabilityMpBgp</a>
+, <a class="el" href="classlibbgp_1_1BgpPathAttribMpNlriBase.html#adf8922944da6ae5b7e509a8c5bc93cc7">libbgp::BgpPathAttribMpNlriBase</a>
 </li>
 <li>aggregator
 : <a class="el" href="classlibbgp_1_1BgpPathAttribAggregator.html#afde83c181c65050fcb1defd9739cd0d7">libbgp::BgpPathAttribAggregator</a>
@@ -83,11 +90,14 @@ $(function() {
 : <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html#a67e2d3f3332fe32e341741af5dcc047a">libbgp::BgpPathAttribAs4Aggregator</a>
 </li>
 <li>append()
-: <a class="el" href="classlibbgp_1_1BgpFilterRules.html#a66f03e71e145a6d564450403365e3711">libbgp::BgpFilterRules</a>
+: <a class="el" href="classlibbgp_1_1BgpFilterRules4.html#a2c35d427a91ab55541855039667f03d5">libbgp::BgpFilterRules4</a>
+, <a class="el" href="classlibbgp_1_1BgpFilterRules6.html#a5894a67f99fd74a5500ef3928d3a0a2b">libbgp::BgpFilterRules6</a>
 </li>
 <li>apply()
-: <a class="el" href="classlibbgp_1_1BgpFilterRule.html#a5d08edc8a58347abb543a5f905228b8a">libbgp::BgpFilterRule</a>
-, <a class="el" href="classlibbgp_1_1BgpFilterRules.html#a3fe1b4b6a822f6db981d5cd880614bfb">libbgp::BgpFilterRules</a>
+: <a class="el" href="classlibbgp_1_1BgpFilterRule4.html#ae6b665096f7b7503b359a8a948810ee1">libbgp::BgpFilterRule4</a>
+, <a class="el" href="classlibbgp_1_1BgpFilterRule6.html#a044e6243c9631f364fdbea213eab9662">libbgp::BgpFilterRule6</a>
+, <a class="el" href="classlibbgp_1_1BgpFilterRules4.html#ae1a231b17e481a65db9c46990feedd13">libbgp::BgpFilterRules4</a>
+, <a class="el" href="classlibbgp_1_1BgpFilterRules6.html#ade850554927cd52be97f77c090e5373f">libbgp::BgpFilterRules6</a>
 </li>
 <li>as4_paths
 : <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Path.html#a7deaaef6e6e6c080044fb368ef37172b">libbgp::BgpPathAttribAs4Path</a>
@@ -99,9 +109,10 @@ $(function() {
 : <a class="el" href="structlibbgp_1_1BgpConfig.html#a50058772fbf44f0bf8be1ae3779fa9cd">libbgp::BgpConfig</a>
 </li>
 <li>attribs
-: <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#aeb6cdd5558b35873e0759608dd833d9e">libbgp::BgpRib6Entry</a>
-, <a class="el" href="classlibbgp_1_1BgpRibEntry.html#a4a16bb9f1f335019907ad924b3296087">libbgp::BgpRibEntry</a>
-, <a class="el" href="classlibbgp_1_1RouteAddEvent.html#aaff7b8bf5c298d5c538dbfdc235bbbba">libbgp::RouteAddEvent</a>
+: <a class="el" href="classlibbgp_1_1BgpRib4Entry.html#ace80e558c4acfc25b26a47f3fa0cd2c6">libbgp::BgpRib4Entry</a>
+, <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#aeb6cdd5558b35873e0759608dd833d9e">libbgp::BgpRib6Entry</a>
+, <a class="el" href="classlibbgp_1_1Route4AddEvent.html#a791bed462f59f3e3e0c6639da55d8e05">libbgp::Route4AddEvent</a>
+, <a class="el" href="classlibbgp_1_1Route6AddEvent.html#acd004019bdab776398fe85fbf6942dbe">libbgp::Route6AddEvent</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -84,9 +84,10 @@ Inheritance diagram for libbgp::BgpCapability:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1BgpCapability__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpCapability_inherit__map" alt="Inheritance graph"/></div>
 <map name="libbgp_1_1BgpCapability_inherit__map" id="libbgp_1_1BgpCapability_inherit__map">
-<area shape="rect" id="node3" href="classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="5,155,228,181"/>
-<area shape="rect" id="node4" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="253,155,458,181"/>
-<area shape="rect" id="node2" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="165,5,306,32"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="397,5,620,32"/>
+<area shape="rect" id="node4" href="classlibbgp_1_1BgpCapabilityMpBgp.html" title="The BgpCapabilityMpBgp class. " alt="" coords="409,56,608,83"/>
+<area shape="rect" id="node5" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="406,107,611,133"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="5,56,147,83"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -102,7 +103,7 @@ Collaboration diagram for libbgp::BgpCapability:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapability.html#ad7e1a42daea3e263b4c8ec5b9bcf890a">BgpCapability</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
-<tr class="memdesc:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Capability:: Bgp Capability object.  <a href="#ad7e1a42daea3e263b4c8ec5b9bcf890a">More...</a><br /></td></tr>
+<tr class="memdesc:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Capability object.  <a href="#ad7e1a42daea3e263b4c8ec5b9bcf890a">More...</a><br /></td></tr>
 <tr class="separator:ad7e1a42daea3e263b4c8ec5b9bcf890a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c22c675ea987a2b09c345c332a60e87"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpCapability.html#a7c22c675ea987a2b09c345c332a60e87">parse</a> (const uint8_t *from, size_t msg_sz)=0</td></tr>
 <tr class="memdesc:a7c22c675ea987a2b09c345c332a60e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a BGP open message capability.  <a href="#a7c22c675ea987a2b09c345c332a60e87">More...</a><br /></td></tr>
@@ -142,6 +143,9 @@ const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>getError</
 <tr class="memitem:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a71c8aa38318bea75bc7ece28248c8913"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> () const</td></tr>
 <tr class="separator:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">More...</a><br /></td></tr>
+<tr class="separator:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -197,7 +201,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. ">BgpCapability</a> base class. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00039">39</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00040">40</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad7e1a42daea3e263b4c8ec5b9bcf890a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7e1a42daea3e263b4c8ec5b9bcf890a">&#9670;&nbsp;</a></span>BgpCapability()</h2>
@@ -215,7 +219,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct a new Bgp Capability:: Bgp Capability object. </p>
+<p>Construct a new Bgp Capability object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">logger</td><td>Pointer to logger object for error logging. </td></tr>
@@ -290,7 +294,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a5562d3b3cda5cfda2f3749862f810e24">libbgp::Serializable</a>.</p>
 
-<p>Implemented in <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ab8effbb0dedf8079718544785c101d58">libbgp::BgpCapabilityUnknow</a>, and <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a52f73c9019e78ab483be6c34180d875a">libbgp::BgpCapability4BytesAsn</a>.</p>
+<p>Implemented in <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ab8effbb0dedf8079718544785c101d58">libbgp::BgpCapabilityUnknow</a>, <a class="el" href="classlibbgp_1_1BgpCapabilityMpBgp.html#aabcf1be4b8c98fd43b298dd6c7e702e9">libbgp::BgpCapabilityMpBgp</a>, and <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a52f73c9019e78ab483be6c34180d875a">libbgp::BgpCapability4BytesAsn</a>.</p>
 
 </div>
 </div>
@@ -349,7 +353,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00080">libbgp::BgpCapability4BytesAsn::parse()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00143">libbgp::BgpCapabilityUnknow::parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-capability_8cc_source.html#l00080">libbgp::BgpCapability4BytesAsn::parse()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00148">libbgp::BgpCapabilityMpBgp::parse()</a>, and <a class="el" href="bgp-capability_8cc_source.html#l00220">libbgp::BgpCapabilityUnknow::parse()</a>.</p>
 
 </div>
 </div>
@@ -406,7 +410,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a9aa89277c8b12ee3821285c479ebf545">libbgp::Serializable</a>.</p>
 
-<p>Implemented in <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ae22ea33ae03ca0c1765657887e7f2b4f">libbgp::BgpCapabilityUnknow</a>, and <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a7719c202b5a1dd34d2a33d5b7f7cd9bd">libbgp::BgpCapability4BytesAsn</a>.</p>
+<p>Implemented in <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#ae22ea33ae03ca0c1765657887e7f2b4f">libbgp::BgpCapabilityUnknow</a>, <a class="el" href="classlibbgp_1_1BgpCapabilityMpBgp.html#ad3922b9a618c649a8161d03ccd62a30d">libbgp::BgpCapabilityMpBgp</a>, and <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a7719c202b5a1dd34d2a33d5b7f7cd9bd">libbgp::BgpCapability4BytesAsn</a>.</p>
 
 </div>
 </div>
@@ -434,7 +438,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Length of the attribute. Used only when deserializer. </p>
 <p>Length field is only used in deserialization for <a class="el" href="classlibbgp_1_1BgpCapability.html#ac36cb4f0638b5a118b5d111f4b26fc6b" title="Parse the capability header (code, length). ">parseHeader()</a> to pass attribute length to the underlying deserializers. The length field is ignored when serialize (except <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. ">BgpCapabilityUnknow</a>). </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00083">83</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-capability_8h_source.html#l00084">84</a> of file <a class="el" href="bgp-capability_8h_source.html">bgp-capability.h</a>.</p>
 
 </div>
 </div>

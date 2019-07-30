@@ -1,10 +1,12 @@
 <map id="src/bgp&#45;update&#45;message.cc" name="src/bgp&#45;update&#45;message.cc">
-<area shape="rect" id="node2" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="335,80,507,107"/>
-<area shape="rect" id="node14" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="549,80,661,107"/>
-<area shape="rect" id="node15" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="671,229,760,256"/>
-<area shape="rect" id="node6" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="579,229,647,256"/>
-<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="57,155,179,181"/>
-<area shape="rect" id="node13" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="355,155,486,181"/>
-<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="108,229,213,256"/>
-<area shape="rect" id="node11" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="5,304,140,331"/>
+<area shape="rect" id="node2" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="275,80,447,107"/>
+<area shape="rect" id="node15" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="471,80,583,107"/>
+<area shape="rect" id="node16" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="608,80,687,107"/>
+<area shape="rect" id="node17" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="5,229,95,256"/>
+<area shape="rect" id="node6" href="$prefix4_8h.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="221,229,298,256"/>
+<area shape="rect" id="node8" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="602,155,725,181"/>
+<area shape="rect" id="node13" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="295,155,426,181"/>
+<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="664,229,769,256"/>
+<area shape="rect" id="node11" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="695,304,829,331"/>
+<area shape="rect" id="node14" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="322,229,399,256"/>
 </map>

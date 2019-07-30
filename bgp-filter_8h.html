@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.2.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -65,49 +65,31 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">bgp-filter.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>The Route filtering engine.  
+<p>Route filtering engine common resources.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="route_8h_source.html">route.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for bgp-filter.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="bgp-filter_8h__incl.png" border="0" usemap="#src_2bgp-filter_8h" alt=""/></div>
-<map name="src_2bgp-filter_8h" id="src_2bgp-filter_8h">
-<area shape="rect" id="node4" href="route_8h.html" title="Route/Prefix related utilities. " alt="" coords="117,80,185,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
+<div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="bgp-filter_8h__dep__incl.png" border="0" usemap="#src_2bgp-filter_8hdep" alt=""/></div>
 <map name="src_2bgp-filter_8hdep" id="src_2bgp-filter_8hdep">
-<area shape="rect" id="node2" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
-<area shape="rect" id="node5" href="bgp-filter_8cc.html" title="The Route filtering engine. " alt="" coords="153,80,272,107"/>
-<area shape="rect" id="node3" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="12,155,123,181"/>
-<area shape="rect" id="node4" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="9,229,125,256"/>
+<area shape="rect" id="node2" href="bgp-filter4_8h.html" title="The IPv4 Route filtering engine. " alt="" coords="85,80,208,107"/>
+<area shape="rect" id="node7" href="bgp-filter6_8h.html" title="The IPv6 Route filtering engine. " alt="" coords="232,80,355,107"/>
+<area shape="rect" id="node3" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="158,155,282,181"/>
+<area shape="rect" id="node6" href="bgp-filter4_8cc.html" title="The IPv4 Route filtering engine. " alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node4" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="165,229,275,256"/>
+<area shape="rect" id="node5" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="162,304,278,331"/>
+<area shape="rect" id="node8" href="bgp-filter6_8cc.html" title="The IPv6 Route filtering engine. " alt="" coords="307,155,435,181"/>
 </map>
 </div>
 </div>
 <p><a href="bgp-filter_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRule.html">libbgp::BgpFilterRule</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classlibbgp_1_1BgpFilterRule.html" title="The BgpFilterRule class. ">BgpFilterRule</a> class.  <a href="classlibbgp_1_1BgpFilterRule.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRules.html">libbgp::BgpFilterRules</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classlibbgp_1_1BgpFilterRules.html" title="The BgpFilterRules class. ">BgpFilterRules</a> class.  <a href="classlibbgp_1_1BgpFilterRules.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a09b283ade47782bc0c08687105402293"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293">libbgp::BgpFilterOP</a> { <a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293a79774da657eb06abce97987173efec06">libbgp::NOP</a>, 
@@ -123,10 +105,10 @@ Enumerations</h2></td></tr>
 <tr class="separator:a82b904d0d0a61391e89f90a5bd87a83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The Route filtering engine. </p>
+<div class="textblock"><p>Route filtering engine common resources. </p>
 <dl class="section author"><dt>Author</dt><dd>Nato Morichika <a href="#" onclick="location.href='mai'+'lto:'+'nat'+'@n'+'at.'+'mo'+'e'; return false;">nat@n<span style="display: none;">.nosp@m.</span>at.m<span style="display: none;">.nosp@m.</span>oe</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2019-07-06</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2019-07-21</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2019 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
@@ -153,7 +135,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00023">23</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00020">20</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 
 </div>
 </div>
@@ -177,7 +159,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00033">33</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00030">30</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 
 </div>
 </div>

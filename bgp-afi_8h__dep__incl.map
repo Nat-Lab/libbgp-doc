@@ -1,0 +1,12 @@
+<map id="src/bgp&#45;afi.h" name="src/bgp&#45;afi.h">
+<area shape="rect" id="node2" href="$bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="103,80,247,107"/>
+<area shape="rect" id="node10" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="271,80,431,107"/>
+<area shape="rect" id="node11" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="456,80,657,107"/>
+<area shape="rect" id="node3" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node4" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="180,155,363,181"/>
+<area shape="rect" id="node5" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="151,229,232,256"/>
+<area shape="rect" id="node9" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="256,229,444,256"/>
+<area shape="rect" id="node6" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="63,304,173,331"/>
+<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="197,304,332,331"/>
+<area shape="rect" id="node7" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="60,379,176,405"/>
+</map>
