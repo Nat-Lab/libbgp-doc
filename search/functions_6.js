@@ -1,7 +1,6 @@
 var searchData=
 [
   ['get',['get',['../classlibbgp_1_1BgpRib4.html#a79850059f65098fa4506d3679cdec885',1,'libbgp::BgpRib4::get()'],['../classlibbgp_1_1BgpRib6.html#af0c2d60113717f4884c7e46fb9de9535',1,'libbgp::BgpRib6::get()']]],
-  ['get_5fbgp_5ferrors',['get_bgp_errors',['../bgp-error_8cc.html#ac876eb3ce85c8b6079fd436fd8e4fc41',1,'libbgp']]],
   ['getasn',['getAsn',['../classlibbgp_1_1BgpFsm.html#a56ab17f201b86e7aa52a3b7181bba7d6',1,'libbgp::BgpFsm::getAsn()'],['../classlibbgp_1_1BgpOpenMessage.html#a8a16ec4a21c13b2f60c36c523c3082c9',1,'libbgp::BgpOpenMessage::getAsn()']]],
   ['getattrib',['getAttrib',['../classlibbgp_1_1BgpUpdateMessage.html#ad6418602d92ebdf51d0748efc944c772',1,'libbgp::BgpUpdateMessage::getAttrib(uint8_t type)'],['../classlibbgp_1_1BgpUpdateMessage.html#a54e34ce4a57b48ee470e5094e8589c25',1,'libbgp::BgpUpdateMessage::getAttrib(uint8_t type) const']]],
   ['getbgpid',['getBgpId',['../classlibbgp_1_1BgpFsm.html#a3d27538cad11bd883872503b66df56b6',1,'libbgp::BgpFsm']]],
@@ -13,7 +12,6 @@ var searchData=
   ['getloglevel',['getLogLevel',['../classlibbgp_1_1BgpLogHandler.html#a402b3c6ed5bcf92f74761e33f0516c77',1,'libbgp::BgpLogHandler']]],
   ['getmask',['getMask',['../classlibbgp_1_1Prefix4.html#a17753f7a3e0e48fb56eb20f9db5c13b1',1,'libbgp::Prefix4::getMask()'],['../classlibbgp_1_1Prefix6.html#af98b54b812a42b9cde3800a5d1bd6c2f',1,'libbgp::Prefix6::getMask()']]],
   ['getmessage',['getMessage',['../classlibbgp_1_1BgpPacket.html#aa4c910baf78776a6f4092f1b2fa38029',1,'libbgp::BgpPacket']]],
-  ['getmetric',['getMetric',['../classlibbgp_1_1BgpRib4Entry.html#a3365a14a2eddbcd6887e29754a2a93ff',1,'libbgp::BgpRib4Entry::getMetric()'],['../classlibbgp_1_1BgpRib6Entry.html#aab9148a00d4734bfc05c18b15529ec80',1,'libbgp::BgpRib6Entry::getMetric()']]],
   ['getnexthop',['getNexthop',['../classlibbgp_1_1BgpRib4Entry.html#af03570507fafb4f9ee64b2d2e275c7e2',1,'libbgp::BgpRib4Entry']]],
   ['getpeerasn',['getPeerAsn',['../classlibbgp_1_1BgpFsm.html#a9c87ef87fdd8eed2e69d7afccafe4bf1',1,'libbgp::BgpFsm']]],
   ['getpeerbgpid',['getPeerBgpId',['../classlibbgp_1_1BgpFsm.html#ac668e6a49328c84ea43ea569ff733bd0',1,'libbgp::BgpFsm']]],

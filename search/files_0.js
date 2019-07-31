@@ -8,8 +8,6 @@ var searchData=
   ['bgp_2dconfig_2eh',['bgp-config.h',['../bgp-config_8h.html',1,'']]],
   ['bgp_2derrcode_2ecc',['bgp-errcode.cc',['../bgp-errcode_8cc.html',1,'']]],
   ['bgp_2derrcode_2eh',['bgp-errcode.h',['../bgp-errcode_8h.html',1,'']]],
-  ['bgp_2derror_2ecc',['bgp-error.cc',['../bgp-error_8cc.html',1,'']]],
-  ['bgp_2derror_2eh',['bgp-error.h',['../bgp-error_8h.html',1,'']]],
   ['bgp_2dfilter_2eh',['bgp-filter.h',['../bgp-filter_8h.html',1,'']]],
   ['bgp_2dfilter4_2ecc',['bgp-filter4.cc',['../bgp-filter4_8cc.html',1,'']]],
   ['bgp_2dfilter4_2eh',['bgp-filter4.h',['../bgp-filter4_8h.html',1,'']]],

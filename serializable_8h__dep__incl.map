@@ -1,36 +1,37 @@
 <map id="src/serializable.h" name="src/serializable.h">
-<area shape="rect" id="node2" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="1215,155,1360,181"/>
-<area shape="rect" id="node16" href="$bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="1668,237,1797,263"/>
-<area shape="rect" id="node25" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="1153,80,1310,107"/>
-<area shape="rect" id="node27" href="$bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="1457,80,1601,107"/>
-<area shape="rect" id="node29" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="314,155,469,181"/>
-<area shape="rect" id="node35" href="$serializable_8cc.html" title="The serializable base. " alt="" coords="1793,80,1928,107"/>
-<area shape="rect" id="node3" href="$bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="1263,237,1437,263"/>
-<area shape="rect" id="node5" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="1191,326,1272,353"/>
-<area shape="rect" id="node9" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="539,237,734,263"/>
-<area shape="rect" id="node19" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="1461,237,1644,263"/>
-<area shape="rect" id="node21" href="$bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="809,237,1019,263"/>
-<area shape="rect" id="node23" href="$bgp-notification-message_8h.html" title="The BGP notification message. " alt="" coords="1043,229,1187,271"/>
-<area shape="rect" id="node4" href="$bgp-bad-message_8cc.html" title="Container for invalid BGP message. " alt="" coords="1296,326,1476,353"/>
-<area shape="rect" id="node6" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="725,557,836,584"/>
-<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="1335,408,1469,435"/>
-<area shape="rect" id="node7" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="723,632,839,659"/>
-<area shape="rect" id="node10" href="$route-event_8h.html" title="The route events. " alt="" coords="297,326,429,353"/>
-<area shape="rect" id="node15" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="556,326,757,353"/>
-<area shape="rect" id="node11" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="270,408,430,435"/>
-<area shape="rect" id="node12" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="599,483,723,509"/>
-<area shape="rect" id="node13" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="197,483,383,509"/>
-<area shape="rect" id="node14" href="$route-event-bus_8cc.html" title="The route event bus. " alt="" coords="408,483,575,509"/>
-<area shape="rect" id="node17" href="$bgp-sink_8h.html" title="The BGP sink. " alt="" coords="1764,326,1875,353"/>
-<area shape="rect" id="node18" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="1665,408,1782,435"/>
-<area shape="rect" id="node20" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="1500,326,1688,353"/>
-<area shape="rect" id="node22" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="782,326,998,353"/>
-<area shape="rect" id="node24" href="$bgp-notification-message_8cc.html" title="The BGP notification message. " alt="" coords="1022,319,1166,360"/>
-<area shape="rect" id="node26" href="$bgp-log-handler_8cc.html" title="BGP log handler. " alt="" coords="977,155,1139,181"/>
-<area shape="rect" id="node28" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="1567,155,1717,181"/>
-<area shape="rect" id="node30" href="$bgp-rib4_8h.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="677,408,788,435"/>
-<area shape="rect" id="node32" href="$bgp-rib6_8h.html" title="The BGP Routing Information Base for IPv6. " alt="" coords="104,408,215,435"/>
-<area shape="rect" id="node34" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="197,237,357,263"/>
-<area shape="rect" id="node31" href="$bgp-rib4_8cc.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="747,483,863,509"/>
-<area shape="rect" id="node33" href="$bgp-rib6_8cc.html" title="The IPv6 BGP Routing Information Base. " alt="" coords="5,483,121,509"/>
+<area shape="rect" id="node2" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="595,155,740,181"/>
+<area shape="rect" id="node16" href="$bgp-packet_8h.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="100,237,229,263"/>
+<area shape="rect" id="node25" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="762,80,919,107"/>
+<area shape="rect" id="node32" href="$bgp-capability_8h.html" title="BGP Capabilities. " alt="" coords="943,80,1087,107"/>
+<area shape="rect" id="node34" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="1455,155,1610,181"/>
+<area shape="rect" id="node36" href="$serializable_8cc.html" title="The serializable base. " alt="" coords="1163,80,1297,107"/>
+<area shape="rect" id="node3" href="$bgp-bad-message_8h.html" title="Container for invalid BGP message. " alt="" coords="423,237,597,263"/>
+<area shape="rect" id="node5" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="564,326,645,353"/>
+<area shape="rect" id="node9" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="1166,237,1361,263"/>
+<area shape="rect" id="node19" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="908,237,1091,263"/>
+<area shape="rect" id="node21" href="$bgp-keepalive-message_8h.html" title="The BGP keepalive message. " alt="" coords="673,237,883,263"/>
+<area shape="rect" id="node23" href="$bgp-notification-message_8h.html" title="The BGP notification message. " alt="" coords="254,229,398,271"/>
+<area shape="rect" id="node4" href="$bgp-bad-message_8cc.html" title="Container for invalid BGP message. " alt="" coords="360,326,540,353"/>
+<area shape="rect" id="node6" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="1328,557,1439,584"/>
+<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="389,408,524,435"/>
+<area shape="rect" id="node7" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="1325,632,1441,659"/>
+<area shape="rect" id="node10" href="$route-event_8h.html" title="The route events. " alt="" coords="1348,326,1480,353"/>
+<area shape="rect" id="node15" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="1123,326,1324,353"/>
+<area shape="rect" id="node11" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="1319,408,1479,435"/>
+<area shape="rect" id="node12" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="1507,483,1631,509"/>
+<area shape="rect" id="node13" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="1105,483,1291,509"/>
+<area shape="rect" id="node14" href="$route-event-bus_8cc.html" title="The route event bus. " alt="" coords="1316,483,1483,509"/>
+<area shape="rect" id="node17" href="$bgp-sink_8h.html" title="The BGP sink. " alt="" coords="5,326,116,353"/>
+<area shape="rect" id="node18" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="98,408,215,435"/>
+<area shape="rect" id="node20" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="911,326,1099,353"/>
+<area shape="rect" id="node22" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="670,326,886,353"/>
+<area shape="rect" id="node24" href="$bgp-notification-message_8cc.html" title="The BGP notification message. " alt="" coords="191,319,335,360"/>
+<area shape="rect" id="node26" href="$bgp-rib_8h_source.html" title="src/bgp&#45;rib.h" alt="" coords="1780,237,1883,263"/>
+<area shape="rect" id="node31" href="$bgp-log-handler_8cc.html" title="BGP log handler. " alt="" coords="815,155,978,181"/>
+<area shape="rect" id="node27" href="$bgp-rib4_8h.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="1609,326,1720,353"/>
+<area shape="rect" id="node29" href="$bgp-rib6_8h.html" title="The BGP Routing Information Base for IPv6. " alt="" coords="1776,326,1887,353"/>
+<area shape="rect" id="node28" href="$bgp-rib4_8cc.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="1607,408,1723,435"/>
+<area shape="rect" id="node30" href="$bgp-rib6_8cc.html" title="The IPv6 BGP Routing Information Base. " alt="" coords="1900,408,2016,435"/>
+<area shape="rect" id="node33" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="1685,155,1836,181"/>
+<area shape="rect" id="node35" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="1595,237,1755,263"/>
 </map>

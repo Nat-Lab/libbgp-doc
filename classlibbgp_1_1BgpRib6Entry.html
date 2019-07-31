@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.3</span>
+   &#160;<span id="projectnumber">0.3.1</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -78,22 +78,32 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="bgp-rib6_8h_source.html">bgp-rib6.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for libbgp::BgpRib6Entry:</div>
+<div class="dyncontent">
+<div class="center"><img src="classlibbgp_1_1BgpRib6Entry__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpRib6Entry_inherit__map" alt="Inheritance graph"/></div>
+<map name="libbgp_1_1BgpRib6Entry_inherit__map" id="libbgp_1_1BgpRib6Entry_inherit__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib6Entry \&gt;" alt="" coords="9,5,155,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
 Collaboration diagram for libbgp::BgpRib6Entry:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1BgpRib6Entry__coll__graph.png" border="0" usemap="#libbgp_1_1BgpRib6Entry_coll__map" alt="Collaboration graph"/></div>
 <map name="libbgp_1_1BgpRib6Entry_coll__map" id="libbgp_1_1BgpRib6Entry_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="27,5,137,32"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib6Entry \&gt;" alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="175,13,285,39"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac5198cc777526017265cc57dc4704543"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#ac5198cc777526017265cc57dc4704543">BgpRib6Entry</a> (<a class="el" href="classlibbgp_1_1Prefix6.html">Prefix6</a> r, uint32_t src, const uint8_t <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a542e72d5223d620a1084baa77de62adf">nexthop_global</a>[16], const uint8_t <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a7a9ab047cccf1bb88fb02fee23e41c56">nexthop_linklocal</a>[16], const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt;&gt; <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#aeb6cdd5558b35873e0759608dd833d9e">attribs</a>)</td></tr>
+<tr class="memitem:ac5198cc777526017265cc57dc4704543"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#ac5198cc777526017265cc57dc4704543">BgpRib6Entry</a> (<a class="el" href="classlibbgp_1_1Prefix6.html">Prefix6</a> r, uint32_t src, const uint8_t <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a542e72d5223d620a1084baa77de62adf">nexthop_global</a>[16], const uint8_t <a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a7a9ab047cccf1bb88fb02fee23e41c56">nexthop_linklocal</a>[16], const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt;&gt; <a class="el" href="classlibbgp_1_1BgpRibEntry.html#a9a3d9a86bd70cc7f4cc98c58fda6f159">attribs</a>)</td></tr>
 <tr class="memdesc:ac5198cc777526017265cc57dc4704543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1BgpRib6Entry.html" title="The BgpRib6Entry class. ">BgpRib6Entry</a>.  <a href="#ac5198cc777526017265cc57dc4704543">More...</a><br /></td></tr>
 <tr class="separator:ac5198cc777526017265cc57dc4704543"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9148a00d4734bfc05c18b15529ec80"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#aab9148a00d4734bfc05c18b15529ec80">getMetric</a> () const</td></tr>
-<tr class="memdesc:aab9148a00d4734bfc05c18b15529ec80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get metric of this entry.  <a href="#aab9148a00d4734bfc05c18b15529ec80">More...</a><br /></td></tr>
-<tr class="separator:aab9148a00d4734bfc05c18b15529ec80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classlibbgp_1_1BgpRibEntry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1BgpRibEntry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1BgpRibEntry.html">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;</a></td></tr>
+<tr class="memitem:acee75ead8e7fdc9e17d7584ed0958db3 inherit pub_methods_classlibbgp_1_1BgpRibEntry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#acee75ead8e7fdc9e17d7584ed0958db3">operator&gt;</a> (const <a class="el" href="classlibbgp_1_1BgpRib6Entry.html">BgpRib6Entry</a> &amp;other) const</td></tr>
+<tr class="memdesc:acee75ead8e7fdc9e17d7584ed0958db3 inherit pub_methods_classlibbgp_1_1BgpRibEntry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if this entry has greater weight then anoter entry. Please note that weight are only calculated based on path attribues. (i.e., you need to compare route prefix first)  <a href="classlibbgp_1_1BgpRibEntry.html#acee75ead8e7fdc9e17d7584ed0958db3">More...</a><br /></td></tr>
+<tr class="separator:acee75ead8e7fdc9e17d7584ed0958db3 inherit pub_methods_classlibbgp_1_1BgpRibEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -109,23 +119,24 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a7a9ab047cccf1bb88fb02fee23e41c56">nexthop_linklocal</a> [16]</td></tr>
 <tr class="memdesc:a7a9ab047cccf1bb88fb02fee23e41c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link local IPv6 address of the next hop in network btyes order. (all 0 if not avaliable) <br /></td></tr>
 <tr class="separator:a7a9ab047cccf1bb88fb02fee23e41c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a551e99779c8bba8b88d2c6624a69eb85"><td class="memItemLeft" align="right" valign="top"><a id="a551e99779c8bba8b88d2c6624a69eb85"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a551e99779c8bba8b88d2c6624a69eb85">src_router_id</a></td></tr>
-<tr class="memdesc:a551e99779c8bba8b88d2c6624a69eb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The originating BGP speaker's ID of this entry. (network bytes order) <br /></td></tr>
-<tr class="separator:a551e99779c8bba8b88d2c6624a69eb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5233b46ca5d77dec46bab653629b49dd"><td class="memItemLeft" align="right" valign="top"><a id="a5233b46ca5d77dec46bab653629b49dd"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#a5233b46ca5d77dec46bab653629b49dd">update_id</a></td></tr>
-<tr class="memdesc:a5233b46ca5d77dec46bab653629b49dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update ID. <a class="el" href="classlibbgp_1_1BgpRib6Entry.html" title="The BgpRib6Entry class. ">BgpRib6Entry</a> with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. <br /></td></tr>
-<tr class="separator:a5233b46ca5d77dec46bab653629b49dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb6cdd5558b35873e0759608dd833d9e"><td class="memItemLeft" align="right" valign="top"><a id="aeb6cdd5558b35873e0759608dd833d9e"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib6Entry.html#aeb6cdd5558b35873e0759608dd833d9e">attribs</a></td></tr>
-<tr class="memdesc:aeb6cdd5558b35873e0759608dd833d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attributes for this entry. <br /></td></tr>
-<tr class="separator:aeb6cdd5558b35873e0759608dd833d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classlibbgp_1_1BgpRibEntry"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classlibbgp_1_1BgpRibEntry')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classlibbgp_1_1BgpRibEntry.html">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;</a></td></tr>
+<tr class="memitem:a4fe32489231c3e84cbffd205c7be75cf inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memItemLeft" align="right" valign="top"><a id="a4fe32489231c3e84cbffd205c7be75cf"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a4fe32489231c3e84cbffd205c7be75cf">src_router_id</a></td></tr>
+<tr class="memdesc:a4fe32489231c3e84cbffd205c7be75cf inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="mdescLeft">&#160;</td><td class="mdescRight">The originating BGP speaker's ID of this entry. (network bytes order) <br /></td></tr>
+<tr class="separator:a4fe32489231c3e84cbffd205c7be75cf inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488f3f6505d949b83c39e78b166aa446 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memItemLeft" align="right" valign="top"><a id="a488f3f6505d949b83c39e78b166aa446"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a488f3f6505d949b83c39e78b166aa446">update_id</a></td></tr>
+<tr class="memdesc:a488f3f6505d949b83c39e78b166aa446 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update ID. BgpRib4Entry with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. <br /></td></tr>
+<tr class="separator:a488f3f6505d949b83c39e78b166aa446 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3d9a86bd70cc7f4cc98c58fda6f159 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memItemLeft" align="right" valign="top"><a id="a9a3d9a86bd70cc7f4cc98c58fda6f159"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a9a3d9a86bd70cc7f4cc98c58fda6f159">attribs</a></td></tr>
+<tr class="memdesc:a9a3d9a86bd70cc7f4cc98c58fda6f159 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attributes for this entry. <br /></td></tr>
+<tr class="separator:a9a3d9a86bd70cc7f4cc98c58fda6f159 inherit pub_attribs_classlibbgp_1_1BgpRibEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpRib6Entry.html" title="The BgpRib6Entry class. ">BgpRib6Entry</a> class. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib6_8h_source.html#l00026">26</a> of file <a class="el" href="bgp-rib6_8h_source.html">bgp-rib6.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib6_8h_source.html#l00027">27</a> of file <a class="el" href="bgp-rib6_8h_source.html">bgp-rib6.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac5198cc777526017265cc57dc4704543"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5198cc777526017265cc57dc4704543">&#9670;&nbsp;</a></span>BgpRib6Entry()</h2>
@@ -185,35 +196,7 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAt
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib6_8cc_source.html#l00026">26</a> of file <a class="el" href="bgp-rib6_8cc_source.html">bgp-rib6.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-rib6_8h_source.html#l00055">src_router_id</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aab9148a00d4734bfc05c18b15529ec80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9148a00d4734bfc05c18b15529ec80">&#9670;&nbsp;</a></span>getMetric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t libbgp::BgpRib6Entry::getMetric </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get metric of this entry. </p>
-<p>Get metric of current entry. Currently, metric is AS_PATH length.</p>
-<dl class="section return"><dt>Returns</dt><dd>uint32_t Metric. Higher value means lower priority. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="bgp-rib6_8cc_source.html#l00043">43</a> of file <a class="el" href="bgp-rib6_8cc_source.html">bgp-rib6.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="bgp-rib6_8h_source.html#l00069">attribs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-rib6_8cc_source.html#l00133">libbgp::BgpRib6::insert()</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00037">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;::attribs</a>, and <a class="el" href="bgp-rib_8h_source.html#l00023">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;::src_router_id</a>.</p>
 
 </div>
 </div>

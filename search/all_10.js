@@ -1,6 +1,7 @@
 var searchData=
 [
   ['safi',['safi',['../classlibbgp_1_1BgpCapabilityMpBgp.html#a63e85022a98bd9890c7c8a19843a880b',1,'libbgp::BgpCapabilityMpBgp::safi()'],['../classlibbgp_1_1BgpPathAttribMpNlriBase.html#a60b2ea2cb3d42e3eb805177422a94899',1,'libbgp::BgpPathAttribMpNlriBase::safi()'],['../bgp-afi_8h.html#a30316ddc542d142d5ce90928fba1666c',1,'libbgp::Safi()']]],
+  ['selectentry',['selectEntry',['../classlibbgp_1_1BgpRib.html#a7de428e99144e8653ce8ea85bbfeb51d',1,'libbgp::BgpRib']]],
   ['serializable',['Serializable',['../classlibbgp_1_1Serializable.html',1,'libbgp::Serializable'],['../classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550',1,'libbgp::Serializable::Serializable()']]],
   ['serializable_2ecc',['serializable.cc',['../serializable_8cc.html',1,'']]],
   ['serializable_2eh',['serializable.h',['../serializable_8h.html',1,'']]],
@@ -15,7 +16,7 @@ var searchData=
   ['setnlri4',['setNlri4',['../classlibbgp_1_1BgpUpdateMessage.html#a8e45e1f6fa0e7a1215a5d36d0ba032c3',1,'libbgp::BgpUpdateMessage']]],
   ['setprefix',['setPrefix',['../classlibbgp_1_1Prefix4.html#a59936ec1ad1b50be588ea1a3d910a593',1,'libbgp::Prefix4::setPrefix()'],['../classlibbgp_1_1Prefix6.html#abbfa7589291f7a80abdcbdfa66e3abeb',1,'libbgp::Prefix6::setPrefix()']]],
   ['setwithdrawn4',['setWithdrawn4',['../classlibbgp_1_1BgpUpdateMessage.html#a57f3220e615ad5f23f6e630ac29db85d',1,'libbgp::BgpUpdateMessage']]],
-  ['src_5frouter_5fid',['src_router_id',['../classlibbgp_1_1BgpRib4Entry.html#a15c71159c78afe6801e142b2f295ee17',1,'libbgp::BgpRib4Entry::src_router_id()'],['../classlibbgp_1_1BgpRib6Entry.html#a551e99779c8bba8b88d2c6624a69eb85',1,'libbgp::BgpRib6Entry::src_router_id()']]],
+  ['src_5frouter_5fid',['src_router_id',['../classlibbgp_1_1BgpRibEntry.html#a4fe32489231c3e84cbffd205c7be75cf',1,'libbgp::BgpRibEntry']]],
   ['start',['start',['../classlibbgp_1_1BgpFsm.html#a297b5f43430153e579f9c4b75d214fca',1,'libbgp::BgpFsm']]],
   ['stop',['stop',['../classlibbgp_1_1BgpFsm.html#a2cfd8eca823780e49d2f3bd61cdb68c2',1,'libbgp::BgpFsm']]],
   ['strict',['STRICT',['../bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83bada57eab5f4d63c8dab6e77b016488f38',1,'libbgp']]],

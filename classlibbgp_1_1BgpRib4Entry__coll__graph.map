@@ -1,3 +1,4 @@
 <map id="libbgp::BgpRib4Entry" name="libbgp::BgpRib4Entry">
-<area shape="rect" id="node2" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="27,5,137,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib4Entry \&gt;" alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="175,13,285,39"/>
 </map>

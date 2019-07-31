@@ -1,6 +1,7 @@
 <map id="src/bgp&#45;rib6.h" name="src/bgp&#45;rib6.h">
-<area shape="rect" id="node6" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="21,155,98,181"/>
-<area shape="rect" id="node8" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="145,80,276,107"/>
-<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="224,155,330,181"/>
-<area shape="rect" id="node11" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="299,229,434,256"/>
+<area shape="rect" id="node6" href="$bgp-rib_8h_source.html" title="bgp&#45;rib.h" alt="" coords="304,80,382,107"/>
+<area shape="rect" id="node8" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="110,155,240,181"/>
+<area shape="rect" id="node13" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="28,229,106,256"/>
+<area shape="rect" id="node12" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="370,304,505,331"/>
+<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="232,229,337,256"/>
 </map>
