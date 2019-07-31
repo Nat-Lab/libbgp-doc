@@ -1,4 +1,6 @@
 <map id="src/prefix6.cc" name="src/prefix6.cc">
 <area shape="rect" id="node4" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="193,80,270,107"/>
-<area shape="rect" id="node7" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="79,80,168,107"/>
+<area shape="rect" id="node9" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="79,80,168,107"/>
+<area shape="rect" id="node7" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="202,155,271,181"/>
+<area shape="rect" id="node8" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="197,229,276,256"/>
 </map>

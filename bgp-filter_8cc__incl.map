@@ -1,4 +1,11 @@
 <map id="src/bgp&#45;filter.cc" name="src/bgp&#45;filter.cc">
-<area shape="rect" id="node2" href="$bgp-filter_8h.html" title="The Route filtering engine. " alt="" coords="19,80,110,107"/>
-<area shape="rect" id="node5" href="$route_8h.html" title="Route/Prefix related utilities. " alt="" coords="120,155,188,181"/>
+<area shape="rect" id="node3" href="$bgp-filter_8h.html" title="Route filtering engine. " alt="" coords="226,80,316,107"/>
+<area shape="rect" id="node17" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="409,304,498,331"/>
+<area shape="rect" id="node6" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="8,379,86,405"/>
+<area shape="rect" id="node7" href="$prefix4_8h.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="28,229,106,256"/>
+<area shape="rect" id="node11" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="130,229,207,256"/>
+<area shape="rect" id="node12" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="206,155,336,181"/>
+<area shape="rect" id="node10" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="62,304,131,331"/>
+<area shape="rect" id="node13" href="$serializable_8h.html" title="The serializable base. " alt="" coords="522,304,628,331"/>
+<area shape="rect" id="node15" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="508,379,642,405"/>
 </map>

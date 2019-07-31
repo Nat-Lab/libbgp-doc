@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib6Entry \&gt;" alt="" coords="5,5,151,47"/>
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpRib6Entry.html" title="The BgpRib6Entry class. " alt="" coords="199,13,352,39"/>
+<area shape="rect" id="node1" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="156,5,267,32"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="156,56,267,83"/>
 </map>

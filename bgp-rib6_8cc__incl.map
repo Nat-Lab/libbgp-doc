@@ -1,8 +1,10 @@
 <map id="src/bgp&#45;rib6.cc" name="src/bgp&#45;rib6.cc">
-<area shape="rect" id="node4" href="$bgp-rib6_8h.html" title="The BGP Routing Information Base for IPv6. " alt="" coords="391,80,477,107"/>
-<area shape="rect" id="node9" href="$bgp-rib_8h_source.html" title="bgp&#45;rib.h" alt="" coords="344,155,423,181"/>
-<area shape="rect" id="node10" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="522,229,653,256"/>
-<area shape="rect" id="node15" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="790,304,867,331"/>
-<area shape="rect" id="node14" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="315,379,449,405"/>
-<area shape="rect" id="node11" href="$serializable_8h.html" title="The serializable base. " alt="" coords="508,304,613,331"/>
+<area shape="rect" id="node4" href="$bgp-rib6_8h.html" title="The BGP Routing Information Base for IPv6. " alt="" coords="401,80,488,107"/>
+<area shape="rect" id="node9" href="$bgp-rib_8h_source.html" title="bgp&#45;rib.h" alt="" coords="444,155,523,181"/>
+<area shape="rect" id="node10" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="671,229,802,256"/>
+<area shape="rect" id="node15" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="977,304,1054,331"/>
+<area shape="rect" id="node14" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="479,379,613,405"/>
+<area shape="rect" id="node11" href="$serializable_8h.html" title="The serializable base. " alt="" coords="657,304,763,331"/>
+<area shape="rect" id="node16" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="1041,379,1110,405"/>
+<area shape="rect" id="node17" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="1036,453,1115,480"/>
 </map>

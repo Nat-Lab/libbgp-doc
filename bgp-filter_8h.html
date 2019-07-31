@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.3.1</span>
+   &#160;<span id="projectnumber">0.4</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -72,20 +72,37 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Route filtering engine common resources.  
+<p>Route filtering engine.  
 <a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &quot;<a class="el" href="bgp-afi_8h_source.html">bgp-afi.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="prefix4_8h_source.html">prefix4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="prefix6_8h_source.html">prefix6.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bgp-path-attrib_8h_source.html">bgp-path-attrib.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for bgp-filter.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="bgp-filter_8h__incl.png" border="0" usemap="#src_2bgp-filter_8h" alt=""/></div>
+<map name="src_2bgp-filter_8h" id="src_2bgp-filter_8h">
+<area shape="rect" id="node4" href="bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="543,304,621,331"/>
+<area shape="rect" id="node5" href="prefix4_8h.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="483,155,561,181"/>
+<area shape="rect" id="node9" href="prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="382,155,459,181"/>
+<area shape="rect" id="node10" href="bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="230,80,361,107"/>
+<area shape="rect" id="node8" href="prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="486,229,555,256"/>
+<area shape="rect" id="node11" href="serializable_8h.html" title="The serializable base. " alt="" coords="103,229,208,256"/>
+<area shape="rect" id="node13" href="bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="5,304,140,331"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="bgp-filter_8h__dep__incl.png" border="0" usemap="#src_2bgp-filter_8hdep" alt=""/></div>
 <map name="src_2bgp-filter_8hdep" id="src_2bgp-filter_8hdep">
-<area shape="rect" id="node2" href="bgp-filter4_8h.html" title="The IPv4 Route filtering engine. " alt="" coords="85,80,208,107"/>
-<area shape="rect" id="node7" href="bgp-filter6_8h.html" title="The IPv6 Route filtering engine. " alt="" coords="232,80,355,107"/>
-<area shape="rect" id="node3" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="158,155,282,181"/>
-<area shape="rect" id="node6" href="bgp-filter4_8cc.html" title="The IPv4 Route filtering engine. " alt="" coords="5,155,133,181"/>
-<area shape="rect" id="node4" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="165,229,275,256"/>
-<area shape="rect" id="node5" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="162,304,278,331"/>
-<area shape="rect" id="node8" href="bgp-filter6_8cc.html" title="The IPv6 Route filtering engine. " alt="" coords="307,155,435,181"/>
+<area shape="rect" id="node2" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node5" href="bgp-filter_8cc.html" title="The BGP route filtering engine. " alt="" coords="153,80,272,107"/>
+<area shape="rect" id="node3" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="12,155,123,181"/>
+<area shape="rect" id="node4" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="9,229,125,256"/>
 </map>
 </div>
 </div>
@@ -93,32 +110,78 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRule.html">libbgp::BgpFilterRule&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Base of <a class="el" href="classlibbgp_1_1BgpFilterRule.html" title="The Base of BgpFilterRule class. ">BgpFilterRule</a> class.  <a href="classlibbgp_1_1BgpFilterRule.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRule.html">libbgp::BgpFilterRule</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base of <a class="el" href="classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. ">BgpFilterRule</a>.  <a href="classlibbgp_1_1BgpFilterRule.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRules.html">libbgp::BgpFilterRules&lt; TFilter, TPrefix &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classlibbgp_1_1BgpFilterRules.html" title="The BgpFilterRules base class. ">BgpFilterRules</a> base class.  <a href="classlibbgp_1_1BgpFilterRules.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRuleRoute.html">libbgp::BgpFilterRuleRoute</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base of of <a class="el" href="classlibbgp_1_1BgpFilterRuleRoute.html" title="The base of of BgpFilterRuleRoute. ">BgpFilterRuleRoute</a>.  <a href="classlibbgp_1_1BgpFilterRuleRoute.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRuleRoute4.html">libbgp::BgpFilterRuleRoute4</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The IPv4 route filtering rule.  <a href="classlibbgp_1_1BgpFilterRuleRoute4.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRuleRoute6.html">libbgp::BgpFilterRuleRoute6</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The IPv6 route filtering rule.  <a href="classlibbgp_1_1BgpFilterRuleRoute6.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRuleAsPath.html">libbgp::BgpFilterRuleAsPath</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AS_PATH filtering rule.  <a href="classlibbgp_1_1BgpFilterRuleAsPath.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRuleCommunity.html">libbgp::BgpFilterRuleCommunity</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The COMMUNITY filtering rule.  <a href="classlibbgp_1_1BgpFilterRuleCommunity.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRules.html">libbgp::BgpFilterRules</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The BGP filtering rules set.  <a href="classlibbgp_1_1BgpFilterRules.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a5d17d0067f21c604db6664cc491547a8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8">libbgp::BgpFilterRuleType</a> { <a class="el" href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8a9163dc67241bd112d2b10ab77eeed52d">libbgp::F_ROUTE</a>, 
+<a class="el" href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8a9f42107fd36a70f8f875a76780053d2b">libbgp::F_AS_PATH</a>, 
+<a class="el" href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8aa0a62a0dab0ab987ecacbd5c729801be">libbgp::F_COMMUNITY</a>
+ }<tr class="memdesc:a5d17d0067f21c604db6664cc491547a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of filter rule.  <a href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a5d17d0067f21c604db6664cc491547a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e60861335e07d6ae40515b00d45cea4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4">libbgp::BgpFilterRuleRouteMatchType</a> { <br />
+&#160;&#160;<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4a9ea483b720a308c9a96681a1260e33d0">libbgp::M_EQ</a>, 
+<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4ad0a48c415f1e43033193ada7f402359a">libbgp::M_NE</a>, 
+<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4a38ba7dd6f68bc2bb4e7e8c040562205b">libbgp::M_GT</a>, 
+<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4a9206a6e80f607892f6d5611709719b0c">libbgp::M_LT</a>, 
+<br />
+&#160;&#160;<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4a94ab5d8ff3e0eaa53917cf15acb70c02">libbgp::M_GE</a>, 
+<a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4a9350c19e83e76d427e2ff5c1149ba638">libbgp::M_LE</a>
+<br />
+ }<tr class="memdesc:a8e60861335e07d6ae40515b00d45cea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matching type of IP prefix rule.  <a href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a8e60861335e07d6ae40515b00d45cea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22494fc9dc037cd8c6b7b40377ded35f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35f">libbgp::BgpFilterRuleAsPathMatchType</a> { <a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35fa91d04966032d4ff43db604a9b4b6eef7">libbgp::M_HAS_ASN</a>, 
+<a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35fad45494682f19fceef914dc40913e6c43">libbgp::M_NOT_HAS_ASN</a>, 
+<a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35fa58706a88aad2b5b89f9e1dac9a7ac41f">libbgp::M_FROM_ASN</a>, 
+<a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35fabb2f4ed0267cedd5f1cad20ab323bf81">libbgp::M_NOT_FROM_ASN</a>
+ }<tr class="memdesc:a22494fc9dc037cd8c6b7b40377ded35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matching type of AS_PATH rule.  <a href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35f">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a22494fc9dc037cd8c6b7b40377ded35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af1e0ba40fe9a19560545629e8de84b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84b">libbgp::BgpFilterRuleCommunityMatchType</a> { <a class="el" href="bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84ba45a1eff2e234dea053541eb0308d8686">libbgp::M_HAS_COMMUNITY</a>, 
+<a class="el" href="bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84ba5c09a7b52360b1ef9c9d9020b2fe215f">libbgp::M_NOT_HAS_COMMUNITY</a>
+ }<tr class="memdesc:a6af1e0ba40fe9a19560545629e8de84b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matching type of COMMUNITY rule.  <a href="bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84b">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a6af1e0ba40fe9a19560545629e8de84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09b283ade47782bc0c08687105402293"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293">libbgp::BgpFilterOP</a> { <a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293a79774da657eb06abce97987173efec06">libbgp::NOP</a>, 
 <a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293aa6ab08553612c9644c30f59750d17008">libbgp::ACCEPT</a>, 
 <a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293ad422690559350ccf4cb4669c598983e4">libbgp::REJECT</a>
  }<tr class="memdesc:a09b283ade47782bc0c08687105402293"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filter operation.  <a href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a09b283ade47782bc0c08687105402293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82b904d0d0a61391e89f90a5bd87a83b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83b">libbgp::BgpFilterType</a> { <a class="el" href="bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83bada57eab5f4d63c8dab6e77b016488f38">libbgp::STRICT</a>, 
-<a class="el" href="bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83ba1c55aa16021d15286787691f7c696ef3">libbgp::LOOSE</a>
- }<tr class="memdesc:a82b904d0d0a61391e89f90a5bd87a83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The types of filter.  <a href="bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83b">More...</a><br /></td></tr>
+<tr class="memitem:a2c0c0673bbc481e41473298eb8cb6ab8"><td class="memItemLeft" align="right" valign="top"><a id="a2c0c0673bbc481e41473298eb8cb6ab8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bgp-filter_8h.html#a2c0c0673bbc481e41473298eb8cb6ab8">libbgp::BgpWellKnownCommunity</a> { <b>NO_EXPORT</b> = 0xFFFFFF01, 
+<b>NO_ADVERTISE</b> = 0xFFFFFF02, 
+<b>NO_EXPORT_SUBCONFED</b> = 0xFFFFFF03
+ }<tr class="memdesc:a2c0c0673bbc481e41473298eb8cb6ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">BGP well-known communities. <br /></td></tr>
 </td></tr>
-<tr class="separator:a82b904d0d0a61391e89f90a5bd87a83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2c0c0673bbc481e41473298eb8cb6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Route filtering engine common resources. </p>
+<div class="textblock"><p>Route filtering engine. </p>
 <dl class="section author"><dt>Author</dt><dd>Nato Morichika <a href="#" onclick="location.href='mai'+'lto:'+'nat'+'@n'+'at.'+'mo'+'e'; return false;">nat@n<span style="display: none;">.nosp@m.</span>at.m<span style="display: none;">.nosp@m.</span>oe</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2019-07-21</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.3 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2019-07-31</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2019 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
@@ -137,7 +200,7 @@ Enumerations</h2></td></tr>
 
 <p>The filter operation. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a09b283ade47782bc0c08687105402293a79774da657eb06abce97987173efec06"></a>NOP&#160;</td><td class="fielddoc"><p>No Operation (Prefix does not match) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a09b283ade47782bc0c08687105402293a79774da657eb06abce97987173efec06"></a>NOP&#160;</td><td class="fielddoc"><p>No Operation (<a class="el" href="classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. ">Prefix</a> does not match) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a09b283ade47782bc0c08687105402293aa6ab08553612c9644c30f59750d17008"></a>ACCEPT&#160;</td><td class="fielddoc"><p>Accept </p>
 </td></tr>
@@ -145,31 +208,117 @@ Enumerations</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00020">20</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00069">69</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 
 </div>
 </div>
-<a id="file_a82b904d0d0a61391e89f90a5bd87a83b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#file_a82b904d0d0a61391e89f90a5bd87a83b">&#9670;&nbsp;</a></span>BgpFilterType</h2>
+<a id="file_a22494fc9dc037cd8c6b7b40377ded35f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a22494fc9dc037cd8c6b7b40377ded35f">&#9670;&nbsp;</a></span>BgpFilterRuleAsPathMatchType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83b">libbgp::BgpFilterType</a></td>
+          <td class="memname">enum <a class="el" href="bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35f">libbgp::BgpFilterRuleAsPathMatchType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The types of filter. </p>
+<p>Matching type of AS_PATH rule. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a82b904d0d0a61391e89f90a5bd87a83bada57eab5f4d63c8dab6e77b016488f38"></a>STRICT&#160;</td><td class="fielddoc"><p>Only match if the target subnet is an exact match </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a22494fc9dc037cd8c6b7b40377ded35fa91d04966032d4ff43db604a9b4b6eef7"></a>M_HAS_ASN&#160;</td><td class="fielddoc"><p>Match routes that has the ASN in AS_PATH </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a82b904d0d0a61391e89f90a5bd87a83ba1c55aa16021d15286787691f7c696ef3"></a>LOOSE&#160;</td><td class="fielddoc"><p>Match if the taeget subnet is a sub-prefix </p>
+<tr><td class="fieldname"><a id="a22494fc9dc037cd8c6b7b40377ded35fad45494682f19fceef914dc40913e6c43"></a>M_NOT_HAS_ASN&#160;</td><td class="fielddoc"><p>Match routes that does not have the ASN in AS_PATH </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a22494fc9dc037cd8c6b7b40377ded35fa58706a88aad2b5b89f9e1dac9a7ac41f"></a>M_FROM_ASN&#160;</td><td class="fielddoc"><p>Match routes that are originating from the ASN </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a22494fc9dc037cd8c6b7b40377ded35fabb2f4ed0267cedd5f1cad20ab323bf81"></a>M_NOT_FROM_ASN&#160;</td><td class="fielddoc"><p>Match routes that are not originating from the ASN </p>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00030">30</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00049">49</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+
+</div>
+</div>
+<a id="file_a6af1e0ba40fe9a19560545629e8de84b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a6af1e0ba40fe9a19560545629e8de84b">&#9670;&nbsp;</a></span>BgpFilterRuleCommunityMatchType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84b">libbgp::BgpFilterRuleCommunityMatchType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matching type of COMMUNITY rule. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6af1e0ba40fe9a19560545629e8de84ba45a1eff2e234dea053541eb0308d8686"></a>M_HAS_COMMUNITY&#160;</td><td class="fielddoc"><p>Match routes has the given community </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6af1e0ba40fe9a19560545629e8de84ba5c09a7b52360b1ef9c9d9020b2fe215f"></a>M_NOT_HAS_COMMUNITY&#160;</td><td class="fielddoc"><p>Match routes does not have the given community </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00060">60</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+
+</div>
+</div>
+<a id="file_a8e60861335e07d6ae40515b00d45cea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a8e60861335e07d6ae40515b00d45cea4">&#9670;&nbsp;</a></span>BgpFilterRuleRouteMatchType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4">libbgp::BgpFilterRuleRouteMatchType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matching type of IP prefix rule. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4a9ea483b720a308c9a96681a1260e33d0"></a>M_EQ&#160;</td><td class="fielddoc"><p>Match a IP prefix equals to rule prefix </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4ad0a48c415f1e43033193ada7f402359a"></a>M_NE&#160;</td><td class="fielddoc"><p>Match a IP prefix does not equals to rule prefix </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4a38ba7dd6f68bc2bb4e7e8c040562205b"></a>M_GT&#160;</td><td class="fielddoc"><p>Match a IP prefix that has this prefix as sub-prefix (greater then) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4a9206a6e80f607892f6d5611709719b0c"></a>M_LT&#160;</td><td class="fielddoc"><p>Match a sub-prefix of this IP prefix (less then) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4a94ab5d8ff3e0eaa53917cf15acb70c02"></a>M_GE&#160;</td><td class="fielddoc"><p>Match a IP prefix equals to, or greater then the rule prefix </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8e60861335e07d6ae40515b00d45cea4a9350c19e83e76d427e2ff5c1149ba638"></a>M_LE&#160;</td><td class="fielddoc"><p>Match a IP prefix equals to, or less then the rule prefix </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00036">36</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+
+</div>
+</div>
+<a id="file_a5d17d0067f21c604db6664cc491547a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a5d17d0067f21c604db6664cc491547a8">&#9670;&nbsp;</a></span>BgpFilterRuleType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8">libbgp::BgpFilterRuleType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of filter rule. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5d17d0067f21c604db6664cc491547a8a9163dc67241bd112d2b10ab77eeed52d"></a>F_ROUTE&#160;</td><td class="fielddoc"><p>Match a IP prefix </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d17d0067f21c604db6664cc491547a8a9f42107fd36a70f8f875a76780053d2b"></a>F_AS_PATH&#160;</td><td class="fielddoc"><p>Match AS_PATH </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d17d0067f21c604db6664cc491547a8aa0a62a0dab0ab987ecacbd5c729801be"></a>F_COMMUNITY&#160;</td><td class="fielddoc"><p>Match COMMUNITY </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00026">26</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 
 </div>
 </div>

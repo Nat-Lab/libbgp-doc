@@ -1,0 +1,7 @@
+<map id="libbgp::BgpFilterRule" name="libbgp::BgpFilterRule">
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpFilterRuleAsPath.html" title="The AS_PATH filtering rule. " alt="" coords="217,5,411,32"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRuleCommunity.html" title="The COMMUNITY filtering rule. " alt="" coords="203,56,425,83"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="The base of of BgpFilterRuleRoute. " alt="" coords="221,107,407,133"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpFilterRuleRoute4.html" title="The IPv4 route filtering rule. " alt="" coords="473,81,667,108"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1BgpFilterRuleRoute6.html" title="The IPv6 route filtering rule. " alt="" coords="473,132,667,159"/>
+</map>

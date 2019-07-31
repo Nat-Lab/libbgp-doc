@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.3.1</span>
+   &#160;<span id="projectnumber">0.4</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -76,10 +76,15 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="prefix_8h_source.html">prefix.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for prefix4.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="prefix4_8h__incl.png" border="0" usemap="#src_2prefix4_8h" alt=""/></div>
+<map name="src_2prefix4_8h" id="src_2prefix4_8h">
+<area shape="rect" id="node4" href="prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="105,80,174,107"/>
+<area shape="rect" id="node5" href="bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="100,155,179,181"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -87,21 +92,21 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="prefix4_8h__dep__incl.png" border="0" usemap="#src_2prefix4_8hdep" alt=""/></div>
 <map name="src_2prefix4_8hdep" id="src_2prefix4_8hdep">
 <area shape="rect" id="node2" href="bgp-rib4_8h.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="105,229,216,256"/>
-<area shape="rect" id="node7" href="bgp-filter4_8h.html" title="The IPv4 Route filtering engine. " alt="" coords="282,80,405,107"/>
-<area shape="rect" id="node9" href="bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="429,80,623,107"/>
-<area shape="rect" id="node17" href="prefix4_8cc.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="647,80,754,107"/>
+<area shape="rect" id="node7" href="bgp-filter_8h.html" title="Route filtering engine. " alt="" coords="283,80,396,107"/>
+<area shape="rect" id="node9" href="bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="421,80,615,107"/>
+<area shape="rect" id="node17" href="prefix4_8cc.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="639,80,746,107"/>
 <area shape="rect" id="node3" href="bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="197,304,321,331"/>
 <area shape="rect" id="node4" href="bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="293,379,404,405"/>
 <area shape="rect" id="node6" href="bgp-rib4_8cc.html" title="The IPv4 BGP Routing Information Base. " alt="" coords="5,304,121,331"/>
 <area shape="rect" id="node5" href="bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="291,453,407,480"/>
-<area shape="rect" id="node8" href="bgp-filter4_8cc.html" title="The IPv4 Route filtering engine. " alt="" coords="294,155,422,181"/>
-<area shape="rect" id="node10" href="route-event_8h.html" title="The route events. " alt="" coords="447,155,579,181"/>
-<area shape="rect" id="node14" href="bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="603,155,684,181"/>
-<area shape="rect" id="node16" href="bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="708,155,909,181"/>
+<area shape="rect" id="node8" href="bgp-filter_8cc.html" title="The BGP route filtering engine. " alt="" coords="295,155,413,181"/>
+<area shape="rect" id="node10" href="route-event_8h.html" title="The route events. " alt="" coords="437,155,569,181"/>
+<area shape="rect" id="node14" href="bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="593,155,675,181"/>
+<area shape="rect" id="node16" href="bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="699,155,900,181"/>
 <area shape="rect" id="node11" href="route-event-bus_8h.html" title="The route event bus. " alt="" coords="359,229,519,256"/>
 <area shape="rect" id="node12" href="route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="346,304,533,331"/>
 <area shape="rect" id="node13" href="route-event-bus_8cc.html" title="The route event bus. " alt="" coords="557,304,724,331"/>
-<area shape="rect" id="node15" href="bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="576,229,711,256"/>
+<area shape="rect" id="node15" href="bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="567,229,701,256"/>
 </map>
 </div>
 </div>
@@ -115,8 +120,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3adae39480242b265fc4241dbe879114"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prefix4_8cc.html#a3adae39480242b265fc4241dbe879114">libbgp::cidr_to_mask</a> (uint8_t cidr)</td></tr>
-<tr class="memdesc:a3adae39480242b265fc4241dbe879114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert netmask in CIDR notation to network bytes integer.  <a href="prefix4_8cc.html#a3adae39480242b265fc4241dbe879114">More...</a><br /></td></tr>
+<tr class="memitem:a3adae39480242b265fc4241dbe879114"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="prefix_8h.html#a3adae39480242b265fc4241dbe879114">libbgp::cidr_to_mask</a> (uint8_t cidr)</td></tr>
+<tr class="memdesc:a3adae39480242b265fc4241dbe879114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert netmask in CIDR notation to network bytes integer.  <a href="prefix_8h.html#a3adae39480242b265fc4241dbe879114">More...</a><br /></td></tr>
 <tr class="separator:a3adae39480242b265fc4241dbe879114"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

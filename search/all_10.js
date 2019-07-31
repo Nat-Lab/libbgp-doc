@@ -19,7 +19,6 @@ var searchData=
   ['src_5frouter_5fid',['src_router_id',['../classlibbgp_1_1BgpRibEntry.html#a4fe32489231c3e84cbffd205c7be75cf',1,'libbgp::BgpRibEntry']]],
   ['start',['start',['../classlibbgp_1_1BgpFsm.html#a297b5f43430153e579f9c4b75d214fca',1,'libbgp::BgpFsm']]],
   ['stop',['stop',['../classlibbgp_1_1BgpFsm.html#a2cfd8eca823780e49d2f3bd61cdb68c2',1,'libbgp::BgpFsm']]],
-  ['strict',['STRICT',['../bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83bada57eab5f4d63c8dab6e77b016488f38',1,'libbgp']]],
   ['subcode',['subcode',['../classlibbgp_1_1BgpNotificationMessage.html#a35f4967f5a12cb987c97d377106ec202',1,'libbgp::BgpNotificationMessage']]],
   ['subscribe',['subscribe',['../classlibbgp_1_1RouteEventBus.html#a8479fcd6ead5e448841eb46610ab00d2',1,'libbgp::RouteEventBus']]]
 ];

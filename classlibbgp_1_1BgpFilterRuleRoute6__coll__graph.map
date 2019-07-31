@@ -1,0 +1,6 @@
+<map id="libbgp::BgpFilterRuleRoute6" name="libbgp::BgpFilterRuleRoute6">
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="The base of of BgpFilterRuleRoute. " alt="" coords="5,81,191,108"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. " alt="" coords="23,5,173,32"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="215,81,325,108"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="219,5,321,32"/>
+</map>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['_7ebgpcapabilityunknow',['~BgpCapabilityUnknow',['../classlibbgp_1_1BgpCapabilityUnknow.html#a38df1b5a656920e544ce7a0419f1f485',1,'libbgp::BgpCapabilityUnknow']]],
+  ['_7ebgpfilterruleroute',['~BgpFilterRuleRoute',['../classlibbgp_1_1BgpFilterRuleRoute.html#a00fb0058a1b50e8db3fe88c17bcecc80',1,'libbgp::BgpFilterRuleRoute']]],
   ['_7ebgploghandler',['~BgpLogHandler',['../classlibbgp_1_1BgpLogHandler.html#a8617972a902d60a4e29c8bb5ca5b1c1a',1,'libbgp::BgpLogHandler']]],
   ['_7ebgppathattrib',['~BgpPathAttrib',['../classlibbgp_1_1BgpPathAttrib.html#aa4b3d56a51bc4352a2fcd82cc5fd6de9',1,'libbgp::BgpPathAttrib']]],
   ['_7ebgpsink',['~BgpSink',['../classlibbgp_1_1BgpSink.html#a59ee833c126f150cf234780d2fa06817',1,'libbgp::BgpSink']]],

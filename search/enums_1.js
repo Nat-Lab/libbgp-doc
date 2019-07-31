@@ -5,7 +5,10 @@ var searchData=
   ['bgpceaseerrorsubcode',['BgpCeaseErrorSubcode',['../bgp-errcode_8h.html#a4daf25d0c2f5cea0e59d15c5a92219d7',1,'libbgp']]],
   ['bgperrorcode',['BgpErrorCode',['../bgp-errcode_8h.html#ac886af2b217a5b003e59d3d00052974a',1,'libbgp']]],
   ['bgpfilterop',['BgpFilterOP',['../bgp-filter_8h.html#a09b283ade47782bc0c08687105402293',1,'libbgp']]],
-  ['bgpfiltertype',['BgpFilterType',['../bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83b',1,'libbgp']]],
+  ['bgpfilterruleaspathmatchtype',['BgpFilterRuleAsPathMatchType',['../bgp-filter_8h.html#a22494fc9dc037cd8c6b7b40377ded35f',1,'libbgp']]],
+  ['bgpfilterrulecommunitymatchtype',['BgpFilterRuleCommunityMatchType',['../bgp-filter_8h.html#a6af1e0ba40fe9a19560545629e8de84b',1,'libbgp']]],
+  ['bgpfilterruleroutematchtype',['BgpFilterRuleRouteMatchType',['../bgp-filter_8h.html#a8e60861335e07d6ae40515b00d45cea4',1,'libbgp']]],
+  ['bgpfilterruletype',['BgpFilterRuleType',['../bgp-filter_8h.html#a5d17d0067f21c604db6664cc491547a8',1,'libbgp']]],
   ['bgpfsmerrorsubcode',['BgpFsmErrorSubcode',['../bgp-errcode_8h.html#a7555e4eecf19a5f43569bd7b0e87a6ff',1,'libbgp']]],
   ['bgpheadererrorsubcode',['BgpHeaderErrorSubcode',['../bgp-errcode_8h.html#acc76f32607640ba99835c949c744975c',1,'libbgp']]],
   ['bgpmessagetype',['BgpMessageType',['../bgp-message_8h.html#a2a8c0537b0303c3fa057be33f427a7cc',1,'libbgp']]],
@@ -13,5 +16,6 @@ var searchData=
   ['bgppathattriborigins',['BgpPathAttribOrigins',['../bgp-path-attrib_8h.html#aa2583d98c353d2190bf636f3eda36dab',1,'libbgp']]],
   ['bgppathattribtype',['BgpPathAttribType',['../bgp-path-attrib_8h.html#a6012071f58111fa211a6e7190cee644f',1,'libbgp']]],
   ['bgpstate',['BgpState',['../bgp-fsm_8h.html#af811264836a8ec871fca16c35ef11598',1,'libbgp']]],
-  ['bgpupdateerrorsubcode',['BgpUpdateErrorSubcode',['../bgp-errcode_8h.html#a50f7a37cb24789c95a09e31cc37c5bdd',1,'libbgp']]]
+  ['bgpupdateerrorsubcode',['BgpUpdateErrorSubcode',['../bgp-errcode_8h.html#a50f7a37cb24789c95a09e31cc37c5bdd',1,'libbgp']]],
+  ['bgpwellknowncommunity',['BgpWellKnownCommunity',['../bgp-filter_8h.html#a2c0c0673bbc481e41473298eb8cb6ab8',1,'libbgp']]]
 ];

@@ -1,9 +1,10 @@
 <map id="src/bgp&#45;path&#45;attrib.cc" name="src/bgp&#45;path&#45;attrib.cc">
-<area shape="rect" id="node2" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="183,80,314,107"/>
-<area shape="rect" id="node11" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="338,80,450,107"/>
-<area shape="rect" id="node12" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="475,80,553,107"/>
-<area shape="rect" id="node13" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="5,155,95,181"/>
-<area shape="rect" id="node3" href="$serializable_8h.html" title="The serializable base. " alt="" coords="411,155,516,181"/>
-<area shape="rect" id="node9" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="258,155,335,181"/>
-<area shape="rect" id="node7" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="396,229,531,256"/>
+<area shape="rect" id="node2" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="315,80,445,107"/>
+<area shape="rect" id="node11" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="494,304,573,331"/>
+<area shape="rect" id="node13" href="$bgp-errcode_8h.html" title="BGP error codes. " alt="" coords="596,80,708,107"/>
+<area shape="rect" id="node14" href="$value-op_8h.html" title="Buffer operation helpers. " alt="" coords="546,229,635,256"/>
+<area shape="rect" id="node3" href="$serializable_8h.html" title="The serializable base. " alt="" coords="119,229,225,256"/>
+<area shape="rect" id="node9" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="388,155,465,181"/>
+<area shape="rect" id="node7" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="105,304,239,331"/>
+<area shape="rect" id="node10" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="351,229,420,256"/>
 </map>

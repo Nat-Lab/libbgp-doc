@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['strict',['STRICT',['../bgp-filter_8h.html#a82b904d0d0a61391e89f90a5bd87a83bada57eab5f4d63c8dab6e77b016488f38',1,'libbgp']]]
+  ['reject',['REJECT',['../bgp-filter_8h.html#a09b283ade47782bc0c08687105402293ad422690559350ccf4cb4669c598983e4',1,'libbgp']]]
 ];

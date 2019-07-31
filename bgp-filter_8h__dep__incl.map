@@ -1,9 +1,6 @@
 <map id="src/bgp&#45;filter.h" name="src/bgp&#45;filter.h">
-<area shape="rect" id="node2" href="$bgp-filter4_8h.html" title="The IPv4 Route filtering engine. " alt="" coords="85,80,208,107"/>
-<area shape="rect" id="node7" href="$bgp-filter6_8h.html" title="The IPv6 Route filtering engine. " alt="" coords="232,80,355,107"/>
-<area shape="rect" id="node3" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="158,155,282,181"/>
-<area shape="rect" id="node6" href="$bgp-filter4_8cc.html" title="The IPv4 Route filtering engine. " alt="" coords="5,155,133,181"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="165,229,275,256"/>
-<area shape="rect" id="node5" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="162,304,278,331"/>
-<area shape="rect" id="node8" href="$bgp-filter6_8cc.html" title="The IPv6 Route filtering engine. " alt="" coords="307,155,435,181"/>
+<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node5" href="$bgp-filter_8cc.html" title="The BGP route filtering engine. " alt="" coords="153,80,272,107"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="12,155,123,181"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="9,229,125,256"/>
 </map>

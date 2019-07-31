@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.3.1</span>
+   &#160;<span id="projectnumber">0.4</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -166,10 +166,10 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a191511942337973ff77d4f1fa5632d17"><td class="memItemLeft" align="right" valign="top"><a id="a191511942337973ff77d4f1fa5632d17"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#a191511942337973ff77d4f1fa5632d17">community</a></td></tr>
-<tr class="memdesc:a191511942337973ff77d4f1fa5632d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raw community attribute in network byte order. <br /></td></tr>
-<tr class="separator:a191511942337973ff77d4f1fa5632d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617b01836f153e7be395f80bd7a3ae5e"><td class="memItemLeft" align="right" valign="top"><a id="a617b01836f153e7be395f80bd7a3ae5e"></a>
+std::vector&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#a617b01836f153e7be395f80bd7a3ae5e">communites</a></td></tr>
+<tr class="memdesc:a617b01836f153e7be395f80bd7a3ae5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raw community attribute in network byte order. <br /></td></tr>
+<tr class="separator:a617b01836f153e7be395f80bd7a3ae5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classlibbgp_1_1BgpPathAttrib"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classlibbgp_1_1BgpPathAttrib')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">libbgp::BgpPathAttrib</a></td></tr>
 <tr class="memitem:ab963f11e11379118b0ee6436f0dd0d9c inherit pub_attribs_classlibbgp_1_1BgpPathAttrib"><td class="memItemLeft" align="right" valign="top"><a id="ab963f11e11379118b0ee6436f0dd0d9c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpPathAttrib.html#ab963f11e11379118b0ee6436f0dd0d9c">optional</a></td></tr>
@@ -311,7 +311,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a0a5623cfcc8cb8830ffbb43ad1cf436b">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01389">1389</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01394">1394</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="serializable_8cc_source.html#l00045">libbgp::Serializable::hasError()</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
@@ -379,7 +379,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01374">1374</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00436">community</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00096">libbgp::BgpPathAttrib::printFlags()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00436">communites</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00096">libbgp::BgpPathAttrib::printFlags()</a>.</p>
 
 </div>
 </div>
@@ -418,9 +418,9 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a9f726edd332787d4fb8dca86f3888cda">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01445">1445</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01466">1466</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00039">libbgp::BgpPathAttrib::BgpPathAttrib()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00072">libbgp::BgpPathAttrib::extended</a>, <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00054">libbgp::BgpPathAttrib::optional</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00200">libbgp::BgpPathAttrib::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00060">libbgp::BgpPathAttrib::transitive</a>.</p>
+<p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00039">libbgp::BgpPathAttrib::BgpPathAttrib()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00436">communites</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00072">libbgp::BgpPathAttrib::extended</a>, <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>, <a class="el" href="bgp-path-attrib_8h_source.html#l00054">libbgp::BgpPathAttrib::optional</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00200">libbgp::BgpPathAttrib::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00060">libbgp::BgpPathAttrib::transitive</a>.</p>
 
 </div>
 </div>
@@ -484,7 +484,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a89ba651f148d1ac46b00a658011b3267">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01397">1397</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01402">1402</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-path-attrib_8cc_source.html#l00200">libbgp::BgpPathAttrib::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00078">libbgp::BgpPathAttrib::type_code</a>.</p>
 
@@ -543,7 +543,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Reimplemented from <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#ae5ab33a4395adc10109e97d3dcf962c2">libbgp::BgpPathAttrib</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01431">1431</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-path-attrib_8cc_source.html#l01446">1446</a> of file <a class="el" href="bgp-path-attrib_8cc_source.html">bgp-path-attrib.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 

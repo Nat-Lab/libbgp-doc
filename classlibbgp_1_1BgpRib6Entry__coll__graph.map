@@ -1,4 +1,5 @@
 <map id="libbgp::BgpRib6Entry" name="libbgp::BgpRib6Entry">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib6Entry \&gt;" alt="" coords="5,5,151,47"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="175,13,285,39"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpRibEntry.html" title="libbgp::BgpRibEntry\l\&lt; BgpRib6Entry \&gt;" alt="" coords="5,81,151,123"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="175,89,285,115"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="179,5,281,32"/>
 </map>
