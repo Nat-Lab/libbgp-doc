@@ -7,7 +7,7 @@ var searchData=
   ['peering_5flan4',['peering_lan4',['../structlibbgp_1_1BgpConfig.html#aa40956bb41579f1db353d41db1383f4f',1,'libbgp::BgpConfig']]],
   ['peering_5flan6',['peering_lan6',['../structlibbgp_1_1BgpConfig.html#aed8375964f1736d02bdff2f2a5944185',1,'libbgp::BgpConfig']]],
   ['pour',['pour',['../classlibbgp_1_1BgpSink.html#ac500b764b03dcb1723355c59ea53e813',1,'libbgp::BgpSink']]],
-  ['prefix',['Prefix',['../classlibbgp_1_1Prefix.html',1,'libbgp::Prefix'],['../classlibbgp_1_1BgpFilterRuleRoute4.html#a695c72a26b81443c5387e5b1812f2d0e',1,'libbgp::BgpFilterRuleRoute4::prefix()'],['../classlibbgp_1_1BgpFilterRuleRoute6.html#a03543651aa23f8166bf78e3676af98b4',1,'libbgp::BgpFilterRuleRoute6::prefix()']]],
+  ['prefix',['Prefix',['../classlibbgp_1_1Prefix.html',1,'libbgp::Prefix'],['../classlibbgp_1_1BgpFilterRuleRoute.html#a2faefc07cbf7754c056db88524fac124',1,'libbgp::BgpFilterRuleRoute::prefix()']]],
   ['prefix_2eh',['prefix.h',['../prefix_8h.html',1,'']]],
   ['prefix4',['Prefix4',['../classlibbgp_1_1Prefix4.html',1,'libbgp::Prefix4'],['../classlibbgp_1_1Prefix4.html#af1fade993c9763361317543e8d5abb0a',1,'libbgp::Prefix4::Prefix4()'],['../classlibbgp_1_1Prefix4.html#af7244ae9d1612869703dcb7673cc5c7d',1,'libbgp::Prefix4::Prefix4(uint32_t prefix, uint8_t length)'],['../classlibbgp_1_1Prefix4.html#ad3ca6b48c1fa2c42f2a194d73790a385',1,'libbgp::Prefix4::Prefix4(const char *prefix, uint8_t length)']]],
   ['prefix4_2ecc',['prefix4.cc',['../prefix4_8cc.html',1,'']]],

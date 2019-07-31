@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['afi',['afi',['../classlibbgp_1_1BgpCapabilityMpBgp.html#a5073dedf31ecd25f0d50449f83fe8791',1,'libbgp::BgpCapabilityMpBgp::afi()'],['../classlibbgp_1_1BgpFilterRuleRoute.html#a0ff74b021b358a321f68c3694d902eb0',1,'libbgp::BgpFilterRuleRoute::afi()'],['../classlibbgp_1_1BgpPathAttribMpNlriBase.html#adf8922944da6ae5b7e509a8c5bc93cc7',1,'libbgp::BgpPathAttribMpNlriBase::afi()']]],
+  ['afi',['afi',['../classlibbgp_1_1BgpCapabilityMpBgp.html#a5073dedf31ecd25f0d50449f83fe8791',1,'libbgp::BgpCapabilityMpBgp::afi()'],['../classlibbgp_1_1BgpPathAttribMpNlriBase.html#adf8922944da6ae5b7e509a8c5bc93cc7',1,'libbgp::BgpPathAttribMpNlriBase::afi()']]],
   ['aggregator',['aggregator',['../classlibbgp_1_1BgpPathAttribAggregator.html#afde83c181c65050fcb1defd9739cd0d7',1,'libbgp::BgpPathAttribAggregator::aggregator()'],['../classlibbgp_1_1BgpPathAttribAs4Aggregator.html#a9026dbb3cb2ba3ee93c134eb9b285bf9',1,'libbgp::BgpPathAttribAs4Aggregator::aggregator()']]],
   ['aggregator_5fasn',['aggregator_asn',['../classlibbgp_1_1BgpPathAttribAggregator.html#a17d1f189d76be9d936d6ab909a79fdc7',1,'libbgp::BgpPathAttribAggregator']]],
   ['aggregator_5fasn4',['aggregator_asn4',['../classlibbgp_1_1BgpPathAttribAs4Aggregator.html#a67e2d3f3332fe32e341741af5dcc047a',1,'libbgp::BgpPathAttribAs4Aggregator']]],

@@ -13,6 +13,8 @@ var searchData=
   ['bgpfilterruleroute',['BgpFilterRuleRoute',['../classlibbgp_1_1BgpFilterRuleRoute.html',1,'libbgp']]],
   ['bgpfilterruleroute4',['BgpFilterRuleRoute4',['../classlibbgp_1_1BgpFilterRuleRoute4.html',1,'libbgp']]],
   ['bgpfilterruleroute6',['BgpFilterRuleRoute6',['../classlibbgp_1_1BgpFilterRuleRoute6.html',1,'libbgp']]],
+  ['bgpfilterruleroute_3c_20prefix4_20_3e',['BgpFilterRuleRoute&lt; Prefix4 &gt;',['../classlibbgp_1_1BgpFilterRuleRoute.html',1,'libbgp']]],
+  ['bgpfilterruleroute_3c_20prefix6_20_3e',['BgpFilterRuleRoute&lt; Prefix6 &gt;',['../classlibbgp_1_1BgpFilterRuleRoute.html',1,'libbgp']]],
   ['bgpfilterrules',['BgpFilterRules',['../classlibbgp_1_1BgpFilterRules.html',1,'libbgp']]],
   ['bgpfsm',['BgpFsm',['../classlibbgp_1_1BgpFsm.html',1,'libbgp']]],
   ['bgpkeepalivemessage',['BgpKeepaliveMessage',['../classlibbgp_1_1BgpKeepaliveMessage.html',1,'libbgp']]],
