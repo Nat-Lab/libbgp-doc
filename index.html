@@ -71,13 +71,15 @@ $(function() {
 <h3>Install</h3>
 <p><code>libbgp</code> uses autotools for build automation. In general, you need the following build dependencies:</p>
 <ul>
+<li>g++</li>
+<li>make</li>
 <li>autotools (autoconf, automake, m4)</li>
 <li>autoconf-archive</li>
 <li>libtool</li>
 <li>Doxygen (for generating documents)</li>
 </ul>
 <p>If you use a Debian based operating system, you should be able to install these with the following apt command:</p>
-<div class="fragment"><div class="line"># apt install autoconf autoconf-archive automake m4 libtool doxygen</div></div><!-- fragment --><p>Once you have the dependencies installed, use the following commands to build libbgp:</p>
+<div class="fragment"><div class="line"># apt install g++ make autoconf autoconf-archive automake m4 libtool doxygen</div></div><!-- fragment --><p>Once you have the dependencies installed, use the following commands to build libbgp:</p>
 <div class="fragment"><div class="line">$ ./autogen.sh &amp;&amp; ./configure &amp;&amp; make</div><div class="line"># make install</div></div><!-- fragment --><h3>Document</h3>
 <p>libbgp document is available online at <a href="https://lab.nat.moe/libbgp-doc">https://lab.nat.moe/libbgp-doc</a>. You may also build the document by running <code>doxygen</code> command under the project root directory. (where the <code>Doxyfile</code> is located) You will find the document under <code>docs/</code> folder.</p>
 <h3>Examples</h3>
