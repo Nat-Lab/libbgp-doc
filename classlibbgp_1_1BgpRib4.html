@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.2</span>
+   &#160;<span id="projectnumber">0.4.3</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -101,6 +101,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a0bc22bb4b3ef1e98aee86c602c747f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a3a0bc22bb4b3ef1e98aee86c602c747f">insert</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route, uint32_t nexthop)</td></tr>
 <tr class="memdesc:a3a0bc22bb4b3ef1e98aee86c602c747f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a local route into RIB.  <a href="#a3a0bc22bb4b3ef1e98aee86c602c747f">More...</a><br /></td></tr>
 <tr class="separator:a3a0bc22bb4b3ef1e98aee86c602c747f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185ec4e273f00cbb5523c588520eba5a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a185ec4e273f00cbb5523c588520eba5a">insert</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route, uint32_t nexthop, <a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *rev_bus)</td></tr>
+<tr class="memdesc:a185ec4e273f00cbb5523c588520eba5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a local route into RIB.  <a href="#a185ec4e273f00cbb5523c588520eba5a">More...</a><br /></td></tr>
+<tr class="separator:a185ec4e273f00cbb5523c588520eba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d58e26c2862ab0b730c0426365e394"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a02d58e26c2862ab0b730c0426365e394">insert</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes, uint32_t nexthop)</td></tr>
+<tr class="memdesc:a02d58e26c2862ab0b730c0426365e394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert local routes into RIB.  <a href="#a02d58e26c2862ab0b730c0426365e394">More...</a><br /></td></tr>
+<tr class="separator:a02d58e26c2862ab0b730c0426365e394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee0a97eef847451fb5b356d89139d46"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#acee0a97eef847451fb5b356d89139d46">insert</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger, const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes, uint32_t nexthop, <a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *rev_bus)</td></tr>
+<tr class="memdesc:acee0a97eef847451fb5b356d89139d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert local routes into RIB.  <a href="#acee0a97eef847451fb5b356d89139d46">More...</a><br /></td></tr>
+<tr class="separator:acee0a97eef847451fb5b356d89139d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f89c34d13ef4009be01c6d35819219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a67f89c34d13ef4009be01c6d35819219">insert</a> (uint32_t src_router_id, const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt;&gt; &amp;attrib)</td></tr>
 <tr class="memdesc:a67f89c34d13ef4009be01c6d35819219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a new entry into RIB.  <a href="#a67f89c34d13ef4009be01c6d35819219">More...</a><br /></td></tr>
 <tr class="separator:a67f89c34d13ef4009be01c6d35819219"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,9 +119,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a965f58f55161c73dfe81ea6f10505b31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a965f58f55161c73dfe81ea6f10505b31">withdraw</a> (uint32_t src_router_id, const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route)</td></tr>
 <tr class="memdesc:a965f58f55161c73dfe81ea6f10505b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdraw a route from RIB.  <a href="#a965f58f55161c73dfe81ea6f10505b31">More...</a><br /></td></tr>
 <tr class="separator:a965f58f55161c73dfe81ea6f10505b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405aea0046696f0b3ca03ff85131ca77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a405aea0046696f0b3ca03ff85131ca77">withdraw</a> (uint32_t src_router_id, const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route, <a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *rev_bus)</td></tr>
+<tr class="memdesc:a405aea0046696f0b3ca03ff85131ca77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdrawn a route from RIB and send event to event bus.  <a href="#a405aea0046696f0b3ca03ff85131ca77">More...</a><br /></td></tr>
+<tr class="separator:a405aea0046696f0b3ca03ff85131ca77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40fc76532e0f0add2e595325f4d57267"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#a40fc76532e0f0add2e595325f4d57267">withdraw</a> (uint32_t src_router_id, const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes)</td></tr>
 <tr class="memdesc:a40fc76532e0f0add2e595325f4d57267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdraw routes from RIB.  <a href="#a40fc76532e0f0add2e595325f4d57267">More...</a><br /></td></tr>
 <tr class="separator:a40fc76532e0f0add2e595325f4d57267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f26654c3628c1b9e74bd7da7678b3a"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#ad3f26654c3628c1b9e74bd7da7678b3a">withdraw</a> (uint32_t src_router_id, const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes, <a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *rev_bus)</td></tr>
+<tr class="memdesc:ad3f26654c3628c1b9e74bd7da7678b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdraw routes from RIB and send event to event bus.  <a href="#ad3f26654c3628c1b9e74bd7da7678b3a">More...</a><br /></td></tr>
+<tr class="separator:ad3f26654c3628c1b9e74bd7da7678b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc39248020e25cb8ee12605c873e72e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib4.html#afbc39248020e25cb8ee12605c873e72e">discard</a> (uint32_t src_router_id)</td></tr>
 <tr class="memdesc:afbc39248020e25cb8ee12605c873e72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop all routes from RIB that originated from a BGP speaker.  <a href="#afbc39248020e25cb8ee12605c873e72e">More...</a><br /></td></tr>
 <tr class="separator:afbc39248020e25cb8ee12605c873e72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,7 +145,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpRib4.html" title="The BgpRib4 (IPv4 BGP Routing Information Base) class. ">BgpRib4</a> (IPv4 BGP Routing Information Base) class. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a16">route-event-bus.cc</a>, and <a class="el" href="route-server_8cc-example.html#_a11">route-server.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8h_source.html#l00045">45</a> of file <a class="el" href="bgp-rib4_8h_source.html">bgp-rib4.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8h_source.html#l00046">46</a> of file <a class="el" href="bgp-rib4_8h_source.html">bgp-rib4.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad88d4dee2a0072ac8864f671a148fee9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88d4dee2a0072ac8864f671a148fee9">&#9670;&nbsp;</a></span>BgpRib4()</h2>
@@ -158,7 +173,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00050">50</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::update_id</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib4_8h_source.html#l00036">libbgp::BgpRib4Entry::route</a>, <a class="el" href="bgp-rib_8h_source.html#l00023">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::src_router_id</a>, <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; T &gt;::update_id</a>, and <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::update_id</a>.</p>
 
 </div>
 </div>
@@ -188,7 +203,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::vector&lt;Prefix4&gt; Dropped routes. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00231">231</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00370">370</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
 </div>
 </div>
@@ -210,12 +225,12 @@ Public Member Functions</h2></td></tr>
 <p>Get the RIB. </p>
 <dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;BgpRib4Entry&gt;&amp; The RIB. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00301">301</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00440">440</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
 </div>
 </div>
 <a id="a3a0bc22bb4b3ef1e98aee86c602c747f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a0bc22bb4b3ef1e98aee86c602c747f">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0bc22bb4b3ef1e98aee86c602c747f">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,14 +282,184 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a31">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a32">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00073">73</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00111">111</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00037">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::attribs</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00272">libbgp::BgpPathAttribNexthop::next_hop</a>.</p>
 
 </div>
 </div>
+<a id="a185ec4e273f00cbb5523c588520eba5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185ec4e273f00cbb5523c588520eba5a">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> * libbgp::BgpRib4::insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>route</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>nexthop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *&#160;</td>
+          <td class="paramname"><em>rev_bus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insert a local route into RIB. </p>
+<p>Same as the other local insert, but this one notify the rev_bus after inserting route.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logger</td><td>Pointer to logger for the created path attributes to use. </td></tr>
+    <tr><td class="paramname">route</td><td><a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a>. </td></tr>
+    <tr><td class="paramname">nexthop</td><td>Nexthop for the route. </td></tr>
+    <tr><td class="paramname">rev_bus</td><td>event bus to publish to add event. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">NULL</td><td>failed to insert. </td></tr>
+    <tr><td class="paramname">!=NULL</td><td>Inserted route. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00164">164</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00037">libbgp::BgpRibEntry&lt; T &gt;::attribs</a>, <a class="el" href="route-event_8h_source.html#l00058">libbgp::Route4AddEvent::attribs</a>, <a class="el" href="route-event-bus_8cc_source.html#l00028">libbgp::RouteEventBus::publish()</a>, <a class="el" href="bgp-rib4_8h_source.html#l00036">libbgp::BgpRib4Entry::route</a>, and <a class="el" href="route-event_8h_source.html#l00064">libbgp::Route4AddEvent::routes</a>.</p>
+
+</div>
+</div>
+<a id="a02d58e26c2862ab0b730c0426365e394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d58e26c2862ab0b730c0426365e394">&#9670;&nbsp;</a></span>insert() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> &gt; libbgp::BgpRib4::insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>routes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>nexthop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insert local routes into RIB. </p>
+<p>ame as the other local insert, but this one insert mutiple routes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logger</td><td>Pointer to logger for the created path attributes to use. </td></tr>
+    <tr><td class="paramname">routes</td><td>Routes. </td></tr>
+    <tr><td class="paramname">nexthop</td><td>Nexthop for the route. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;const BgpRib4Entry*&gt; Inserted routes. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00187">187</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00037">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::attribs</a>, and <a class="el" href="bgp-path-attrib_8h_source.html#l00272">libbgp::BgpPathAttribNexthop::next_hop</a>.</p>
+
+</div>
+</div>
+<a id="acee0a97eef847451fb5b356d89139d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee0a97eef847451fb5b356d89139d46">&#9670;&nbsp;</a></span>insert() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classlibbgp_1_1BgpRib4Entry.html">BgpRib4Entry</a> &gt; libbgp::BgpRib4::insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>routes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>nexthop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *&#160;</td>
+          <td class="paramname"><em>rev_bus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insert local routes into RIB. </p>
+<p>ame as the other local insert, but this one insert mutiple routes and notify the route event bus.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logger</td><td>Pointer to logger for the created path attributes to use. </td></tr>
+    <tr><td class="paramname">routes</td><td>Routes. </td></tr>
+    <tr><td class="paramname">nexthop</td><td>Nexthop for the route. </td></tr>
+    <tr><td class="paramname">rev_bus</td><td>event bus to publish to add event. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;const BgpRib4Entry*&gt; Inserted routes. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00235">235</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00037">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::attribs</a>, <a class="el" href="route-event_8h_source.html#l00058">libbgp::Route4AddEvent::attribs</a>, <a class="el" href="route-event-bus_8cc_source.html#l00028">libbgp::RouteEventBus::publish()</a>, and <a class="el" href="route-event_8h_source.html#l00064">libbgp::Route4AddEvent::routes</a>.</p>
+
+</div>
+</div>
 <a id="a67f89c34d13ef4009be01c6d35819219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67f89c34d13ef4009be01c6d35819219">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f89c34d13ef4009be01c6d35819219">&#9670;&nbsp;</a></span>insert() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,14 +503,14 @@ Public Member Functions</h2></td></tr>
 <dd>
 false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a> already exist and the existing one has lower metric. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00122">122</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00262">262</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; T &gt;::update_id</a>, and <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::update_id</a>.</p>
+<p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::update_id</a>.</p>
 
 </div>
 </div>
 <a id="aa07983c10d0b425d4d9b2553efb19e6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa07983c10d0b425d4d9b2553efb19e6b">&#9670;&nbsp;</a></span>insert() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa07983c10d0b425d4d9b2553efb19e6b">&#9670;&nbsp;</a></span>insert() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,7 +559,7 @@ false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00170">170</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00278">278</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="bgp-rib_8h_source.html#l00031">libbgp::BgpRibEntry&lt; BgpRib4Entry &gt;::update_id</a>.</p>
 
@@ -412,9 +597,9 @@ false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00259">259</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00398">398</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="prefix4_8cc_source.html#l00148">libbgp::Prefix4::includes()</a>, and <a class="el" href="bgp-rib4_8h_source.html#l00035">libbgp::BgpRib4Entry::route</a>.</p>
+<p class="reference">References <a class="el" href="prefix4_8cc_source.html#l00148">libbgp::Prefix4::includes()</a>.</p>
 
 </div>
 </div>
@@ -462,14 +647,14 @@ false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00283">283</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00422">422</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="prefix4_8cc_source.html#l00148">libbgp::Prefix4::includes()</a>, and <a class="el" href="bgp-rib4_8h_source.html#l00035">libbgp::BgpRib4Entry::route</a>.</p>
+<p class="reference">References <a class="el" href="prefix4_8cc_source.html#l00148">libbgp::Prefix4::includes()</a>.</p>
 
 </div>
 </div>
 <a id="a965f58f55161c73dfe81ea6f10505b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a965f58f55161c73dfe81ea6f10505b31">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a965f58f55161c73dfe81ea6f10505b31">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,12 +692,63 @@ false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix 
 false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a> not dropped. Likely becuase such route does not exist. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a38">route-event-bus.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00189">189</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00295">295</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+</div>
+</div>
+<a id="a405aea0046696f0b3ca03ff85131ca77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a405aea0046696f0b3ca03ff85131ca77">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbgp::BgpRib4::withdraw </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>src_router_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>route</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *&#160;</td>
+          <td class="paramname"><em>rev_bus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Withdrawn a route from RIB and send event to event bus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src_router_id</td><td>Originating BGP speaker's ID in network bytes order. </td></tr>
+    <tr><td class="paramname">route</td><td><a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a>. </td></tr>
+    <tr><td class="paramname">rev_bus</td><td>Event bus to send the drop event </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a> dropped. </dd>
+<dd>
+false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. ">Prefix4</a> not dropped. Likely becuase such route does not exist. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00323">323</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="route-event-bus_8cc_source.html#l00028">libbgp::RouteEventBus::publish()</a>, and <a class="el" href="route-event_8h_source.html#l00079">libbgp::Route4WithdrawEvent::routes</a>.</p>
 
 </div>
 </div>
 <a id="a40fc76532e0f0add2e595325f4d57267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40fc76532e0f0add2e595325f4d57267">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40fc76532e0f0add2e595325f4d57267">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -554,7 +790,63 @@ false <a class="el" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00217">217</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00339">339</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+</div>
+</div>
+<a id="ad3f26654c3628c1b9e74bd7da7678b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f26654c3628c1b9e74bd7da7678b3a">&#9670;&nbsp;</a></span>withdraw() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t libbgp::BgpRib4::withdraw </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>src_router_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>routes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventBus.html">RouteEventBus</a> *&#160;</td>
+          <td class="paramname"><em>rev_bus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Withdraw routes from RIB and send event to event bus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src_router_id</td><td>Originating BGP speaker's ID in network bytes order. </td></tr>
+    <tr><td class="paramname">routes</td><td>Routes. </td></tr>
+    <tr><td class="paramname">rev_bus</td><td>Event bus to send the drop event </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ssize_t Number of routes dropped. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Failed to drop routes. </td></tr>
+    <tr><td class="paramname">&gt;=0</td><td>Number of routes dropped. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib4_8cc_source.html#l00357">357</a> of file <a class="el" href="bgp-rib4_8cc_source.html">bgp-rib4.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="route-event-bus_8cc_source.html#l00028">libbgp::RouteEventBus::publish()</a>, and <a class="el" href="route-event_8h_source.html#l00079">libbgp::Route4WithdrawEvent::routes</a>.</p>
 
 </div>
 </div>
