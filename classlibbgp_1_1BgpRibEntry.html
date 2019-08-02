@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.4</span>
+   &#160;<span id="projectnumber">0.4.5</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -90,10 +90,12 @@ Public Attributes</h2></td></tr>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a4fe32489231c3e84cbffd205c7be75cf">src_router_id</a></td></tr>
 <tr class="memdesc:a4fe32489231c3e84cbffd205c7be75cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The originating BGP speaker's ID of this entry. (network bytes order) <br /></td></tr>
 <tr class="separator:a4fe32489231c3e84cbffd205c7be75cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a488f3f6505d949b83c39e78b166aa446"><td class="memItemLeft" align="right" valign="top"><a id="a488f3f6505d949b83c39e78b166aa446"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a488f3f6505d949b83c39e78b166aa446">update_id</a></td></tr>
-<tr class="memdesc:a488f3f6505d949b83c39e78b166aa446"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update ID. <a class="el" href="classlibbgp_1_1BgpRib4Entry.html" title="The BgpRib4Entry class. ">BgpRib4Entry</a> with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. <br /></td></tr>
+<tr class="memitem:a488f3f6505d949b83c39e78b166aa446"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a488f3f6505d949b83c39e78b166aa446">update_id</a></td></tr>
+<tr class="memdesc:a488f3f6505d949b83c39e78b166aa446"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update ID.  <a href="#a488f3f6505d949b83c39e78b166aa446">More...</a><br /></td></tr>
 <tr class="separator:a488f3f6505d949b83c39e78b166aa446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5078ef66a28e1073991771ce0311193"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#af5078ef66a28e1073991771ce0311193">weight</a></td></tr>
+<tr class="memdesc:af5078ef66a28e1073991771ce0311193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight of this entry.  <a href="#af5078ef66a28e1073991771ce0311193">More...</a><br /></td></tr>
+<tr class="separator:af5078ef66a28e1073991771ce0311193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3d9a86bd70cc7f4cc98c58fda6f159"><td class="memItemLeft" align="right" valign="top"><a id="a9a3d9a86bd70cc7f4cc98c58fda6f159"></a>
 std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a9a3d9a86bd70cc7f4cc98c58fda6f159">attribs</a></td></tr>
 <tr class="memdesc:a9a3d9a86bd70cc7f4cc98c58fda6f159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attributes for this entry. <br /></td></tr>
@@ -150,7 +152,54 @@ template&lt;typename T&gt; </div>
 <dd>
 false This entry has lower or equals weight. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00048">48</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00059">59</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a488f3f6505d949b83c39e78b166aa446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488f3f6505d949b83c39e78b166aa446">&#9670;&nbsp;</a></span>update_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t <a class="el" href="classlibbgp_1_1BgpRibEntry.html">libbgp::BgpRibEntry</a>&lt; T &gt;::update_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The update ID. </p>
+<p><a class="el" href="classlibbgp_1_1BgpRib4Entry.html" title="The BgpRib4Entry class. ">BgpRib4Entry</a> with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00033">33</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00050">libbgp::BgpRib4::BgpRib4()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00042">libbgp::BgpRib6::BgpRib6()</a>.</p>
+
+</div>
+</div>
+<a id="af5078ef66a28e1073991771ce0311193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5078ef66a28e1073991771ce0311193">&#9670;&nbsp;</a></span>weight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t <a class="el" href="classlibbgp_1_1BgpRibEntry.html">libbgp::BgpRibEntry</a>&lt; T &gt;::weight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Weight of this entry. </p>
+<p>Entry with higher weight will be prefered. Weight is only compared when selecting entry with equal routes. </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00042">42</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00050">libbgp::BgpRib4::BgpRib4()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00042">libbgp::BgpRib6::BgpRib6()</a>.</p>
 
 </div>
 </div>

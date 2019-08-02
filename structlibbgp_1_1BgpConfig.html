@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.4</span>
+   &#160;<span id="projectnumber">0.4.5</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -187,6 +187,9 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbgp_1_1BgpConfig.html#a4e3d9af2a232e3580c83829477c5e219">allow_local_as</a></td></tr>
 <tr class="memdesc:a4e3d9af2a232e3580c83829477c5e219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow numbers of local asn in as_path. (default: 0) <br /></td></tr>
 <tr class="separator:a4e3d9af2a232e3580c83829477c5e219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb57dc391f4d1b0f89b5cb21856ff427"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbgp_1_1BgpConfig.html#adb57dc391f4d1b0f89b5cb21856ff427">weight</a></td></tr>
+<tr class="memdesc:adb57dc391f4d1b0f89b5cb21856ff427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight of this BGP session.  <a href="#adb57dc391f4d1b0f89b5cb21856ff427">More...</a><br /></td></tr>
+<tr class="separator:adb57dc391f4d1b0f89b5cb21856ff427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP FSM configuration object. </p>
@@ -210,7 +213,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Time-based events like hold timer expired needs to refer to the clock. Sometime we may not want to use the system clock. For example, if <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> is used inside a simulator like ns3, we will need to use the simulated clock instead of the real-time clock. Set this to NULL if you want to use a real-time clock. (default: NULL) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a19">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a25">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a25">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00300">300</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00301">301</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -230,7 +233,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Default nexthop is used when sending routes to the peer. The nexthop value will remain unchanged if it is inside peering LAN. Default nexthop is used only when the nexthop attribute of an egress route is not in peering LAN. (required, no default value) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a28">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a28">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00230">230</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00231">231</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +252,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The default global IPv6 nexthop to use. </p>
 <p>Default nexthop is used when sending routes to the peer. The nexthop value will remain unchanged if it is inside peering LAN. Default nexthop is used only when the nexthop attribute of an egress route is not in peering LAN. (required, no default value) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00259">259</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00260">260</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -269,7 +272,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The link local nexhop. You may set this to all-zero if you don't want to send a link-local nexthop.</p>
 <p>Default nexthop is used when sending routes to the peer. The nexthop value will remain unchanged if it is inside peering LAN. Default nexthop is used only when the nexthop attribute of an egress route is not in peering LAN. (required, no default value) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00273">273</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00274">274</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +292,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>If this is set to true, the <code>default_nexthop4</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a29">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a29">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00239">239</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00240">240</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +311,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Forced IPv6 default nexthop. </p>
 <p>If this is set to true, the <code>default_nexthop6</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (default: false) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00282">282</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00283">283</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +330,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>IPv4 Ingress route filters. </p>
 <p>Ingress route filters are applied on the routes received from the peer. (default: accept any) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00050">50</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00051">51</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +349,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>IPv6 Ingress route filters. </p>
 <p>Ingress route filters are applied on the routes received from the peer. (default: accept any) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00066">66</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00067">67</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +369,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The log handler is invoked whenever BGP FSM needs to log information. If you set this to null, FSM will output to the stderr with log level INFO. (required, no default value) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a20">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a26">route-event-bus.cc</a>, <a class="el" href="route-filter_8cc-example.html#a26">route-filter.cc</a>, and <a class="el" href="route-server_8cc-example.html#a5">route-server.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00091">91</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00092">92</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +389,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Set this parameter to true will enable IPv4 support with MP-BGP. Note that even without MP-BGP IPv4, IPv4 routing information will still be exchanged with normal BGP session. This should only be set when mp_bgp_ipv6 is set and you want to carry ipv4 routing infromation on the same session. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a9">peer-and-print.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a18">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00159">159</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00160">160</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +409,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Set this parameter to true will enable IPv6 support with MP-BGP. Setting this to true will disable IPv4 unless mp_bgp_ipv4 is also set to true. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a10">peer-and-print.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a19">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00168">168</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00169">169</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -426,7 +429,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Set this parameter to true will disable collision detection. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a15">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a22">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a22">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00139">139</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00140">140</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -446,7 +449,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>If true, BGP FSM will accept route with any nexthop, regardless of the peering LAN. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a12">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a30">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a30">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00219">219</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00220">220</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +469,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>If true, BGP FSM will accept route with any nexthop, regardless of the peering LAN. (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a13">peer-and-print.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00248">248</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00249">249</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +488,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>IPv4 Egress route filters. </p>
 <p>Egress route filters are applied when sending routes to the peer. (default: accept any) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00058">58</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00059">59</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +507,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>IPv6 Ingress route filters. </p>
 <p>Egress route filters are applied when sending routes to the peer. (default: accept any) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00074">74</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00075">75</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +527,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The output handler is invoked whenever BGP FSM needs to write data. (required, no default value) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a14">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a21">route-event-bus.cc</a>, <a class="el" href="route-filter_8cc-example.html#a21">route-filter.cc</a>, and <a class="el" href="route-server_8cc-example.html#a6">route-server.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00082">82</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00083">83</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -543,7 +546,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The prefix of the IPv4 peering LAN. </p>
 <p>Peering LAN information is used to check the validity of the nexthop attribute of the received routes. Routes received from the peer with a nexthop outside the peering LAN will be ignored. When sending routes to peer, if nexthop attribute in RIB is not in peering LAN, default nexthop will be used. (required, no default value) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00198">198</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00199">199</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -562,7 +565,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The prefix of the IPv6 peering LAN. </p>
 <p>Peering LAN information is used to check the validity of the nexthop attribute of the received routes. Routes received from the peer with a nexthop outside the peering LAN will be ignored. When sending routes to peer, if nexthop attribute in RIB is not in peering LAN, default nexthop will be used. (required, no default value) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00210">210</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00211">211</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +585,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>The route event bus is used to share information and communicate with other BGP FSMs. For example, route add/withdrawn events are sent to other FSMs with route event bus. Collision resolution also depends on the route event bus. You will need to create a route event bus object and pass it in as the configuration parameter for every FSMs. You may set route event bus to NULL if you are only using one FSM. (default: NULL) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a18">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a24">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a24">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00131">131</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00132">132</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +605,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>BGP FSM will use this RIB object to store routing information. If you would like to share RIB across different BGP FSMs, or pre-fill the RIB with some routes, you can create the RIB object yourself and pass it as configuration parameter here. If you set this to NULL, a new RIB will be created by BGP FSM. You can get it by calling <code><a class="el" href="classlibbgp_1_1BgpFsm.html#acea4bb421e5856673c13bf409e066574" title="Get the IPv4 Routing Information Base. ">BgpFsm::getRib4</a></code>. (default: NULL) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a16">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a23">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a23">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00103">103</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00104">104</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -622,7 +625,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>BGP FSM will use this RIB object to store routing information. If you would like to share RIB across different BGP FSMs, or pre-fill the RIB with some routes, you can create the RIB object yourself and pass it as configuration parameter here. If you set this to NULL, a new RIB will be created by BGP FSM. You can get it by calling <code><a class="el" href="classlibbgp_1_1BgpFsm.html#aeeb0bffde7a47555c23bd0e5a9fd9a0a" title="Get the IPv6 Routing Information Base. ">BgpFsm::getRib6</a></code>. (default: NULL) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a17">peer-and-print.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00115">115</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00116">116</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +645,27 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Set this parameter to true will eable four octets ASN support. (default: true) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a8">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a19">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a17">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00147">147</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00148">148</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+
+</div>
+</div>
+<a id="adb57dc391f4d1b0f89b5cb21856ff427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb57dc391f4d1b0f89b5cb21856ff427">&#9670;&nbsp;</a></span>weight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t libbgp::BgpConfig::weight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Weight of this BGP session. </p>
+<p>Routes of session with higher weight will be prefered when makeing routing decision. (RIB lookup)</p>
+<p>(default: 0) </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00317">317</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
