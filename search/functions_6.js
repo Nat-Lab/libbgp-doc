@@ -20,6 +20,6 @@ var searchData=
   ['getrib6',['getRib6',['../classlibbgp_1_1BgpFsm.html#aeeb0bffde7a47555c23bd0e5a9fd9a0a',1,'libbgp::BgpFsm']]],
   ['getstate',['getState',['../classlibbgp_1_1BgpFsm.html#a78206008297e4f947d7b9cf9cd6bb933',1,'libbgp::BgpFsm']]],
   ['gettime',['getTime',['../classlibbgp_1_1Clock.html#a23b365e051acce7db6be69f045ca91ff',1,'libbgp::Clock::getTime()'],['../classlibbgp_1_1RealtimeClock.html#a387549035229e959b10678222f61af9e',1,'libbgp::RealtimeClock::getTime()']]],
-  ['gettypefrombuffer',['GetTypeFromBuffer',['../classlibbgp_1_1BgpPathAttrib.html#a6968805e605546d99c02dbbd59feb2e9',1,'libbgp::BgpPathAttrib']]],
+  ['gettypefrombuffer',['GetTypeFromBuffer',['../classlibbgp_1_1BgpPathAttrib.html#a4cc071cd3066463cba1070b0f17216c3',1,'libbgp::BgpPathAttrib']]],
   ['getvalue',['getValue',['../value-op_8h.html#a0656dabe109637d39ddf9d89b595ee42',1,'libbgp']]]
 ];
