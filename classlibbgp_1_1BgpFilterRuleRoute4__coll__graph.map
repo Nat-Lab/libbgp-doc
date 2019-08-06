@@ -1,6 +1,8 @@
 <map id="libbgp::BgpFilterRuleRoute4" name="libbgp::BgpFilterRuleRoute4">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="libbgp::BgpFilterRuleRoute\l\&lt; Prefix4 \&gt;" alt="" coords="37,171,222,212"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. " alt="" coords="5,81,155,108"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="179,81,290,108"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="183,5,286,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1Prefix4RouteFilterRule.html" title="libbgp.Prefix4RouteFilterRule" alt="" coords="5,254,204,281"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. " alt="" coords="94,157,243,184"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="libbgp::BgpFilterRuleRoute\l\&lt; Prefix4 \&gt;" alt="" coords="228,247,413,288"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="184,5,295,32"/>
+<area shape="rect" id="node7" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="271,81,370,108"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="267,157,374,184"/>
 </map>

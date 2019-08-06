@@ -1,5 +1,6 @@
 <map id="libbgp::BgpPathAttribMpUnreachNlriIpv6" name="libbgp::BgpPathAttribMpUnreachNlriIpv6">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="6,155,234,181"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="42,80,198,107"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="49,5,191,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="6,229,234,256"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="42,155,198,181"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="51,80,189,107"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="65,5,175,32"/>
 </map>

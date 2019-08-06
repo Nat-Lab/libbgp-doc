@@ -1,6 +1,7 @@
 <map id="src/bgp&#45;filter.h" name="src/bgp&#45;filter.h">
-<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
-<area shape="rect" id="node5" href="$bgp-filter_8cc.html" title="The BGP route filtering engine. " alt="" coords="153,80,272,107"/>
-<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="12,155,123,181"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="9,229,125,256"/>
+<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="77,80,201,107"/>
+<area shape="rect" id="node6" href="$bgp-filter_8cc.html" title="The BGP route filtering engine. " alt="" coords="225,80,344,107"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,155,195,181"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,229,121,256"/>
+<area shape="rect" id="node5" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,229,285,256"/>
 </map>

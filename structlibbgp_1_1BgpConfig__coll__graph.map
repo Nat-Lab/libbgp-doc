@@ -1,14 +1,15 @@
 <map id="libbgp::BgpConfig" name="libbgp::BgpConfig">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="281,5,448,32"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRules.html" title="The BGP filtering rules set. " alt="" coords="287,89,443,116"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="309,140,420,167"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="67,171,170,197"/>
-<area shape="rect" id="node6" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="309,191,420,217"/>
-<area shape="rect" id="node7" href="$classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. " alt="" coords="283,241,447,268"/>
-<area shape="rect" id="node8" href="$classlibbgp_1_1BgpRib4.html" title="The BgpRib4 (IPv4 BGP Routing Information Base) class. " alt="" coords="305,292,425,319"/>
-<area shape="rect" id="node9" href="$classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib4Entry \&gt;" alt="" coords="5,292,232,319"/>
-<area shape="rect" id="node10" href="$classlibbgp_1_1BgpRib6.html" title="The BgpRib6 (IPv6 BGP Routing Information Base) class. " alt="" coords="305,343,425,369"/>
-<area shape="rect" id="node11" href="$classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib6Entry \&gt;" alt="" coords="5,343,232,369"/>
-<area shape="rect" id="node12" href="$classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="313,393,416,420"/>
-<area shape="rect" id="node13" href="$classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. " alt="" coords="281,444,448,471"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="63,297,174,324"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="425,403,592,429"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpFilterRules.html" title="The BGP filtering rules set. " alt="" coords="431,481,587,508"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="292,63,391,89"/>
+<area shape="rect" id="node8" href="$classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. " alt="" coords="429,185,589,212"/>
+<area shape="rect" id="node9" href="$classlibbgp_1_1BgpRib4.html" title="The BgpRib4 (IPv4 BGP Routing Information Base) class. " alt="" coords="281,113,401,140"/>
+<area shape="rect" id="node11" href="$classlibbgp_1_1BgpRib6.html" title="The BgpRib6 (IPv6 BGP Routing Information Base) class. " alt="" coords="281,561,401,588"/>
+<area shape="rect" id="node13" href="$classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="618,237,721,264"/>
+<area shape="rect" id="node14" href="$classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. " alt="" coords="425,292,592,319"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="616,5,723,32"/>
+<area shape="rect" id="node7" href="$classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="616,61,723,88"/>
+<area shape="rect" id="node10" href="$classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib4Entry \&gt;" alt="" coords="5,96,232,123"/>
+<area shape="rect" id="node12" href="$classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib6Entry \&gt;" alt="" coords="5,561,232,588"/>
 </map>

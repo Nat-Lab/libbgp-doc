@@ -1,5 +1,6 @@
 <map id="libbgp::BgpCapabilityMpBgp" name="libbgp::BgpCapabilityMpBgp">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. " alt="" coords="27,171,182,197"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="34,95,175,121"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="21,5,188,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. " alt="" coords="27,247,182,273"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="36,171,173,197"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="67,5,177,32"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="121,81,288,108"/>
 </map>

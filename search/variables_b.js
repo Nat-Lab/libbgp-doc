@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['optional',['optional',['../classlibbgp_1_1BgpPathAttrib.html#ab963f11e11379118b0ee6436f0dd0d9c',1,'libbgp::BgpPathAttrib']]],
-  ['out_5ffilters4',['out_filters4',['../structlibbgp_1_1BgpConfig.html#aa665a75d3095d3e28897c4bdda689ef6',1,'libbgp::BgpConfig']]],
-  ['out_5ffilters6',['out_filters6',['../structlibbgp_1_1BgpConfig.html#ae079fdb88338adfa1b24341e6daa4a00',1,'libbgp::BgpConfig']]],
-  ['out_5fhandler',['out_handler',['../structlibbgp_1_1BgpConfig.html#a055a838bffab8e0cbdea22abf536c0ca',1,'libbgp::BgpConfig']]]
+  ['next_5fhop',['next_hop',['../classlibbgp_1_1BgpPathAttribNexthop.html#ab5a1e028fdef74b5d9da57cebcc812b2',1,'libbgp::BgpPathAttribNexthop']]],
+  ['nexthop_5fglobal',['nexthop_global',['../classlibbgp_1_1BgpRib6Entry.html#a542e72d5223d620a1084baa77de62adf',1,'libbgp::BgpRib6Entry']]],
+  ['nexthop_5flinklocal',['nexthop_linklocal',['../classlibbgp_1_1BgpRib6Entry.html#a7a9ab047cccf1bb88fb02fee23e41c56',1,'libbgp::BgpRib6Entry']]],
+  ['no_5fautotick',['no_autotick',['../structlibbgp_1_1BgpConfig.html#a27baf1be24c26934a1ecd164869709bf',1,'libbgp::BgpConfig']]],
+  ['no_5fcollision_5fdetection',['no_collision_detection',['../structlibbgp_1_1BgpConfig.html#ac42b213e8a941eeff8688b049bc05a31',1,'libbgp::BgpConfig']]],
+  ['no_5fnexthop_5fcheck4',['no_nexthop_check4',['../structlibbgp_1_1BgpConfig.html#a565e7bbdef0c8a7221008379b51f1e49',1,'libbgp::BgpConfig']]],
+  ['no_5fnexthop_5fcheck6',['no_nexthop_check6',['../structlibbgp_1_1BgpConfig.html#af32036c2a34be75beb4e8105b7d06883',1,'libbgp::BgpConfig']]]
 ];

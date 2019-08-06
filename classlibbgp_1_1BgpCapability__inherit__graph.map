@@ -1,6 +1,7 @@
 <map id="libbgp::BgpCapability" name="libbgp::BgpCapability">
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="397,5,620,32"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1BgpCapabilityMpBgp.html" title="The BgpCapabilityMpBgp class. " alt="" coords="409,56,608,83"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="406,107,611,133"/>
-<area shape="rect" id="node2" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="5,56,147,83"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="552,5,775,32"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpCapabilityMpBgp.html" title="The BgpCapabilityMpBgp class. " alt="" coords="564,56,763,83"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="561,107,766,133"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="164,56,301,83"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="5,56,116,83"/>
 </map>

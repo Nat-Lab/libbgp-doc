@@ -1,9 +1,10 @@
 <map id="src/bgp&#45;capability.h" name="src/bgp&#45;capability.h">
-<area shape="rect" id="node2" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="5,80,156,107"/>
-<area shape="rect" id="node3" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="180,80,363,107"/>
-<area shape="rect" id="node4" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="151,155,232,181"/>
-<area shape="rect" id="node8" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="256,155,444,181"/>
-<area shape="rect" id="node5" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="63,229,173,256"/>
-<area shape="rect" id="node7" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="197,229,332,256"/>
-<area shape="rect" id="node6" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="60,304,176,331"/>
+<area shape="rect" id="node2" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="27,80,177,107"/>
+<area shape="rect" id="node3" href="$bgp-open-message_8h.html" title="The BGP open message. " alt="" coords="201,80,384,107"/>
+<area shape="rect" id="node4" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="172,155,253,181"/>
+<area shape="rect" id="node9" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="277,155,465,181"/>
+<area shape="rect" id="node5" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,229,195,256"/>
+<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="219,229,353,256"/>
+<area shape="rect" id="node6" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,304,121,331"/>
+<area shape="rect" id="node7" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,304,285,331"/>
 </map>

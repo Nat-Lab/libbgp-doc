@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['update_5fid',['update_id',['../classlibbgp_1_1BgpRibEntry.html#a488f3f6505d949b83c39e78b166aa446',1,'libbgp::BgpRibEntry']]],
-  ['use_5f4b_5fasn',['use_4b_asn',['../structlibbgp_1_1BgpConfig.html#ab225af5f692ee473e457515350297b68',1,'libbgp::BgpConfig']]]
+  ['transitive',['transitive',['../classlibbgp_1_1BgpPathAttrib.html#a19047d331d45f03e5914532271a868ed',1,'libbgp::BgpPathAttrib']]],
+  ['type',['type',['../classlibbgp_1_1BgpAsPathSegment.html#a47a7d8a13b454352b0296165982be784',1,'libbgp::BgpAsPathSegment::type()'],['../classlibbgp_1_1RouteEvent.html#a7f9cf901b2e7144c0d5e2022e109264d',1,'libbgp.RouteEvent::type()']]],
+  ['type_5fcode',['type_code',['../classlibbgp_1_1BgpPathAttrib.html#ac5b83faa3305a28d78d7dbdb83a472da',1,'libbgp::BgpPathAttrib']]]
 ];

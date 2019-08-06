@@ -1,5 +1,6 @@
 <map id="src/bgp&#45;sink.h" name="src/bgp&#45;sink.h">
-<area shape="rect" id="node2" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="8,80,119,107"/>
-<area shape="rect" id="node4" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="143,80,261,107"/>
+<area shape="rect" id="node2" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,80,195,107"/>
+<area shape="rect" id="node5" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="219,80,337,107"/>
 <area shape="rect" id="node3" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,155,121,181"/>
+<area shape="rect" id="node4" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,155,285,181"/>
 </map>

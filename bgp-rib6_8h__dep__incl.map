@@ -1,6 +1,7 @@
 <map id="src/bgp&#45;rib6.h" name="src/bgp&#45;rib6.h">
-<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
-<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="61,155,172,181"/>
-<area shape="rect" id="node5" href="$bgp-rib6_8cc.html" title="The IPv6 BGP Routing Information Base. " alt="" coords="205,80,321,107"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="59,229,175,256"/>
+<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="28,80,152,107"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,155,195,181"/>
+<area shape="rect" id="node6" href="$bgp-rib6_8cc.html" title="The IPv6 BGP Routing Information Base. " alt="" coords="228,80,344,107"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,229,121,256"/>
+<area shape="rect" id="node5" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,229,285,256"/>
 </map>

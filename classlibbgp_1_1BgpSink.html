@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.6</span>
+   &#160;<span id="projectnumber">0.4.7</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classlibbgp_1_1BgpSink-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">libbgp::BgpSink Class Reference</div>  </div>
@@ -76,6 +77,22 @@ $(function() {
  <a href="classlibbgp_1_1BgpSink.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for libbgp::BgpSink:</div>
+<div class="dyncontent">
+<div class="center"><img src="classlibbgp_1_1BgpSink__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpSink_inherit__map" alt="Inheritance graph"/></div>
+<map name="libbgp_1_1BgpSink_inherit__map" id="libbgp_1_1BgpSink_inherit__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="10,5,121,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for libbgp::BgpSink:</div>
+<div class="dyncontent">
+<div class="center"><img src="classlibbgp_1_1BgpSink__coll__graph.png" border="0" usemap="#libbgp_1_1BgpSink_coll__map" alt="Collaboration graph"/></div>
+<map name="libbgp_1_1BgpSink_coll__map" id="libbgp_1_1BgpSink_coll__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="10,5,121,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -102,6 +119,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpSink.html#a59ee833c126f150cf234780d2fa06817">~BgpSink</a> ()</td></tr>
 <tr class="memdesc:a59ee833c126f150cf234780d2fa06817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Bgp Sink:: Bgp Sink object. <br /></td></tr>
 <tr class="separator:a59ee833c126f150cf234780d2fa06817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9f17dedf108a2a2f4d659659019c0e"><td class="memItemLeft" align="right" valign="top"><a id="abb9f17dedf108a2a2f4d659659019c0e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, use_4b_asn)</td></tr>
+<tr class="separator:abb9f17dedf108a2a2f4d659659019c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846aa4578d59e1b9bf8d2c9cab9d839c"><td class="memItemLeft" align="right" valign="top"><a id="a846aa4578d59e1b9bf8d2c9cab9d839c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>fill</b> (self, buffer, len)</td></tr>
+<tr class="separator:a846aa4578d59e1b9bf8d2c9cab9d839c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bb623793b43017b539033d2bc405b6"><td class="memItemLeft" align="right" valign="top"><a id="ae8bb623793b43017b539033d2bc405b6"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>pour</b> (self, pkt)</td></tr>
+<tr class="separator:ae8bb623793b43017b539033d2bc405b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a851fc618644986e0f9709fede70e1"><td class="memItemLeft" align="right" valign="top"><a id="a51a851fc618644986e0f9709fede70e1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>getBytesInSink</b> (self)</td></tr>
+<tr class="separator:a51a851fc618644986e0f9709fede70e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff63c9dcf8006644ac13cf4ce52a189"><td class="memItemLeft" align="right" valign="top"><a id="a4ff63c9dcf8006644ac13cf4ce52a189"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>drain</b> (self)</td></tr>
+<tr class="separator:a4ff63c9dcf8006644ac13cf4ce52a189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468f0cf1f1d698598301a5d83722c331"><td class="memItemLeft" align="right" valign="top"><a id="a468f0cf1f1d698598301a5d83722c331"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>setLogger</b> (self, logger)</td></tr>
+<tr class="separator:a468f0cf1f1d698598301a5d83722c331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a542f5b5e309606f06d3851098f6017a4"><td class="memItemLeft" align="right" valign="top"><a id="a542f5b5e309606f06d3851098f6017a4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>this</b></td></tr>
+<tr class="separator:a542f5b5e309606f06d3851098f6017a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpSink.html" title="The BgpSink class. ">BgpSink</a> class. </p>
@@ -285,6 +326,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="bgp-sink_8h_source.html">bgp-sink.h</a></li>
+<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 <li>src/<a class="el" href="bgp-sink_8cc_source.html">bgp-sink.cc</a></li>
 </ul>
 </div><!-- contents -->

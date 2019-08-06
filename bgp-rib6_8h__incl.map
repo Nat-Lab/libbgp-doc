@@ -1,15 +1,15 @@
 <map id="src/bgp&#45;rib6.h" name="src/bgp&#45;rib6.h">
-<area shape="rect" id="node6" href="$bgp-rib_8h_source.html" title="bgp&#45;rib.h" alt="" coords="233,229,311,256"/>
-<area shape="rect" id="node8" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="811,304,941,331"/>
-<area shape="rect" id="node13" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="1053,379,1131,405"/>
-<area shape="rect" id="node16" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="498,80,635,107"/>
-<area shape="rect" id="node12" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="405,453,539,480"/>
-<area shape="rect" id="node9" href="$serializable_8h.html" title="The serializable base. " alt="" coords="650,379,755,405"/>
-<area shape="rect" id="node14" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="1068,453,1137,480"/>
-<area shape="rect" id="node15" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="1063,528,1142,555"/>
-<area shape="rect" id="node17" href="$route-event_8h.html" title="The route events. " alt="" coords="512,155,621,181"/>
-<area shape="rect" id="node21" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="646,155,810,181"/>
-<area shape="rect" id="node18" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="563,229,735,256"/>
-<area shape="rect" id="node19" href="$prefix4_8h.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="952,379,1029,405"/>
-<area shape="rect" id="node20" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="664,304,787,331"/>
+<area shape="rect" id="node8" href="$bgp-rib_8h_source.html" title="bgp&#45;rib.h" alt="" coords="182,229,261,256"/>
+<area shape="rect" id="node10" href="$bgp-path-attrib_8h.html" title="The BGP path attributes. " alt="" coords="811,304,941,331"/>
+<area shape="rect" id="node15" href="$prefix6_8h.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="1053,379,1131,405"/>
+<area shape="rect" id="node18" href="$route-event-bus_8h.html" title="The route event bus. " alt="" coords="498,80,635,107"/>
+<area shape="rect" id="node14" href="$bgp-log-handler_8h.html" title="BGP log handler. " alt="" coords="405,453,539,480"/>
+<area shape="rect" id="node11" href="$serializable_8h.html" title="The serializable base. " alt="" coords="650,379,755,405"/>
+<area shape="rect" id="node16" href="$prefix_8h.html" title="Route/Prefix related utilities. " alt="" coords="1068,453,1137,480"/>
+<area shape="rect" id="node17" href="$bgp-afi_8h.html" title="The BGP AFI/SAFI. " alt="" coords="1063,528,1142,555"/>
+<area shape="rect" id="node19" href="$route-event_8h.html" title="The route events. " alt="" coords="512,155,621,181"/>
+<area shape="rect" id="node23" href="$route-event-receiver_8h.html" title="Route event receiver. " alt="" coords="646,155,810,181"/>
+<area shape="rect" id="node20" href="$bgp-update-message_8h.html" title="The BGP update message. " alt="" coords="563,229,735,256"/>
+<area shape="rect" id="node21" href="$prefix4_8h.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="952,379,1029,405"/>
+<area shape="rect" id="node22" href="$bgp-message_8h.html" title="The BGP Message base. " alt="" coords="664,304,787,331"/>
 </map>

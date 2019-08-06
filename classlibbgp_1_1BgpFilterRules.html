@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.6</span>
+   &#160;<span id="projectnumber">0.4.7</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classlibbgp_1_1BgpFilterRules-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">libbgp::BgpFilterRules Class Reference</div>  </div>
@@ -76,6 +77,22 @@ $(function() {
  <a href="classlibbgp_1_1BgpFilterRules.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for libbgp::BgpFilterRules:</div>
+<div class="dyncontent">
+<div class="center"><img src="classlibbgp_1_1BgpFilterRules__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpFilterRules_inherit__map" alt="Inheritance graph"/></div>
+<map name="libbgp_1_1BgpFilterRules_inherit__map" id="libbgp_1_1BgpFilterRules_inherit__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="28,5,139,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for libbgp::BgpFilterRules:</div>
+<div class="dyncontent">
+<div class="center"><img src="classlibbgp_1_1BgpFilterRules__coll__graph.png" border="0" usemap="#libbgp_1_1BgpFilterRules_coll__map" alt="Collaboration graph"/></div>
+<map name="libbgp_1_1BgpFilterRules_coll__map" id="libbgp_1_1BgpFilterRules_coll__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="28,5,139,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -92,12 +109,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac327fdbbab5bc6c691f26d585b0b4588"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bgp-filter_8h.html#a09b283ade47782bc0c08687105402293">BgpFilterOP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpFilterRules.html#ac327fdbbab5bc6c691f26d585b0b4588">apply</a> (const <a class="el" href="classlibbgp_1_1Prefix.html">Prefix</a> &amp;prefix, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt;&gt; &amp;attribs)</td></tr>
 <tr class="memdesc:ac327fdbbab5bc6c691f26d585b0b4588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the rules set on a route.  <a href="#ac327fdbbab5bc6c691f26d585b0b4588">More...</a><br /></td></tr>
 <tr class="separator:ac327fdbbab5bc6c691f26d585b0b4588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36292e2145f8adc533d1f318c42a850"><td class="memItemLeft" align="right" valign="top"><a id="ac36292e2145f8adc533d1f318c42a850"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args)</td></tr>
+<tr class="separator:ac36292e2145f8adc533d1f318c42a850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fa6a03b2bf66e7aa0348542237c337"><td class="memItemLeft" align="right" valign="top"><a id="a75fa6a03b2bf66e7aa0348542237c337"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>appendAsPathRule</b> (self, rule)</td></tr>
+<tr class="separator:a75fa6a03b2bf66e7aa0348542237c337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf5a5420baf7d3c99fc5771d539a1e2"><td class="memItemLeft" align="right" valign="top"><a id="acbf5a5420baf7d3c99fc5771d539a1e2"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>appendCommunityRule</b> (self, rule)</td></tr>
+<tr class="separator:acbf5a5420baf7d3c99fc5771d539a1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c94b18ce763d6eabf6047479c6d7390"><td class="memItemLeft" align="right" valign="top"><a id="a6c94b18ce763d6eabf6047479c6d7390"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>appendRoute4Rule</b> (self, rule)</td></tr>
+<tr class="separator:a6c94b18ce763d6eabf6047479c6d7390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c038e2c32a56f30f19e72fdc33beb96"><td class="memItemLeft" align="right" valign="top"><a id="a3c038e2c32a56f30f19e72fdc33beb96"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>appendRoute6Rule</b> (self, rule)</td></tr>
+<tr class="separator:a3c038e2c32a56f30f19e72fdc33beb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8628bde32ec5b6419a06243e398f0d71"><td class="memItemLeft" align="right" valign="top"><a id="a8628bde32ec5b6419a06243e398f0d71"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>apply</b> (self, prefix, attribs)</td></tr>
+<tr class="separator:a8628bde32ec5b6419a06243e398f0d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a532f8f2e7b7c337479c5f7e61bd9fe2e"><td class="memItemLeft" align="right" valign="top"><a id="a532f8f2e7b7c337479c5f7e61bd9fe2e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>this</b></td></tr>
+<tr class="separator:a532f8f2e7b7c337479c5f7e61bd9fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP filtering rules set. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-filter_8cc-example.html#_a5">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00207">207</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00211">211</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a76b3cd13f762b0d936e0bd65fcf61b6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76b3cd13f762b0d936e0bd65fcf61b6d">&#9670;&nbsp;</a></span>BgpFilterRules() <span class="overload">[1/2]</span></h2>
@@ -193,7 +234,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-filter_8cc-example.html#a6">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00220">220</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-filter_8h_source.html#l00224">224</a> of file <a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a>.</p>
 
 <p class="reference">References <a class="el" href="classlibbgp_1_1BgpFilterRule.html#a396ad19d8f912a91b78253ac93644554">libbgp::BgpFilterRule::apply()</a>.</p>
 
@@ -243,6 +284,7 @@ template&lt;typename T &gt; </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="bgp-filter_8h_source.html">bgp-filter.h</a></li>
+<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 <li>src/<a class="el" href="bgp-filter_8cc_source.html">bgp-filter.cc</a></li>
 </ul>
 </div><!-- contents -->

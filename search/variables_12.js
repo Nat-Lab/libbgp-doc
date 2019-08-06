@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['weight',['weight',['../structlibbgp_1_1BgpConfig.html#a4523be3046506516bcf379cd1ebe4762',1,'libbgp::BgpConfig::weight()'],['../classlibbgp_1_1BgpRibEntry.html#a08966de6cb5a1996eb2062f4e398b69f',1,'libbgp::BgpRibEntry::weight()']]]
+  ['value',['value',['../classlibbgp_1_1BgpAsPathSegment.html#acb171d66f3da4436349cce335b836778',1,'libbgp::BgpAsPathSegment']]],
+  ['value_5flen',['value_len',['../classlibbgp_1_1BgpPathAttrib.html#ae83520b0f64374b6347920f0e3359e38',1,'libbgp::BgpPathAttrib']]]
 ];

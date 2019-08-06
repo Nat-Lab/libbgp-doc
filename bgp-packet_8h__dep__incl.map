@@ -1,8 +1,9 @@
 <map id="src/bgp&#45;packet.h" name="src/bgp&#45;packet.h">
 <area shape="rect" id="node2" href="$bgp-sink_8h.html" title="The BGP sink. " alt="" coords="95,80,206,107"/>
-<area shape="rect" id="node6" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="230,80,311,107"/>
-<area shape="rect" id="node7" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="282,155,417,181"/>
+<area shape="rect" id="node7" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="230,80,311,107"/>
+<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="282,155,417,181"/>
 <area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="147,155,258,181"/>
-<area shape="rect" id="node5" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="5,155,123,181"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="145,229,261,256"/>
+<area shape="rect" id="node6" href="$bgp-sink_8cc.html" title="The BGP sink. " alt="" coords="5,155,123,181"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="69,229,185,256"/>
+<area shape="rect" id="node5" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="209,229,348,256"/>
 </map>

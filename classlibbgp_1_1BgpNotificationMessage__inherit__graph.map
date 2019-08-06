@@ -1,4 +1,5 @@
 <map id="libbgp::BgpNotificationMessage" name="libbgp::BgpNotificationMessage">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="41,80,192,107"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="46,5,187,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="41,155,192,181"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="48,80,185,107"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="61,5,172,32"/>
 </map>
