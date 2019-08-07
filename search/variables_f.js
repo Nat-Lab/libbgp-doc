@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['safi',['safi',['../classlibbgp_1_1BgpCapabilityMpBgp.html#a63e85022a98bd9890c7c8a19843a880b',1,'libbgp::BgpCapabilityMpBgp::safi()'],['../classlibbgp_1_1BgpPathAttribMpNlriBase.html#a60b2ea2cb3d42e3eb805177422a94899',1,'libbgp::BgpPathAttribMpNlriBase::safi()']]],
-  ['src_5frouter_5fid',['src_router_id',['../classlibbgp_1_1BgpRibEntry.html#a4fe32489231c3e84cbffd205c7be75cf',1,'libbgp::BgpRibEntry']]],
-  ['subcode',['subcode',['../classlibbgp_1_1BgpNotificationMessage.html#a35f4967f5a12cb987c97d377106ec202',1,'libbgp::BgpNotificationMessage']]]
+  ['transitive',['transitive',['../classlibbgp_1_1BgpPathAttrib.html#a19047d331d45f03e5914532271a868ed',1,'libbgp::BgpPathAttrib']]],
+  ['type',['type',['../classlibbgp_1_1BgpAsPathSegment.html#a47a7d8a13b454352b0296165982be784',1,'libbgp::BgpAsPathSegment::type()'],['../classlibbgp_1_1RouteEvent.html#a7ebada61b6b2b9b8e6128099abbc671d',1,'libbgp::RouteEvent::type()']]],
+  ['type_5fcode',['type_code',['../classlibbgp_1_1BgpPathAttrib.html#ac5b83faa3305a28d78d7dbdb83a472da',1,'libbgp::BgpPathAttrib']]]
 ];

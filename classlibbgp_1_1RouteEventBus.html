@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libbgp: libbgp.RouteEventBus Class Reference</title>
+<title>libbgp: libbgp::RouteEventBus Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.7</span>
+   &#160;<span id="projectnumber">0.4.8</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -66,10 +66,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classlibbgp_1_1RouteEventBus-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">libbgp.RouteEventBus Class Reference</div>  </div>
+<div class="title">libbgp::RouteEventBus Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -77,68 +76,34 @@ $(function() {
  <a href="classlibbgp_1_1RouteEventBus.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for libbgp.RouteEventBus:</div>
-<div class="dyncontent">
-<div class="center"><img src="classlibbgp_1_1RouteEventBus__inherit__graph.png" border="0" usemap="#libbgp_8RouteEventBus_inherit__map" alt="Inheritance graph"/></div>
-<map name="libbgp_8RouteEventBus_inherit__map" id="libbgp_8RouteEventBus_inherit__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="30,5,141,32"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for libbgp.RouteEventBus:</div>
-<div class="dyncontent">
-<div class="center"><img src="classlibbgp_1_1RouteEventBus__coll__graph.png" border="0" usemap="#libbgp_8RouteEventBus_coll__map" alt="Collaboration graph"/></div>
-<map name="libbgp_8RouteEventBus_coll__map" id="libbgp_8RouteEventBus_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="30,5,141,32"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a94758183df62b4b08c67e244229e99b1"><td class="memItemLeft" align="right" valign="top"><a id="a94758183df62b4b08c67e244229e99b1"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self)</td></tr>
-<tr class="separator:a94758183df62b4b08c67e244229e99b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab445f097be972ed8636b3a20724370ac"><td class="memItemLeft" align="right" valign="top"><a id="ab445f097be972ed8636b3a20724370ac"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>publish</b> (self, recv, ev)</td></tr>
-<tr class="separator:ab445f097be972ed8636b3a20724370ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c016332d09703e042a0b8cf9e62ef22"><td class="memItemLeft" align="right" valign="top"><a id="a3c016332d09703e042a0b8cf9e62ef22"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>subscribe</b> (self, recv)</td></tr>
-<tr class="separator:a3c016332d09703e042a0b8cf9e62ef22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73b8dac754b01df5d1b9414c457c2501"><td class="memItemLeft" align="right" valign="top"><a id="a73b8dac754b01df5d1b9414c457c2501"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>unsubscribe</b> (self, recv)</td></tr>
-<tr class="separator:a73b8dac754b01df5d1b9414c457c2501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e2ab6f9e2648918a573b0e0109f9033"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a2e2ab6f9e2648918a573b0e0109f9033">publish</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv, const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)</td></tr>
-<tr class="memdesc:a2e2ab6f9e2648918a573b0e0109f9033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Publish a route event.  <a href="#a2e2ab6f9e2648918a573b0e0109f9033">More...</a><br /></td></tr>
-<tr class="separator:a2e2ab6f9e2648918a573b0e0109f9033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af82ca11d2621d8a2453c6e19223d9d72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#af82ca11d2621d8a2453c6e19223d9d72">subscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
-<tr class="memdesc:af82ca11d2621d8a2453c6e19223d9d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribe from this event bus.  <a href="#af82ca11d2621d8a2453c6e19223d9d72">More...</a><br /></td></tr>
-<tr class="separator:af82ca11d2621d8a2453c6e19223d9d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b75e28d4d5aa28fae226f1c3e6dacf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a55b75e28d4d5aa28fae226f1c3e6dacf">unsubscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
-<tr class="memdesc:a55b75e28d4d5aa28fae226f1c3e6dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe to this event bus.  <a href="#a55b75e28d4d5aa28fae226f1c3e6dacf">More...</a><br /></td></tr>
-<tr class="separator:a55b75e28d4d5aa28fae226f1c3e6dacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a78538917feea14be031222d66632d637"><td class="memItemLeft" align="right" valign="top"><a id="a78538917feea14be031222d66632d637"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b></td></tr>
-<tr class="separator:a78538917feea14be031222d66632d637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca68243e992480debcef8011cf0a0886"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#aca68243e992480debcef8011cf0a0886">publish</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv, const <a class="el" href="classlibbgp_1_1RouteEvent.html">RouteEvent</a> &amp;ev)</td></tr>
+<tr class="memdesc:aca68243e992480debcef8011cf0a0886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Publish a route event.  <a href="#aca68243e992480debcef8011cf0a0886">More...</a><br /></td></tr>
+<tr class="separator:aca68243e992480debcef8011cf0a0886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8479fcd6ead5e448841eb46610ab00d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a8479fcd6ead5e448841eb46610ab00d2">subscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memdesc:a8479fcd6ead5e448841eb46610ab00d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribe from this event bus.  <a href="#a8479fcd6ead5e448841eb46610ab00d2">More...</a><br /></td></tr>
+<tr class="separator:a8479fcd6ead5e448841eb46610ab00d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1RouteEventBus.html#a55ddb50c9ae7fc4883a5cb9654ceb1c5">unsubscribe</a> (<a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *recv)</td></tr>
+<tr class="memdesc:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe to this event bus.  <a href="#a55ddb50c9ae7fc4883a5cb9654ceb1c5">More...</a><br /></td></tr>
+<tr class="separator:a55ddb50c9ae7fc4883a5cb9654ceb1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> class. </p>
 <p>The route event bus is used to share information and communicate with other BGP FSMs. For example, route add/withdrawn events are sent to other FSMs with route event bus. Collision resolution also depends on the route event bus. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a14">route-event-bus.cc</a>, and <a class="el" href="route-server_8cc-example.html#_a12">route-server.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="libbgp_8py_source.html#l00324">324</a> of file <a class="el" href="libbgp_8py_source.html">libbgp.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route-event-bus_8h_source.html#l00027">27</a> of file <a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2e2ab6f9e2648918a573b0e0109f9033"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e2ab6f9e2648918a573b0e0109f9033">&#9670;&nbsp;</a></span>publish()</h2>
+<a id="aca68243e992480debcef8011cf0a0886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca68243e992480debcef8011cf0a0886">&#9670;&nbsp;</a></span>publish()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int libbgp.RouteEventBus::publish </td>
+          <td class="memname">int libbgp::RouteEventBus::publish </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
           <td class="paramname"><em>recv</em>, </td>
@@ -166,19 +131,22 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int Number of subscribers report event received. </dd></dl>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a37">route-event-bus.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00028">28</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00174">libbgp::BgpRib4::insert()</a>, <a class="el" href="bgp-rib6_8cc_source.html#l00165">libbgp::BgpRib6::insert()</a>, and <a class="el" href="bgp-rib4_8cc_source.html#l00329">libbgp::BgpRib4::withdraw()</a>.</p>
+
 </div>
 </div>
-<a id="af82ca11d2621d8a2453c6e19223d9d72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af82ca11d2621d8a2453c6e19223d9d72">&#9670;&nbsp;</a></span>subscribe()</h2>
+<a id="a8479fcd6ead5e448841eb46610ab00d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8479fcd6ead5e448841eb46610ab00d2">&#9670;&nbsp;</a></span>subscribe()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool libbgp.RouteEventBus::subscribe </td>
+          <td class="memname">bool libbgp::RouteEventBus::subscribe </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
           <td class="paramname"><em>recv</em></td><td>)</td>
@@ -197,19 +165,20 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true Subscribed. </dd>
 <dd>
 false Failed to subscribe. </dd></dl>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a15">route-event-bus.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00047">47</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
 
 </div>
 </div>
-<a id="a55b75e28d4d5aa28fae226f1c3e6dacf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b75e28d4d5aa28fae226f1c3e6dacf">&#9670;&nbsp;</a></span>unsubscribe()</h2>
+<a id="a55ddb50c9ae7fc4883a5cb9654ceb1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ddb50c9ae7fc4883a5cb9654ceb1c5">&#9670;&nbsp;</a></span>unsubscribe()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool libbgp.RouteEventBus::unsubscribe </td>
+          <td class="memname">bool libbgp::RouteEventBus::unsubscribe </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classlibbgp_1_1RouteEventReceiver.html">RouteEventReceiver</a> *&#160;</td>
           <td class="paramname"><em>recv</em></td><td>)</td>
@@ -228,13 +197,13 @@ false Failed to subscribe. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true Unsubscribed. </dd>
 <dd>
 false Failed to Unsubscribe. </dd></dl>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a40">route-event-bus.cc</a>.</dd>
+</dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00060">60</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 <li>src/<a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a></li>
 <li>src/<a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a></li>
 </ul>

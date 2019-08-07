@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libbgp: libbgp.Serializable Class Reference</title>
+<title>libbgp: libbgp::Serializable Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.7</span>
+   &#160;<span id="projectnumber">0.4.8</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -71,7 +71,7 @@ $(function() {
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classlibbgp_1_1Serializable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">libbgp.Serializable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">libbgp::Serializable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -80,172 +80,140 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="serializable_8h_source.html">serializable.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for libbgp.Serializable:</div>
+Inheritance diagram for libbgp::Serializable:</div>
 <div class="dyncontent">
-<div class="center"><img src="classlibbgp_1_1Serializable__inherit__graph.png" border="0" usemap="#libbgp_8Serializable_inherit__map" alt="Inheritance graph"/></div>
-<map name="libbgp_8Serializable_inherit__map" id="libbgp_8Serializable_inherit__map">
-<area shape="rect" id="node3" href="classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. " alt="" coords="350,81,505,108"/>
-<area shape="rect" id="node7" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="352,259,503,285"/>
-<area shape="rect" id="node13" href="classlibbgp_1_1BgpPacket.html" title="The BgpPacket class. " alt="" coords="360,309,495,336"/>
-<area shape="rect" id="node14" href="classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="349,667,505,693"/>
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="5,284,116,311"/>
-<area shape="rect" id="node4" href="classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="557,5,780,32"/>
-<area shape="rect" id="node5" href="classlibbgp_1_1BgpCapabilityMpBgp.html" title="The BgpCapabilityMpBgp class. " alt="" coords="569,56,768,83"/>
-<area shape="rect" id="node6" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="566,107,771,133"/>
-<area shape="rect" id="node8" href="classlibbgp_1_1BgpBadMessage.html" title="The BgpBadMessage class. " alt="" coords="581,157,756,184"/>
-<area shape="rect" id="node9" href="classlibbgp_1_1BgpKeepaliveMessage.html" title="The BgpKeepaliveMessage class. " alt="" coords="563,208,774,235"/>
-<area shape="rect" id="node10" href="classlibbgp_1_1BgpNotificationMessage.html" title="The BgpNotificationMessage object. " alt="" coords="557,259,780,285"/>
-<area shape="rect" id="node11" href="classlibbgp_1_1BgpOpenMessage.html" title="The BgpOpenMessage class. " alt="" coords="577,309,761,336"/>
-<area shape="rect" id="node12" href="classlibbgp_1_1BgpUpdateMessage.html" title="The BgpUpdateMessage class. " alt="" coords="570,360,767,387"/>
-<area shape="rect" id="node15" href="classlibbgp_1_1BgpPathAttribAggregator.html" title="Aggregator attribute. " alt="" coords="555,411,783,437"/>
-<area shape="rect" id="node16" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html" title="AS4_AGGREGATOR attribute. " alt="" coords="579,462,759,503"/>
-<area shape="rect" id="node17" href="classlibbgp_1_1BgpPathAttribAs4Path.html" title="AS4_PATH attribute. " alt="" coords="565,528,773,555"/>
-<area shape="rect" id="node18" href="classlibbgp_1_1BgpPathAttribAsPath.html" title="AS Path attribute. " alt="" coords="569,579,769,605"/>
-<area shape="rect" id="node19" href="classlibbgp_1_1BgpPathAttribAtomicAggregate.html" title="Atomic aggregate attribute. " alt="" coords="568,630,769,671"/>
-<area shape="rect" id="node20" href="classlibbgp_1_1BgpPathAttribCommunity.html" title="BGP community attribute. " alt="" coords="553,696,784,723"/>
-<area shape="rect" id="node21" href="classlibbgp_1_1BgpPathAttribLocalPref.html" title="Local Pref attribute. " alt="" coords="561,747,776,773"/>
-<area shape="rect" id="node22" href="classlibbgp_1_1BgpPathAttribMed.html" title="Multi Exit Discriminator attribute. " alt="" coords="577,797,760,824"/>
-<area shape="rect" id="node23" href="classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="555,848,783,875"/>
-<area shape="rect" id="node28" href="classlibbgp_1_1BgpPathAttribNexthop.html" title="Nexthop attribute. " alt="" coords="563,899,774,925"/>
-<area shape="rect" id="node29" href="classlibbgp_1_1BgpPathAttribOrigin.html" title="Origin Attribute. " alt="" coords="572,949,765,976"/>
-<area shape="rect" id="node24" href="classlibbgp_1_1BgpPathAttribMpReachNlriIpv6.html" title="MP&#45;BGP ReachNlri IPv6 NLRI class. " alt="" coords="840,742,1053,783"/>
-<area shape="rect" id="node25" href="classlibbgp_1_1BgpPathAttribMpReachNlriUnknow.html" title="MP&#45;BGP ReachNlri container for unknow AFI/SAFI. " alt="" coords="840,807,1053,849"/>
-<area shape="rect" id="node26" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriIpv6.html" title="MP&#45;BGP UnreachNlri IPv6 class. " alt="" coords="832,873,1061,914"/>
-<area shape="rect" id="node27" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriUnknow.html" title="MP&#45;BGP UnreachNlri container for unknow AFI/SAFI. " alt="" coords="832,938,1061,979"/>
+<div class="center"><img src="classlibbgp_1_1Serializable__inherit__graph.png" border="0" usemap="#libbgp_1_1Serializable_inherit__map" alt="Inheritance graph"/></div>
+<map name="libbgp_1_1Serializable_inherit__map" id="libbgp_1_1Serializable_inherit__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpCapability.html" title="The BgpCapability base class. " alt="" coords="195,81,350,108"/>
+<area shape="rect" id="node6" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="197,259,348,285"/>
+<area shape="rect" id="node12" href="classlibbgp_1_1BgpPacket.html" title="The BgpPacket class. " alt="" coords="205,309,340,336"/>
+<area shape="rect" id="node13" href="classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="195,667,351,693"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1BgpCapability4BytesAsn.html" title="The BgpCapability4BytesAsn class. " alt="" coords="403,5,625,32"/>
+<area shape="rect" id="node4" href="classlibbgp_1_1BgpCapabilityMpBgp.html" title="The BgpCapabilityMpBgp class. " alt="" coords="415,56,613,83"/>
+<area shape="rect" id="node5" href="classlibbgp_1_1BgpCapabilityUnknow.html" title="The BgpCapabilityUnknow class. " alt="" coords="411,107,617,133"/>
+<area shape="rect" id="node7" href="classlibbgp_1_1BgpBadMessage.html" title="The BgpBadMessage class. " alt="" coords="427,157,601,184"/>
+<area shape="rect" id="node8" href="classlibbgp_1_1BgpKeepaliveMessage.html" title="The BgpKeepaliveMessage class. " alt="" coords="409,208,619,235"/>
+<area shape="rect" id="node9" href="classlibbgp_1_1BgpNotificationMessage.html" title="The BgpNotificationMessage object. " alt="" coords="403,259,625,285"/>
+<area shape="rect" id="node10" href="classlibbgp_1_1BgpOpenMessage.html" title="The BgpOpenMessage class. " alt="" coords="422,309,606,336"/>
+<area shape="rect" id="node11" href="classlibbgp_1_1BgpUpdateMessage.html" title="The BgpUpdateMessage class. " alt="" coords="415,360,613,387"/>
+<area shape="rect" id="node14" href="classlibbgp_1_1BgpPathAttribAggregator.html" title="Aggregator attribute. " alt="" coords="400,411,628,437"/>
+<area shape="rect" id="node15" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html" title="AS4_AGGREGATOR attribute. " alt="" coords="424,462,604,503"/>
+<area shape="rect" id="node16" href="classlibbgp_1_1BgpPathAttribAs4Path.html" title="AS4_PATH attribute. " alt="" coords="410,528,618,555"/>
+<area shape="rect" id="node17" href="classlibbgp_1_1BgpPathAttribAsPath.html" title="AS Path attribute. " alt="" coords="414,579,614,605"/>
+<area shape="rect" id="node18" href="classlibbgp_1_1BgpPathAttribAtomicAggregate.html" title="Atomic aggregate attribute. " alt="" coords="413,630,615,671"/>
+<area shape="rect" id="node19" href="classlibbgp_1_1BgpPathAttribCommunity.html" title="BGP community attribute. " alt="" coords="399,696,629,723"/>
+<area shape="rect" id="node20" href="classlibbgp_1_1BgpPathAttribLocalPref.html" title="Local Pref attribute. " alt="" coords="407,747,621,773"/>
+<area shape="rect" id="node21" href="classlibbgp_1_1BgpPathAttribMed.html" title="Multi Exit Discriminator attribute. " alt="" coords="423,797,605,824"/>
+<area shape="rect" id="node22" href="classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="400,848,628,875"/>
+<area shape="rect" id="node27" href="classlibbgp_1_1BgpPathAttribNexthop.html" title="Nexthop attribute. " alt="" coords="409,899,619,925"/>
+<area shape="rect" id="node28" href="classlibbgp_1_1BgpPathAttribOrigin.html" title="Origin Attribute. " alt="" coords="417,949,611,976"/>
+<area shape="rect" id="node23" href="classlibbgp_1_1BgpPathAttribMpReachNlriIpv6.html" title="MP&#45;BGP ReachNlri IPv6 NLRI class. " alt="" coords="685,743,899,785"/>
+<area shape="rect" id="node24" href="classlibbgp_1_1BgpPathAttribMpReachNlriUnknow.html" title="MP&#45;BGP ReachNlri container for unknow AFI/SAFI. " alt="" coords="685,809,899,850"/>
+<area shape="rect" id="node25" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriIpv6.html" title="MP&#45;BGP UnreachNlri IPv6 class. " alt="" coords="677,874,907,915"/>
+<area shape="rect" id="node26" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriUnknow.html" title="MP&#45;BGP UnreachNlri container for unknow AFI/SAFI. " alt="" coords="677,939,907,981"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for libbgp.Serializable:</div>
+Collaboration diagram for libbgp::Serializable:</div>
 <div class="dyncontent">
-<div class="center"><img src="classlibbgp_1_1Serializable__coll__graph.png" border="0" usemap="#libbgp_8Serializable_coll__map" alt="Collaboration graph"/></div>
-<map name="libbgp_8Serializable_coll__map" id="libbgp_8Serializable_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="36,5,147,32"/>
-<area shape="rect" id="node3" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="91,81,257,108"/>
+<div class="center"><img src="classlibbgp_1_1Serializable__coll__graph.png" border="0" usemap="#libbgp_1_1Serializable_coll__map" alt="Collaboration graph"/></div>
+<map name="libbgp_1_1Serializable_coll__map" id="libbgp_1_1Serializable_coll__map">
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="5,5,172,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a69663ffa68adee9596270f400f44e987"><td class="memItemLeft" align="right" valign="top"><a id="a69663ffa68adee9596270f400f44e987"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kwargs)</td></tr>
-<tr class="separator:a69663ffa68adee9596270f400f44e987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae87334b2d53f051ec897a32786677b53"><td class="memItemLeft" align="right" valign="top"><a id="ae87334b2d53f051ec897a32786677b53"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>parse</b> (self, arg2, msg_sz)</td></tr>
-<tr class="separator:ae87334b2d53f051ec897a32786677b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688f003f92f3c5baa46576ee4eeec8ee"><td class="memItemLeft" align="right" valign="top"><a id="a688f003f92f3c5baa46576ee4eeec8ee"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (self, to, buf_sz)</td></tr>
-<tr class="separator:a688f003f92f3c5baa46576ee4eeec8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6670f522622c0819dcebe1a6343a034"><td class="memItemLeft" align="right" valign="top"><a id="ae6670f522622c0819dcebe1a6343a034"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> (self)</td></tr>
-<tr class="separator:ae6670f522622c0819dcebe1a6343a034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d23bff8db3c7749bfd7113f9ec447f"><td class="memItemLeft" align="right" valign="top"><a id="a35d23bff8db3c7749bfd7113f9ec447f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>hasError</b> (self)</td></tr>
-<tr class="separator:a35d23bff8db3c7749bfd7113f9ec447f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9490043bfdacdadca7578bcdad8db0b9"><td class="memItemLeft" align="right" valign="top"><a id="a9490043bfdacdadca7578bcdad8db0b9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorCode</b> (self)</td></tr>
-<tr class="separator:a9490043bfdacdadca7578bcdad8db0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6e82f1798dc3f27cce994c01ca4a8f"><td class="memItemLeft" align="right" valign="top"><a id="a2c6e82f1798dc3f27cce994c01ca4a8f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorSubCode</b> (self)</td></tr>
-<tr class="separator:a2c6e82f1798dc3f27cce994c01ca4a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3851c3283be403fceaf587fb31bec848"><td class="memItemLeft" align="right" valign="top"><a id="a3851c3283be403fceaf587fb31bec848"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getError</b> (self)</td></tr>
-<tr class="separator:a3851c3283be403fceaf587fb31bec848"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43376c93bc08e0fe06d8b7518dfb519f"><td class="memItemLeft" align="right" valign="top"><a id="a43376c93bc08e0fe06d8b7518dfb519f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> (self)</td></tr>
-<tr class="separator:a43376c93bc08e0fe06d8b7518dfb519f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16dd2a91337e3237771f8b0f084f2f1d"><td class="memItemLeft" align="right" valign="top"><a id="a16dd2a91337e3237771f8b0f084f2f1d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setLogger</b> (self, logger)</td></tr>
-<tr class="separator:a16dd2a91337e3237771f8b0f084f2f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afab5adf351b5cc848c1fda02c8f242b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#afab5adf351b5cc848c1fda02c8f242b2">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
-<tr class="memdesc:afab5adf351b5cc848c1fda02c8f242b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="#afab5adf351b5cc848c1fda02c8f242b2">More...</a><br /></td></tr>
-<tr class="separator:afab5adf351b5cc848c1fda02c8f242b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d17c599c22a01a34920034db61b9b21"><td class="memItemLeft" align="right" valign="top"><a id="a2d17c599c22a01a34920034db61b9b21"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a2d17c599c22a01a34920034db61b9b21">~Serializable</a> ()</td></tr>
-<tr class="memdesc:a2d17c599c22a01a34920034db61b9b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
-<tr class="separator:a2d17c599c22a01a34920034db61b9b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04564b3e0c38e72298f318246832db31"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a04564b3e0c38e72298f318246832db31">print</a> (uint8_t *to, size_t buf_sz) const</td></tr>
-<tr class="memdesc:a04564b3e0c38e72298f318246832db31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string.  <a href="#a04564b3e0c38e72298f318246832db31">More...</a><br /></td></tr>
-<tr class="separator:a04564b3e0c38e72298f318246832db31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a210438a0e4f0ec204501d1fe0a5dc26a"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a210438a0e4f0ec204501d1fe0a5dc26a">print</a> (size_t indent, uint8_t *to, size_t buf_sz) const</td></tr>
-<tr class="memdesc:a210438a0e4f0ec204501d1fe0a5dc26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string, with indentation.  <a href="#a210438a0e4f0ec204501d1fe0a5dc26a">More...</a><br /></td></tr>
-<tr class="separator:a210438a0e4f0ec204501d1fe0a5dc26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60f1cc6f3953cece83375c4391b9d4ce"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a60f1cc6f3953cece83375c4391b9d4ce">parse</a> (const uint8_t *from, size_t msg_sz)=0</td></tr>
-<tr class="memdesc:a60f1cc6f3953cece83375c4391b9d4ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the object from buffer.  <a href="#a60f1cc6f3953cece83375c4391b9d4ce">More...</a><br /></td></tr>
-<tr class="separator:a60f1cc6f3953cece83375c4391b9d4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bde605d0f78d15421c383833ddf74df"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a6bde605d0f78d15421c383833ddf74df">write</a> (uint8_t *to, size_t buf_sz) const =0</td></tr>
-<tr class="memdesc:a6bde605d0f78d15421c383833ddf74df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the object and write to buffer.  <a href="#a6bde605d0f78d15421c383833ddf74df">More...</a><br /></td></tr>
-<tr class="separator:a6bde605d0f78d15421c383833ddf74df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75351e07ffa1a4b0671e6ca1c5e30087"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a75351e07ffa1a4b0671e6ca1c5e30087">length</a> () const</td></tr>
-<tr class="memdesc:a75351e07ffa1a4b0671e6ca1c5e30087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size in bytes required to serialize the object.  <a href="#a75351e07ffa1a4b0671e6ca1c5e30087">More...</a><br /></td></tr>
-<tr class="separator:a75351e07ffa1a4b0671e6ca1c5e30087"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84866cf71ec2abf32e70ce8663a4ed9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ae84866cf71ec2abf32e70ce8663a4ed9">hasError</a> () const</td></tr>
-<tr class="memdesc:ae84866cf71ec2abf32e70ce8663a4ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if error information available.  <a href="#ae84866cf71ec2abf32e70ce8663a4ed9">More...</a><br /></td></tr>
-<tr class="separator:ae84866cf71ec2abf32e70ce8663a4ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b219bfed0607faf4e7bf38ec703c29"><td class="memItemLeft" align="right" valign="top"><a id="a09b219bfed0607faf4e7bf38ec703c29"></a>
+<tr class="memitem:adff26a0a2481c35d40bc4c905a2d9550"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:adff26a0a2481c35d40bc4c905a2d9550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="#adff26a0a2481c35d40bc4c905a2d9550">More...</a><br /></td></tr>
+<tr class="separator:adff26a0a2481c35d40bc4c905a2d9550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749db1ceb56b9ebe213e00b0e58ec9ad"><td class="memItemLeft" align="right" valign="top"><a id="a749db1ceb56b9ebe213e00b0e58ec9ad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a749db1ceb56b9ebe213e00b0e58ec9ad">~Serializable</a> ()</td></tr>
+<tr class="memdesc:a749db1ceb56b9ebe213e00b0e58ec9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
+<tr class="separator:a749db1ceb56b9ebe213e00b0e58ec9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804fb732b7089ac0a98a6e926f1551d6"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a804fb732b7089ac0a98a6e926f1551d6">print</a> (uint8_t *to, size_t buf_sz) const</td></tr>
+<tr class="memdesc:a804fb732b7089ac0a98a6e926f1551d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string.  <a href="#a804fb732b7089ac0a98a6e926f1551d6">More...</a><br /></td></tr>
+<tr class="separator:a804fb732b7089ac0a98a6e926f1551d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490c037d263896afc7776e339741eb33"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a490c037d263896afc7776e339741eb33">print</a> (size_t indent, uint8_t *to, size_t buf_sz) const</td></tr>
+<tr class="memdesc:a490c037d263896afc7776e339741eb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string, with indentation.  <a href="#a490c037d263896afc7776e339741eb33">More...</a><br /></td></tr>
+<tr class="separator:a490c037d263896afc7776e339741eb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5562d3b3cda5cfda2f3749862f810e24"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a5562d3b3cda5cfda2f3749862f810e24">parse</a> (const uint8_t *from, size_t msg_sz)=0</td></tr>
+<tr class="memdesc:a5562d3b3cda5cfda2f3749862f810e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the object from buffer.  <a href="#a5562d3b3cda5cfda2f3749862f810e24">More...</a><br /></td></tr>
+<tr class="separator:a5562d3b3cda5cfda2f3749862f810e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa89277c8b12ee3821285c479ebf545"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a9aa89277c8b12ee3821285c479ebf545">write</a> (uint8_t *to, size_t buf_sz) const =0</td></tr>
+<tr class="memdesc:a9aa89277c8b12ee3821285c479ebf545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the object and write to buffer.  <a href="#a9aa89277c8b12ee3821285c479ebf545">More...</a><br /></td></tr>
+<tr class="separator:a9aa89277c8b12ee3821285c479ebf545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f02045e83866077732aa421dbad0e4"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">length</a> () const</td></tr>
+<tr class="memdesc:a37f02045e83866077732aa421dbad0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size in bytes required to serialize the object.  <a href="#a37f02045e83866077732aa421dbad0e4">More...</a><br /></td></tr>
+<tr class="separator:a37f02045e83866077732aa421dbad0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71cbd82595e9145b0f7bd0664d190e87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a71cbd82595e9145b0f7bd0664d190e87">hasError</a> () const</td></tr>
+<tr class="memdesc:a71cbd82595e9145b0f7bd0664d190e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if error information available.  <a href="#a71cbd82595e9145b0f7bd0664d190e87">More...</a><br /></td></tr>
+<tr class="separator:a71cbd82595e9145b0f7bd0664d190e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcb8fde805cea8019e41b04870fd17b"><td class="memItemLeft" align="right" valign="top"><a id="a9bcb8fde805cea8019e41b04870fd17b"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorCode</b> () const</td></tr>
-<tr class="separator:a09b219bfed0607faf4e7bf38ec703c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359311871cc8682967acca437764b9c1"><td class="memItemLeft" align="right" valign="top"><a id="a359311871cc8682967acca437764b9c1"></a>
+<tr class="separator:a9bcb8fde805cea8019e41b04870fd17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979acbac79e625ef07d668a82f620934"><td class="memItemLeft" align="right" valign="top"><a id="a979acbac79e625ef07d668a82f620934"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorSubCode</b> () const</td></tr>
-<tr class="separator:a359311871cc8682967acca437764b9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41a66ac740d7c5d736878fb3dc7a6531"><td class="memItemLeft" align="right" valign="top"><a id="a41a66ac740d7c5d736878fb3dc7a6531"></a>
+<tr class="separator:a979acbac79e625ef07d668a82f620934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0b0fddafc4edbd4b76feed545bcec7"><td class="memItemLeft" align="right" valign="top"><a id="acd0b0fddafc4edbd4b76feed545bcec7"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>getError</b> () const</td></tr>
-<tr class="separator:a41a66ac740d7c5d736878fb3dc7a6531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56ac01c6eb83b8597143b8ace777025a"><td class="memItemLeft" align="right" valign="top"><a id="a56ac01c6eb83b8597143b8ace777025a"></a>
+<tr class="separator:acd0b0fddafc4edbd4b76feed545bcec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c8aa38318bea75bc7ece28248c8913"><td class="memItemLeft" align="right" valign="top"><a id="a71c8aa38318bea75bc7ece28248c8913"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> () const</td></tr>
-<tr class="separator:a56ac01c6eb83b8597143b8ace777025a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4a98e302d8a23256a0c3e21141ee80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a1b4a98e302d8a23256a0c3e21141ee80">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
-<tr class="memdesc:a1b4a98e302d8a23256a0c3e21141ee80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="#a1b4a98e302d8a23256a0c3e21141ee80">More...</a><br /></td></tr>
-<tr class="separator:a1b4a98e302d8a23256a0c3e21141ee80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a71c8aa38318bea75bc7ece28248c8913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6ecd8173f40f0b5fa6021468632b16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:ade6ecd8173f40f0b5fa6021468632b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="#ade6ecd8173f40f0b5fa6021468632b16">More...</a><br /></td></tr>
+<tr class="separator:ade6ecd8173f40f0b5fa6021468632b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4b1dd9aadd2a84bd17b41e3fe1775c25"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a4b1dd9aadd2a84bd17b41e3fe1775c25">doPrint</a> (size_t indent, uint8_t **to, size_t *buf_sz) const =0</td></tr>
-<tr class="memdesc:a4b1dd9aadd2a84bd17b41e3fe1775c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#a4b1dd9aadd2a84bd17b41e3fe1775c25">More...</a><br /></td></tr>
-<tr class="separator:a4b1dd9aadd2a84bd17b41e3fe1775c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa72b12ced5f82a7cc842804e779fed5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aa72b12ced5f82a7cc842804e779fed5f">setError</a> (uint8_t err, uint8_t suberr, const uint8_t *data, size_t data_len)</td></tr>
-<tr class="memdesc:aa72b12ced5f82a7cc842804e779fed5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error information.  <a href="#aa72b12ced5f82a7cc842804e779fed5f">More...</a><br /></td></tr>
-<tr class="separator:aa72b12ced5f82a7cc842804e779fed5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9aef3658830eb3b3271c13d3c87bfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aaf9aef3658830eb3b3271c13d3c87bfb">forwardParseError</a> (const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;other)</td></tr>
-<tr class="memdesc:aaf9aef3658830eb3b3271c13d3c87bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward error information from other <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="#aaf9aef3658830eb3b3271c13d3c87bfb">More...</a><br /></td></tr>
-<tr class="separator:aaf9aef3658830eb3b3271c13d3c87bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10899ba2551d80fb5e18263d542cf730"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">doPrint</a> (size_t indent, uint8_t **to, size_t *buf_sz) const =0</td></tr>
+<tr class="memdesc:a10899ba2551d80fb5e18263d542cf730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print implementation.  <a href="#a10899ba2551d80fb5e18263d542cf730">More...</a><br /></td></tr>
+<tr class="separator:a10899ba2551d80fb5e18263d542cf730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe3ec9c2494bb2bf6799d287ebe9dd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a7fe3ec9c2494bb2bf6799d287ebe9dd2">setError</a> (uint8_t err, uint8_t suberr, const uint8_t *data, size_t data_len)</td></tr>
+<tr class="memdesc:a7fe3ec9c2494bb2bf6799d287ebe9dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error information.  <a href="#a7fe3ec9c2494bb2bf6799d287ebe9dd2">More...</a><br /></td></tr>
+<tr class="separator:a7fe3ec9c2494bb2bf6799d287ebe9dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7471024f07b225d9c61dd338de28a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aad7471024f07b225d9c61dd338de28a5">forwardParseError</a> (const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;other)</td></tr>
+<tr class="memdesc:aad7471024f07b225d9c61dd338de28a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward error information from other <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="#aad7471024f07b225d9c61dd338de28a5">More...</a><br /></td></tr>
+<tr class="separator:aad7471024f07b225d9c61dd338de28a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa6b13bf7740aa989a26eb2fc31b05be5"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aa6b13bf7740aa989a26eb2fc31b05be5">_print</a> (size_t indent, uint8_t **to, size_t *buf_left, const char *format,...)</td></tr>
-<tr class="memdesc:aa6b13bf7740aa989a26eb2fc31b05be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print helper.  <a href="#aa6b13bf7740aa989a26eb2fc31b05be5">More...</a><br /></td></tr>
-<tr class="separator:aa6b13bf7740aa989a26eb2fc31b05be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439ea41e411d9695a0c49ac5563350d1"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a439ea41e411d9695a0c49ac5563350d1">_print</a> (size_t indent, uint8_t **to, size_t *buf_left, const char *format,...)</td></tr>
+<tr class="memdesc:a439ea41e411d9695a0c49ac5563350d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print helper.  <a href="#a439ea41e411d9695a0c49ac5563350d1">More...</a><br /></td></tr>
+<tr class="separator:a439ea41e411d9695a0c49ac5563350d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:abf4f62ee57fbc6ecc20decc0e1b3bf73"><td class="memItemLeft" align="right" valign="top"><a id="abf4f62ee57fbc6ecc20decc0e1b3bf73"></a>
+<tr class="memitem:a62d5de63528950159267530674abd388"><td class="memItemLeft" align="right" valign="top"><a id="a62d5de63528950159267530674abd388"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_code</b></td></tr>
-<tr class="separator:abf4f62ee57fbc6ecc20decc0e1b3bf73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b3421224568af2c04164d9b9308c53"><td class="memItemLeft" align="right" valign="top"><a id="a91b3421224568af2c04164d9b9308c53"></a>
+<tr class="separator:a62d5de63528950159267530674abd388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7229dc9bd0fbe6892ad2e6e653469e"><td class="memItemLeft" align="right" valign="top"><a id="aba7229dc9bd0fbe6892ad2e6e653469e"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_subcode</b></td></tr>
-<tr class="separator:a91b3421224568af2c04164d9b9308c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af32f952a57ae7cc7f3fde90ed1e4e498"><td class="memItemLeft" align="right" valign="top"><a id="af32f952a57ae7cc7f3fde90ed1e4e498"></a>
+<tr class="separator:aba7229dc9bd0fbe6892ad2e6e653469e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c67ad8c596235212a20649f4d161e2"><td class="memItemLeft" align="right" valign="top"><a id="ad6c67ad8c596235212a20649f4d161e2"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_len</b></td></tr>
-<tr class="separator:af32f952a57ae7cc7f3fde90ed1e4e498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad514cba9874f2351e755ea9619ac4bbe"><td class="memItemLeft" align="right" valign="top"><a id="ad514cba9874f2351e755ea9619ac4bbe"></a>
+<tr class="separator:ad6c67ad8c596235212a20649f4d161e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abad0eee1cc8a31ca8d9f607432d2a7d2"><td class="memItemLeft" align="right" valign="top"><a id="abad0eee1cc8a31ca8d9f607432d2a7d2"></a>
 uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td></tr>
-<tr class="separator:ad514cba9874f2351e755ea9619ac4bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6bb28403988205743357680b783c24"><td class="memItemLeft" align="right" valign="top"><a id="a8a6bb28403988205743357680b783c24"></a>
+<tr class="separator:abad0eee1cc8a31ca8d9f607432d2a7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24451786d21a5c021166049b6806763b"><td class="memItemLeft" align="right" valign="top"><a id="a24451786d21a5c021166049b6806763b"></a>
 <a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>logger</b></td></tr>
-<tr class="separator:a8a6bb28403988205743357680b783c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a24451786d21a5c021166049b6806763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The serializable base class. </p>
 
-<p class="definition">Definition at line <a class="el" href="libbgp_8py_source.html#l00101">101</a> of file <a class="el" href="libbgp_8py_source.html">libbgp.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="serializable_8h_source.html#l00026">26</a> of file <a class="el" href="serializable_8h_source.html">serializable.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afab5adf351b5cc848c1fda02c8f242b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afab5adf351b5cc848c1fda02c8f242b2">&#9670;&nbsp;</a></span>Serializable()</h2>
+<a id="adff26a0a2481c35d40bc4c905a2d9550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adff26a0a2481c35d40bc4c905a2d9550">&#9670;&nbsp;</a></span>Serializable()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">libbgp.Serializable::Serializable </td>
+          <td class="memname">libbgp::Serializable::Serializable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
           <td class="paramname"><em>logger</em></td><td>)</td>
@@ -267,8 +235,8 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa6b13bf7740aa989a26eb2fc31b05be5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6b13bf7740aa989a26eb2fc31b05be5">&#9670;&nbsp;</a></span>_print()</h2>
+<a id="a439ea41e411d9695a0c49ac5563350d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439ea41e411d9695a0c49ac5563350d1">&#9670;&nbsp;</a></span>_print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +245,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t libbgp.Serializable::_print </td>
+          <td class="memname">ssize_t libbgp::Serializable::_print </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -342,12 +310,12 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p class="definition">Definition at line <a class="el" href="serializable_8cc_source.html#l00144">144</a> of file <a class="el" href="serializable_8cc_source.html">serializable.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-keepalive-message_8cc_source.html#l00040">libbgp::BgpKeepaliveMessage::doPrint()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00258">libbgp::BgpOpenMessage::doPrint()</a>, <a class="el" href="bgp-notification-message_8cc_source.html#l00083">libbgp::BgpNotificationMessage::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00116">libbgp::BgpPathAttrib::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00068">libbgp::BgpCapability4BytesAsn::doPrint()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00798">libbgp::BgpUpdateMessage::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00119">libbgp::BgpCapabilityMpBgp::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00209">libbgp::BgpCapabilityUnknow::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00281">libbgp::BgpPathAttribOrigin::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00416">libbgp::BgpPathAttribAsPath::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00636">libbgp::BgpPathAttribNexthop::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00719">libbgp::BgpPathAttribMed::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00801">libbgp::BgpPathAttribLocalPref::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00884">libbgp::BgpPathAttribAtomicAggregate::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00959">libbgp::BgpPathAttribAggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01058">libbgp::BgpPathAttribAs4Path::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01294">libbgp::BgpPathAttribAs4Aggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01375">libbgp::BgpPathAttribCommunity::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01647">libbgp::BgpPathAttribMpReachNlriIpv6::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01802">libbgp::BgpPathAttribMpReachNlriUnknow::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01912">libbgp::BgpPathAttribMpUnreachNlriIpv6::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l02010">libbgp::BgpPathAttribMpUnreachNlriUnknow::doPrint()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00096">libbgp::BgpPathAttrib::printFlags()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-bad-message_8cc_source.html#l00038">libbgp::BgpBadMessage::doPrint()</a>, <a class="el" href="bgp-keepalive-message_8cc_source.html#l00040">libbgp::BgpKeepaliveMessage::doPrint()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00258">libbgp::BgpOpenMessage::doPrint()</a>, <a class="el" href="bgp-notification-message_8cc_source.html#l00083">libbgp::BgpNotificationMessage::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00116">libbgp::BgpPathAttrib::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00068">libbgp::BgpCapability4BytesAsn::doPrint()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00798">libbgp::BgpUpdateMessage::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00119">libbgp::BgpCapabilityMpBgp::doPrint()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00209">libbgp::BgpCapabilityUnknow::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00281">libbgp::BgpPathAttribOrigin::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00416">libbgp::BgpPathAttribAsPath::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00636">libbgp::BgpPathAttribNexthop::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00719">libbgp::BgpPathAttribMed::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00801">libbgp::BgpPathAttribLocalPref::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00884">libbgp::BgpPathAttribAtomicAggregate::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00959">libbgp::BgpPathAttribAggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01058">libbgp::BgpPathAttribAs4Path::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01294">libbgp::BgpPathAttribAs4Aggregator::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01375">libbgp::BgpPathAttribCommunity::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01647">libbgp::BgpPathAttribMpReachNlriIpv6::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01802">libbgp::BgpPathAttribMpReachNlriUnknow::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l01912">libbgp::BgpPathAttribMpUnreachNlriIpv6::doPrint()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l02010">libbgp::BgpPathAttribMpUnreachNlriUnknow::doPrint()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00096">libbgp::BgpPathAttrib::printFlags()</a>.</p>
 
 </div>
 </div>
-<a id="a4b1dd9aadd2a84bd17b41e3fe1775c25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b1dd9aadd2a84bd17b41e3fe1775c25">&#9670;&nbsp;</a></span>doPrint()</h2>
+<a id="a10899ba2551d80fb5e18263d542cf730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10899ba2551d80fb5e18263d542cf730">&#9670;&nbsp;</a></span>doPrint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,7 +324,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ssize_t libbgp.Serializable.doPrint </td>
+          <td class="memname">virtual ssize_t libbgp::Serializable::doPrint </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -406,12 +374,12 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p>Implemented in <a class="el" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriUnknow.html#a39f2f3b501d3907aa5376e2a905399a7">libbgp::BgpPathAttribMpUnreachNlriUnknow</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMpUnreachNlriIpv6.html#a73053d15e75bbc5d21fca138e60a254a">libbgp::BgpPathAttribMpUnreachNlriIpv6</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMpReachNlriUnknow.html#acd6954fc52a2cf97f2ee34bd7c5ba3ba">libbgp::BgpPathAttribMpReachNlriUnknow</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMpReachNlriIpv6.html#afaf967bd934f96c975e4002f6aa8cce5">libbgp::BgpPathAttribMpReachNlriIpv6</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribCommunity.html#a9d7d6bd3a36df20b87f6a219c0946d6d">libbgp::BgpPathAttribCommunity</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Aggregator.html#a4ad29964196963b579d967bf98a1faf5">libbgp::BgpPathAttribAs4Aggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAs4Path.html#a12096947394f8928fa42052d706de79c">libbgp::BgpPathAttribAs4Path</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAggregator.html#a405d91884e73a96301c8c1fe3aa1f00a">libbgp::BgpPathAttribAggregator</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAtomicAggregate.html#a12560c18c2e4d50a151507544b050f36">libbgp::BgpPathAttribAtomicAggregate</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribLocalPref.html#ae8551714cccec979dd8169cad20e7e26">libbgp::BgpPathAttribLocalPref</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribMed.html#a16e48bac5eee3e1d2e3822a32ea7a02d">libbgp::BgpPathAttribMed</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribNexthop.html#a8b9da5103ec3a372bd059c5e2d188913">libbgp::BgpPathAttribNexthop</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribAsPath.html#a549ac2aebac2c94ec2c6d64bb87ffe4d">libbgp::BgpPathAttribAsPath</a>, <a class="el" href="classlibbgp_1_1BgpPathAttribOrigin.html#a73aaf749dd5f2c8cb4840635bea3a1aa">libbgp::BgpPathAttribOrigin</a>, <a class="el" href="classlibbgp_1_1BgpCapabilityUnknow.html#a0677204e158b15ef9a8dd3bf79f10132">libbgp::BgpCapabilityUnknow</a>, <a class="el" href="classlibbgp_1_1BgpCapabilityMpBgp.html#a6647442cf6ea81aa654950925e6a1cdb">libbgp::BgpCapabilityMpBgp</a>, <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a09449af1543f3ddba5bd175d9ecf05ba">libbgp::BgpUpdateMessage</a>, <a class="el" href="classlibbgp_1_1BgpCapability4BytesAsn.html#a13466b96b4b3936c3067d02f7fc14b3a">libbgp::BgpCapability4BytesAsn</a>, <a class="el" href="classlibbgp_1_1BgpPathAttrib.html#a5e7991f4aaae52ee36c90e566441b4b5">libbgp::BgpPathAttrib</a>, <a class="el" href="classlibbgp_1_1BgpNotificationMessage.html#a5430ff2b72d42c22fecbc9201d86b5b5">libbgp::BgpNotificationMessage</a>, <a class="el" href="classlibbgp_1_1BgpOpenMessage.html#a2432c1b9e0047f4aae9e91f107e26dbd">libbgp::BgpOpenMessage</a>, <a class="el" href="classlibbgp_1_1BgpKeepaliveMessage.html#a71ae7fd46514cc670d39d7c72b51aa7f">libbgp::BgpKeepaliveMessage</a>, <a class="el" href="classlibbgp_1_1BgpPacket.html#a0956a0fb7cb4cbadeeaf590e7eaf26c3">libbgp::BgpPacket</a>, and <a class="el" href="classlibbgp_1_1BgpBadMessage.html#afe023ae8823046b73a321cd2386fe7ca">libbgp::BgpBadMessage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="serializable_8cc_source.html#l00110">libbgp.Serializable::print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="serializable_8cc_source.html#l00110">print()</a>.</p>
 
 </div>
 </div>
-<a id="aaf9aef3658830eb3b3271c13d3c87bfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf9aef3658830eb3b3271c13d3c87bfb">&#9670;&nbsp;</a></span>forwardParseError()</h2>
+<a id="aad7471024f07b225d9c61dd338de28a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7471024f07b225d9c61dd338de28a5">&#9670;&nbsp;</a></span>forwardParseError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +388,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp.Serializable::forwardParseError </td>
+          <td class="memname">void libbgp::Serializable::forwardParseError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -444,18 +412,18 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td
 
 <p class="definition">Definition at line <a class="el" href="serializable_8cc_source.html#l00097">97</a> of file <a class="el" href="serializable_8cc_source.html">serializable.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp.Serializable::setError()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">setError()</a>.</p>
 
 </div>
 </div>
-<a id="ae84866cf71ec2abf32e70ce8663a4ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae84866cf71ec2abf32e70ce8663a4ed9">&#9670;&nbsp;</a></span>hasError()</h2>
+<a id="a71cbd82595e9145b0f7bd0664d190e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71cbd82595e9145b0f7bd0664d190e87">&#9670;&nbsp;</a></span>hasError()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool libbgp.Serializable::hasError </td>
+          <td class="memname">bool libbgp::Serializable::hasError </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -474,8 +442,8 @@ false information not avaliable. </dd></dl>
 
 </div>
 </div>
-<a id="a75351e07ffa1a4b0671e6ca1c5e30087"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75351e07ffa1a4b0671e6ca1c5e30087">&#9670;&nbsp;</a></span>length()</h2>
+<a id="a37f02045e83866077732aa421dbad0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f02045e83866077732aa421dbad0e4">&#9670;&nbsp;</a></span>length()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +452,7 @@ false information not avaliable. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t libbgp.Serializable::length </td>
+          <td class="memname">ssize_t libbgp::Serializable::length </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -517,8 +485,8 @@ false information not avaliable. </dd></dl>
 
 </div>
 </div>
-<a id="a60f1cc6f3953cece83375c4391b9d4ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60f1cc6f3953cece83375c4391b9d4ce">&#9670;&nbsp;</a></span>parse()</h2>
+<a id="a5562d3b3cda5cfda2f3749862f810e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5562d3b3cda5cfda2f3749862f810e24">&#9670;&nbsp;</a></span>parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,7 +495,7 @@ false information not avaliable. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ssize_t libbgp.Serializable.parse </td>
+          <td class="memname">virtual ssize_t libbgp::Serializable::parse </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>from</em>, </td>
@@ -572,14 +540,14 @@ false information not avaliable. </dd></dl>
 
 </div>
 </div>
-<a id="a04564b3e0c38e72298f318246832db31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04564b3e0c38e72298f318246832db31">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
+<a id="a804fb732b7089ac0a98a6e926f1551d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804fb732b7089ac0a98a6e926f1551d6">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t libbgp.Serializable::print </td>
+          <td class="memname">ssize_t libbgp::Serializable::print </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>to</em>, </td>
@@ -618,20 +586,20 @@ false information not avaliable. </dd></dl>
 </dl>
 <p class="definition">Definition at line <a class="el" href="serializable_8cc_source.html#l00110">110</a> of file <a class="el" href="serializable_8cc_source.html">serializable.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="classlibbgp_1_1Serializable.html#a4b1dd9aadd2a84bd17b41e3fe1775c25">libbgp.Serializable::doPrint()</a>.</p>
+<p class="reference">References <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">doPrint()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bgp-packet_8cc_source.html#l00050">libbgp::BgpPacket::doPrint()</a>, and <a class="el" href="bgp-log-handler_8cc_source.html#l00078">libbgp::BgpLogHandler::log()</a>.</p>
 
 </div>
 </div>
-<a id="a210438a0e4f0ec204501d1fe0a5dc26a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a210438a0e4f0ec204501d1fe0a5dc26a">&#9670;&nbsp;</a></span>print() <span class="overload">[2/2]</span></h2>
+<a id="a490c037d263896afc7776e339741eb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490c037d263896afc7776e339741eb33">&#9670;&nbsp;</a></span>print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ssize_t libbgp.Serializable::print </td>
+          <td class="memname">ssize_t libbgp::Serializable::print </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>indent</em>, </td>
@@ -676,12 +644,12 @@ false information not avaliable. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="serializable_8cc_source.html#l00125">125</a> of file <a class="el" href="serializable_8cc_source.html">serializable.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="classlibbgp_1_1Serializable.html#a4b1dd9aadd2a84bd17b41e3fe1775c25">libbgp.Serializable::doPrint()</a>.</p>
+<p class="reference">References <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">doPrint()</a>.</p>
 
 </div>
 </div>
-<a id="aa72b12ced5f82a7cc842804e779fed5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa72b12ced5f82a7cc842804e779fed5f">&#9670;&nbsp;</a></span>setError()</h2>
+<a id="a7fe3ec9c2494bb2bf6799d287ebe9dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe3ec9c2494bb2bf6799d287ebe9dd2">&#9670;&nbsp;</a></span>setError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -690,7 +658,7 @@ false information not avaliable. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp.Serializable::setError </td>
+          <td class="memname">void libbgp::Serializable::setError </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>err</em>, </td>
@@ -748,18 +716,18 @@ false information not avaliable. </dd></dl>
 
 <p class="reference">References <a class="el" href="bgp-log-handler_8cc_source.html#l00056">libbgp::BgpLogHandler::log()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="serializable_8cc_source.html#l00097">libbgp.Serializable::forwardParseError()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00079">libbgp::BgpOpenMessage::parse()</a>, <a class="el" href="bgp-notification-message_8cc_source.html#l00053">libbgp::BgpNotificationMessage::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00129">libbgp::BgpPathAttrib::parse()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00564">libbgp::BgpUpdateMessage::parse()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00039">libbgp::BgpCapability::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00200">libbgp::BgpPathAttrib::parseHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="serializable_8cc_source.html#l00097">forwardParseError()</a>, <a class="el" href="bgp-keepalive-message_8cc_source.html#l00026">libbgp::BgpKeepaliveMessage::parse()</a>, <a class="el" href="bgp-open-message_8cc_source.html#l00079">libbgp::BgpOpenMessage::parse()</a>, <a class="el" href="bgp-notification-message_8cc_source.html#l00053">libbgp::BgpNotificationMessage::parse()</a>, <a class="el" href="bgp-path-attrib_8cc_source.html#l00129">libbgp::BgpPathAttrib::parse()</a>, <a class="el" href="bgp-update-message_8cc_source.html#l00564">libbgp::BgpUpdateMessage::parse()</a>, <a class="el" href="bgp-capability_8cc_source.html#l00039">libbgp::BgpCapability::parseHeader()</a>, and <a class="el" href="bgp-path-attrib_8cc_source.html#l00200">libbgp::BgpPathAttrib::parseHeader()</a>.</p>
 
 </div>
 </div>
-<a id="a1b4a98e302d8a23256a0c3e21141ee80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b4a98e302d8a23256a0c3e21141ee80">&#9670;&nbsp;</a></span>setLogger()</h2>
+<a id="ade6ecd8173f40f0b5fa6021468632b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade6ecd8173f40f0b5fa6021468632b16">&#9670;&nbsp;</a></span>setLogger()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libbgp.Serializable::setLogger </td>
+          <td class="memname">void libbgp::Serializable::setLogger </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td>
           <td class="paramname"><em>logger</em></td><td>)</td>
@@ -778,10 +746,12 @@ false information not avaliable. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="serializable_8cc_source.html#l00187">187</a> of file <a class="el" href="serializable_8cc_source.html">serializable.cc</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="bgp-path-attrib_8cc_source.html#l00069">libbgp::BgpPathAttrib::clone()</a>.</p>
+
 </div>
 </div>
-<a id="a6bde605d0f78d15421c383833ddf74df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bde605d0f78d15421c383833ddf74df">&#9670;&nbsp;</a></span>write()</h2>
+<a id="a9aa89277c8b12ee3821285c479ebf545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa89277c8b12ee3821285c479ebf545">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -790,7 +760,7 @@ false information not avaliable. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ssize_t libbgp.Serializable.write </td>
+          <td class="memname">virtual ssize_t libbgp::Serializable::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>to</em>, </td>
@@ -836,7 +806,6 @@ false information not avaliable. </dd></dl>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 <li>src/<a class="el" href="serializable_8h_source.html">serializable.h</a></li>
 <li>src/<a class="el" href="serializable_8cc_source.html">serializable.cc</a></li>
 </ul>

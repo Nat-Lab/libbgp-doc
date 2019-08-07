@@ -1,8 +1,7 @@
 <map id="src/bgp&#45;keepalive&#45;message.h" name="src/bgp&#45;keepalive&#45;message.h">
-<area shape="rect" id="node2" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="172,80,253,107"/>
-<area shape="rect" id="node7" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="278,80,494,107"/>
-<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,155,195,181"/>
-<area shape="rect" id="node6" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="219,155,353,181"/>
+<area shape="rect" id="node2" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="96,80,177,107"/>
+<area shape="rect" id="node6" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="202,80,418,107"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="8,155,119,181"/>
+<area shape="rect" id="node5" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="143,155,277,181"/>
 <area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,229,121,256"/>
-<area shape="rect" id="node5" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,229,285,256"/>
 </map>

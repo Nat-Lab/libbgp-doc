@@ -1,5 +1,4 @@
 <map id="libbgp::BgpPathAttribOrigin" name="libbgp::BgpPathAttribOrigin">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="24,155,180,181"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="33,80,171,107"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="47,5,157,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="24,80,180,107"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="31,5,173,32"/>
 </map>

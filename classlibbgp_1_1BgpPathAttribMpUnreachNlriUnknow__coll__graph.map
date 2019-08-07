@@ -1,7 +1,6 @@
 <map id="libbgp::BgpPathAttribMpUnreachNlriUnknow" name="libbgp::BgpPathAttribMpUnreachNlriUnknow">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="6,323,234,349"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="42,247,198,273"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="51,171,189,197"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="82,5,193,32"/>
-<area shape="rect" id="node6" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="137,81,303,108"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpPathAttribMpNlriBase.html" title="MP&#45;BGP Reach/Unreach NLRI base class. " alt="" coords="6,247,234,273"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpPathAttrib.html" title="The BgpPathAttrib class. " alt="" coords="42,171,198,197"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="49,95,191,121"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="37,5,203,32"/>
 </map>

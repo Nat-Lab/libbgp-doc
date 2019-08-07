@@ -1,9 +1,8 @@
 <map id="libbgp::BgpMessage" name="libbgp::BgpMessage">
-<area shape="rect" id="node4" href="$classlibbgp_1_1BgpBadMessage.html" title="The BgpBadMessage class. " alt="" coords="572,5,747,32"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1BgpKeepaliveMessage.html" title="The BgpKeepaliveMessage class. " alt="" coords="554,56,765,83"/>
-<area shape="rect" id="node6" href="$classlibbgp_1_1BgpNotificationMessage.html" title="The BgpNotificationMessage object. " alt="" coords="548,107,771,133"/>
-<area shape="rect" id="node7" href="$classlibbgp_1_1BgpOpenMessage.html" title="The BgpOpenMessage class. " alt="" coords="567,157,751,184"/>
-<area shape="rect" id="node8" href="$classlibbgp_1_1BgpUpdateMessage.html" title="The BgpUpdateMessage class. " alt="" coords="561,208,758,235"/>
-<area shape="rect" id="node2" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="164,107,301,133"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="5,107,116,133"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpBadMessage.html" title="The BgpBadMessage class. " alt="" coords="417,5,592,32"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpKeepaliveMessage.html" title="The BgpKeepaliveMessage class. " alt="" coords="399,56,610,83"/>
+<area shape="rect" id="node5" href="$classlibbgp_1_1BgpNotificationMessage.html" title="The BgpNotificationMessage object. " alt="" coords="393,107,616,133"/>
+<area shape="rect" id="node6" href="$classlibbgp_1_1BgpOpenMessage.html" title="The BgpOpenMessage class. " alt="" coords="413,157,597,184"/>
+<area shape="rect" id="node7" href="$classlibbgp_1_1BgpUpdateMessage.html" title="The BgpUpdateMessage class. " alt="" coords="406,208,603,235"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="5,107,147,133"/>
 </map>

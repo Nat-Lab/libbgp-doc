@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libbgp: libbgp::BgpConfig Class Reference</title>
+<title>libbgp: libbgp::BgpConfig Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.7</span>
+   &#160;<span id="projectnumber">0.4.8</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -65,12 +65,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structlibbgp_1_1BgpConfig-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">libbgp::BgpConfig Class Reference</div>  </div>
+<div class="title">libbgp::BgpConfig Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -79,40 +77,25 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for libbgp::BgpConfig:</div>
-<div class="dyncontent">
-<div class="center"><img src="structlibbgp_1_1BgpConfig__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpConfig_inherit__map" alt="Inheritance graph"/></div>
-<map name="libbgp_1_1BgpConfig_inherit__map" id="libbgp_1_1BgpConfig_inherit__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="17,5,127,32"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
 Collaboration diagram for libbgp::BgpConfig:</div>
 <div class="dyncontent">
 <div class="center"><img src="structlibbgp_1_1BgpConfig__coll__graph.png" border="0" usemap="#libbgp_1_1BgpConfig_coll__map" alt="Collaboration graph"/></div>
 <map name="libbgp_1_1BgpConfig_coll__map" id="libbgp_1_1BgpConfig_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="63,297,174,324"/>
-<area shape="rect" id="node3" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="425,403,592,429"/>
-<area shape="rect" id="node4" href="classlibbgp_1_1BgpFilterRules.html" title="The BGP filtering rules set. " alt="" coords="431,481,587,508"/>
-<area shape="rect" id="node6" href="classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="292,63,391,89"/>
-<area shape="rect" id="node8" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. " alt="" coords="429,185,589,212"/>
-<area shape="rect" id="node9" href="classlibbgp_1_1BgpRib4.html" title="The BgpRib4 (IPv4 BGP Routing Information Base) class. " alt="" coords="281,113,401,140"/>
-<area shape="rect" id="node11" href="classlibbgp_1_1BgpRib6.html" title="The BgpRib6 (IPv6 BGP Routing Information Base) class. " alt="" coords="281,561,401,588"/>
-<area shape="rect" id="node13" href="classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="618,237,721,264"/>
-<area shape="rect" id="node14" href="classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. " alt="" coords="425,292,592,319"/>
-<area shape="rect" id="node5" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="616,5,723,32"/>
-<area shape="rect" id="node7" href="classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="616,61,723,88"/>
-<area shape="rect" id="node10" href="classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib4Entry \&gt;" alt="" coords="5,96,232,123"/>
-<area shape="rect" id="node12" href="classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib6Entry \&gt;" alt="" coords="5,561,232,588"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="281,5,448,32"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1BgpFilterRules.html" title="The BGP filtering rules set. " alt="" coords="287,89,443,116"/>
+<area shape="rect" id="node4" href="classlibbgp_1_1Prefix4.html" title="IPv4 Route/Prefix related utilities. " alt="" coords="309,140,420,167"/>
+<area shape="rect" id="node5" href="classlibbgp_1_1Prefix.html" title="Route/Prefix related utilities. " alt="" coords="67,171,170,197"/>
+<area shape="rect" id="node6" href="classlibbgp_1_1Prefix6.html" title="IPv6 Route/Prefix related utilities. " alt="" coords="309,191,420,217"/>
+<area shape="rect" id="node7" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. " alt="" coords="283,241,447,268"/>
+<area shape="rect" id="node8" href="classlibbgp_1_1BgpRib4.html" title="The BgpRib4 (IPv4 BGP Routing Information Base) class. " alt="" coords="305,292,425,319"/>
+<area shape="rect" id="node9" href="classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib4Entry \&gt;" alt="" coords="5,292,232,319"/>
+<area shape="rect" id="node10" href="classlibbgp_1_1BgpRib6.html" title="The BgpRib6 (IPv6 BGP Routing Information Base) class. " alt="" coords="305,343,425,369"/>
+<area shape="rect" id="node11" href="classlibbgp_1_1BgpRib.html" title="libbgp::BgpRib\&lt; BgpRib6Entry \&gt;" alt="" coords="5,343,232,369"/>
+<area shape="rect" id="node12" href="classlibbgp_1_1Clock.html" title="The Clock interface. " alt="" coords="313,393,416,420"/>
+<area shape="rect" id="node13" href="classlibbgp_1_1BgpOutHandler.html" title="The BGP FSM output handler. " alt="" coords="281,444,448,471"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:add9cebd450c708670a48ef11944ff84a"><td class="memItemLeft" align="right" valign="top"><a id="add9cebd450c708670a48ef11944ff84a"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self)</td></tr>
-<tr class="separator:add9cebd450c708670a48ef11944ff84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a168f05dbe1ea4c3f618b6f0bc98e103e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlibbgp_1_1BgpFilterRules.html">BgpFilterRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbgp_1_1BgpConfig.html#a168f05dbe1ea4c3f618b6f0bc98e103e">in_filters4</a></td></tr>
@@ -210,102 +193,6 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <tr class="memitem:a27baf1be24c26934a1ecd164869709bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbgp_1_1BgpConfig.html#a27baf1be24c26934a1ecd164869709bf">no_autotick</a></td></tr>
 <tr class="memdesc:a27baf1be24c26934a1ecd164869709bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable auto tick on message reception.  <a href="#a27baf1be24c26934a1ecd164869709bf">More...</a><br /></td></tr>
 <tr class="separator:a27baf1be24c26934a1ecd164869709bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa015243a972dfd4a4eb27e798b453477"><td class="memItemLeft" align="right" valign="top"><a id="aa015243a972dfd4a4eb27e798b453477"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b></td></tr>
-<tr class="separator:aa015243a972dfd4a4eb27e798b453477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:afbb7c6624ed9b261432b803a14d89de3"><td class="memItemLeft" align="right" valign="top"><a id="afbb7c6624ed9b261432b803a14d89de3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>in_filters4</b> = _swig_property(_libbgp.BgpConfig_in_filters4_get, _libbgp.BgpConfig_in_filters4_set)</td></tr>
-<tr class="separator:afbb7c6624ed9b261432b803a14d89de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5a1c2de8a6ef4b3a23df3d269347c46"><td class="memItemLeft" align="right" valign="top"><a id="af5a1c2de8a6ef4b3a23df3d269347c46"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>out_filters4</b> = _swig_property(_libbgp.BgpConfig_out_filters4_get, _libbgp.BgpConfig_out_filters4_set)</td></tr>
-<tr class="separator:af5a1c2de8a6ef4b3a23df3d269347c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a724560ce9591946f008f1f17d7d0cad1"><td class="memItemLeft" align="right" valign="top"><a id="a724560ce9591946f008f1f17d7d0cad1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>in_filters6</b> = _swig_property(_libbgp.BgpConfig_in_filters6_get, _libbgp.BgpConfig_in_filters6_set)</td></tr>
-<tr class="separator:a724560ce9591946f008f1f17d7d0cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa462a6fcce764c217d8fdf0558819044"><td class="memItemLeft" align="right" valign="top"><a id="aa462a6fcce764c217d8fdf0558819044"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>out_filters6</b> = _swig_property(_libbgp.BgpConfig_out_filters6_get, _libbgp.BgpConfig_out_filters6_set)</td></tr>
-<tr class="separator:aa462a6fcce764c217d8fdf0558819044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec388c7065338e8cf6f51735b5f0ffd"><td class="memItemLeft" align="right" valign="top"><a id="a1ec388c7065338e8cf6f51735b5f0ffd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>out_handler</b> = _swig_property(_libbgp.BgpConfig_out_handler_get, _libbgp.BgpConfig_out_handler_set)</td></tr>
-<tr class="separator:a1ec388c7065338e8cf6f51735b5f0ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0db1d97e0dc2041bd827b51a9790904"><td class="memItemLeft" align="right" valign="top"><a id="aa0db1d97e0dc2041bd827b51a9790904"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>log_handler</b> = _swig_property(_libbgp.BgpConfig_log_handler_get, _libbgp.BgpConfig_log_handler_set)</td></tr>
-<tr class="separator:aa0db1d97e0dc2041bd827b51a9790904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf758631a559f2178fe810a59cb15979"><td class="memItemLeft" align="right" valign="top"><a id="acf758631a559f2178fe810a59cb15979"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>rib4</b> = _swig_property(_libbgp.BgpConfig_rib4_get, _libbgp.BgpConfig_rib4_set)</td></tr>
-<tr class="separator:acf758631a559f2178fe810a59cb15979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaefe512a4dcc465a09a8c04e80a1411c"><td class="memItemLeft" align="right" valign="top"><a id="aaefe512a4dcc465a09a8c04e80a1411c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>rib6</b> = _swig_property(_libbgp.BgpConfig_rib6_get, _libbgp.BgpConfig_rib6_set)</td></tr>
-<tr class="separator:aaefe512a4dcc465a09a8c04e80a1411c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e88d5d9945b29b2dc547996d690b58"><td class="memItemLeft" align="right" valign="top"><a id="a36e88d5d9945b29b2dc547996d690b58"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>rev_bus</b> = _swig_property(_libbgp.BgpConfig_rev_bus_get, _libbgp.BgpConfig_rev_bus_set)</td></tr>
-<tr class="separator:a36e88d5d9945b29b2dc547996d690b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d3c8c4b5ab516a448bccb434c8156ba"><td class="memItemLeft" align="right" valign="top"><a id="a3d3c8c4b5ab516a448bccb434c8156ba"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>no_collision_detection</b> = _swig_property(_libbgp.BgpConfig_no_collision_detection_get, _libbgp.BgpConfig_no_collision_detection_set)</td></tr>
-<tr class="separator:a3d3c8c4b5ab516a448bccb434c8156ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50bdabf4e1d551f38e5b51dbfc57f2cb"><td class="memItemLeft" align="right" valign="top"><a id="a50bdabf4e1d551f38e5b51dbfc57f2cb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>use_4b_asn</b> = _swig_property(_libbgp.BgpConfig_use_4b_asn_get, _libbgp.BgpConfig_use_4b_asn_set)</td></tr>
-<tr class="separator:a50bdabf4e1d551f38e5b51dbfc57f2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa230ede317ffdcf54c103f38a6450f85"><td class="memItemLeft" align="right" valign="top"><a id="aa230ede317ffdcf54c103f38a6450f85"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mp_bgp_ipv4</b> = _swig_property(_libbgp.BgpConfig_mp_bgp_ipv4_get, _libbgp.BgpConfig_mp_bgp_ipv4_set)</td></tr>
-<tr class="separator:aa230ede317ffdcf54c103f38a6450f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d3b8e168d790a452aea7f0b3f08a4a"><td class="memItemLeft" align="right" valign="top"><a id="a17d3b8e168d790a452aea7f0b3f08a4a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mp_bgp_ipv6</b> = _swig_property(_libbgp.BgpConfig_mp_bgp_ipv6_get, _libbgp.BgpConfig_mp_bgp_ipv6_set)</td></tr>
-<tr class="separator:a17d3b8e168d790a452aea7f0b3f08a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f763ff66c72ed6cfe0782ee6430f95b"><td class="memItemLeft" align="right" valign="top"><a id="a5f763ff66c72ed6cfe0782ee6430f95b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>asn</b> = _swig_property(_libbgp.BgpConfig_asn_get, _libbgp.BgpConfig_asn_set)</td></tr>
-<tr class="separator:a5f763ff66c72ed6cfe0782ee6430f95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd5d304c9505e798489338eede9d0cc9"><td class="memItemLeft" align="right" valign="top"><a id="acd5d304c9505e798489338eede9d0cc9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>peer_asn</b> = _swig_property(_libbgp.BgpConfig_peer_asn_get, _libbgp.BgpConfig_peer_asn_set)</td></tr>
-<tr class="separator:acd5d304c9505e798489338eede9d0cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15c1cd4227279d8ccfac24ac209da5cc"><td class="memItemLeft" align="right" valign="top"><a id="a15c1cd4227279d8ccfac24ac209da5cc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>router_id</b> = _swig_property(_libbgp.BgpConfig_router_id_get, _libbgp.BgpConfig_router_id_set)</td></tr>
-<tr class="separator:a15c1cd4227279d8ccfac24ac209da5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f1376b3f531207ec106ff1d8fde59cf"><td class="memItemLeft" align="right" valign="top"><a id="a2f1376b3f531207ec106ff1d8fde59cf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>peering_lan4</b> = _swig_property(_libbgp.BgpConfig_peering_lan4_get, _libbgp.BgpConfig_peering_lan4_set)</td></tr>
-<tr class="separator:a2f1376b3f531207ec106ff1d8fde59cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808e9e06c37b31f89259939a2cd0e464"><td class="memItemLeft" align="right" valign="top"><a id="a808e9e06c37b31f89259939a2cd0e464"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>peering_lan6</b> = _swig_property(_libbgp.BgpConfig_peering_lan6_get, _libbgp.BgpConfig_peering_lan6_set)</td></tr>
-<tr class="separator:a808e9e06c37b31f89259939a2cd0e464"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad76a392859eaf8abcad21af7e65ac9c8"><td class="memItemLeft" align="right" valign="top"><a id="ad76a392859eaf8abcad21af7e65ac9c8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>no_nexthop_check4</b> = _swig_property(_libbgp.BgpConfig_no_nexthop_check4_get, _libbgp.BgpConfig_no_nexthop_check4_set)</td></tr>
-<tr class="separator:ad76a392859eaf8abcad21af7e65ac9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3614f1c7eed3698b45b418934840f7"><td class="memItemLeft" align="right" valign="top"><a id="a4a3614f1c7eed3698b45b418934840f7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>default_nexthop4</b> = _swig_property(_libbgp.BgpConfig_default_nexthop4_get, _libbgp.BgpConfig_default_nexthop4_set)</td></tr>
-<tr class="separator:a4a3614f1c7eed3698b45b418934840f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07721b1837a30b689ae7f629ead617c"><td class="memItemLeft" align="right" valign="top"><a id="af07721b1837a30b689ae7f629ead617c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>forced_default_nexthop4</b> = _swig_property(_libbgp.BgpConfig_forced_default_nexthop4_get, _libbgp.BgpConfig_forced_default_nexthop4_set)</td></tr>
-<tr class="separator:af07721b1837a30b689ae7f629ead617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f00cfd05bd34f7669261739bced3d77"><td class="memItemLeft" align="right" valign="top"><a id="a3f00cfd05bd34f7669261739bced3d77"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>no_nexthop_check6</b> = _swig_property(_libbgp.BgpConfig_no_nexthop_check6_get, _libbgp.BgpConfig_no_nexthop_check6_set)</td></tr>
-<tr class="separator:a3f00cfd05bd34f7669261739bced3d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96489b082074c9d029828c30b496ad0a"><td class="memItemLeft" align="right" valign="top"><a id="a96489b082074c9d029828c30b496ad0a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>default_nexthop6_global</b> = _swig_property(_libbgp.BgpConfig_default_nexthop6_global_get, _libbgp.BgpConfig_default_nexthop6_global_set)</td></tr>
-<tr class="separator:a96489b082074c9d029828c30b496ad0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3f6d188e623e549634330a02460a15"><td class="memItemLeft" align="right" valign="top"><a id="a0d3f6d188e623e549634330a02460a15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>default_nexthop6_linklocal</b> = _swig_property(_libbgp.BgpConfig_default_nexthop6_linklocal_get, _libbgp.BgpConfig_default_nexthop6_linklocal_set)</td></tr>
-<tr class="separator:a0d3f6d188e623e549634330a02460a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc81a98efe50f35f2a7588d7cc629b0e"><td class="memItemLeft" align="right" valign="top"><a id="abc81a98efe50f35f2a7588d7cc629b0e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>forced_default_nexthop6</b> = _swig_property(_libbgp.BgpConfig_forced_default_nexthop6_get, _libbgp.BgpConfig_forced_default_nexthop6_set)</td></tr>
-<tr class="separator:abc81a98efe50f35f2a7588d7cc629b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd75d06a662ea0cdce9e2ae49e31b97"><td class="memItemLeft" align="right" valign="top"><a id="a0dd75d06a662ea0cdce9e2ae49e31b97"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>hold_timer</b> = _swig_property(_libbgp.BgpConfig_hold_timer_get, _libbgp.BgpConfig_hold_timer_set)</td></tr>
-<tr class="separator:a0dd75d06a662ea0cdce9e2ae49e31b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa273b7e34141193240958042babbca0"><td class="memItemLeft" align="right" valign="top"><a id="afa273b7e34141193240958042babbca0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>clock</b> = _swig_property(_libbgp.BgpConfig_clock_get, _libbgp.BgpConfig_clock_set)</td></tr>
-<tr class="separator:afa273b7e34141193240958042babbca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab896380c503be6fde04e387a962c7ca5"><td class="memItemLeft" align="right" valign="top"><a id="ab896380c503be6fde04e387a962c7ca5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>allow_local_as</b> = _swig_property(_libbgp.BgpConfig_allow_local_as_get, _libbgp.BgpConfig_allow_local_as_set)</td></tr>
-<tr class="separator:ab896380c503be6fde04e387a962c7ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f59e6e91a8980163df7a7055d17c178"><td class="memItemLeft" align="right" valign="top"><a id="a6f59e6e91a8980163df7a7055d17c178"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>weight</b> = _swig_property(_libbgp.BgpConfig_weight_get, _libbgp.BgpConfig_weight_set)</td></tr>
-<tr class="separator:a6f59e6e91a8980163df7a7055d17c178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a9223307320a763a8fc9cce61eddad"><td class="memItemLeft" align="right" valign="top"><a id="ad9a9223307320a763a8fc9cce61eddad"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>no_autotick</b> = _swig_property(_libbgp.BgpConfig_no_autotick_get, _libbgp.BgpConfig_no_autotick_set)</td></tr>
-<tr class="separator:ad9a9223307320a763a8fc9cce61eddad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The BGP FSM configuration object. </p>
@@ -805,9 +692,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/<a class="el" href="bgp-config_8h_source.html">bgp-config.h</a></li>
-<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

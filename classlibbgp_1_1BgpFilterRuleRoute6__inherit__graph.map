@@ -1,6 +1,4 @@
 <map id="libbgp::BgpFilterRuleRoute6" name="libbgp::BgpFilterRuleRoute6">
-<area shape="rect" id="node2" href="$classlibbgp_1_1Prefix6RouteFilterRule.html" title="libbgp.Prefix6RouteFilterRule" alt="" coords="5,162,204,189"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. " alt="" coords="138,80,287,107"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="libbgp::BgpFilterRuleRoute\l\&lt; Prefix6 \&gt;" alt="" coords="228,155,413,196"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="157,5,268,32"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpFilterRuleRoute.html" title="libbgp::BgpFilterRuleRoute\l\&lt; Prefix6 \&gt;" alt="" coords="9,80,195,121"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1BgpFilterRule.html" title="The base of BgpFilterRule. " alt="" coords="27,5,177,32"/>
 </map>

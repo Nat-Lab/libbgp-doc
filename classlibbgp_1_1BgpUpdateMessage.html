@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.7</span>
+   &#160;<span id="projectnumber">0.4.8</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -67,7 +67,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classlibbgp_1_1BgpUpdateMessage-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">libbgp::BgpUpdateMessage Class Reference</div>  </div>
@@ -83,9 +82,8 @@ Inheritance diagram for libbgp::BgpUpdateMessage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1BgpUpdateMessage__inherit__graph.png" border="0" usemap="#libbgp_1_1BgpUpdateMessage_inherit__map" alt="Inheritance graph"/></div>
 <map name="libbgp_1_1BgpUpdateMessage_inherit__map" id="libbgp_1_1BgpUpdateMessage_inherit__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="29,155,179,181"/>
-<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="35,80,173,107"/>
-<area shape="rect" id="node4" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="49,5,159,32"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="29,80,179,107"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="33,5,175,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -93,10 +91,9 @@ Collaboration diagram for libbgp::BgpUpdateMessage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlibbgp_1_1BgpUpdateMessage__coll__graph.png" border="0" usemap="#libbgp_1_1BgpUpdateMessage_coll__map" alt="Collaboration graph"/></div>
 <map name="libbgp_1_1BgpUpdateMessage_coll__map" id="libbgp_1_1BgpUpdateMessage_coll__map">
-<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="29,247,179,273"/>
-<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="35,171,173,197"/>
-<area shape="rect" id="node4" href="classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="66,5,177,32"/>
-<area shape="rect" id="node5" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="121,81,287,108"/>
+<area shape="rect" id="node2" href="classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="29,171,179,197"/>
+<area shape="rect" id="node3" href="classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="33,95,175,121"/>
+<area shape="rect" id="node4" href="classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="21,5,187,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -150,7 +147,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a57f3220e615ad5f23f6e630ac29db85d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a57f3220e615ad5f23f6e630ac29db85d">setWithdrawn4</a> (const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes)</td></tr>
 <tr class="memdesc:a57f3220e615ad5f23f6e630ac29db85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set withdrawn routes.  <a href="#a57f3220e615ad5f23f6e630ac29db85d">More...</a><br /></td></tr>
 <tr class="separator:a57f3220e615ad5f23f6e630ac29db85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a02491221b959078514371a89ba6ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a55a02491221b959078514371a89ba6ac">addWithdrawn4</a> (uint32_t prefix, uint8_t length)</td></tr>
+<tr class="memitem:a55a02491221b959078514371a89ba6ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a55a02491221b959078514371a89ba6ac">addWithdrawn4</a> (uint32_t prefix, uint8_t <a class="el" href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">length</a>)</td></tr>
 <tr class="memdesc:a55a02491221b959078514371a89ba6ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add withdrawn route.  <a href="#a55a02491221b959078514371a89ba6ac">More...</a><br /></td></tr>
 <tr class="separator:a55a02491221b959078514371a89ba6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e17f9c3760be4ec89bf1e1d8dd9d4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#af3e17f9c3760be4ec89bf1e1d8dd9d4f">addWithdrawn4</a> (const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route)</td></tr>
@@ -159,7 +156,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e45e1f6fa0e7a1215a5d36d0ba032c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a8e45e1f6fa0e7a1215a5d36d0ba032c3">setNlri4</a> (const std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt; &amp;routes)</td></tr>
 <tr class="memdesc:a8e45e1f6fa0e7a1215a5d36d0ba032c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set NLRIs.  <a href="#a8e45e1f6fa0e7a1215a5d36d0ba032c3">More...</a><br /></td></tr>
 <tr class="separator:a8e45e1f6fa0e7a1215a5d36d0ba032c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08fc92a99ee403372871b9de1107ef9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a08fc92a99ee403372871b9de1107ef9f">addNlri4</a> (uint32_t prefix, uint8_t length)</td></tr>
+<tr class="memitem:a08fc92a99ee403372871b9de1107ef9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a08fc92a99ee403372871b9de1107ef9f">addNlri4</a> (uint32_t prefix, uint8_t <a class="el" href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">length</a>)</td></tr>
 <tr class="memdesc:a08fc92a99ee403372871b9de1107ef9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add NLRI route.  <a href="#a08fc92a99ee403372871b9de1107ef9f">More...</a><br /></td></tr>
 <tr class="separator:a08fc92a99ee403372871b9de1107ef9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa988c6d5e8d960726d42b5c729afcfd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#aa988c6d5e8d960726d42b5c729afcfd5">addNlri4</a> (const <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &amp;route)</td></tr>
@@ -180,153 +177,45 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setNlri6</b> (const s
 <tr class="memitem:a6068ea1cc6c84ee545e821da83d9f0e0"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpUpdateMessage.html#a6068ea1cc6c84ee545e821da83d9f0e0">write</a> (uint8_t *to, size_t buf_sz) const</td></tr>
 <tr class="memdesc:a6068ea1cc6c84ee545e821da83d9f0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BGP message <em>body</em>.  <a href="#a6068ea1cc6c84ee545e821da83d9f0e0">More...</a><br /></td></tr>
 <tr class="separator:a6068ea1cc6c84ee545e821da83d9f0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858bf0b226cb01d1ecb0584e7ff8bbe2"><td class="memItemLeft" align="right" valign="top"><a id="a858bf0b226cb01d1ecb0584e7ff8bbe2"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, logger, use_4b_asn)</td></tr>
-<tr class="separator:a858bf0b226cb01d1ecb0584e7ff8bbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b13877e19d9619ee247e359c45fcaf9"><td class="memItemLeft" align="right" valign="top"><a id="a0b13877e19d9619ee247e359c45fcaf9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getAttrib</b> (self, args)</td></tr>
-<tr class="separator:a0b13877e19d9619ee247e359c45fcaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1460256d641ca6edd3f917e89831337e"><td class="memItemLeft" align="right" valign="top"><a id="a1460256d641ca6edd3f917e89831337e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>hasAttrib</b> (self, type)</td></tr>
-<tr class="separator:a1460256d641ca6edd3f917e89831337e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1689eeb927a57f7a249d507c4d32cbb4"><td class="memItemLeft" align="right" valign="top"><a id="a1689eeb927a57f7a249d507c4d32cbb4"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>addAttrib</b> (self, attrib)</td></tr>
-<tr class="separator:a1689eeb927a57f7a249d507c4d32cbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3594fd302ef6624177824ba4becb79f"><td class="memItemLeft" align="right" valign="top"><a id="aa3594fd302ef6624177824ba4becb79f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setAttribs</b> (self, attrs)</td></tr>
-<tr class="separator:aa3594fd302ef6624177824ba4becb79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ca6531a22ae3d65f6d6fd1cfc374deb"><td class="memItemLeft" align="right" valign="top"><a id="a0ca6531a22ae3d65f6d6fd1cfc374deb"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>dropAttrib</b> (self, type)</td></tr>
-<tr class="separator:a0ca6531a22ae3d65f6d6fd1cfc374deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9a9405a703f2b3b25cf664fdfbd4e2d"><td class="memItemLeft" align="right" valign="top"><a id="ac9a9405a703f2b3b25cf664fdfbd4e2d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>updateAttribute</b> (self, attrib)</td></tr>
-<tr class="separator:ac9a9405a703f2b3b25cf664fdfbd4e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40c00bfb1443dd535ec6391b68245737"><td class="memItemLeft" align="right" valign="top"><a id="a40c00bfb1443dd535ec6391b68245737"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>dropNonTransitive</b> (self)</td></tr>
-<tr class="separator:a40c00bfb1443dd535ec6391b68245737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aa524af39f292b8cbd67f661a65914b"><td class="memItemLeft" align="right" valign="top"><a id="a1aa524af39f292b8cbd67f661a65914b"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setNextHop</b> (self, nexthop)</td></tr>
-<tr class="separator:a1aa524af39f292b8cbd67f661a65914b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2110d14a27fe21b7b6fb5ccfd0a164"><td class="memItemLeft" align="right" valign="top"><a id="a0b2110d14a27fe21b7b6fb5ccfd0a164"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>prepend</b> (self, asn)</td></tr>
-<tr class="separator:a0b2110d14a27fe21b7b6fb5ccfd0a164"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2da1b5a7fe041e24543014458321f82"><td class="memItemLeft" align="right" valign="top"><a id="ae2da1b5a7fe041e24543014458321f82"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>restoreAsPath</b> (self)</td></tr>
-<tr class="separator:ae2da1b5a7fe041e24543014458321f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31f95978ee4bcc32382cb6cd7f5bf332"><td class="memItemLeft" align="right" valign="top"><a id="a31f95978ee4bcc32382cb6cd7f5bf332"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>downgradeAsPath</b> (self)</td></tr>
-<tr class="separator:a31f95978ee4bcc32382cb6cd7f5bf332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad695b6a0605b7124f4f55db539f496f0"><td class="memItemLeft" align="right" valign="top"><a id="ad695b6a0605b7124f4f55db539f496f0"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>restoreAggregator</b> (self)</td></tr>
-<tr class="separator:ad695b6a0605b7124f4f55db539f496f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bc155f066fbadfaa771a0a01561caae"><td class="memItemLeft" align="right" valign="top"><a id="a1bc155f066fbadfaa771a0a01561caae"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>downgradeAggregator</b> (self)</td></tr>
-<tr class="separator:a1bc155f066fbadfaa771a0a01561caae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62c19ab2847bcdb9e0d0cd896c2bca41"><td class="memItemLeft" align="right" valign="top"><a id="a62c19ab2847bcdb9e0d0cd896c2bca41"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setWithdrawn4</b> (self, routes)</td></tr>
-<tr class="separator:a62c19ab2847bcdb9e0d0cd896c2bca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5ba5a777cb9f747d1566825803b585"><td class="memItemLeft" align="right" valign="top"><a id="a7b5ba5a777cb9f747d1566825803b585"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>addWithdrawn4</b> (self, args)</td></tr>
-<tr class="separator:a7b5ba5a777cb9f747d1566825803b585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f5ca7fa1b6bb7537fbaf184c510ccaf"><td class="memItemLeft" align="right" valign="top"><a id="a2f5ca7fa1b6bb7537fbaf184c510ccaf"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setNlri4</b> (self, routes)</td></tr>
-<tr class="separator:a2f5ca7fa1b6bb7537fbaf184c510ccaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc0773d7b1ad3cf25887a1315f50d749"><td class="memItemLeft" align="right" valign="top"><a id="adc0773d7b1ad3cf25887a1315f50d749"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>addNlri4</b> (self, args)</td></tr>
-<tr class="separator:adc0773d7b1ad3cf25887a1315f50d749"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f211a8e6185e94b8cea08bcf987b98"><td class="memItemLeft" align="right" valign="top"><a id="a93f211a8e6185e94b8cea08bcf987b98"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setWithdrawn6</b> (self, routes)</td></tr>
-<tr class="separator:a93f211a8e6185e94b8cea08bcf987b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b6acadefdb18e10b38f3ea1d7d56c1d"><td class="memItemLeft" align="right" valign="top"><a id="a2b6acadefdb18e10b38f3ea1d7d56c1d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setNlri6</b> (self, routes, nexthop_global, nexthop_linklocal)</td></tr>
-<tr class="separator:a2b6acadefdb18e10b38f3ea1d7d56c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4bf4e09d08c901fed51a910b43bb4f"><td class="memItemLeft" align="right" valign="top"><a id="a1b4bf4e09d08c901fed51a910b43bb4f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>doPrint</b> (self, indent, to, buf_sz)</td></tr>
-<tr class="separator:a1b4bf4e09d08c901fed51a910b43bb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc236563ffdcb348f9797526e2d2d8a"><td class="memItemLeft" align="right" valign="top"><a id="aecc236563ffdcb348f9797526e2d2d8a"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>parse</b> (self, arg2, msg_sz)</td></tr>
-<tr class="separator:aecc236563ffdcb348f9797526e2d2d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0abc6c740516c8ab571440a64858822"><td class="memItemLeft" align="right" valign="top"><a id="ad0abc6c740516c8ab571440a64858822"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (self, to, buf_sz)</td></tr>
-<tr class="separator:ad0abc6c740516c8ab571440a64858822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlibbgp_1_1BgpMessage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1BgpMessage')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1BgpMessage.html">libbgp::BgpMessage</a></td></tr>
 <tr class="memitem:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpMessage.html#a998df25f7fb244641aa81ca65666cf04">BgpMessage</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
 <tr class="memdesc:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Bgp Message object.  <a href="classlibbgp_1_1BgpMessage.html#a998df25f7fb244641aa81ca65666cf04">More...</a><br /></td></tr>
 <tr class="separator:a998df25f7fb244641aa81ca65666cf04 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2e5e667370653e231b41ef7b18b8e7 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="a8d2e5e667370653e231b41ef7b18b8e7"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kwargs)</td></tr>
-<tr class="separator:a8d2e5e667370653e231b41ef7b18b8e7 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f96c2822512496e761cb30510ad5621 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="a3f96c2822512496e761cb30510ad5621"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>parse</b> (self, arg2, msg_sz)</td></tr>
-<tr class="separator:a3f96c2822512496e761cb30510ad5621 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3128df8ffb96a5513f00ac7e45a46764 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="a3128df8ffb96a5513f00ac7e45a46764"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (self, to, buf_sz)</td></tr>
-<tr class="separator:a3128df8ffb96a5513f00ac7e45a46764 inherit pub_methods_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp.Serializable</a></td></tr>
-<tr class="memitem:a69663ffa68adee9596270f400f44e987 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a69663ffa68adee9596270f400f44e987"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, args, kwargs)</td></tr>
-<tr class="separator:a69663ffa68adee9596270f400f44e987 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae87334b2d53f051ec897a32786677b53 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="ae87334b2d53f051ec897a32786677b53"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>parse</b> (self, arg2, msg_sz)</td></tr>
-<tr class="separator:ae87334b2d53f051ec897a32786677b53 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688f003f92f3c5baa46576ee4eeec8ee inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a688f003f92f3c5baa46576ee4eeec8ee"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (self, to, buf_sz)</td></tr>
-<tr class="separator:a688f003f92f3c5baa46576ee4eeec8ee inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6670f522622c0819dcebe1a6343a034 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="ae6670f522622c0819dcebe1a6343a034"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> (self)</td></tr>
-<tr class="separator:ae6670f522622c0819dcebe1a6343a034 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d23bff8db3c7749bfd7113f9ec447f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a35d23bff8db3c7749bfd7113f9ec447f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>hasError</b> (self)</td></tr>
-<tr class="separator:a35d23bff8db3c7749bfd7113f9ec447f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9490043bfdacdadca7578bcdad8db0b9 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a9490043bfdacdadca7578bcdad8db0b9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorCode</b> (self)</td></tr>
-<tr class="separator:a9490043bfdacdadca7578bcdad8db0b9 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6e82f1798dc3f27cce994c01ca4a8f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a2c6e82f1798dc3f27cce994c01ca4a8f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorSubCode</b> (self)</td></tr>
-<tr class="separator:a2c6e82f1798dc3f27cce994c01ca4a8f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3851c3283be403fceaf587fb31bec848 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a3851c3283be403fceaf587fb31bec848"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getError</b> (self)</td></tr>
-<tr class="separator:a3851c3283be403fceaf587fb31bec848 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43376c93bc08e0fe06d8b7518dfb519f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a43376c93bc08e0fe06d8b7518dfb519f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> (self)</td></tr>
-<tr class="separator:a43376c93bc08e0fe06d8b7518dfb519f inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16dd2a91337e3237771f8b0f084f2f1d inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a16dd2a91337e3237771f8b0f084f2f1d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>setLogger</b> (self, logger)</td></tr>
-<tr class="separator:a16dd2a91337e3237771f8b0f084f2f1d inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afab5adf351b5cc848c1fda02c8f242b2 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#afab5adf351b5cc848c1fda02c8f242b2">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
-<tr class="memdesc:afab5adf351b5cc848c1fda02c8f242b2 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="classlibbgp_1_1Serializable.html#afab5adf351b5cc848c1fda02c8f242b2">More...</a><br /></td></tr>
-<tr class="separator:afab5adf351b5cc848c1fda02c8f242b2 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d17c599c22a01a34920034db61b9b21 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a2d17c599c22a01a34920034db61b9b21"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a2d17c599c22a01a34920034db61b9b21">~Serializable</a> ()</td></tr>
-<tr class="memdesc:a2d17c599c22a01a34920034db61b9b21 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
-<tr class="separator:a2d17c599c22a01a34920034db61b9b21 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04564b3e0c38e72298f318246832db31 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a04564b3e0c38e72298f318246832db31">print</a> (uint8_t *to, size_t buf_sz) const</td></tr>
-<tr class="memdesc:a04564b3e0c38e72298f318246832db31 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string.  <a href="classlibbgp_1_1Serializable.html#a04564b3e0c38e72298f318246832db31">More...</a><br /></td></tr>
-<tr class="separator:a04564b3e0c38e72298f318246832db31 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a210438a0e4f0ec204501d1fe0a5dc26a inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a210438a0e4f0ec204501d1fe0a5dc26a">print</a> (size_t indent, uint8_t *to, size_t buf_sz) const</td></tr>
-<tr class="memdesc:a210438a0e4f0ec204501d1fe0a5dc26a inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string, with indentation.  <a href="classlibbgp_1_1Serializable.html#a210438a0e4f0ec204501d1fe0a5dc26a">More...</a><br /></td></tr>
-<tr class="separator:a210438a0e4f0ec204501d1fe0a5dc26a inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75351e07ffa1a4b0671e6ca1c5e30087 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a75351e07ffa1a4b0671e6ca1c5e30087">length</a> () const</td></tr>
-<tr class="memdesc:a75351e07ffa1a4b0671e6ca1c5e30087 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size in bytes required to serialize the object.  <a href="classlibbgp_1_1Serializable.html#a75351e07ffa1a4b0671e6ca1c5e30087">More...</a><br /></td></tr>
-<tr class="separator:a75351e07ffa1a4b0671e6ca1c5e30087 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84866cf71ec2abf32e70ce8663a4ed9 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ae84866cf71ec2abf32e70ce8663a4ed9">hasError</a> () const</td></tr>
-<tr class="memdesc:ae84866cf71ec2abf32e70ce8663a4ed9 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if error information available.  <a href="classlibbgp_1_1Serializable.html#ae84866cf71ec2abf32e70ce8663a4ed9">More...</a><br /></td></tr>
-<tr class="separator:ae84866cf71ec2abf32e70ce8663a4ed9 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b219bfed0607faf4e7bf38ec703c29 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a09b219bfed0607faf4e7bf38ec703c29"></a>
+<tr class="inherit_header pub_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
+<tr class="memitem:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">Serializable</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550">More...</a><br /></td></tr>
+<tr class="separator:adff26a0a2481c35d40bc4c905a2d9550 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749db1ceb56b9ebe213e00b0e58ec9ad inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a749db1ceb56b9ebe213e00b0e58ec9ad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a749db1ceb56b9ebe213e00b0e58ec9ad">~Serializable</a> ()</td></tr>
+<tr class="memdesc:a749db1ceb56b9ebe213e00b0e58ec9ad inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a>:: <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object. <br /></td></tr>
+<tr class="separator:a749db1ceb56b9ebe213e00b0e58ec9ad inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804fb732b7089ac0a98a6e926f1551d6 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a804fb732b7089ac0a98a6e926f1551d6">print</a> (uint8_t *to, size_t buf_sz) const</td></tr>
+<tr class="memdesc:a804fb732b7089ac0a98a6e926f1551d6 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string.  <a href="classlibbgp_1_1Serializable.html#a804fb732b7089ac0a98a6e926f1551d6">More...</a><br /></td></tr>
+<tr class="separator:a804fb732b7089ac0a98a6e926f1551d6 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490c037d263896afc7776e339741eb33 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a490c037d263896afc7776e339741eb33">print</a> (size_t indent, uint8_t *to, size_t buf_sz) const</td></tr>
+<tr class="memdesc:a490c037d263896afc7776e339741eb33 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object as human readable string, with indentation.  <a href="classlibbgp_1_1Serializable.html#a490c037d263896afc7776e339741eb33">More...</a><br /></td></tr>
+<tr class="separator:a490c037d263896afc7776e339741eb33 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f02045e83866077732aa421dbad0e4 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">virtual ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">length</a> () const</td></tr>
+<tr class="memdesc:a37f02045e83866077732aa421dbad0e4 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size in bytes required to serialize the object.  <a href="classlibbgp_1_1Serializable.html#a37f02045e83866077732aa421dbad0e4">More...</a><br /></td></tr>
+<tr class="separator:a37f02045e83866077732aa421dbad0e4 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71cbd82595e9145b0f7bd0664d190e87 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a71cbd82595e9145b0f7bd0664d190e87">hasError</a> () const</td></tr>
+<tr class="memdesc:a71cbd82595e9145b0f7bd0664d190e87 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if error information available.  <a href="classlibbgp_1_1Serializable.html#a71cbd82595e9145b0f7bd0664d190e87">More...</a><br /></td></tr>
+<tr class="separator:a71cbd82595e9145b0f7bd0664d190e87 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcb8fde805cea8019e41b04870fd17b inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a9bcb8fde805cea8019e41b04870fd17b"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorCode</b> () const</td></tr>
-<tr class="separator:a09b219bfed0607faf4e7bf38ec703c29 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359311871cc8682967acca437764b9c1 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a359311871cc8682967acca437764b9c1"></a>
+<tr class="separator:a9bcb8fde805cea8019e41b04870fd17b inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979acbac79e625ef07d668a82f620934 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a979acbac79e625ef07d668a82f620934"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorSubCode</b> () const</td></tr>
-<tr class="separator:a359311871cc8682967acca437764b9c1 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41a66ac740d7c5d736878fb3dc7a6531 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a41a66ac740d7c5d736878fb3dc7a6531"></a>
+<tr class="separator:a979acbac79e625ef07d668a82f620934 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0b0fddafc4edbd4b76feed545bcec7 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="acd0b0fddafc4edbd4b76feed545bcec7"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>getError</b> () const</td></tr>
-<tr class="separator:a41a66ac740d7c5d736878fb3dc7a6531 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56ac01c6eb83b8597143b8ace777025a inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a56ac01c6eb83b8597143b8ace777025a"></a>
+<tr class="separator:acd0b0fddafc4edbd4b76feed545bcec7 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a71c8aa38318bea75bc7ece28248c8913"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorLength</b> () const</td></tr>
-<tr class="separator:a56ac01c6eb83b8597143b8ace777025a inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4a98e302d8a23256a0c3e21141ee80 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a1b4a98e302d8a23256a0c3e21141ee80">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
-<tr class="memdesc:a1b4a98e302d8a23256a0c3e21141ee80 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="classlibbgp_1_1Serializable.html#a1b4a98e302d8a23256a0c3e21141ee80">More...</a><br /></td></tr>
-<tr class="separator:a1b4a98e302d8a23256a0c3e21141ee80 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a71c8aa38318bea75bc7ece28248c8913 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">setLogger</a> (<a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *logger)</td></tr>
+<tr class="memdesc:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace logger for this object.  <a href="classlibbgp_1_1Serializable.html#ade6ecd8173f40f0b5fa6021468632b16">More...</a><br /></td></tr>
+<tr class="separator:ade6ecd8173f40f0b5fa6021468632b16 inherit pub_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -339,59 +228,40 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAt
 <tr class="memitem:aedc1465e60a7d27a20937645147f28fc"><td class="memItemLeft" align="right" valign="top"><a id="aedc1465e60a7d27a20937645147f28fc"></a>
 std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix4.html">Prefix4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>nlri</b></td></tr>
 <tr class="separator:aedc1465e60a7d27a20937645147f28fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06259c15edeec82f4279338e21bdd79b"><td class="memItemLeft" align="right" valign="top"><a id="a06259c15edeec82f4279338e21bdd79b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b></td></tr>
-<tr class="separator:a06259c15edeec82f4279338e21bdd79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classlibbgp_1_1BgpMessage"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classlibbgp_1_1BgpMessage')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classlibbgp_1_1BgpMessage.html">libbgp::BgpMessage</a></td></tr>
 <tr class="memitem:a28492dfc67e814e7cf8243680a135a87 inherit pub_attribs_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="a28492dfc67e814e7cf8243680a135a87"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
 <tr class="separator:a28492dfc67e814e7cf8243680a135a87 inherit pub_attribs_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa6a39b07e3201e726c703b08977474a4"><td class="memItemLeft" align="right" valign="top"><a id="aa6a39b07e3201e726c703b08977474a4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>withdrawn_routes</b> = _swig_property(_libbgp.BgpUpdateMessage_withdrawn_routes_get, _libbgp.BgpUpdateMessage_withdrawn_routes_set)</td></tr>
-<tr class="separator:aa6a39b07e3201e726c703b08977474a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af96faa7bd13d0ce7e5c9270b69c2e95b"><td class="memItemLeft" align="right" valign="top"><a id="af96faa7bd13d0ce7e5c9270b69c2e95b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>path_attribute</b> = _swig_property(_libbgp.BgpUpdateMessage_path_attribute_get, _libbgp.BgpUpdateMessage_path_attribute_set)</td></tr>
-<tr class="separator:af96faa7bd13d0ce7e5c9270b69c2e95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d33aca2f3a2cf3ee54423b301faaecd"><td class="memItemLeft" align="right" valign="top"><a id="a5d33aca2f3a2cf3ee54423b301faaecd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>nlri</b> = _swig_property(_libbgp.BgpUpdateMessage_nlri_get, _libbgp.BgpUpdateMessage_nlri_set)</td></tr>
-<tr class="separator:a5d33aca2f3a2cf3ee54423b301faaecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_attribs_classlibbgp_1_1BgpMessage"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classlibbgp_1_1BgpMessage')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classlibbgp_1_1BgpMessage.html">libbgp::BgpMessage</a></td></tr>
-<tr class="memitem:afcac0ed27679254e08395227e7018aeb inherit pub_static_attribs_classlibbgp_1_1BgpMessage"><td class="memItemLeft" align="right" valign="top"><a id="afcac0ed27679254e08395227e7018aeb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = _swig_property(_libbgp.BgpMessage_type_get, _libbgp.BgpMessage_type_set)</td></tr>
-<tr class="separator:afcac0ed27679254e08395227e7018aeb inherit pub_static_attribs_classlibbgp_1_1BgpMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp.Serializable</a></td></tr>
-<tr class="memitem:aa72b12ced5f82a7cc842804e779fed5f inherit pro_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aa72b12ced5f82a7cc842804e779fed5f">setError</a> (uint8_t err, uint8_t suberr, const uint8_t *data, size_t data_len)</td></tr>
-<tr class="memdesc:aa72b12ced5f82a7cc842804e779fed5f inherit pro_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error information.  <a href="classlibbgp_1_1Serializable.html#aa72b12ced5f82a7cc842804e779fed5f">More...</a><br /></td></tr>
-<tr class="separator:aa72b12ced5f82a7cc842804e779fed5f inherit pro_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9aef3658830eb3b3271c13d3c87bfb inherit pro_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aaf9aef3658830eb3b3271c13d3c87bfb">forwardParseError</a> (const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;other)</td></tr>
-<tr class="memdesc:aaf9aef3658830eb3b3271c13d3c87bfb inherit pro_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward error information from other <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="classlibbgp_1_1Serializable.html#aaf9aef3658830eb3b3271c13d3c87bfb">More...</a><br /></td></tr>
-<tr class="separator:aaf9aef3658830eb3b3271c13d3c87bfb inherit pro_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp.Serializable</a></td></tr>
-<tr class="memitem:aa6b13bf7740aa989a26eb2fc31b05be5 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aa6b13bf7740aa989a26eb2fc31b05be5">_print</a> (size_t indent, uint8_t **to, size_t *buf_left, const char *format,...)</td></tr>
-<tr class="memdesc:aa6b13bf7740aa989a26eb2fc31b05be5 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print helper.  <a href="classlibbgp_1_1Serializable.html#aa6b13bf7740aa989a26eb2fc31b05be5">More...</a><br /></td></tr>
-<tr class="separator:aa6b13bf7740aa989a26eb2fc31b05be5 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp.Serializable</a></td></tr>
-<tr class="memitem:abf4f62ee57fbc6ecc20decc0e1b3bf73 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="abf4f62ee57fbc6ecc20decc0e1b3bf73"></a>
+<tr class="inherit_header pro_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
+<tr class="memitem:a7fe3ec9c2494bb2bf6799d287ebe9dd2 inherit pro_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a7fe3ec9c2494bb2bf6799d287ebe9dd2">setError</a> (uint8_t err, uint8_t suberr, const uint8_t *data, size_t data_len)</td></tr>
+<tr class="memdesc:a7fe3ec9c2494bb2bf6799d287ebe9dd2 inherit pro_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error information.  <a href="classlibbgp_1_1Serializable.html#a7fe3ec9c2494bb2bf6799d287ebe9dd2">More...</a><br /></td></tr>
+<tr class="separator:a7fe3ec9c2494bb2bf6799d287ebe9dd2 inherit pro_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7471024f07b225d9c61dd338de28a5 inherit pro_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#aad7471024f07b225d9c61dd338de28a5">forwardParseError</a> (const <a class="el" href="classlibbgp_1_1Serializable.html">Serializable</a> &amp;other)</td></tr>
+<tr class="memdesc:aad7471024f07b225d9c61dd338de28a5 inherit pro_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward error information from other <a class="el" href="classlibbgp_1_1Serializable.html" title="The serializable base class. ">Serializable</a> object.  <a href="classlibbgp_1_1Serializable.html#aad7471024f07b225d9c61dd338de28a5">More...</a><br /></td></tr>
+<tr class="separator:aad7471024f07b225d9c61dd338de28a5 inherit pro_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
+<tr class="memitem:a439ea41e411d9695a0c49ac5563350d1 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Serializable.html#a439ea41e411d9695a0c49ac5563350d1">_print</a> (size_t indent, uint8_t **to, size_t *buf_left, const char *format,...)</td></tr>
+<tr class="memdesc:a439ea41e411d9695a0c49ac5563350d1 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print helper.  <a href="classlibbgp_1_1Serializable.html#a439ea41e411d9695a0c49ac5563350d1">More...</a><br /></td></tr>
+<tr class="separator:a439ea41e411d9695a0c49ac5563350d1 inherit pro_static_methods_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classlibbgp_1_1Serializable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classlibbgp_1_1Serializable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classlibbgp_1_1Serializable.html">libbgp::Serializable</a></td></tr>
+<tr class="memitem:a62d5de63528950159267530674abd388 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a62d5de63528950159267530674abd388"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_code</b></td></tr>
-<tr class="separator:abf4f62ee57fbc6ecc20decc0e1b3bf73 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b3421224568af2c04164d9b9308c53 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a91b3421224568af2c04164d9b9308c53"></a>
+<tr class="separator:a62d5de63528950159267530674abd388 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7229dc9bd0fbe6892ad2e6e653469e inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="aba7229dc9bd0fbe6892ad2e6e653469e"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_subcode</b></td></tr>
-<tr class="separator:a91b3421224568af2c04164d9b9308c53 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af32f952a57ae7cc7f3fde90ed1e4e498 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="af32f952a57ae7cc7f3fde90ed1e4e498"></a>
+<tr class="separator:aba7229dc9bd0fbe6892ad2e6e653469e inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c67ad8c596235212a20649f4d161e2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="ad6c67ad8c596235212a20649f4d161e2"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>err_len</b></td></tr>
-<tr class="separator:af32f952a57ae7cc7f3fde90ed1e4e498 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad514cba9874f2351e755ea9619ac4bbe inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="ad514cba9874f2351e755ea9619ac4bbe"></a>
+<tr class="separator:ad6c67ad8c596235212a20649f4d161e2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abad0eee1cc8a31ca8d9f607432d2a7d2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="abad0eee1cc8a31ca8d9f607432d2a7d2"></a>
 uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>err_data</b></td></tr>
-<tr class="separator:ad514cba9874f2351e755ea9619ac4bbe inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6bb28403988205743357680b783c24 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a8a6bb28403988205743357680b783c24"></a>
+<tr class="separator:abad0eee1cc8a31ca8d9f607432d2a7d2 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24451786d21a5c021166049b6806763b inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memItemLeft" align="right" valign="top"><a id="a24451786d21a5c021166049b6806763b"></a>
 <a class="el" href="classlibbgp_1_1BgpLogHandler.html">BgpLogHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>logger</b></td></tr>
-<tr class="separator:a8a6bb28403988205743357680b783c24 inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a24451786d21a5c021166049b6806763b inherit pro_attribs_classlibbgp_1_1Serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1BgpUpdateMessage.html" title="The BgpUpdateMessage class. ">BgpUpdateMessage</a> class. </p>
@@ -679,11 +549,11 @@ false Failed to add withdrawn route. </dd></dl>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a4b1dd9aadd2a84bd17b41e3fe1775c25">libbgp.Serializable</a>.</p>
+<p>Implements <a class="el" href="classlibbgp_1_1Serializable.html#a10899ba2551d80fb5e18263d542cf730">libbgp::Serializable</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="bgp-update-message_8cc_source.html#l00798">798</a> of file <a class="el" href="bgp-update-message_8cc_source.html">bgp-update-message.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp.Serializable::_print()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00144">libbgp::Serializable::_print()</a>.</p>
 
 </div>
 </div>
@@ -963,7 +833,7 @@ false Attribute not avaliable. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="bgp-update-message_8cc_source.html#l00564">564</a> of file <a class="el" href="bgp-update-message_8cc_source.html">bgp-update-message.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp.Serializable::setError()</a>.</p>
+<p class="reference">References <a class="el" href="serializable_8cc_source.html#l00061">libbgp::Serializable::setError()</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1147,6 @@ false Failed to update attribute. </dd></dl>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="bgp-update-message_8h_source.html">bgp-update-message.h</a></li>
-<li>src/<a class="el" href="libbgp_8py_source.html">libbgp.py</a></li>
 <li>src/<a class="el" href="bgp-update-message_8cc_source.html">bgp-update-message.cc</a></li>
 </ul>
 </div><!-- contents -->

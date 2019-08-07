@@ -1,8 +1,7 @@
 <map id="src/clock.h" name="src/clock.h">
-<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="13,80,137,107"/>
-<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="19,155,130,181"/>
-<area shape="rect" id="node6" href="$realtime-clock_8h.html" title="A Clock implementation to use system time as time. " alt="" coords="155,155,301,181"/>
-<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="169,229,285,256"/>
-<area shape="rect" id="node5" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="5,229,144,256"/>
-<area shape="rect" id="node7" href="$realtime-clock_8cc.html" title="A Clock implementation to use system time as time. " alt="" coords="309,229,462,256"/>
+<area shape="rect" id="node2" href="$bgp-config_8h.html" title="The BGP FSM configuration object. " alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node3" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="63,155,173,181"/>
+<area shape="rect" id="node5" href="$realtime-clock_8h.html" title="A Clock implementation to use system time as time. " alt="" coords="205,80,351,107"/>
+<area shape="rect" id="node4" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="107,229,223,256"/>
+<area shape="rect" id="node6" href="$realtime-clock_8cc.html" title="A Clock implementation to use system time as time. " alt="" coords="249,155,403,181"/>
 </map>

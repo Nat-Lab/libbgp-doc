@@ -1,6 +1,5 @@
 <map id="src/bgp.h" name="src/bgp.h">
-<area shape="rect" id="node2" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="84,80,195,107"/>
-<area shape="rect" id="node5" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="219,80,353,107"/>
+<area shape="rect" id="node2" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="8,80,119,107"/>
+<area shape="rect" id="node4" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="143,80,277,107"/>
 <area shape="rect" id="node3" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="5,155,121,181"/>
-<area shape="rect" id="node4" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="146,155,285,181"/>
 </map>

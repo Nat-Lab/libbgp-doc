@@ -3,13 +3,12 @@
 <area shape="rect" id="node3" href="$bgp-capability_8cc.html" title="BGP Capabilities. " alt="" coords="209,87,360,114"/>
 <area shape="rect" id="node4" href="$bgp-errcode_8cc.html" title="BGP error codes. " alt="" coords="385,87,526,114"/>
 <area shape="rect" id="node5" href="$bgp_8h.html" title="BGP protocol serializers/deserializers. " alt="" coords="551,87,632,114"/>
-<area shape="rect" id="node10" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="657,87,873,114"/>
-<area shape="rect" id="node11" href="$bgp-notification-message_8cc.html" title="The BGP notification message. " alt="" coords="897,80,1041,121"/>
-<area shape="rect" id="node12" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="1065,87,1253,114"/>
-<area shape="rect" id="node13" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="1278,87,1438,114"/>
-<area shape="rect" id="node14" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="1463,87,1664,114"/>
+<area shape="rect" id="node9" href="$bgp-keepalive-message_8cc.html" title="The BGP keepalive message. " alt="" coords="657,87,873,114"/>
+<area shape="rect" id="node10" href="$bgp-notification-message_8cc.html" title="The BGP notification message. " alt="" coords="897,80,1041,121"/>
+<area shape="rect" id="node11" href="$bgp-open-message_8cc.html" title="The BGP open message. " alt="" coords="1065,87,1253,114"/>
+<area shape="rect" id="node12" href="$bgp-path-attrib_8cc.html" title="BGP Path attributes. " alt="" coords="1278,87,1438,114"/>
+<area shape="rect" id="node13" href="$bgp-update-message_8cc.html" title="The BGP update message. " alt="" coords="1463,87,1664,114"/>
 <area shape="rect" id="node6" href="$bgp-fsm_8h.html" title="The BGP Finite State Machine. " alt="" coords="463,169,573,196"/>
-<area shape="rect" id="node9" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="597,169,732,196"/>
-<area shape="rect" id="node7" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="384,244,500,271"/>
-<area shape="rect" id="node8" href="$libbgp__wrap_8cc_source.html" title="src/libbgp_wrap.cc" alt="" coords="525,244,663,271"/>
+<area shape="rect" id="node8" href="$bgp-packet_8cc.html" title="Top level deserialization/serialization entry point for BGP messages. " alt="" coords="597,169,732,196"/>
+<area shape="rect" id="node7" href="$bgp-fsm_8cc.html" title="The BGP Finite State Machine. " alt="" coords="460,244,576,271"/>
 </map>

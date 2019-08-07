@@ -1,6 +1,5 @@
 <map id="libbgp::BgpKeepaliveMessage" name="libbgp::BgpKeepaliveMessage">
-<area shape="rect" id="node2" href="$classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="35,247,186,273"/>
-<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="42,171,179,197"/>
-<area shape="rect" id="node4" href="$classlibbgp_1_1__object.html" title="libbgp._object" alt="" coords="73,5,183,32"/>
-<area shape="rect" id="node5" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="127,81,294,108"/>
+<area shape="rect" id="node2" href="$classlibbgp_1_1BgpMessage.html" title="The BgpMessage base class. " alt="" coords="35,171,186,197"/>
+<area shape="rect" id="node3" href="$classlibbgp_1_1Serializable.html" title="The serializable base class. " alt="" coords="40,95,181,121"/>
+<area shape="rect" id="node4" href="$classlibbgp_1_1BgpLogHandler.html" title="The BgpLogHandler class. " alt="" coords="27,5,194,32"/>
 </map>
