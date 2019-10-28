@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.4.8</span>
+   &#160;<span id="projectnumber">0.5</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -219,7 +219,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Time-based events like hold timer expired needs to refer to the clock. Sometime we may not want to use the system clock. For example, if <a class="el" href="classlibbgp_1_1BgpFsm.html" title="The BgpFsm class. ">BgpFsm</a> is used inside a simulator like ns3, we will need to use the simulated clock instead of the real-time clock. Set this to NULL if you want to use a real-time clock. (default: NULL) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="peer-and-print_8cc-example.html#a19">peer-and-print.cc</a>, <a class="el" href="route-event-bus_8cc-example.html#a25">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a25">route-filter.cc</a>.</dd>
 </dl>
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00304">304</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00305">305</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 </div><div class="memdoc">
 
 <p>Forced IPv4 default nexthop. </p>
-<p>If this is set to true, the <code>default_nexthop4</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (EBGP only, use ibgp_next_hop_self for IBGP.) (default: false) </p>
+<p>If this is set to true, the <code>default_nexthop4</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (for IBGP, this will only work if ibgp_alter_nexthop is set to true.) (default: false) </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a29">route-event-bus.cc</a>, and <a class="el" href="route-filter_8cc-example.html#a29">route-filter.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00243">243</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
@@ -315,9 +315,9 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 </div><div class="memdoc">
 
 <p>Forced IPv6 default nexthop. </p>
-<p>If this is set to true, the <code>default_nexthop6</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (default: false) </p>
+<p>If this is set to true, the <code>default_nexthop6</code> configuration parameter will always be used as nexthop, regardless of the peering LAN. (for IBGP, this will only work if ibgp_alter_nexthop is set to true.) (default: false) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00286">286</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00287">287</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>If true, libbgp will alter IBGP nexthop attribute the same way as EBGP.</p>
 <p>(default: false) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00338">338</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00339">339</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +455,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Set to true will disable auto FSM ticking when message received.</p>
 <p>(default: false) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00329">329</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00330">330</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +711,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <p>Routes of session with higher weight will be prefered when makeing routing decision. (RIB lookup)</p>
 <p>(default: 0) </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00320">320</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-config_8h_source.html#l00321">321</a> of file <a class="el" href="bgp-config_8h_source.html">bgp-config.h</a>.</p>
 
 </div>
 </div>
