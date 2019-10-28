@@ -107,7 +107,7 @@ var searchData=
   ['bgprib6entrykey',['BgpRib6EntryKey',['../classlibbgp_1_1BgpRib6EntryKey.html',1,'libbgp']]],
   ['bgprib_3c_20bgprib4entry_20_3e',['BgpRib&lt; BgpRib4Entry &gt;',['../classlibbgp_1_1BgpRib.html',1,'libbgp']]],
   ['bgprib_3c_20bgprib6entry_20_3e',['BgpRib&lt; BgpRib6Entry &gt;',['../classlibbgp_1_1BgpRib.html',1,'libbgp']]],
-  ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp']]],
+  ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp::BgpRibEntry&lt; T &gt;'],['../classlibbgp_1_1BgpRibEntry.html#a7c63b11f4599f785d3a808a39b25122c',1,'libbgp::BgpRibEntry::BgpRibEntry()']]],
   ['bgpribentry_3c_20bgprib4entry_20_3e',['BgpRibEntry&lt; BgpRib4Entry &gt;',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp']]],
   ['bgpribentry_3c_20bgprib6entry_20_3e',['BgpRibEntry&lt; BgpRib6Entry &gt;',['../classlibbgp_1_1BgpRibEntry.html',1,'libbgp']]],
   ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html',1,'libbgp::BgpSink'],['../classlibbgp_1_1BgpSink.html#af6f59eb30ff7ca7c3432e98867b7d8cb',1,'libbgp::BgpSink::BgpSink()']]],

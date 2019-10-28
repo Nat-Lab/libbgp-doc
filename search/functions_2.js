@@ -30,6 +30,7 @@ var searchData=
   ['bgprib4entry',['BgpRib4Entry',['../classlibbgp_1_1BgpRib4Entry.html#a3c36b50e9bdbe9e3f7cfb2065e77004d',1,'libbgp::BgpRib4Entry']]],
   ['bgprib6',['BgpRib6',['../classlibbgp_1_1BgpRib6.html#a6fcab2dadb7a4723d5934b5df282b69f',1,'libbgp::BgpRib6']]],
   ['bgprib6entry',['BgpRib6Entry',['../classlibbgp_1_1BgpRib6Entry.html#ac5198cc777526017265cc57dc4704543',1,'libbgp::BgpRib6Entry']]],
+  ['bgpribentry',['BgpRibEntry',['../classlibbgp_1_1BgpRibEntry.html#a7c63b11f4599f785d3a808a39b25122c',1,'libbgp::BgpRibEntry']]],
   ['bgpsink',['BgpSink',['../classlibbgp_1_1BgpSink.html#af6f59eb30ff7ca7c3432e98867b7d8cb',1,'libbgp::BgpSink']]],
   ['bgpupdatemessage',['BgpUpdateMessage',['../classlibbgp_1_1BgpUpdateMessage.html#aae2bfd80258e8872dc6b2a6b30e9e051',1,'libbgp::BgpUpdateMessage']]]
 ];
