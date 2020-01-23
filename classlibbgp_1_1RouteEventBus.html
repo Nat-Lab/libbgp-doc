@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.5.1</span>
+   &#160;<span id="projectnumber">0.6</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -92,7 +92,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classlibbgp_1_1RouteEventBus.html" title="The RouteEventBus class. ">RouteEventBus</a> class. </p>
 <p>The route event bus is used to share information and communicate with other BGP FSMs. For example, route add/withdrawn events are sent to other FSMs with route event bus. Collision resolution also depends on the route event bus. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a14">route-event-bus.cc</a>, and <a class="el" href="route-server_8cc-example.html#_a12">route-server.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#_a13">route-event-bus.cc</a>, and <a class="el" href="route-server_8cc-example.html#_a12">route-server.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8h_source.html#l00027">27</a> of file <a class="el" href="route-event-bus_8h_source.html">route-event-bus.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -131,11 +131,9 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int Number of subscribers report event received. </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a37">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a35">route-event-bus.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00028">28</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00176">libbgp::BgpRib4::insert()</a>, <a class="el" href="bgp-rib6_8cc_source.html#l00168">libbgp::BgpRib6::insert()</a>, and <a class="el" href="bgp-rib4_8cc_source.html#l00333">libbgp::BgpRib4::withdraw()</a>.</p>
 
 </div>
 </div>
@@ -165,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true Subscribed. </dd>
 <dd>
 false Failed to subscribe. </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a15">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a14">route-event-bus.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00047">47</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
 
@@ -197,7 +195,7 @@ false Failed to subscribe. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true Unsubscribed. </dd>
 <dd>
 false Failed to Unsubscribe. </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a40">route-event-bus.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="route-event-bus_8cc-example.html#a38">route-event-bus.cc</a>.</dd>
 </dl>
 <p class="definition">Definition at line <a class="el" href="route-event-bus_8cc_source.html#l00060">60</a> of file <a class="el" href="route-event-bus_8cc_source.html">route-event-bus.cc</a>.</p>
 

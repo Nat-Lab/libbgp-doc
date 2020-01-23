@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['new_5froutes',['new_routes',['../classlibbgp_1_1Route4AddEvent.html#a713fea5f554c5d00fffc062b70d10319',1,'libbgp::Route4AddEvent::new_routes()'],['../classlibbgp_1_1Route6AddEvent.html#a5f66c4fcf8c93a4fe3ad72e92c0a6b09',1,'libbgp::Route6AddEvent::new_routes()']]],
   ['next_5fhop',['next_hop',['../classlibbgp_1_1BgpPathAttribNexthop.html#ab5a1e028fdef74b5d9da57cebcc812b2',1,'libbgp::BgpPathAttribNexthop']]],
   ['nexthop_5fglobal',['nexthop_global',['../classlibbgp_1_1BgpRib6Entry.html#a542e72d5223d620a1084baa77de62adf',1,'libbgp::BgpRib6Entry::nexthop_global()'],['../classlibbgp_1_1Route6AddEvent.html#ae0d0a56e95a173d896d2a5d129749f43',1,'libbgp::Route6AddEvent::nexthop_global()']]],
   ['nexthop_5flinklocal',['nexthop_linklocal',['../classlibbgp_1_1BgpRib6Entry.html#a7a9ab047cccf1bb88fb02fee23e41c56',1,'libbgp::BgpRib6Entry::nexthop_linklocal()'],['../classlibbgp_1_1Route6AddEvent.html#a5b9d88352552e8181d29b660b5ef8b01',1,'libbgp::Route6AddEvent::nexthop_linklocal()']]],

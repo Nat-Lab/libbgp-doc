@@ -4,6 +4,7 @@ var searchData=
   ['realtime_2dclock_2eh',['realtime-clock.h',['../realtime-clock_8h.html',1,'']]],
   ['realtimeclock',['RealtimeClock',['../classlibbgp_1_1RealtimeClock.html',1,'libbgp']]],
   ['reject',['REJECT',['../bgp-filter_8h.html#a09b283ade47782bc0c08687105402293ad422690559350ccf4cb4669c598983e4',1,'libbgp']]],
+  ['replaced_5fentries',['replaced_entries',['../classlibbgp_1_1Route4AddEvent.html#ad29e7b0e0189df62399422430546c488',1,'libbgp::Route4AddEvent::replaced_entries()'],['../classlibbgp_1_1Route6AddEvent.html#a033ff6138d484a0733682f048b020a61',1,'libbgp::Route6AddEvent::replaced_entries()']]],
   ['resethard',['resetHard',['../classlibbgp_1_1BgpFsm.html#a2ae746afb70c51edc6fb9bd552cac1b0',1,'libbgp::BgpFsm']]],
   ['resetsoft',['resetSoft',['../classlibbgp_1_1BgpFsm.html#ae64c4f70343c68a4090ef4597b93ad5a',1,'libbgp::BgpFsm']]],
   ['restoreaggregator',['restoreAggregator',['../classlibbgp_1_1BgpUpdateMessage.html#aed6bdd6a3ae5b52e1e6b1225c1f81187',1,'libbgp::BgpUpdateMessage']]],
@@ -26,6 +27,6 @@ var searchData=
   ['routeeventreceiver',['RouteEventReceiver',['../classlibbgp_1_1RouteEventReceiver.html',1,'libbgp']]],
   ['routeeventtype',['RouteEventType',['../route-event_8h.html#ae8c750a6779e877ff88ee962ff8dab57',1,'libbgp']]],
   ['router_5fid',['router_id',['../structlibbgp_1_1BgpConfig.html#acc50e2d37d8b44e2c69d907281253f55',1,'libbgp::BgpConfig']]],
-  ['routes',['routes',['../classlibbgp_1_1Route4AddEvent.html#a5f8a29430123e0000f6b64560e20d68f',1,'libbgp::Route4AddEvent::routes()'],['../classlibbgp_1_1Route4WithdrawEvent.html#a8e065e94df550d81287c0f74f87304a0',1,'libbgp::Route4WithdrawEvent::routes()'],['../classlibbgp_1_1Route6AddEvent.html#a599e85674c082bb3b5e010876335e310',1,'libbgp::Route6AddEvent::routes()'],['../classlibbgp_1_1Route6WithdrawEvent.html#a5bfdc1adc2fdf8e85e709a4e6cdcdbe9',1,'libbgp::Route6WithdrawEvent::routes()']]],
+  ['routes',['routes',['../classlibbgp_1_1Route4WithdrawEvent.html#a4bb1c55abf45ef98ff5468fa9c1ae769',1,'libbgp::Route4WithdrawEvent::routes()'],['../classlibbgp_1_1Route6WithdrawEvent.html#a677e22c46b552bb5e373b241a95d81e5',1,'libbgp::Route6WithdrawEvent::routes()']]],
   ['run',['run',['../classlibbgp_1_1BgpFsm.html#adea892746fa368c182575d949e4565d3',1,'libbgp::BgpFsm']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.5.1</span>
+   &#160;<span id="projectnumber">0.6</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -82,6 +82,9 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7de428e99144e8653ce8ea85bbfeb51d"><td class="memItemLeft" align="right" valign="top">static const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a7de428e99144e8653ce8ea85bbfeb51d">selectEntry</a> (const T *a, const T *b)</td></tr>
 <tr class="memdesc:a7de428e99144e8653ce8ea85bbfeb51d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an entry from two to use.  <a href="#a7de428e99144e8653ce8ea85bbfeb51d">More...</a><br /></td></tr>
 <tr class="separator:a7de428e99144e8653ce8ea85bbfeb51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c7015676992d42acc26675fdf6cd17"><td class="memItemLeft" align="right" valign="top">static T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRib.html#a61c7015676992d42acc26675fdf6cd17">selectEntry</a> (T *a, T *b)</td></tr>
+<tr class="memdesc:a61c7015676992d42acc26675fdf6cd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an entry from two to use.  <a href="#a61c7015676992d42acc26675fdf6cd17">More...</a><br /></td></tr>
+<tr class="separator:a61c7015676992d42acc26675fdf6cd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -95,10 +98,10 @@ class libbgp::BgpRib&lt; T &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00202">202</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00224">224</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7de428e99144e8653ce8ea85bbfeb51d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7de428e99144e8653ce8ea85bbfeb51d">&#9670;&nbsp;</a></span>selectEntry()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de428e99144e8653ce8ea85bbfeb51d">&#9670;&nbsp;</a></span>selectEntry() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +146,57 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>const T* Selected entry. One of A and B. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00211">211</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00233">233</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+
+</div>
+</div>
+<a id="a61c7015676992d42acc26675fdf6cd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61c7015676992d42acc26675fdf6cd17">&#9670;&nbsp;</a></span>selectEntry() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T* <a class="el" href="classlibbgp_1_1BgpRib.html">libbgp::BgpRib</a>&lt; T &gt;::selectEntry </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Select an entry from two to use. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>Entry A </td></tr>
+    <tr><td class="paramname">b</td><td>Entry B </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>T* Selected entry. One of A and B. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00260">260</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 </div>
 </div>

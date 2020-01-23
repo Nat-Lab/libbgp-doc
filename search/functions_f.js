@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['selectentry',['selectEntry',['../classlibbgp_1_1BgpRib.html#a7de428e99144e8653ce8ea85bbfeb51d',1,'libbgp::BgpRib']]],
+  ['selectentry',['selectEntry',['../classlibbgp_1_1BgpRib.html#a7de428e99144e8653ce8ea85bbfeb51d',1,'libbgp::BgpRib::selectEntry(const T *a, const T *b)'],['../classlibbgp_1_1BgpRib.html#a61c7015676992d42acc26675fdf6cd17',1,'libbgp::BgpRib::selectEntry(T *a, T *b)']]],
   ['serializable',['Serializable',['../classlibbgp_1_1Serializable.html#adff26a0a2481c35d40bc4c905a2d9550',1,'libbgp::Serializable']]],
   ['set',['set',['../classlibbgp_1_1Prefix4.html#add0ddaaf3b2b1802e5e0b172549a1d83',1,'libbgp::Prefix4::set()'],['../classlibbgp_1_1Prefix6.html#ade96e315abe476a413ca7c61c50a40ad',1,'libbgp::Prefix6::set()']]],
   ['setasn',['setAsn',['../classlibbgp_1_1BgpOpenMessage.html#a5d71487ca0d8d3fcd680704d50f33ea6',1,'libbgp::BgpOpenMessage']]],

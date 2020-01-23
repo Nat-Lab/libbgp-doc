@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.5.1</span>
+   &#160;<span id="projectnumber">0.6</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -106,6 +106,9 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAt
 <tr class="memitem:a0770e28459ed4e1384e9fdfdb76780ce"><td class="memItemLeft" align="right" valign="top">BgpRouteSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a0770e28459ed4e1384e9fdfdb76780ce">src</a></td></tr>
 <tr class="memdesc:a0770e28459ed4e1384e9fdfdb76780ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source of this entry.  <a href="#a0770e28459ed4e1384e9fdfdb76780ce">More...</a><br /></td></tr>
 <tr class="separator:a0770e28459ed4e1384e9fdfdb76780ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a487ea3cbf5c73199d5a533f31fc62871"><td class="memItemLeft" align="right" valign="top">BgpRouteStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#a487ea3cbf5c73199d5a533f31fc62871">status</a></td></tr>
+<tr class="memdesc:a487ea3cbf5c73199d5a533f31fc62871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status of this entry.  <a href="#a487ea3cbf5c73199d5a533f31fc62871">More...</a><br /></td></tr>
+<tr class="separator:a487ea3cbf5c73199d5a533f31fc62871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa92c9f999d9478eab5126c25654cb7e5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1BgpRibEntry.html#aa92c9f999d9478eab5126c25654cb7e5">ibgp_peer_asn</a></td></tr>
 <tr class="memdesc:aa92c9f999d9478eab5126c25654cb7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">ASN of the IBGP peer. (Valid iff src == SRC_IBGP)  <a href="#aa92c9f999d9478eab5126c25654cb7e5">More...</a><br /></td></tr>
 <tr class="separator:aa92c9f999d9478eab5126c25654cb7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,7 +125,7 @@ class libbgp::BgpRibEntry&lt; T &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00026">26</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00035">35</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7c63b11f4599f785d3a808a39b25122c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c63b11f4599f785d3a808a39b25122c">&#9670;&nbsp;</a></span>BgpRibEntry()</h2>
@@ -152,7 +155,7 @@ template&lt;typename T&gt; </div>
 <p>Construct a new <a class="el" href="classlibbgp_1_1BgpRibEntry.html" title="The base of BGP RIB entry. ">BgpRibEntry</a>. </p>
 <p>source default to SRC_EBGP </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00034">34</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00043">43</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 </div>
 </div>
@@ -194,7 +197,7 @@ template&lt;typename T&gt; </div>
 <dd>
 false This entry has lower or equals weight. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00094">94</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00111">111</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 </div>
 </div>
@@ -216,7 +219,7 @@ template&lt;typename T&gt; </div>
 <p>ASN of the IBGP peer. (Valid iff src == SRC_IBGP) </p>
 <p>The ibgp_peer_asn field can be used to identify which IBGP session does this route belongs to. This is needed since a BGP speaker can have multiple IBGP sessions with different ASNS. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00083">83</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00100">100</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>.</p>
 
@@ -239,9 +242,32 @@ template&lt;typename T&gt; </div>
 <p>Source of this entry. </p>
 <p>If the route is from an IBGP peer, the nexthop might not be reachable directly. You may need recursive nexthop or info from other routing protocols. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00074">74</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00083">83</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00034">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;::BgpRibEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>, and <a class="el" href="bgp-rib_8h_source.html#l00043">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;::BgpRibEntry()</a>.</p>
+
+</div>
+</div>
+<a id="a487ea3cbf5c73199d5a533f31fc62871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a487ea3cbf5c73199d5a533f31fc62871">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">BgpRouteStatus <a class="el" href="classlibbgp_1_1BgpRibEntry.html">libbgp::BgpRibEntry</a>&lt; T &gt;::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Status of this entry. </p>
+<p>Active routes are routes currently picked as best routes. </p>
+
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00091">91</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>, <a class="el" href="bgp-rib_8h_source.html#l00043">libbgp::BgpRibEntry&lt; BgpRib6Entry &gt;::BgpRibEntry()</a>, <a class="el" href="bgp-rib4_8cc_source.html#l00353">libbgp::BgpRib4::withdraw()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00341">libbgp::BgpRib6::withdraw()</a>.</p>
 
 </div>
 </div>
@@ -262,7 +288,7 @@ template&lt;typename T&gt; </div>
 <p>The update ID. </p>
 <p><a class="el" href="classlibbgp_1_1BgpRib4Entry.html" title="The BgpRib4Entry class. ">BgpRib4Entry</a> with same update ID are received from the same update and their path attributes are therefore same. Note that entries with different update_id may still have same path attributes. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00050">50</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00059">59</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>.</p>
 
@@ -285,7 +311,7 @@ template&lt;typename T&gt; </div>
 <p>Weight of this entry. </p>
 <p>Entry with higher weight will be prefered. Weight is only compared when selecting entry with equal routes. </p>
 
-<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00059">59</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bgp-rib_8h_source.html#l00068">68</a> of file <a class="el" href="bgp-rib_8h_source.html">bgp-rib.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bgp-rib4_8cc_source.html#l00055">libbgp::BgpRib4::BgpRib4()</a>, and <a class="el" href="bgp-rib6_8cc_source.html#l00043">libbgp::BgpRib6::BgpRib6()</a>.</p>
 

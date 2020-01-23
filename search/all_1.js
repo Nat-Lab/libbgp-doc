@@ -15,5 +15,5 @@ var searchData=
   ['as4_5fpaths',['as4_paths',['../classlibbgp_1_1BgpPathAttribAs4Path.html#a7deaaef6e6e6c080044fb368ef37172b',1,'libbgp::BgpPathAttribAs4Path']]],
   ['as_5fpaths',['as_paths',['../classlibbgp_1_1BgpPathAttribAsPath.html#a9ad756364bcf221fc86e1784c3258edb',1,'libbgp::BgpPathAttribAsPath']]],
   ['asn',['asn',['../structlibbgp_1_1BgpConfig.html#a50058772fbf44f0bf8be1ae3779fa9cd',1,'libbgp::BgpConfig::asn()'],['../classlibbgp_1_1BgpFilterRuleAsPath.html#a81fc169b2f77294c28e9c58de32ce24a',1,'libbgp::BgpFilterRuleAsPath::asn()']]],
-  ['attribs',['attribs',['../classlibbgp_1_1BgpRibEntry.html#a9a3d9a86bd70cc7f4cc98c58fda6f159',1,'libbgp::BgpRibEntry::attribs()'],['../classlibbgp_1_1Route4AddEvent.html#a791bed462f59f3e3e0c6639da55d8e05',1,'libbgp::Route4AddEvent::attribs()'],['../classlibbgp_1_1Route6AddEvent.html#acd004019bdab776398fe85fbf6942dbe',1,'libbgp::Route6AddEvent::attribs()']]]
+  ['attribs',['attribs',['../classlibbgp_1_1BgpRibEntry.html#a9a3d9a86bd70cc7f4cc98c58fda6f159',1,'libbgp::BgpRibEntry']]]
 ];

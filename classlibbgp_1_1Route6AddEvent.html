@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libbgp
-   &#160;<span id="projectnumber">0.5.1</span>
+   &#160;<span id="projectnumber">0.6</span>
    </div>
    <div id="projectbrief">A C++ BGP Library.</div>
   </td>
@@ -95,14 +95,18 @@ Collaboration diagram for libbgp::Route6AddEvent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:acd004019bdab776398fe85fbf6942dbe"><td class="memItemLeft" align="right" valign="top"><a id="acd004019bdab776398fe85fbf6942dbe"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#acd004019bdab776398fe85fbf6942dbe">attribs</a></td></tr>
-<tr class="memdesc:acd004019bdab776398fe85fbf6942dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attribues of the route. <br /></td></tr>
-<tr class="separator:acd004019bdab776398fe85fbf6942dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a599e85674c082bb3b5e010876335e310"><td class="memItemLeft" align="right" valign="top"><a id="a599e85674c082bb3b5e010876335e310"></a>
-std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix6.html">Prefix6</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#a599e85674c082bb3b5e010876335e310">routes</a></td></tr>
-<tr class="memdesc:a599e85674c082bb3b5e010876335e310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routes to add. <br /></td></tr>
-<tr class="separator:a599e85674c082bb3b5e010876335e310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab41ce4ac25134291ee6ec73088fc2548"><td class="memItemLeft" align="right" valign="top"><a id="ab41ce4ac25134291ee6ec73088fc2548"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classlibbgp_1_1BgpPathAttrib.html">BgpPathAttrib</a> &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#ab41ce4ac25134291ee6ec73088fc2548">shared_attribs</a></td></tr>
+<tr class="memdesc:ab41ce4ac25134291ee6ec73088fc2548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path attribues of the route. <br /></td></tr>
+<tr class="separator:ab41ce4ac25134291ee6ec73088fc2548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f66c4fcf8c93a4fe3ad72e92c0a6b09"><td class="memItemLeft" align="right" valign="top"><a id="a5f66c4fcf8c93a4fe3ad72e92c0a6b09"></a>
+std::vector&lt; <a class="el" href="classlibbgp_1_1Prefix6.html">Prefix6</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#a5f66c4fcf8c93a4fe3ad72e92c0a6b09">new_routes</a></td></tr>
+<tr class="memdesc:a5f66c4fcf8c93a4fe3ad72e92c0a6b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routes to add. <br /></td></tr>
+<tr class="separator:a5f66c4fcf8c93a4fe3ad72e92c0a6b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033ff6138d484a0733682f048b020a61"><td class="memItemLeft" align="right" valign="top"><a id="a033ff6138d484a0733682f048b020a61"></a>
+const std::vector&lt; <a class="el" href="classlibbgp_1_1BgpRib6Entry.html">BgpRib6Entry</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#a033ff6138d484a0733682f048b020a61">replaced_entries</a></td></tr>
+<tr class="memdesc:a033ff6138d484a0733682f048b020a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the route replacement entries vector. <br /></td></tr>
+<tr class="separator:a033ff6138d484a0733682f048b020a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d0a56e95a173d896d2a5d129749f43"><td class="memItemLeft" align="right" valign="top"><a id="ae0d0a56e95a173d896d2a5d129749f43"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbgp_1_1Route6AddEvent.html#ae0d0a56e95a173d896d2a5d129749f43">nexthop_global</a> [16]</td></tr>
 <tr class="memdesc:ae0d0a56e95a173d896d2a5d129749f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global IPv6 nexthop. <br /></td></tr>
@@ -123,7 +127,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An <a class="el" href="classlibbgp_1_1Route6AddEvent.html" title="An Route6AddEvent. ">Route6AddEvent</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00094">94</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00113">113</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0c07b7769dfcf3415c9a06abb2746203"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c07b7769dfcf3415c9a06abb2746203">&#9670;&nbsp;</a></span>ibgp_peer_asn</h2>
@@ -140,7 +144,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>ASN of the IBGP peer if the originating session is a IBGP session. </p>
 <p>ASN of the IBGP peer. If the originating session is not IBGP, ibgp_peer_asn will be 0; </p>
 
-<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00128">128</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="route-event_8h_source.html#l00159">159</a> of file <a class="el" href="route-event_8h_source.html">route-event.h</a>.</p>
 
 </div>
 </div>
